@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "name": "BK's conferences",
+  "schedules": [
+    {
+      "id": "fagfestival-2026",
+      "title": "Fagfestival 2026",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "url": "fagfestival-2026.json"
+    }
+  ]
+}
