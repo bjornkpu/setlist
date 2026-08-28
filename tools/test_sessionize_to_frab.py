@@ -86,5 +86,27 @@ class RealPayloadTests(unittest.TestCase):
         self.assertEqual([f for f in report.findings if f[0] == "ERROR"], [], report.render())
 
 
+class SpeakerDedupTests(unittest.TestCase):
+    def test_same_name_distinct_guids_get_distinct_person_ids(self):
+        data = {
+            "sessions": [
+                {"id": "1", "title": "A", "startsAt": "2026-10-19T09:00:00", "endsAt": "2026-10-19T10:00:00",
+                 "speakers": ["g-1", "g-2", "g-unknown"], "roomId": 1},
+            ],
+            "speakers": [
+                {"id": "g-1", "fullName": "Alex Hansen"},
+                {"id": "g-2", "fullName": "Alex Hansen"},
+            ],
+            "rooms": [{"id": 1, "name": "R"}],
+            "questions": [], "categories": [],
+        }
+        conf = convert(data, "T", "t", "+02:00", "Europe/Oslo")["schedule"]["conference"]
+        persons = conf["days"][0]["rooms"]["R"][0]["persons"]
+        self.assertEqual(len({p["id"] for p in persons}), 3)  # three distinct ids
+        self.assertEqual(persons[0]["public_name"], "Alex Hansen")
+        self.assertEqual(persons[1]["public_name"], "Alex Hansen")
+        self.assertEqual(persons[2]["public_name"], "")
+
+
 if __name__ == "__main__":
     unittest.main()

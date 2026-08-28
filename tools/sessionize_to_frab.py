@@ -29,10 +29,9 @@ def convert(data, title, acronym, offset, tz_name):
     person_ids = {}
 
     def person(speaker_guid):
-        name = speaker_names.get(speaker_guid) or ""
-        if name not in person_ids:
-            person_ids[name] = len(person_ids) + 1
-        return {"id": person_ids[name], "public_name": name}
+        if speaker_guid not in person_ids:
+            person_ids[speaker_guid] = len(person_ids) + 1
+        return {"id": person_ids[speaker_guid], "public_name": speaker_names.get(speaker_guid) or ""}
 
     scheduled = [s for s in data.get("sessions", []) if s.get("startsAt") and s.get("endsAt")]
     scheduled.sort(key=lambda s: (s["startsAt"], str(s.get("id"))))
