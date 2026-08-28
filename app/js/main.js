@@ -112,16 +112,18 @@ const atParam = new URLSearchParams(location.search).get("at");
 if (atParam) {
   const ms = Date.parse(atParam);
   if (!Number.isNaN(ms)) setNowOverride(ms); // QA: freeze the clock; param is kept in the URL
+  else console.warn("?at= not parseable:", atParam);
 }
+
+const onGlance = () => Boolean(state.model) && (location.hash === "" || location.hash === "#/");
 
 // The ONLY interval in the app: refresh the glance while it is on screen.
 setInterval(() => {
-  const h = location.hash;
-  if (state.model && (h === "" || h === "#/")) route();
+  if (onGlance()) route();
 }, 30000);
 
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden && state.model) route();
+  if (!document.hidden && onGlance()) route();
 });
 
 const startUrl = new URLSearchParams(location.search).get("url");

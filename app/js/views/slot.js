@@ -14,9 +14,9 @@ export function renderSlot(app, state, key) {
     return;
   }
   const b = slotFor(events, state.plan, ref);
-  const section = (label, list, cls = "") =>
+  const section = (label, list) =>
     list.length
-      ? `<h2>${label}</h2><ul class="events ${cls}">${list.map(row).join("")}</ul>`
+      ? `<h2>${label}</h2><ul class="events">${list.map(row).join("")}</ul>`
       : "";
   app.innerHTML = `
     <div class="slot">

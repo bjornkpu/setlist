@@ -196,6 +196,7 @@ body {
 .glance .card .until { color: var(--muted); }
 .glance .card .option { font-size: 0.95rem; overflow-wrap: anywhere; }
 .glance .card .room-sm { color: var(--accent); font-weight: 700; }
+.glance .card .room-sm { font-size: 1.2rem; }
 .glance .closing, .glance .big { text-align: center; }
 .glance .big { font-size: 1.6rem; }
 
@@ -208,5 +209,6 @@ body {
   margin: 1rem 1rem 0.25rem;
 }
 .slot .events .room { font-size: 1.15rem; }
+.slot .events a { grid-template-columns: minmax(6.5rem, max-content) 1fr; }
 .bar { display: flex; align-items: baseline; justify-content: space-between; }
 .bar .now-link, .bar a { color: var(--accent); text-decoration: none; min-height: 40px; }

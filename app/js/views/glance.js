@@ -42,15 +42,18 @@ function card(label, group, events, plan, t) {
   }
   // No pick for this slot: say so, offer maybes, then the full slot (spec §5.1)
   const b = slotFor(events, plan, group.ref);
-  const options = [...b.maybes, ...b.rest].slice(0, 3);
+  const all = [...b.maybes, ...b.rest];
+  const options = all.slice(0, 3);
+  const heading = options.length && options.every((e) => b.maybes.includes(e)) ? "your maybes" : "options";
   return `<a class="card ${label === "Now" ? "primary" : "secondary"} none" href="${href}">
     <span class="label">${label}</span>
-    <span class="title">Nothing picked — ${b.maybes.length ? "your maybes" : "options"}:</span>
+    <span class="title">Nothing picked — ${heading}:</span>
     ${options
       .map(
         (e) => `<span class="option"><span class="room-sm">${esc(e.room)}</span> ${esc(e.title)}</span>`,
       )
       .join("")}
+    ${all.length > 3 ? `<span class="option">…and ${all.length - 3} more</span>` : ""}
     <span class="until">${untilLine} · tap for the full slot</span>
   </a>`;
 }
