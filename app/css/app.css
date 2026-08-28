@@ -87,3 +87,60 @@ body {
 .or { color: var(--muted); }
 .days button { min-height: 40px; }
 .events a > span, .detail p { overflow-wrap: anywhere; }
+
+/* plan states */
+.events li { display: flex; align-items: stretch; }
+.events li > a { flex: 1; }
+.events li.state-avoid > a { opacity: 0.45; }
+.events li.state-pick .room { font-weight: 700; }
+.plan-btn {
+  font: inherit;
+  min-width: 44px;
+  border: none;
+  border-left: 1px solid var(--line);
+  background: none;
+  color: var(--muted);
+}
+.state-pick .plan-btn { color: var(--accent); }
+.state-maybe .plan-btn { color: #b07d00; }
+.state-avoid .plan-btn { color: #b00020; }
+
+.plan-states { display: flex; gap: 0.5rem; margin: 0.75rem 0; }
+.plan-states button {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: none;
+}
+.plan-states button.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: calc(100vw - 2rem);
+  padding: 0.75rem 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 0.3);
+}
+.toast button {
+  font: inherit;
+  font-weight: 700;
+  min-height: 40px;
+  border: none;
+  background: none;
+  color: var(--bg);
+  text-decoration: underline;
+}

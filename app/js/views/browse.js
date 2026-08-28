@@ -1,5 +1,27 @@
 import { esc } from "../html.js";
 import { filterEvents } from "../filter.js";
+import { cycle } from "../plan.js";
+import { setPlanState, planStateOf, allEvents } from "../store.js";
+import { showToast } from "../toast.js";
+
+const STATE_ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
+
+// Shared by browse rows and the detail view: apply a state change and
+// surface a replaced pick with Undo (spec decision 11).
+export async function applyState(eventKey, newState, rerender) {
+  const replacedKey = await setPlanState(eventKey, newState);
+  rerender();
+  if (replacedKey) {
+    const replaced = allEvents().find((e) => e.key === replacedKey);
+    showToast(`Replaced pick: ${replaced?.title ?? "session"}`, {
+      actionLabel: "Undo",
+      onAction: async () => {
+        await setPlanState(replacedKey, "pick"); // conflict logic clears the new pick
+        rerender();
+      },
+    });
+  }
+}
 
 export function renderBrowse(app, state) {
   const { model, browse } = state;
@@ -21,6 +43,20 @@ function list(day, browse) {
   return events.map(row).join("") || `<li class="status">No sessions match.</li>`;
 }
 
+function row(e) {
+  const st = planStateOf(e.key);
+  return `<li class="state-${st || "none"}">
+    <a href="#/event/${encodeURIComponent(e.key)}">
+      <span class="time">${esc(e.startLabel)}–${esc(e.endLabel)}</span>
+      <span class="room">${esc(e.room)}</span>
+      <span class="title">${esc(e.title)}</span>
+      ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
+    </a>
+    <button class="plan-btn" data-key="${esc(e.key)}"
+      aria-label="Plan state: ${st || "none"}">${STATE_ICON[st]}</button>
+  </li>`;
+}
+
 function daySelector(model, browse) {
   return `<nav class="days">${model.days
     .map(
@@ -31,7 +67,7 @@ function daySelector(model, browse) {
 }
 
 function select(id, label, options, value) {
-  return `<select id="${id}">
+  return `<select id="${id}" aria-label="${label}">
     <option value="">${label}</option>
     ${options
       .map((o) => `<option ${o === value ? "selected" : ""} value="${esc(o)}">${esc(o)}</option>`)
@@ -39,18 +75,13 @@ function select(id, label, options, value) {
   </select>`;
 }
 
-function row(e) {
-  return `<li>
-    <a href="#/event/${encodeURIComponent(e.key)}">
-      <span class="time">${esc(e.startLabel)}–${esc(e.endLabel)}</span>
-      <span class="room">${esc(e.room)}</span>
-      <span class="title">${esc(e.title)}</span>
-      ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
-    </a>
-  </li>`;
-}
-
 function wire(app, state) {
+  const rerenderList = () => {
+    app.querySelector(".events").innerHTML = list(
+      state.model.days[state.browse.dayIndex] ?? state.model.days[0],
+      state.browse,
+    );
+  };
   app.querySelector(".days")?.addEventListener("click", (e) => {
     const b = e.target.closest("button[data-day]");
     if (!b) return;
@@ -66,10 +97,11 @@ function wire(app, state) {
   const q = app.querySelector("#q");
   q.addEventListener("input", () => {
     state.browse.q = q.value;
-    // re-render the list only, so the search input keeps focus
-    app.querySelector(".events").innerHTML = list(
-      state.model.days[state.browse.dayIndex] ?? state.model.days[0],
-      state.browse,
-    );
+    rerenderList(); // list only, so the search input keeps focus
+  });
+  app.querySelector(".events").addEventListener("click", (e) => {
+    const btn = e.target.closest(".plan-btn");
+    if (!btn) return;
+    applyState(btn.dataset.key, cycle(planStateOf(btn.dataset.key)), rerenderList);
   });
 }
