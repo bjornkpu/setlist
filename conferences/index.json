@@ -8,6 +8,13 @@
       "start": "2026-08-26",
       "end": "2026-08-26",
       "url": "fagfestival-2026.json"
+    },
+    {
+      "id": "trondheimdc-2026",
+      "title": "Trondheim Developer Conference 2026",
+      "start": "2026-10-19",
+      "end": "2026-10-19",
+      "url": "trondheimdc-2026.json"
     }
   ]
 }
