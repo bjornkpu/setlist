@@ -38,9 +38,12 @@ async function loadSchedule(url) {
   }
   location.hash = "#/";
   route();
-  // strip ?url= after a successful load so reload/share links stay clean
-  if (new URLSearchParams(location.search).has("url")) {
-    history.replaceState(null, "", location.pathname + location.hash);
+  // strip only ?url= after a successful load; other params (e.g. ?at=) stay
+  const params = new URLSearchParams(location.search);
+  if (params.has("url")) {
+    params.delete("url");
+    const qs = params.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
   }
 }
 
