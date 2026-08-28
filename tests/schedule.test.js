@@ -1,0 +1,90 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import { normalize, addDuration } from "../app/js/schedule.js";
+
+test("addDuration adds HH:MM durations", () => {
+  assert.equal(addDuration("11:10", "00:50"), "12:00");
+  assert.equal(addDuration("23:30", "01:00"), "00:30");
+  assert.equal(addDuration("09:00", "01:00"), "10:00");
+});
+
+function fixture() {
+  return {
+    schedule: {
+      conference: {
+        title: "Test Conf",
+        start: "2026-08-26",
+        end: "2026-08-26",
+        days: [
+          {
+            index: 0,
+            date: "2026-08-26",
+            day_start: "2026-08-26T08:00:00+02:00",
+            day_end: "2026-08-26T18:00:00+02:00",
+            rooms: {
+              "Sal 1": [
+                {
+                  guid: "g1", id: 1, date: "2026-08-26T10:00:00+02:00",
+                  start: "10:00", duration: "00:50", room: "Sal 1",
+                  title: "B talk", track: "Spor 1",
+                  persons: [{ id: 1, public_name: "Kari" }], abstract: "Om ting",
+                },
+                {
+                  id: 2, date: "2026-08-26T09:00:00+02:00",
+                  start: "09:00", duration: "00:50", room: "Sal 1", title: "A talk",
+                },
+              ],
+              Fellesareal: [
+                {
+                  guid: "g3", id: 3, date: "2026-08-26T12:00:00+02:00",
+                  start: "12:00", duration: "00:50", room: "Fellesareal", title: "Lunsj",
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
+  };
+}
+
+test("normalize builds sorted day events with defaults", () => {
+  const m = normalize(fixture());
+  assert.equal(m.title, "Test Conf");
+  assert.equal(m.days.length, 1);
+  const evs = m.days[0].events;
+  assert.deepEqual(evs.map((e) => e.key), ["2", "g1", "g3"]); // start order; id fallback for key
+  const b = evs[1];
+  assert.equal(b.endLabel, "10:50");
+  assert.equal(b.end - b.start, 50 * 60000);
+  assert.deepEqual(b.persons, ["Kari"]);
+  const anchor = evs[2];
+  assert.deepEqual(anchor.persons, []); // missing persons -> []
+  assert.equal(anchor.abstract, "");    // missing abstract -> ""
+  assert.deepEqual(m.rooms, ["Sal 1", "Fellesareal"]);
+  assert.deepEqual(m.tracks, ["Spor 1"]);
+});
+
+test("normalize skips junk events and tolerates junk room values", () => {
+  const f = fixture();
+  f.schedule.conference.days[0].rooms["Sal 1"].push("junk", null);
+  f.schedule.conference.days[0].rooms["Broken"] = "not a list";
+  const m = normalize(f);
+  assert.equal(m.days[0].events.length, 3);
+});
+
+test("normalize rejects non-frab JSON", () => {
+  assert.throws(() => normalize({ foo: 1 }), /frab/);
+});
+
+test("normalize handles the real Fagfestival schedule", async () => {
+  const root = JSON.parse(
+    await readFile(new URL("../conferences/fagfestival-2026.json", import.meta.url), "utf8"),
+  );
+  const m = normalize(root);
+  assert.equal(m.days.length, 1);
+  assert.equal(m.days[0].events.length, 48);
+  assert.equal(m.rooms.length, 7);
+  assert.equal(m.tracks.length, 6);
+});
