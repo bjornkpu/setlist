@@ -7,6 +7,7 @@ import {
   addProvider,
   removeProvider,
   rememberProviderName,
+  DEFAULT_PROVIDER,
 } from "../store.js";
 import { dbGetAll } from "../db.js";
 import { fetchIndex, splitByDate } from "../providers.js";
@@ -14,7 +15,7 @@ import { loadScheduleFromUrl } from "../actions.js";
 import { showToast } from "../toast.js";
 import { now } from "../clock.js";
 
-export async function renderLibrary(app, state) {
+export async function renderLibrary(app) {
   app.innerHTML = `<p class="status pad">Loading library…</p>`;
   let schedules = [];
   try {
@@ -24,6 +25,7 @@ export async function renderLibrary(app, state) {
   }
   schedules.sort((a, b) => (b.start || "").localeCompare(a.start || ""));
   const providers = await listProviders();
+  if (!location.hash.startsWith("#/library")) return; // user navigated away mid-await
   app.innerHTML = `
     <div class="library">
       <header class="bar"><a href="#/">‹ Now</a><h1>Library</h1></header>
@@ -44,7 +46,7 @@ export async function renderLibrary(app, state) {
         <button type="submit">Load schedule</button>
       </form>
     </div>`;
-  wire(app, state);
+  wire(app);
 }
 
 function scheduleRow(r) {
@@ -77,13 +79,13 @@ function providerRow(p) {
   </li>`;
 }
 
-function wire(app, state) {
-  const rerender = () => renderLibrary(app, state).catch(console.error);
+function wire(app) {
+  const rerender = () => renderLibrary(app).catch(console.error);
   app.querySelector(".library").addEventListener("click", async (e) => {
     const btn = e.target.closest("button[data-action]");
     if (!btn) return;
     try {
-      await handleAction(btn, state, rerender);
+      await handleAction(btn, rerender);
     } catch (err) {
       showToast(String(err?.message ?? err));
     }
@@ -101,7 +103,7 @@ function wire(app, state) {
   });
 }
 
-async function handleAction(btn, state, rerender) {
+async function handleAction(btn, rerender) {
   const action = btn.dataset.action;
   if (action === "load-schedule") {
     btn.disabled = true;
@@ -155,7 +157,7 @@ async function browseProvider(li) {
     box.innerHTML = `<p class="error">Could not load provider index: ${esc(err.message)}. The host may block browser requests (CORS) or you are offline.</p>`;
     return;
   }
-  if (index.name) {
+  if (index.name && li.dataset.provider !== DEFAULT_PROVIDER) {
     const title = li.querySelector(".card-main .title");
     if (title) title.textContent = index.name;
     rememberProviderName(li.dataset.provider, index.name).catch(console.error);

@@ -5,6 +5,7 @@ import { setState as planSetState, stateOf } from "./plan.js";
 import { dbGet, dbGetAll, dbPut, dbDelete } from "./db.js";
 import { getSetting, setSetting } from "./settings.js";
 import { now } from "./clock.js";
+import { resolveProviderUrl } from "./providers.js";
 
 export const DEFAULT_PROVIDER = "https://bjornkpu.github.io/setlist/conferences/";
 
@@ -103,6 +104,10 @@ export async function restoreLast() {
 export async function removeSchedule(key) {
   try {
     await dbDelete("schedules", key);
+  } catch {
+    // storage unavailable; nothing to remove
+  }
+  try {
     await dbDelete("plans", key);
   } catch {
     // storage unavailable; nothing to remove
@@ -128,11 +133,11 @@ export async function listProviders() {
   if (getSetting("defaultProviderRemoved") !== "yes") {
     list.push({ key: DEFAULT_PROVIDER, url: DEFAULT_PROVIDER, name: "setlist default", builtin: true });
   }
-  return [...list, ...stored.filter((p) => p.key !== DEFAULT_PROVIDER)];
+  return [...list, ...stored.filter((p) => resolveProviderUrl(p.key) !== resolveProviderUrl(DEFAULT_PROVIDER))];
 }
 
 export async function addProvider(url) {
-  if (url === DEFAULT_PROVIDER) {
+  if (resolveProviderUrl(url) === resolveProviderUrl(DEFAULT_PROVIDER)) {
     setSetting("defaultProviderRemoved", ""); // re-adding the built-in restores it
     return;
   }

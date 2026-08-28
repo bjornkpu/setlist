@@ -74,7 +74,7 @@ function renderLoadScreen(error = "") {
 function route() {
   const hash = location.hash || "#/";
   if (hash.startsWith("#/library")) {
-    renderLibrary(app, state).catch(console.error);
+    renderLibrary(app).catch(console.error);
     return;
   }
   if (!state.model) {
