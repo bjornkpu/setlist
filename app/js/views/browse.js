@@ -71,6 +71,7 @@ function wire(app, state) {
     const b = e.target.closest("button[data-day]");
     if (!b) return;
     state.browse.dayIndex = Number(b.dataset.day);
+    state.browse.dayPinned = true; // user chose a day: glance stops following
     renderBrowse(app, state);
   });
   for (const id of ["room", "track"]) {

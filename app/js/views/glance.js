@@ -7,6 +7,12 @@ export function renderGlance(app, state) {
   const events = allEvents();
   const t = now();
   const g = resolveGlance(events, state.plan, t);
+  // Keep browse pointed at the day the glance is showing, unless the user
+  // pinned a day themselves (multi-day: glance may cross into day 2).
+  if (!state.browse.dayPinned) {
+    const ref = g.current?.ref ?? g.next?.ref;
+    if (ref && ref.dayIndex !== state.browse.dayIndex) state.browse.dayIndex = ref.dayIndex;
+  }
   let body;
   if (g.phase === "empty") {
     body = `<p class="status">This schedule has no events.</p>`;
