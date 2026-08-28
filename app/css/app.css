@@ -74,3 +74,15 @@ body {
 .detail .meta .room { color: var(--accent); font-weight: 600; }
 .detail .who { font-weight: 600; }
 .detail a { color: var(--accent); text-decoration: none; }
+
+#load-form { display: grid; gap: 0.5rem; max-width: 24rem; margin-top: 1rem; }
+#load-form input, #load-form button {
+  font: inherit;
+  padding: 0.5rem 0.75rem;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+#load-form button { background: var(--accent); color: #fff; border-color: var(--accent); }
+.or { color: var(--muted); }
+.days button { min-height: 40px; }

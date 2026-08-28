@@ -96,7 +96,13 @@ function route() {
   const hash = location.hash || "#/browse";
   const evMatch = hash.match(/^#\/event\/(.+)$/);
   if (evMatch) {
-    renderEvent(app, state, decodeURIComponent(evMatch[1]));
+    let key;
+    try {
+      key = decodeURIComponent(evMatch[1]);
+    } catch {
+      key = evMatch[1]; // malformed encoding: use raw, falls through to "Session not found"
+    }
+    renderEvent(app, state, key);
   } else {
     renderBrowse(app, state); // #/browse and, for now, everything else
   }
