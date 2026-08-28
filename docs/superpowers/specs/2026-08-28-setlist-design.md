@@ -24,7 +24,7 @@ These resolve the ambiguities the requirements left open. Glossary terms are in 
 
 Hash-routed view modules. No framework, no build step (requirements §3).
 
-```
+```text
 app/
   index.html          # shell + view containers
   manifest.json
@@ -79,7 +79,7 @@ Display rules (requirements §5.1): room name is the largest text, larger than t
 IndexedDB database `setlist`, three object stores:
 
 | Store | Key | Value |
-|---|---|---|
+| --- | --- | --- |
 | `schedules` | source URL | `{url, json, title, start, end, loadedAt}` |
 | `plans` | source URL | `{entries: {eventKey: 'pick'\|'maybe'\|'avoid'}}` |
 | `providers` | provider URL | `{url, name}` |
