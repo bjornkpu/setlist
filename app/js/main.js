@@ -133,3 +133,9 @@ if (startUrl) {
   app.innerHTML = `<p class="status pad">Loading…</p>`;
   restoreLast().then(route, () => route());
 }
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js").catch(() => {
+    // no SW available (plain http, private mode): the app still works online
+  });
+}
