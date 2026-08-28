@@ -5,8 +5,18 @@ import { renderSlot } from "./views/slot.js";
 import { esc } from "./html.js";
 import { state, activate, restoreLast } from "./store.js";
 import { setNowOverride } from "./clock.js";
+import { showToast } from "./toast.js";
 
 const app = document.getElementById("app");
+
+async function failLoad(message) {
+  if (await restoreLast()) {
+    route(); // fall back to the cached schedule…
+    showToast(message); // …and surface the failure without blocking it
+  } else {
+    renderLoadScreen(message);
+  }
+}
 
 async function loadSchedule(url) {
   app.innerHTML = `<p class="status pad">Loading…</p>`;
@@ -14,26 +24,26 @@ async function loadSchedule(url) {
   try {
     res = await fetch(url);
   } catch {
-    renderLoadScreen(
+    await failLoad(
       `Could not fetch ${url}. The host may block browser requests (CORS), or you are offline. You can import the file instead.`,
     );
     return;
   }
   if (!res.ok) {
-    renderLoadScreen(`Could not load ${url}: HTTP ${res.status}.`);
+    await failLoad(`Could not load ${url}: HTTP ${res.status}.`);
     return;
   }
   let json;
   try {
     json = await res.json();
   } catch {
-    renderLoadScreen(`${url} is not valid JSON.`);
+    await failLoad(`${url} is not valid JSON.`);
     return;
   }
   try {
     await activate(json, { url });
   } catch (e) {
-    renderLoadScreen(`${url}: ${e.message}`);
+    await failLoad(`${url}: ${e.message}`);
     return;
   }
   location.hash = "#/";

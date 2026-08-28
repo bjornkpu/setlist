@@ -224,7 +224,7 @@ Serve repo root, open `http://localhost:8123/app/?url=/conferences/fagfestival-2
 
 1. Application → Service Workers: `setlist-v1` active. Cache Storage: all shell files present, NO `/conferences/…` entries.
 2. DevTools → Network → Offline → reload: app boots from cache, schedule appears from IndexedDB, glance works.
-3. Still offline, open `http://localhost:8123/app/?url=/conferences/fagfestival-2026.json&at=2026-08-26T11:30:00%2B02:00` in a new tab: shell loads (navigate → cached index.html); the `?url=` fetch fails with the clear CORS/offline message and the cached schedule still auto-restores after dismissing/back at `#/`.
+3. Still offline, open `http://localhost:8123/app/?url=/conferences/fagfestival-2026.json&at=2026-08-26T11:30:00%2B02:00` in a new tab: shell loads (navigate → cached index.html); the `?url=` fetch fails, the cached schedule auto-restores, and the failure message appears as a toast over the glance.
 4. Back online: edit nothing, reload — still `setlist-v1`, no re-download storm.
 5. Address-bar install icon (or menu → Install app) appears; installed app opens standalone to the glance.
 6. Every screen except adding a NEW schedule works offline (§5.5).

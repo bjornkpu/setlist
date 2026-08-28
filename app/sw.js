@@ -3,7 +3,7 @@
 // to the network — IndexedDB is their offline store, never the HTTP cache.
 // Bump VERSION whenever any file in SHELL changes; tests/sw.test.js keeps the
 // list itself honest against the files on disk.
-const VERSION = "setlist-v1";
+const VERSION = "setlist-e57d15c5";
 const SHELL = [
   "./",
   "./index.html",
