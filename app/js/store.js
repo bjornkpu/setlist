@@ -52,7 +52,7 @@ export async function activate(json, { url = "", fromFile = false, label = "" } 
       title: model.title,
       start: model.start,
       end: model.end,
-      loadedAt: Date.now(),
+      loadedAt: Date.now(), // wall clock on purpose: storage timestamp, not schedule time
     });
     setSetting("activeSchedule", key);
   } catch {
@@ -70,7 +70,7 @@ export async function restoreLast() {
     return false;
   }
   if (!all?.length) return false;
-  const today = new Date().toLocaleDateString("sv-SE");
+  const today = new Date(now()).toLocaleDateString("sv-SE");
   const record =
     all.find((s) => s.start && s.end && s.start <= today && today <= s.end) ??
     all.find((s) => s.key === getSetting("activeSchedule")) ??

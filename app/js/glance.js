@@ -5,7 +5,7 @@ import { overlaps, stateOf } from "./plan.js";
 // A solo event is the only thing running during its range, judged against
 // ALL events — the rule is about the schedule's shape, not the plan.
 function isSolo(ev, events) {
-  return events.every((o) => o.key === ev.key || !overlaps(o, ev));
+  return events.every((o) => o.key === ev.key || o.end <= o.start || !overlaps(o, ev));
 }
 
 // Destination among `candidates`: an overlapping pick wins; else a
@@ -38,6 +38,7 @@ export function resolveGlance(events, plan, now) {
   const phase = now < firstStart ? "before" : now >= lastEnd ? "after" : "during";
   return {
     phase,
+    // active[0] leans on caller-sorted events; safe — same-instant ties only, and picks win via destination()
     current: active.length ? { dest: activeDest, ref: activeDest ?? active[0] } : null,
     next: nextRef ? { dest: nextDest, ref: nextDest ?? nextRef } : null,
     firstStart,

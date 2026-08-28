@@ -83,6 +83,12 @@ test("slotEvents includes ref and overlapping only", () => {
   assert.deepEqual(slotEvents(EVENTS, reg).map((e) => e.key), ["reg"]);
 });
 
+test("zero-duration marker does not break a solo anchor", () => {
+  const marker = ev("m", 140, 140);
+  const g = resolveGlance([...EVENTS, marker], {}, at(140));
+  assert.equal(g.current.dest.key, "lunch");
+});
+
 test("slotFor buckets by plan state", () => {
   const b = slotFor(EVENTS, { a1: "pick", b1: "avoid" }, a1);
   assert.deepEqual(b.picks.map((e) => e.key), ["a1"]);
@@ -95,4 +101,5 @@ test("fmtUntil", () => {
   assert.equal(fmtUntil(20000), "now");
   assert.equal(fmtUntil(12 * MIN), "in 12 min");
   assert.equal(fmtUntil(95 * MIN), "in 1 h 35 min");
+  assert.equal(fmtUntil(-5000), "now");
 });

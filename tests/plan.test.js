@@ -95,4 +95,11 @@ test("defaultDayIndex prefers the day window over the calendar date", () => {
   assert.equal(defaultDayIndex(model, 1500), 0);
   assert.equal(defaultDayIndex(model, 2000), 1); // day 0 window is half-open
   assert.equal(defaultDayIndex(model, 9999), 0); // outside every window, no date match -> 0
+  const m2 = {
+    days: [
+      { date: "1999-01-01", dayStart: 0, dayEnd: 0 },
+      { date: new Date(5000).toLocaleDateString("sv-SE"), dayStart: 0, dayEnd: 0 },
+    ],
+  };
+  assert.equal(defaultDayIndex(m2, 5000), 1);
 });
