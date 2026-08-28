@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { overlaps, stateOf, cycle, setState } from "../app/js/plan.js";
-import { scheduleKeyFor, defaultDayIndex } from "../app/js/store.js";
+import { scheduleKeyFor, defaultDayIndex, pickSchedule } from "../app/js/store.js";
 
 const ev = (key, start, end) => ({ key, start, end });
 const A = ev("a", 100, 200);
@@ -102,4 +102,15 @@ test("defaultDayIndex prefers the day window over the calendar date", () => {
     ],
   };
   assert.equal(defaultDayIndex(m2, 5000), 1);
+});
+
+test("pickSchedule precedence: covers today, then active key, then most recent", () => {
+  const nowMs = Date.parse("2026-08-26T12:00:00+02:00");
+  const a = { key: "a", start: "2026-08-25", end: "2026-08-25", loadedAt: 1 };
+  const b = { key: "b", start: "2026-08-26", end: "2026-08-27", loadedAt: 2 };
+  const c = { key: "c", start: "2026-09-01", end: "2026-09-02", loadedAt: 3 };
+  assert.equal(pickSchedule([a, b, c], nowMs, "").key, "b");
+  assert.equal(pickSchedule([a, c], nowMs, "a").key, "a");
+  assert.equal(pickSchedule([a, c], nowMs, "missing").key, "c");
+  assert.equal(pickSchedule([], nowMs, ""), null);
 });

@@ -2,9 +2,11 @@
 
 import { normalize } from "./schedule.js";
 import { setState as planSetState, stateOf } from "./plan.js";
-import { dbGet, dbGetAll, dbPut } from "./db.js";
+import { dbGet, dbGetAll, dbPut, dbDelete } from "./db.js";
 import { getSetting, setSetting } from "./settings.js";
 import { now } from "./clock.js";
+
+export const DEFAULT_PROVIDER = "https://bjornkpu.github.io/setlist/conferences/";
 
 export const state = {
   model: null,      // normalized schedule
@@ -60,8 +62,26 @@ export async function activate(json, { url = "", fromFile = false, label = "" } 
   }
 }
 
-// Boot without ?url=: activate the schedule covering today, else the last
-// active one, else the most recently loaded. False if nothing is cached.
+// Selection policy (spec decision 3): the schedule covering today wins, else
+// the remembered active one, else the most recently loaded. Pure.
+export function pickSchedule(records, nowMs, activeKey) {
+  if (!records?.length) return null;
+  const today = new Date(nowMs).toLocaleDateString("sv-SE");
+  return (
+    records.find((s) => s.start && s.end && s.start <= today && today <= s.end) ??
+    records.find((s) => s.key === activeKey) ??
+    records.reduce((a, b) => ((a.loadedAt ?? 0) >= (b.loadedAt ?? 0) ? a : b))
+  );
+}
+
+export async function activateRecord(record) {
+  await activate(record.json, {
+    url: record.url,
+    fromFile: record.key.startsWith("file:"),
+    label: record.key,
+  });
+}
+
 export async function restoreLast() {
   let all;
   try {
@@ -69,21 +89,68 @@ export async function restoreLast() {
   } catch {
     return false;
   }
-  if (!all?.length) return false;
-  const today = new Date(now()).toLocaleDateString("sv-SE");
-  const record =
-    all.find((s) => s.start && s.end && s.start <= today && today <= s.end) ??
-    all.find((s) => s.key === getSetting("activeSchedule")) ??
-    all.reduce((a, b) => (a.loadedAt >= b.loadedAt ? a : b));
+  const record = pickSchedule(all, now(), getSetting("activeSchedule"));
+  if (!record) return false;
   try {
-    await activate(record.json, {
-      url: record.url,
-      fromFile: record.key.startsWith("file:"),
-      label: record.key,
-    });
+    await activateRecord(record);
     return true;
   } catch {
     return false; // cached record no longer parses; leave load screen
+  }
+}
+
+// Deletes the schedule and its plan (spec 5.4 — caller confirms first).
+export async function removeSchedule(key) {
+  try {
+    await dbDelete("schedules", key);
+    await dbDelete("plans", key);
+  } catch {
+    // storage unavailable; nothing to remove
+  }
+  if (state.scheduleKey === key) {
+    state.model = null;
+    state.scheduleKey = "";
+    state.sourceUrl = "";
+    state.plan = {};
+    await restoreLast(); // another cached schedule takes over if one exists
+  }
+}
+
+export async function listProviders() {
+  let stored = [];
+  try {
+    stored = await dbGetAll("providers");
+  } catch {
+    // storage unavailable
+  }
+  const list = [];
+  if (getSetting("defaultProviderRemoved") !== "yes") {
+    list.push({ key: DEFAULT_PROVIDER, url: DEFAULT_PROVIDER, name: "setlist default", builtin: true });
+  }
+  return [...list, ...stored.filter((p) => p.key !== DEFAULT_PROVIDER)];
+}
+
+export async function addProvider(url) {
+  if (url === DEFAULT_PROVIDER) {
+    setSetting("defaultProviderRemoved", ""); // re-adding the built-in restores it
+    return;
+  }
+  try {
+    await dbPut("providers", { key: url, url });
+  } catch {
+    // storage unavailable
+  }
+}
+
+export async function removeProvider(provider) {
+  if (provider.builtin) {
+    setSetting("defaultProviderRemoved", "yes");
+    return;
+  }
+  try {
+    await dbDelete("providers", provider.key);
+  } catch {
+    // storage unavailable
   }
 }
 

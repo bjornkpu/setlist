@@ -1,5 +1,5 @@
 // UI-facing actions shared by views. Terms: CONTEXT.md.
-import { setPlanState, allEvents } from "./store.js";
+import { setPlanState, allEvents, activate } from "./store.js";
 import { showToast } from "./toast.js";
 
 // Apply a state change; `rerender` refreshes the originating view in place
@@ -23,4 +23,30 @@ export async function applyState(eventKey, newState, rerender) {
       },
     });
   }
+}
+
+// Fetch + activate a schedule. No rendering — callers decide what to show.
+export async function loadScheduleFromUrl(url) {
+  let res;
+  try {
+    res = await fetch(url, { cache: "no-store" }); // reloads must see upstream changes
+  } catch {
+    return {
+      ok: false,
+      error: `Could not fetch ${url}. The host may block browser requests (CORS), or you are offline. You can import the file instead.`,
+    };
+  }
+  if (!res.ok) return { ok: false, error: `Could not load ${url}: HTTP ${res.status}.` };
+  let json;
+  try {
+    json = await res.json();
+  } catch {
+    return { ok: false, error: `${url} is not valid JSON.` };
+  }
+  try {
+    await activate(json, { url });
+  } catch (e) {
+    return { ok: false, error: `${url}: ${e.message}` };
+  }
+  return { ok: true };
 }

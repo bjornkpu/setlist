@@ -4,6 +4,7 @@ import { renderGlance } from "./views/glance.js";
 import { renderSlot } from "./views/slot.js";
 import { esc } from "./html.js";
 import { state, activate, restoreLast } from "./store.js";
+import { loadScheduleFromUrl } from "./actions.js";
 import { setNowOverride } from "./clock.js";
 import { showToast } from "./toast.js";
 
@@ -20,30 +21,9 @@ async function failLoad(message) {
 
 async function loadSchedule(url) {
   app.innerHTML = `<p class="status pad">Loading…</p>`;
-  let res;
-  try {
-    res = await fetch(url);
-  } catch {
-    await failLoad(
-      `Could not fetch ${url}. The host may block browser requests (CORS), or you are offline. You can import the file instead.`,
-    );
-    return;
-  }
-  if (!res.ok) {
-    await failLoad(`Could not load ${url}: HTTP ${res.status}.`);
-    return;
-  }
-  let json;
-  try {
-    json = await res.json();
-  } catch {
-    await failLoad(`${url} is not valid JSON.`);
-    return;
-  }
-  try {
-    await activate(json, { url });
-  } catch (e) {
-    await failLoad(`${url}: ${e.message}`);
+  const result = await loadScheduleFromUrl(url);
+  if (!result.ok) {
+    await failLoad(result.error);
     return;
   }
   location.hash = "#/";
