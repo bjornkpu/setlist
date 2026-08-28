@@ -149,6 +149,13 @@ def check_durations(conf, report):
         if delta is None:
             report.error(f"{path}.duration", f'"{dur}" is not HH:MM')
             continue
+        start = parse_hhmm(event.get("start") or "")
+        if delta > timedelta(hours=4) and start is not None and delta > start:
+            report.error(
+                f"{path}.duration",
+                f'"{dur}" looks like an end time; duration is end minus start',
+            )
+            continue
         if delta > LONG_SESSION and room != ANCHOR_ROOM:
             report.warn(f"{path}.duration", f'"{dur}" is suspiciously long for a session')
 

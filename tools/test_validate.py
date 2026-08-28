@@ -324,5 +324,25 @@ class ThinConformanceTests(unittest.TestCase):
         self.assertTrue(any("public_name" in m for lvl, p, m in report.findings if lvl == "WARN"))
 
 
+class EndTimeDurationTests(unittest.TestCase):
+    def test_end_time_style_duration_is_error(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]
+        ev["start"] = "10:00"
+        ev["date"] = "2026-08-26T10:00:00+02:00"
+        ev["duration"] = "12:00"  # looks like an end time, not a real 12h session
+        report = run(root)
+        self.assertTrue(any("end time" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+    def test_long_but_plausible_duration_after_late_start_is_not_error(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Fellesareal"][0]
+        ev["start"] = "17:00"
+        ev["date"] = "2026-08-26T17:00:00+02:00"
+        ev["duration"] = "06:00"  # dinner: 6h < 17h start, must stay clean of the end-time error
+        report = run(root)
+        self.assertFalse(any("end time" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+
 if __name__ == "__main__":
     unittest.main()
