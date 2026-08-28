@@ -132,6 +132,46 @@ def check_durations(conf, report):
 CHECKS.append(check_durations)
 
 
+def check_times(conf, report):
+    for path, day, room, event in iter_events(conf):
+        dt = parse_iso(event.get("date") or "")
+        if dt is None or dt.tzinfo is None:
+            report.error(
+                f"{path}.date",
+                f'"{event.get("date")}" is not an ISO 8601 timestamp with offset',
+            )
+            continue
+        start = parse_hhmm(event.get("start") or "")
+        if start is not None:
+            date_tod = timedelta(hours=dt.hour, minutes=dt.minute)
+            if date_tod != start:
+                report.error(
+                    f"{path}.start",
+                    f'start "{event["start"]}" disagrees with date "{event["date"]}" '
+                    f"({dt:%H:%M})",
+                )
+        day_start = parse_iso(day.get("day_start") or "")
+        day_end = parse_iso(day.get("day_end") or "")
+        if day_start is None or day_end is None:
+            continue  # day-level problem, flagged elsewhere
+        if not (day_start <= dt < day_end):
+            report.error(
+                f"{path}.date",
+                f'event starts {dt.isoformat()} but is nested under day '
+                f'{day.get("date")} ({day.get("day_start")} – {day.get("day_end")})',
+            )
+            continue
+        dur = parse_hhmm(event.get("duration") or "")
+        if dur is not None and dt + dur > day_end:
+            report.warn(
+                f"{path}.duration",
+                f'event ends {(dt + dur).isoformat()}, after day_end {day.get("day_end")}',
+            )
+
+
+CHECKS.append(check_times)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)

@@ -112,5 +112,35 @@ class DurationTests(unittest.TestCase):
         self.assertFalse(any("Fellesareal" in p for p in paths(run(root), "WARN")))
 
 
+class TimeTests(unittest.TestCase):
+    def _ev(self, root, room="Sal 1", i=0):
+        return root["schedule"]["conference"]["days"][0]["rooms"][room][i]
+
+    def test_unparseable_date_is_error(self):
+        root = base_schedule()
+        self._ev(root)["date"] = "26/08/2026 10:00"
+        self.assertTrue(any(p.endswith("[0].date") for p in paths(run(root))))
+
+    def test_start_disagreeing_with_date_is_error(self):
+        root = base_schedule()
+        self._ev(root)["start"] = "10:30"  # date still says 10:00
+        self.assertTrue(any(p.endswith("[0].start") for p in paths(run(root))))
+
+    def test_event_before_day_start_is_error(self):
+        root = base_schedule()
+        ev = self._ev(root)
+        ev["date"] = "2026-08-26T07:00:00+02:00"
+        ev["start"] = "07:00"
+        self.assertTrue(any(p.endswith("[0].date") for p in paths(run(root))))
+
+    def test_event_ending_after_day_end_is_warning(self):
+        root = base_schedule()
+        ev = self._ev(root, i=1)
+        ev["date"] = "2026-08-26T17:30:00+02:00"
+        ev["start"] = "17:30"
+        ev["duration"] = "01:00"  # ends 18:30, day_end 18:00
+        self.assertTrue(any(p.endswith("[1].duration") for p in paths(run(root), "WARN")))
+
+
 if __name__ == "__main__":
     unittest.main()
