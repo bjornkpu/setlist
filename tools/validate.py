@@ -280,13 +280,13 @@ CHECKS.append(check_rooms)
 
 
 def check_overlap(conf, report):
-    by_room = {}  # (day index, room) -> [(start_dt, end_dt, path, title)]
+    by_room = {}  # (id(day), room) -> [(start_dt, end_dt, path, title)]
     for path, day, room, event in iter_events(conf):
         dt = parse_iso(event.get("date") or "")
         dur = parse_hhmm(event.get("duration") or "")
         if dt is None or dt.tzinfo is None or dur is None:
             continue  # unparseable events are flagged by other checks
-        key = (day.get("index"), room)
+        key = (id(day), room)
         by_room.setdefault(key, []).append((dt, dt + dur, path, event.get("title") or "?"))
     for (_, room), evs in by_room.items():
         evs.sort(key=lambda e: (e[0], e[1], e[2]))

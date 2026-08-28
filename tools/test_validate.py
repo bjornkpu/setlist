@@ -344,5 +344,14 @@ class EndTimeDurationTests(unittest.TestCase):
         self.assertFalse(any("end time" in m for lvl, p, m in report.findings if lvl == "ERROR"))
 
 
+class OverlapBucketingTests(unittest.TestCase):
+    def test_duplicate_day_entries_are_not_merged_into_one_overlap_bucket(self):
+        root = base_schedule()
+        days = root["schedule"]["conference"]["days"]
+        days.append(copy.deepcopy(days[0]))  # accidental duplicate day entry, same index/date
+        report = run(root)
+        self.assertFalse(any("overlap" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+
 if __name__ == "__main__":
     unittest.main()
