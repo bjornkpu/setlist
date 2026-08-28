@@ -32,9 +32,10 @@ class GenIndexTests(unittest.TestCase):
 
     def test_real_conferences_dir(self):
         conf_dir = Path(__file__).resolve().parent.parent / "conferences"
-        index, skipped = build_index(conf_dir, "x")
+        on_disk = json.loads((conf_dir / "index.json").read_text(encoding="utf-8"))
+        index, skipped = build_index(conf_dir, on_disk["name"])
         self.assertEqual(skipped, [])
-        self.assertIn("fagfestival-2026", [s["id"] for s in index["schedules"]])
+        self.assertEqual(index, on_disk)  # regenerate: uv run python tools/gen_index.py conferences
 
 
 if __name__ == "__main__":
