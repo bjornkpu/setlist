@@ -60,19 +60,11 @@ Every event must have all these fields:
 }
 ```
 
-## GUID Recipe
+## Guid identity — pick ONE stable key and never change it for a conference
 
-Generate deterministic UUIDs for each event using uuid5:
-
-```bash
-uv run python -c "
-import uuid
-for i in range(1, <max_id>):
-    print(i, uuid.uuid5(uuid.NAMESPACE_URL, f'setlist/<acronym>/{i}'))
-"
-```
-
-Replace `<max_id>` with one more than the highest event id, and `<acronym>` with the conference acronym.
+- Source has stable ids (Sessionize, frab upstream): `uuid.uuid5(uuid.NAMESPACE_URL, f"setlist/<acronym>/<source-id>")` — used by `tools/sessionize_to_frab.py`.
+- Source has no ids (scraped pages): `uuid.uuid5(uuid.NAMESPACE_URL, f"setlist/<acronym>/<title-slug>-<YYYY-MM-DD>")` — used for `ndc-oslo-2026` (note: a retitled session gets a new guid and loses its plan entry — accepted tradeoff).
+- Re-extractions of an existing conference MUST reuse that conference's established recipe; switching recipes regenerates every guid and silently destroys users' plans.
 
 ## Rules
 
@@ -83,7 +75,7 @@ Replace `<max_id>` with one more than the highest event id, and `<acronym>` with
 - `daysCount` must equal the number of entries in `days`, which must cover `conference.start` through `conference.end` exactly (one day per calendar date in the range).
 - `persons` format: `[{"id": <n>, "public_name": "<name>"}]` — assign integer person ids sequentially (1, 2, 3, …), reusing the same id when the same speaker appears in multiple sessions.
 - Each event's `date` must fall within its containing day's `day_start` and `day_end` timestamps.
-- Non-session items (registration, lunch, breaks, keynote, closing, dinner) are ordinary events in room `Fellesareal` with `persons: []`.
+- Non-session items (registration, lunch, breaks, keynote, closing, dinner) are ordinary events; keep the venue's real room verbatim when the source names one, and use the shared room `Fellesareal` only when it doesn't.
 - No fields beyond the template are allowed; remove any extra fields.
 - No overlapping events in the same room.
 - Each session outside `Fellesareal` should list speakers in `persons`; sessions with no speakers will trigger a warning.
