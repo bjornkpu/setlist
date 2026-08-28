@@ -72,10 +72,33 @@ test("normalize skips junk events and tolerates junk room values", () => {
   f.schedule.conference.days[0].rooms["Broken"] = "not a list";
   const m = normalize(f);
   assert.equal(m.days[0].events.length, 3);
+  assert.ok(!m.rooms.includes("Broken"));
 });
 
 test("normalize rejects non-frab JSON", () => {
   assert.throws(() => normalize({ foo: 1 }), /frab/);
+});
+
+test("normalize falls back to id when guid is empty string", () => {
+  const f = fixture();
+  f.schedule.conference.days[0].rooms["Sal 1"].push({
+    guid: "", id: 9, date: "2026-08-26T11:00:00+02:00",
+    start: "11:00", duration: "00:50", room: "Sal 1", title: "C talk",
+  });
+  const m = normalize(f);
+  const c = m.days[0].events.find((e) => e.title === "C talk");
+  assert.equal(c.key, "9");
+});
+
+test("normalize treats out-of-range duration as 00:00", () => {
+  const f = fixture();
+  f.schedule.conference.days[0].rooms["Sal 1"].push({
+    guid: "g4", id: 4, date: "2026-08-26T13:00:00+02:00",
+    start: "13:00", duration: "25:99", room: "Sal 1", title: "D talk",
+  });
+  const m = normalize(f);
+  const d = m.days[0].events.find((e) => e.title === "D talk");
+  assert.equal(d.end, d.start);
 });
 
 test("normalize handles the real Fagfestival schedule", async () => {

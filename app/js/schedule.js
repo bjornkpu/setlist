@@ -1,6 +1,6 @@
 // frab schedule.json -> normalized model. Pure; no DOM. Terms: CONTEXT.md.
 
-const HHMM = /^\d{1,2}:\d{2}$/;
+const HHMM = /^\d{1,2}:[0-5]\d$/;
 
 export function addDuration(start, duration) {
   const [sh, sm] = start.split(":").map(Number);
@@ -21,8 +21,8 @@ export function normalize(root) {
   const days = (Array.isArray(conf.days) ? conf.days : []).map((day, di) => {
     const events = [];
     for (const [room, list] of Object.entries(day?.rooms ?? {})) {
-      if (!rooms.includes(room)) rooms.push(room);
       if (!Array.isArray(list)) continue;
+      if (!rooms.includes(room)) rooms.push(room);
       for (const raw of list) {
         const ev = normalizeEvent(raw, room, di);
         if (ev) events.push(ev);
@@ -50,7 +50,7 @@ export function normalize(root) {
 
 function normalizeEvent(raw, room, dayIndex) {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
-  const key = String(raw.guid ?? raw.id ?? "");
+  const key = String(raw.guid || raw.id || "");
   if (!key) return null;
   const parsed = Date.parse(raw.date ?? "");
   const start = Number.isNaN(parsed) ? 0 : parsed;
