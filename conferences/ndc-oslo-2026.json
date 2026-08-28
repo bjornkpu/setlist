@@ -17,7 +17,9 @@
         "Room 5",
         "Room 6",
         "Room 7",
-        "Expo"
+        "Expo",
+        "Workshop room",
+        "Workshop room 2"
       ],
       "days": [
         {
@@ -1104,6 +1106,218 @@
                   {
                     "id": 51,
                     "public_name": "Michael Dowden"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Workshop room": [
+              {
+                "guid": "bb458a91-4a3f-51ae-b236-426878f35d3c",
+                "id": 128,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-128-part-1-2-web-components-101-no-framework-no-problem",
+                "title": "Part 1/2: Web Components 101: No Framework, No Problem",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 148,
+                    "public_name": "Burton Smith"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "55e6188c-2ca8-521b-97b6-89d4e344c5b8",
+                "id": 130,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-130-part-2-2-web-components-101-no-framework-no-problem",
+                "title": "Part 2/2: Web Components 101: No Framework, No Problem",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 148,
+                    "public_name": "Burton Smith"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "34d32e2b-fd12-5d02-a34f-e9b66a0bc29d",
+                "id": 132,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-132-part-1-2-context-engineering-custom-agents-and-ai-first-dev-workflows-w-vs-code-github-copilot",
+                "title": "Part 1/2: Context engineering, custom agents, and AI-first dev workflows w/ VS Code & GitHub Copilot",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 8,
+                    "public_name": "James Montemagno"
+                  },
+                  {
+                    "id": 69,
+                    "public_name": "Kayla Cinnamon"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "42ed1f2c-a0d3-5bbb-a94b-eabb01e885e2",
+                "id": 133,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-133-part-2-2-context-engineering-custom-agents-and-ai-first-dev-workflows-w-vs-code-github-copilot",
+                "title": "Part 2/2: Context engineering, custom agents, and AI-first dev workflows w/ VS Code & GitHub Copilot",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 8,
+                    "public_name": "James Montemagno"
+                  },
+                  {
+                    "id": 69,
+                    "public_name": "Kayla Cinnamon"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "84fab8b7-baf9-58f1-9022-90149ff109b8",
+                "id": 134,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-134-part-1-2-fun-with-f-and-turtle-geometry",
+                "title": "Part 1/2: Fun with F# and turtle geometry",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 149,
+                    "public_name": "Heidi Mork"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "51b07318-7e86-5b70-ab28-50ab9b450c49",
+                "id": 135,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-135-part-2-2-fun-with-f-and-turtle-geometry",
+                "title": "Part 2/2: Fun with F# and turtle geometry",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 149,
+                    "public_name": "Heidi Mork"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Workshop room 2": [
+              {
+                "guid": "b14d5554-d265-506e-ba35-7e180f49945f",
+                "id": 129,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Workshop room 2",
+                "slug": "ndcoslo2026-129-part-1-2-from-hallucination-to-justification-hands-on-explainability-for-llms",
+                "title": "Part 1/2: From Hallucination to Justification: Hands-On Explainability for LLMs",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 37,
+                    "public_name": "Lucía Conde-Moreno"
+                  },
+                  {
+                    "id": 106,
+                    "public_name": "Tessel Haagen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "99e5a9f7-985b-506d-97e3-bb6ff2e6bee6",
+                "id": 131,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Workshop room 2",
+                "slug": "ndcoslo2026-131-part-2-2-from-hallucination-to-justification-hands-on-explainability-for-llms",
+                "title": "Part 2/2: From Hallucination to Justification: Hands-On Explainability for LLMs",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 37,
+                    "public_name": "Lucía Conde-Moreno"
+                  },
+                  {
+                    "id": 106,
+                    "public_name": "Tessel Haagen"
                   }
                 ],
                 "links": [],
@@ -2358,6 +2572,154 @@
                 "links": [],
                 "attachments": []
               }
+            ],
+            "Workshop room 2": [
+              {
+                "guid": "ff14c348-8e40-5b25-9b5f-bcc7c2af278d",
+                "id": 136,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Workshop room 2",
+                "slug": "ndcoslo2026-136-part-1-2-from-i-ll-do-it-to-you-own-it",
+                "title": "Part 1/2: From “I’ll do it” to “You own it”",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 33,
+                    "public_name": "Anemari Fiser"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "8800bdba-1c7b-5eac-b9ec-310c32e217c4",
+                "id": 137,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Workshop room 2",
+                "slug": "ndcoslo2026-137-part-2-2-from-i-ll-do-it-to-you-own-it",
+                "title": "Part 2/2: From “I’ll do it” to “You own it”",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 33,
+                    "public_name": "Anemari Fiser"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Workshop room": [
+              {
+                "guid": "f804c1e9-0753-5c03-a320-7d35833a1f1b",
+                "id": 138,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-138-part-1-2-architect-as-a-systems-thinker-turning-strategy-into-action",
+                "title": "Part 1/2: Architect as a Systems Thinker: Turning Strategy into Action",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 150,
+                    "public_name": "Javiera Laso"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "84040751-132b-557e-8ddd-c5ce7a22edbf",
+                "id": 139,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-139-part-2-2-architect-as-a-systems-thinker-turning-strategy-into-action",
+                "title": "Part 2/2: Architect as a Systems Thinker: Turning Strategy into Action",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 150,
+                    "public_name": "Javiera Laso"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "af3e5b77-5c6a-5cbd-8e6d-a6b3ef6495fa",
+                "id": 140,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-140-part-1-2-domain-modeling-in-rust-making-illegal-states-unrepresentable",
+                "title": "Part 1/2: Domain Modeling in Rust: Making Illegal States Unrepresentable",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 151,
+                    "public_name": "Jostein Hjortland Tysse"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "de5ba2c9-bf33-5540-96a5-ed1fcda18635",
+                "id": 141,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-141-part-2-2-domain-modeling-in-rust-making-illegal-states-unrepresentable",
+                "title": "Part 2/2: Domain Modeling in Rust: Making Illegal States Unrepresentable",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 151,
+                    "public_name": "Jostein Hjortland Tysse"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
             ]
           }
         },
@@ -3239,6 +3601,104 @@
                   {
                     "id": 146,
                     "public_name": "Sean Percival"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Workshop room": [
+              {
+                "guid": "a1b11e8a-6097-507d-a72e-7b9bbe875589",
+                "id": 142,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-142-part-1-2-practical-domain-driven-design-a-modeling-exercise",
+                "title": "Part 1/2: Practical Domain-Driven Design - A Modeling Exercise",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 152,
+                    "public_name": "Mufrid Krilic"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "cdc0834c-2f14-5e99-bb1d-af7453d999a5",
+                "id": 143,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-143-part-2-2-practical-domain-driven-design-a-modeling-exercise",
+                "title": "Part 2/2: Practical Domain-Driven Design - A Modeling Exercise",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 152,
+                    "public_name": "Mufrid Krilic"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2a125a5a-b449-57fc-b29f-c891b3134667",
+                "id": 144,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-144-part-1-2-a-practical-tdd-journey-with-ai",
+                "title": "Part 1/2: A Practical TDD Journey with AI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 150,
+                    "public_name": "Javiera Laso"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "88e2074a-c7c6-5e38-b3bb-d1e7d96e2a27",
+                "id": 145,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Workshop room",
+                "slug": "ndcoslo2026-145-part-2-2-a-practical-tdd-journey-with-ai",
+                "title": "Part 2/2: A Practical TDD Journey with AI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 150,
+                    "public_name": "Javiera Laso"
                   }
                 ],
                 "links": [],
