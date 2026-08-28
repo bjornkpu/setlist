@@ -241,6 +241,41 @@ def check_overlap(conf, report):
 CHECKS.append(check_overlap)
 
 
+def check_days(conf, report):
+    try:
+        conf_start = datetime.fromisoformat(conf["start"]).date()
+        conf_end = datetime.fromisoformat(conf["end"]).date()
+    except (KeyError, TypeError, ValueError):
+        report.error("schedule.conference.start/end", "not parseable as ISO dates")
+        return
+    days = conf.get("days") or []
+    expected = (conf_end - conf_start).days + 1
+    if len(days) != expected:
+        report.error(
+            "schedule.conference.days",
+            f"{len(days)} day(s) listed but start..end spans {expected}",
+        )
+    if "daysCount" in conf and conf["daysCount"] != len(days):
+        report.error(
+            "schedule.conference.daysCount",
+            f'daysCount is {conf["daysCount"]} but {len(days)} day(s) listed',
+        )
+    for di, day in enumerate(days):
+        try:
+            d = datetime.fromisoformat(day["date"]).date()
+        except (KeyError, TypeError, ValueError):
+            report.error(f"schedule.conference.days[{di}].date", "not an ISO date")
+            continue
+        if not (conf_start <= d <= conf_end):
+            report.error(
+                f"schedule.conference.days[{di}].date",
+                f"{d} outside conference range {conf_start}..{conf_end}",
+            )
+
+
+CHECKS.append(check_days)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)

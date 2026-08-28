@@ -195,5 +195,22 @@ class OverlapTests(unittest.TestCase):
         self.assertEqual(run(root).errors, [])
 
 
+class DaysTests(unittest.TestCase):
+    def test_day_date_outside_conference_range_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["date"] = "2026-08-27"
+        self.assertTrue(any(".date" in p for p in paths(run(root))))
+
+    def test_days_count_mismatch_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["end"] = "2026-08-27"  # 2-day span, 1 day listed
+        self.assertTrue(any("days" in p for p in paths(run(root))))
+
+    def test_dayscount_field_mismatch_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["daysCount"] = 3
+        self.assertTrue(any("daysCount" in p for p in paths(run(root))))
+
+
 if __name__ == "__main__":
     unittest.main()
