@@ -13,7 +13,7 @@ Convert the conference program below into a frab-compatible `schedule.json`. Use
       "acronym": "<acronym>",
       "start": "<YYYY-MM-DD>",
       "end": "<YYYY-MM-DD>",
-      "daysCount": 1,
+      "daysCount": <number of days>,
       "timeslot_duration": "00:05",
       "time_zone_name": "<timezone, e.g. Europe/Oslo>",
       "rooms": ["<room 1>", "<room 2>"],
@@ -54,7 +54,7 @@ Every event must have all these fields:
   "language": "<language code, e.g. no or en>",
   "abstract": "",
   "description": "",
-  "persons": [],
+  "persons": [{"id": <n>, "public_name": "<name>"}],
   "links": [],
   "attachments": []
 }
@@ -68,7 +68,7 @@ Generate deterministic UUIDs for each event using uuid5:
 uv run python -c "
 import uuid
 for i in range(1, <max_id>):
-    print(i, uuid.uuid5(uuid.NAMESPACE_URL, f'<acronym>/{i}'))
+    print(i, uuid.uuid5(uuid.NAMESPACE_URL, f'setlist/<acronym>/{i}'))
 "
 ```
 
@@ -80,9 +80,10 @@ Replace `<max_id>` with one more than the highest event id, and `<acronym>` with
 - `date` must be full ISO 8601 with the venue's UTC offset (e.g. `2026-08-26T09:00:00+02:00`); the time portion must match the `start` field.
 - Every event must have a unique `guid` and a unique integer `id`.
 - `room` spelling must be identical everywhere it appears (case-sensitive); must match the key in the containing `rooms` dict.
+- `daysCount` must equal the number of entries in `days`, which must cover `conference.start` through `conference.end` exactly (one day per calendar date in the range).
+- `persons` format: `[{"id": <n>, "public_name": "<name>"}]` — assign integer person ids sequentially (1, 2, 3, …), reusing the same id when the same speaker appears in multiple sessions.
 - Non-session items (registration, lunch, breaks, keynote, closing, dinner) are ordinary events in room `Fellesareal` with `persons: []`.
 - No fields beyond the template are allowed; remove any extra fields.
-- Days must cover `conference.start` through `conference.end` exactly (one day per calendar date in the range).
 - No overlapping events in the same room.
 - Each session outside `Fellesareal` should list speakers in `persons`; sessions with no speakers will trigger a warning.
 
