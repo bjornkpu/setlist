@@ -230,5 +230,13 @@ class WarningTests(unittest.TestCase):
         self.assertFalse(any("Fellesareal" in p for p in paths(report, "WARN")))
 
 
+class MalformedEventTests(unittest.TestCase):
+    def test_non_dict_event_reports_error_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"].append("not an event")
+        report = run(root)  # must not raise
+        self.assertTrue(any("not an object" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+
 if __name__ == "__main__":
     unittest.main()

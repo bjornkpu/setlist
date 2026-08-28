@@ -66,6 +66,8 @@ def iter_events(conf):
             if not isinstance(events, list):
                 continue
             for ei, event in enumerate(events):
+                if not isinstance(event, dict):
+                    continue
                 path = f'schedule.conference.days[{di}].rooms["{room_name}"][{ei}]'
                 yield path, day, room_name, event
 
@@ -95,10 +97,15 @@ def check_structure(root, report):
                 f"schedule.conference.days[{di}].rooms",
                 "not an object mapping room name to a list of events",
             )
+        elif "rooms" in day and isinstance(day["rooms"], dict):
+            for room_name, events in day["rooms"].items():
+                if not isinstance(events, list):
+                    continue
+                for ei, event in enumerate(events):
+                    if not isinstance(event, dict):
+                        path = f'schedule.conference.days[{di}].rooms["{room_name}"][{ei}]'
+                        report.error(path, "event is not an object")
     for path, day, room, event in iter_events(conf):
-        if not isinstance(event, dict):
-            report.error(path, "event is not an object")
-            continue
         for field in REQUIRED_EVENT_FIELDS:
             if field == "title":
                 continue  # empty title is a warning (check_warnings), not an error
