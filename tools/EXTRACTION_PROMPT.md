@@ -14,7 +14,7 @@ Convert the conference program below into a frab-compatible `schedule.json`. Use
       "start": "<YYYY-MM-DD>",
       "end": "<YYYY-MM-DD>",
       "daysCount": <number of days>,
-      "timeslot_duration": "00:05",
+      "timeslot_duration": "<slot granularity, e.g. 00:05>",
       "time_zone_name": "<timezone, e.g. Europe/Oslo>",
       "rooms": ["<room 1>", "<room 2>"],
       "days": [
