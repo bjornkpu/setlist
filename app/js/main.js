@@ -1,7 +1,10 @@
 import { renderBrowse } from "./views/browse.js";
 import { renderEvent } from "./views/event.js";
+import { renderGlance } from "./views/glance.js";
+import { renderSlot } from "./views/slot.js";
 import { esc } from "./html.js";
 import { state, activate, restoreLast } from "./store.js";
+import { setNowOverride } from "./clock.js";
 
 const app = document.getElementById("app");
 
@@ -33,7 +36,7 @@ async function loadSchedule(url) {
     renderLoadScreen(`${url}: ${e.message}`);
     return;
   }
-  location.hash = "#/browse"; // phase 4: glance claims #/
+  location.hash = "#/";
   route();
   // strip ?url= after a successful load so reload/share links stay clean
   if (new URLSearchParams(location.search).has("url")) {
@@ -68,7 +71,7 @@ function renderLoadScreen(error = "") {
       renderLoadScreen(`Import failed: ${err.message}`);
       return;
     }
-    location.hash = "#/browse"; // phase 4: glance claims #/
+    location.hash = "#/";
     route();
   });
 }
@@ -78,23 +81,45 @@ function route() {
     renderLoadScreen();
     return;
   }
-  const hash = location.hash || "#/browse";
-  const evMatch = hash.match(/^#\/event\/(.+)$/);
-  if (evMatch) {
-    let key;
+  const hash = location.hash || "#/";
+  const decode = (s) => {
     try {
-      key = decodeURIComponent(evMatch[1]);
+      return decodeURIComponent(s);
     } catch {
-      key = evMatch[1]; // malformed encoding: use raw, falls through to "Session not found"
+      return s; // malformed encoding: use raw, falls through to "not found"
     }
-    renderEvent(app, state, key);
+  };
+  const evMatch = hash.match(/^#\/event\/(.+)$/);
+  const slotMatch = hash.match(/^#\/slot\/(.+)$/);
+  if (evMatch) {
+    renderEvent(app, state, decode(evMatch[1]));
+  } else if (slotMatch) {
+    renderSlot(app, state, decode(slotMatch[1]));
+  } else if (hash.startsWith("#/browse")) {
+    renderBrowse(app, state);
   } else {
-    renderBrowse(app, state); // #/browse and, for now, everything else
+    renderGlance(app, state); // #/ and anything unrecognized
   }
 }
 
 window.addEventListener("hashchange", route);
 window.addEventListener("setlist:rerender", route);
+
+const atParam = new URLSearchParams(location.search).get("at");
+if (atParam) {
+  const ms = Date.parse(atParam);
+  if (!Number.isNaN(ms)) setNowOverride(ms); // QA: freeze the clock; param is kept in the URL
+}
+
+// The ONLY interval in the app: refresh the glance while it is on screen.
+setInterval(() => {
+  const h = location.hash;
+  if (state.model && (h === "" || h === "#/")) route();
+}, 30000);
+
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && state.model) route();
+});
 
 const startUrl = new URLSearchParams(location.search).get("url");
 if (startUrl) {

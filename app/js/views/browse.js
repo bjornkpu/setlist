@@ -10,7 +10,7 @@ export function renderBrowse(app, state) {
   const { model, browse } = state;
   const day = model.days[browse.dayIndex] ?? model.days[0];
   app.innerHTML = `
-    <header class="bar"><h1>${esc(model.title)}</h1></header>
+    <header class="bar"><h1>${esc(model.title)}</h1><a class="now-link" href="#/">Now</a></header>
     ${model.days.length > 1 ? daySelector(model, browse) : ""}
     <div class="filters">
       ${select("room", "All rooms", model.rooms, browse.room)}

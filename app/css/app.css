@@ -144,3 +144,69 @@ body {
   color: var(--bg);
   text-decoration: underline;
 }
+
+/* glance */
+.glance {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.glance .corner {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--muted);
+  padding: 0.5rem;
+  min-width: 44px;
+  min-height: 44px;
+  text-align: center;
+}
+.glance .card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: inherit;
+  text-decoration: none;
+}
+.glance .label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+.glance .card .room {
+  color: var(--accent);
+  font-weight: 800;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+.glance .primary .room { font-size: 2.6rem; }
+.glance .secondary .room { font-size: 1.6rem; }
+.glance .card .title { font-size: 1.05rem; overflow-wrap: anywhere; }
+.glance .card .until { color: var(--muted); }
+.glance .card .option { font-size: 0.95rem; overflow-wrap: anywhere; }
+.glance .card .room-sm { color: var(--accent); font-weight: 700; }
+.glance .closing, .glance .big { text-align: center; }
+.glance .big { font-size: 1.6rem; }
+
+/* slot + browse header link */
+.slot h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 1rem 1rem 0.25rem;
+}
+.slot .events .room { font-size: 1.15rem; }
+.bar { display: flex; align-items: baseline; justify-content: space-between; }
+.bar .now-link, .bar a { color: var(--accent); text-decoration: none; min-height: 40px; }
