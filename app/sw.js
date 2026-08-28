@@ -3,8 +3,9 @@
 // to the network — IndexedDB is their offline store, never the HTTP cache.
 // Bump VERSION whenever any file in SHELL changes; tests/sw.test.js keeps the
 // list itself honest against the files on disk.
-const VERSION = "setlist-e57d15c5";
+const VERSION = "setlist-44a1a98a";
 const SHELL = [
+  // "./" pairs with the entries.includes("") assertion in tests/sw.test.js — remove both together
   "./",
   "./index.html",
   "./manifest.json",
@@ -33,7 +34,11 @@ self.addEventListener("install", (event) => {
     caches
       .open(VERSION)
       .then((cache) => cache.addAll(SHELL))
-      .then(() => self.skipWaiting()),
+      .then(() => self.skipWaiting())
+      .catch((e) => {
+        console.error("SW precache failed", e);
+        throw e;
+      }),
   );
 });
 
@@ -51,14 +56,19 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
   if (request.mode === "navigate") {
     // ?url= and ?at= links must work offline: serve the shell, app JS does the rest
-    event.respondWith(caches.match("./index.html").then((hit) => hit ?? fetch(request)));
+    event.respondWith(
+      caches.open(VERSION).then((c) => c.match("./index.html")).then((hit) => hit ?? fetch(request)),
+    );
     return;
   }
   if (new URL(request.url).origin === location.origin) {
     // shell files hit the cache; anything else same-origin (e.g. a schedule
     // under /conferences/) misses and falls through to the network, uncached
     event.respondWith(
-      caches.match(request, { ignoreSearch: true }).then((hit) => hit ?? fetch(request)),
+      caches
+        .open(VERSION)
+        .then((c) => c.match(request, { ignoreSearch: true }))
+        .then((hit) => hit ?? fetch(request)),
     );
   }
   // cross-origin: default handling

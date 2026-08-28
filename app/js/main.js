@@ -145,7 +145,6 @@ if (startUrl) {
 }
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js").catch(() => {
-    // no SW available (plain http, private mode): the app still works online
-  });
+  navigator.serviceWorker.register("./sw.js").catch((e) => console.warn("SW registration failed", e));
+  // no SW available (plain http, private mode): the app still works online
 }

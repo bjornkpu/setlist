@@ -2,6 +2,7 @@
   "name": "setlist",
   "short_name": "setlist",
   "description": "Where do I go next? A conference companion.",
+  "id": "./",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
