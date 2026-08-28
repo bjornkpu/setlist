@@ -30,25 +30,25 @@ test("cycle walks none -> pick -> maybe -> avoid -> none", () => {
 
 test("setState sets and clears without mutating input", () => {
   const before = {};
-  const { entries, replacedKey } = setState(before, A, "maybe", all);
+  const { entries, replacedKeys } = setState(before, A, "maybe", all);
   assert.deepEqual(entries, { a: "maybe" });
   assert.deepEqual(before, {});
-  assert.equal(replacedKey, null);
+  assert.deepEqual(replacedKeys, []);
   assert.deepEqual(setState(entries, A, "", all).entries, {});
 });
 
 test("second pick in overlapping range replaces the first", () => {
   const one = setState({}, A, "pick", all).entries;
-  const { entries, replacedKey } = setState(one, B, "pick", all);
+  const { entries, replacedKeys } = setState(one, B, "pick", all);
   assert.deepEqual(entries, { b: "pick" });
-  assert.equal(replacedKey, "a");
+  assert.deepEqual(replacedKeys, ["a"]);
 });
 
 test("non-overlapping picks coexist", () => {
   const one = setState({}, A, "pick", all).entries;
-  const { entries, replacedKey } = setState(one, C, "pick", all);
+  const { entries, replacedKeys } = setState(one, C, "pick", all);
   assert.deepEqual(entries, { a: "pick", c: "pick" });
-  assert.equal(replacedKey, null);
+  assert.deepEqual(replacedKeys, []);
 });
 
 test("maybe and avoid are unbounded and never conflict", () => {
@@ -62,9 +62,19 @@ test("maybe and avoid are unbounded and never conflict", () => {
 
 test("re-picking the same event is a no-op replace", () => {
   const one = setState({}, A, "pick", all).entries;
-  const { entries, replacedKey } = setState(one, A, "pick", all);
+  const { entries, replacedKeys } = setState(one, A, "pick", all);
   assert.deepEqual(entries, { a: "pick" });
-  assert.equal(replacedKey, null);
+  assert.deepEqual(replacedKeys, []);
+});
+
+test("a pick spanning two picks reports both", () => {
+  const A = ev("a", 0, 100), B = ev("b", 100, 200), C = ev("c", 50, 150);
+  const all2 = [A, B, C];
+  let entries = setState({}, A, "pick", all2).entries;
+  entries = setState(entries, B, "pick", all2).entries;
+  const r = setState(entries, C, "pick", all2);
+  assert.deepEqual(r.entries, { c: "pick" });
+  assert.deepEqual(r.replacedKeys.sort(), ["a", "b"]);
 });
 
 test("scheduleKeyFor: URL loads key on the URL, file imports on identity", () => {

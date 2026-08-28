@@ -84,19 +84,19 @@ export async function restoreLast() {
   }
 }
 
-// Returns the replaced pick's event key when a conflict was resolved, else null.
+// Returns the replaced picks' event keys when conflicts were resolved, else [].
 export async function setPlanState(eventKey, newState) {
   const events = allEvents();
   const event = events.find((e) => e.key === eventKey);
-  if (!event) return null;
-  const { entries, replacedKey } = planSetState(state.plan, event, newState, events);
+  if (!event) return [];
+  const { entries, replacedKeys } = planSetState(state.plan, event, newState, events);
   state.plan = entries;
   try {
     await dbPut("plans", { key: state.scheduleKey, entries });
   } catch {
     // in-memory only
   }
-  return replacedKey;
+  return replacedKeys;
 }
 
 export function planStateOf(eventKey) {
