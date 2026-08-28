@@ -353,5 +353,14 @@ class OverlapBucketingTests(unittest.TestCase):
         self.assertFalse(any("overlap" in m for lvl, p, m in report.findings if lvl == "ERROR"))
 
 
+class RealScheduleTests(unittest.TestCase):
+    def test_fagfestival_schedule_has_no_findings(self):
+        path = pathlib.Path(__file__).resolve().parent.parent / "conferences" / "fagfestival-2026.json"
+        with open(path, encoding="utf-8") as f:
+            root = json.load(f)
+        report = validate.validate(root)
+        self.assertEqual(report.findings, [], report.render())
+
+
 if __name__ == "__main__":
     unittest.main()
