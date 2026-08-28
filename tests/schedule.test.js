@@ -138,3 +138,10 @@ test("normalize handles the real Fagfestival schedule", async () => {
   assert.equal(m.rooms.length, 7);
   assert.equal(m.tracks.length, 6);
 });
+
+test("normalize exposes day bounds as epoch ms", () => {
+  const m = normalize(fixture());
+  const day = m.days[0];
+  assert.equal(day.dayStart, Date.parse("2026-08-26T08:00:00+02:00"));
+  assert.equal(day.dayEnd, Date.parse("2026-08-26T18:00:00+02:00"));
+});

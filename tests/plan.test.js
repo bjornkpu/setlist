@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { overlaps, stateOf, cycle, setState } from "../app/js/plan.js";
-import { scheduleKeyFor } from "../app/js/store.js";
+import { scheduleKeyFor, defaultDayIndex } from "../app/js/store.js";
 
 const ev = (key, start, end) => ({ key, start, end });
 const A = ev("a", 100, 200);
@@ -83,4 +83,16 @@ test("scheduleKeyFor: URL loads key on the URL, file imports on identity", () =>
   assert.equal(scheduleKeyFor(json, "", true), "file:fagfest2026:2026-08-26");
   const noAcr = { schedule: { conference: { title: "T", start: "2026-01-01" } } };
   assert.equal(scheduleKeyFor(noAcr, "", true), "file:T:2026-01-01");
+});
+
+test("defaultDayIndex prefers the day window over the calendar date", () => {
+  const model = {
+    days: [
+      { date: "2026-08-26", dayStart: 1000, dayEnd: 2000 },
+      { date: "2026-08-27", dayStart: 2000, dayEnd: 3000 },
+    ],
+  };
+  assert.equal(defaultDayIndex(model, 1500), 0);
+  assert.equal(defaultDayIndex(model, 2000), 1); // day 0 window is half-open
+  assert.equal(defaultDayIndex(model, 9999), 0); // outside every window, no date match -> 0
 });

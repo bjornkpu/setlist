@@ -4,6 +4,7 @@ import { normalize } from "./schedule.js";
 import { setState as planSetState, stateOf } from "./plan.js";
 import { dbGet, dbGetAll, dbPut } from "./db.js";
 import { getSetting, setSetting } from "./settings.js";
+import { now } from "./clock.js";
 
 export const state = {
   model: null,      // normalized schedule
@@ -19,10 +20,12 @@ export function scheduleKeyFor(json, url, fromFile) {
   return `file:${conf.acronym || conf.title || "schedule"}:${conf.start || ""}`;
 }
 
-function defaultDayIndex(model) {
-  const today = new Date().toLocaleDateString("sv-SE"); // sv-SE = YYYY-MM-DD, local time
-  const i = model.days.findIndex((d) => d.date === today);
-  return i === -1 ? 0 : i;
+export function defaultDayIndex(model, nowMs) {
+  const inWindow = model.days.findIndex((d) => d.dayStart <= nowMs && nowMs < d.dayEnd);
+  if (inWindow !== -1) return inWindow;
+  const today = new Date(nowMs).toLocaleDateString("sv-SE"); // sv-SE = YYYY-MM-DD, local time
+  const byDate = model.days.findIndex((d) => d.date === today);
+  return byDate === -1 ? 0 : byDate;
 }
 
 export function allEvents() {
@@ -36,7 +39,7 @@ export async function activate(json, { url = "", fromFile = false, label = "" } 
   state.model = model;
   state.scheduleKey = key;
   state.sourceUrl = url || label;
-  state.browse = { dayIndex: defaultDayIndex(model), room: "", track: "", q: "" };
+  state.browse = { dayIndex: defaultDayIndex(model, now()), room: "", track: "", q: "" };
   state.plan = {};
   try {
     // read the plan BEFORE writing the schedule: if the read fails we stay

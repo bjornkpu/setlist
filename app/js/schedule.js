@@ -36,8 +36,8 @@ export function normalize(root) {
     return {
       index: day?.index ?? di,
       date: day?.date ?? "",
-      dayStart: day?.day_start ?? "",
-      dayEnd: day?.day_end ?? "",
+      dayStart: Date.parse(day?.day_start ?? "") || 0,
+      dayEnd: Date.parse(day?.day_end ?? "") || 0,
       events,
     };
   });
