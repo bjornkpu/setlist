@@ -1,6 +1,6 @@
 import { esc } from "../html.js";
 import { planStateOf } from "../store.js";
-import { applyState } from "./browse.js";
+import { applyState } from "../actions.js";
 
 export function renderEvent(app, state, key) {
   const ev = state.model.days.flatMap((d) => d.events).find((e) => e.key === key);
@@ -38,6 +38,6 @@ export function renderEvent(app, state, key) {
     if (!btn) return;
     const value = btn.dataset.state;
     const next = planStateOf(ev.key) === value ? "" : value; // tap active state to clear
-    applyState(ev.key, next, () => renderEvent(app, state, key));
+    applyState(ev.key, next, () => renderEvent(app, state, key)).catch(console.error);
   });
 }

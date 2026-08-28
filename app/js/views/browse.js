@@ -1,27 +1,10 @@
 import { esc } from "../html.js";
 import { filterEvents } from "../filter.js";
 import { cycle } from "../plan.js";
-import { setPlanState, planStateOf, allEvents } from "../store.js";
-import { showToast } from "../toast.js";
+import { planStateOf } from "../store.js";
+import { applyState } from "../actions.js";
 
 const STATE_ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
-
-// Shared by browse rows and the detail view: apply a state change and
-// surface a replaced pick with Undo (spec decision 11).
-export async function applyState(eventKey, newState, rerender) {
-  const replacedKey = await setPlanState(eventKey, newState);
-  rerender();
-  if (replacedKey) {
-    const replaced = allEvents().find((e) => e.key === replacedKey);
-    showToast(`Replaced pick: ${replaced?.title ?? "session"}`, {
-      actionLabel: "Undo",
-      onAction: async () => {
-        await setPlanState(replacedKey, "pick"); // conflict logic clears the new pick
-        window.dispatchEvent(new Event("setlist:rerender")); // re-render whatever view is current
-      },
-    });
-  }
-}
 
 export function renderBrowse(app, state) {
   const { model, browse } = state;
@@ -67,7 +50,7 @@ function daySelector(model, browse) {
 }
 
 function select(id, label, options, value) {
-  return `<select id="${id}" aria-label="${label}">
+  return `<select id="${id}" aria-label="${esc(label)}">
     <option value="">${label}</option>
     ${options
       .map((o) => `<option ${o === value ? "selected" : ""} value="${esc(o)}">${esc(o)}</option>`)
@@ -104,6 +87,6 @@ function wire(app, state) {
   app.querySelector(".events").addEventListener("click", (e) => {
     const btn = e.target.closest(".plan-btn");
     if (!btn) return;
-    applyState(btn.dataset.key, cycle(planStateOf(btn.dataset.key)), rerenderList);
+    applyState(btn.dataset.key, cycle(planStateOf(btn.dataset.key)), rerenderList).catch(console.error);
   });
 }

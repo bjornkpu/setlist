@@ -4,6 +4,7 @@ export function showToast(message, { actionLabel = "", onAction = null, duration
   document.querySelector(".toast")?.remove();
   const el = document.createElement("div");
   el.className = "toast";
+  el.setAttribute("role", "status");
   const span = document.createElement("span");
   span.textContent = message;
   el.appendChild(span);
