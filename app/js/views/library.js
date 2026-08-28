@@ -6,6 +6,7 @@ import {
   listProviders,
   addProvider,
   removeProvider,
+  rememberProviderName,
 } from "../store.js";
 import { dbGetAll } from "../db.js";
 import { fetchIndex, splitByDate } from "../providers.js";
@@ -153,6 +154,11 @@ async function browseProvider(li) {
   } catch (err) {
     box.innerHTML = `<p class="error">Could not load provider index: ${esc(err.message)}. The host may block browser requests (CORS) or you are offline.</p>`;
     return;
+  }
+  if (index.name) {
+    const title = li.querySelector(".card-main .title");
+    if (title) title.textContent = index.name;
+    rememberProviderName(li.dataset.provider, index.name).catch(console.error);
   }
   const today = new Date(now()).toLocaleDateString("sv-SE");
   const { upcoming, past } = splitByDate(index.schedules, today);

@@ -107,6 +107,7 @@ export async function removeSchedule(key) {
   } catch {
     // storage unavailable; nothing to remove
   }
+  if (getSetting("activeSchedule") === key) setSetting("activeSchedule", "");
   if (state.scheduleKey === key) {
     state.model = null;
     state.scheduleKey = "";
@@ -149,6 +150,16 @@ export async function removeProvider(provider) {
   }
   try {
     await dbDelete("providers", provider.key);
+  } catch {
+    // storage unavailable
+  }
+}
+
+// Persist the display name a provider's index reported (first browse).
+export async function rememberProviderName(key, name) {
+  if (!name || key === DEFAULT_PROVIDER) return;
+  try {
+    await dbPut("providers", { key, url: key, name });
   } catch {
     // storage unavailable
   }
