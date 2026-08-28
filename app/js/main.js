@@ -1,29 +1,9 @@
-import { normalize } from "./schedule.js";
 import { renderBrowse } from "./views/browse.js";
 import { renderEvent } from "./views/event.js";
 import { esc } from "./html.js";
+import { state, activate, restoreLast } from "./store.js";
 
 const app = document.getElementById("app");
-
-export const state = {
-  model: null,
-  sourceUrl: "",
-  browse: { dayIndex: 0, room: "", track: "", q: "" },
-};
-
-function defaultDayIndex(model) {
-  const today = new Date().toLocaleDateString("sv-SE"); // sv-SE = YYYY-MM-DD, local time
-  const i = model.days.findIndex((d) => d.date === today);
-  return i === -1 ? 0 : i;
-}
-
-function activate(model, sourceUrl) {
-  state.model = model;
-  state.sourceUrl = sourceUrl;
-  state.browse = { dayIndex: defaultDayIndex(model), room: "", track: "", q: "" };
-  location.hash = "#/browse";
-  route();
-}
 
 async function loadSchedule(url) {
   app.innerHTML = `<p class="status pad">Loading…</p>`;
@@ -48,11 +28,13 @@ async function loadSchedule(url) {
     return;
   }
   try {
-    activate(normalize(json), url);
+    await activate(json, { url });
   } catch (e) {
     renderLoadScreen(`${url}: ${e.message}`);
     return;
   }
+  location.hash = "#/browse"; // phase 4: glance claims #/
+  route();
   // strip ?url= after a successful load so reload/share links stay clean
   if (new URLSearchParams(location.search).has("url")) {
     history.replaceState(null, "", location.pathname + location.hash);
@@ -81,7 +63,9 @@ function renderLoadScreen(error = "") {
     const file = e.target.files[0];
     if (!file) return;
     try {
-      activate(normalize(JSON.parse(await file.text())), file.name);
+      await activate(JSON.parse(await file.text()), { fromFile: true, label: file.name });
+      location.hash = "#/browse"; // phase 4: glance claims #/
+      route();
     } catch (err) {
       renderLoadScreen(`Import failed: ${err.message}`);
     }
@@ -114,5 +98,5 @@ const startUrl = new URLSearchParams(location.search).get("url");
 if (startUrl) {
   loadSchedule(startUrl);
 } else {
-  route();
+  restoreLast().then(route);
 }

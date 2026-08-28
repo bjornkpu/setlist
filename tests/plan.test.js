@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { overlaps, stateOf, cycle, setState } from "../app/js/plan.js";
+import { scheduleKeyFor } from "../app/js/store.js";
 
 const ev = (key, start, end) => ({ key, start, end });
 const A = ev("a", 100, 200);
@@ -64,4 +65,12 @@ test("re-picking the same event is a no-op replace", () => {
   const { entries, replacedKey } = setState(one, A, "pick", all);
   assert.deepEqual(entries, { a: "pick" });
   assert.equal(replacedKey, null);
+});
+
+test("scheduleKeyFor: URL loads key on the URL, file imports on identity", () => {
+  const json = { schedule: { conference: { acronym: "fagfest2026", title: "Fagfestival 2026", start: "2026-08-26" } } };
+  assert.equal(scheduleKeyFor(json, "https://x/s.json", false), "https://x/s.json");
+  assert.equal(scheduleKeyFor(json, "", true), "file:fagfest2026:2026-08-26");
+  const noAcr = { schedule: { conference: { title: "T", start: "2026-01-01" } } };
+  assert.equal(scheduleKeyFor(noAcr, "", true), "file:T:2026-01-01");
 });
