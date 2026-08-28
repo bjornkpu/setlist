@@ -3,7 +3,7 @@
   --bg: #ffffff;
   --muted: #666;
   --line: #e2e2e2;
-  --accent: #0a5;
+  --accent: #0a7a44;
 }
 
 * { box-sizing: border-box; }
@@ -86,3 +86,4 @@ body {
 #load-form button { background: var(--accent); color: #fff; border-color: var(--accent); }
 .or { color: var(--muted); }
 .days button { min-height: 40px; }
+.events a > span, .detail p { overflow-wrap: anywhere; }
