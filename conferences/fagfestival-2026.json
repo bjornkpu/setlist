@@ -1,0 +1,1213 @@
+{
+  "schedule": {
+    "version": "1.0",
+    "conference": {
+      "title": "Fagfestival 2026",
+      "acronym": "fagfest2026",
+      "start": "2026-08-26",
+      "end": "2026-08-26",
+      "daysCount": 1,
+      "timeslot_duration": "00:05",
+      "time_zone_name": "Europe/Oslo",
+      "rooms": [
+        "Fellesareal",
+        "Spor 1 - Woodstack",
+        "Spor 2 - tons of data",
+        "Spor 3 - palmesaas",
+        "Spor 4 - Ninjarock",
+        "Spor 5 - Devopalooza",
+        "Spor 6 - cloudchella"
+      ],
+      "days": [
+        {
+          "index": 0,
+          "date": "2026-08-26",
+          "day_start": "2026-08-26T09:00:00+02:00",
+          "day_end": "2026-08-26T23:00:00+02:00",
+          "rooms": {
+            "Fellesareal": [
+              {
+                "guid": "8540a437-f967-5202-9688-26f61f3a176c",
+                "id": 1,
+                "date": "2026-08-26T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-1-rod-loper-registrering-og-mingling",
+                "title": "Rød løper, registrering og mingling",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e1d1a1c6-4948-51be-865e-1b69662e732d",
+                "id": 2,
+                "date": "2026-08-26T10:00:00+02:00",
+                "start": "10:00",
+                "duration": "00:50",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-2-velkommen-key-note",
+                "title": "Velkommen key-note",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "KI utfordrer markedet, kundene og faget vårt raskere enn noen gang. La oss begynne dagen med å snakke ærlig om hva det betyr for oss. Mette Wam og Stig Carlsen ønsker velkommen og sparker i gang Fagfestivalen 2026. Deretter leder Henrik Slettene oss gjennom samtalen om hvordan KI påvirker oss som konsulentselskap. Vi er ikke ferdige med å avsløre hvem som står på scenen.\nFølg med!",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0cf733b7-6d76-54d4-8d84-2a4fc66ef294",
+                "id": 9,
+                "date": "2026-08-26T12:00:00+02:00",
+                "start": "12:00",
+                "duration": "00:50",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-9-lunsj",
+                "title": "Lunsj",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "Alle innlegg leveres av våre egne dyktige kollegaer – dette er kompetanseheving av og for Crayon Consulting.",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "25800111-3e89-582f-a211-efedc2e0458e",
+                "id": 28,
+                "date": "2026-08-26T14:25:00+02:00",
+                "start": "14:25",
+                "duration": "00:20",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-28-pause-og-mingling",
+                "title": "Pause og mingling",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b97f0230-bd8c-58f2-b111-3d79b01147ad",
+                "id": 47,
+                "date": "2026-08-26T16:30:00+02:00",
+                "start": "16:30",
+                "duration": "00:30",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-47-one-day-down-zero-regrets",
+                "title": "One Day down. Zero regrets",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0623d49d-5a5e-522c-ae72-792c59c15d25",
+                "id": 48,
+                "date": "2026-08-26T17:00:00+02:00",
+                "start": "17:00",
+                "duration": "06:00",
+                "room": "Fellesareal",
+                "slug": "fagfest2026-48-middag-og-fest-mammas-pizza",
+                "title": "Middag og fest — MAMMAS PIZZA",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "Etter en inspirerende fagdag forflytter vi oss til nabopuben\nMAMMAS PIZZA, hvor vi byr på god mat & drikke, musikk, spill og topp stemning!",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 1 - Woodstack": [
+              {
+                "guid": "33f01c3b-9e16-55a3-abbf-106ca2721ed9",
+                "id": 3,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-3-statsbudsjettet-copilot-studio-i-praksis",
+                "title": "Statsbudsjettet - Copilot Studio i praksis",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hva funker, hva gikk i dass og hva virker sånn passe bra. En praktisk erfaring med Copilot Studio.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 1,
+                    "public_name": "Kjetil Gullen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e0374426-d832-5a51-99fa-f11bc085996e",
+                "id": 10,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-10-fra-kaos-til-kontroll-multicloud-spend",
+                "title": "Fra kaos til kontroll - multicloud spend med FOCUS",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Multicloud gir fleksibilitet og forebygger vendor lock-in, men også et lappeteppe av kostnadsoversikter. I dette innlegget viser vi hvordan FOCUS-rammeverket fra FinOps Foundation, kombinert med skyagnostiske verktøy, gir reell kontroll over kostnader på tvers av plattformer.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 8,
+                    "public_name": "Kristina Kvalheim"
+                  },
+                  {
+                    "id": 9,
+                    "public_name": "Audun Lien"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "74463988-01f9-5bab-aa73-18f167b85b72",
+                "id": 16,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-16-foundation-generative-models-in-biometrics",
+                "title": "Foundation & Generative Models in Biometrics",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Foundation models (CLIP, GPT m.fl.) endrer biometri og identitetsverifisering. Sesjonen dekker bruken av generative modeller til ansiktsgjenkjenning, presentasjonsangrep og anti-spoofing — og hvorfor kombinasjonen av foundation models og biometri åpner nye muligheter og nye risikoer.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 16,
+                    "public_name": "Ahmad Hassanpour"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e480dd8a-2331-5469-8bde-ccab1e27dd19",
+                "id": 22,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-22-tilde-jira-wrestling-tverrfaglig-samarbeid",
+                "title": "Tilde - Jira wrestling & tverrfaglig samarbeid",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvordan det største digitaliseringsprosjektet noensinne for Miljødirektoratet organiserer arbeid, og jobber med en løsning som er i drift samtidig som ny funksjonalitet skapes. En ærlig fortelling om Jira wrestling, tverrfaglig samarbeid og hva som faktisk holder en kompleks leveranse i gang.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 22,
+                    "public_name": "Frode Bjerved"
+                  },
+                  {
+                    "id": 23,
+                    "public_name": "Caspar Høegh"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1ceffd0c-f42c-58ea-8b87-b1ff3a6e19d7",
+                "id": 29,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-29-agent-masterclass-out-of-the-box",
+                "title": "Agent Masterclass: Out of the Box → Out of this World",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Microsoft 365 Copilot er rullet ut — men hvordan går du fra «det funker greit as is» til å bygge utvidede løsninger som skaper ytterligere verdi? Altfor ofte fremstilles Copilot-utvidelser som enkle å lage. Denne sesjonen viser hva det faktisk tar, steg for steg.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 30,
+                    "public_name": "Christine Adriane Svendsrud"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "3226e983-0d4d-5eb8-9413-d21c9c30ada1",
+                "id": 35,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-35-jobb-smartere-med-copilot-tips-triks",
+                "title": "Jobb smartere med Copilot – tips, triks og beste praksis",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Microsoft Copilot er allerede tilgjengelig for alle — men brukes det riktig? I denne korte og praktiske økten deles konkrete tips, beste praksis og effektive prompt-teknikker som hjelper deg å jobbe smartere med Copilot i Teams, Outlook, Word og mer.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 34,
+                    "public_name": "Daniel Needlestone"
+                  },
+                  {
+                    "id": 20,
+                    "public_name": "Elsa Naumann"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "10f1c67f-59dc-57a5-a5b1-dc6d6724316e",
+                "id": 41,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 1 - Woodstack",
+                "slug": "fagfest2026-41-agentene-kommer-hva-skjer-med-teamarbeid",
+                "title": "Agentene kommer – hva skjer med teamarbeid?",
+                "subtitle": "",
+                "track": "Spor 1 - Woodstack",
+                "type": "session",
+                "language": "no",
+                "abstract": "Innlegget utforsker hvordan teamarbeid endres når virksomheter begynner å bruke KI-agenter som aktive deltakere i arbeidsprosesser, inspirert av Pascal Bornets tanker om Agentic Intelligence. Hva betyr det for roller, ansvar og samarbeid når agenten er en av teammedlemmene?",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 42,
+                    "public_name": "Gry Jordet Kibsgaard"
+                  },
+                  {
+                    "id": 43,
+                    "public_name": "Espen Sjøvold"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 2 - tons of data": [
+              {
+                "guid": "792ccdde-d668-59b0-b899-2853ba31179a",
+                "id": 4,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-4-zero-trust-power-couple",
+                "title": "Zero Trust Power Couple",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "en",
+                "abstract": "Zero Trust has been the industry mantra for years, but most implementations still stop at identity. Conditional Access policies guard the front door, yet once a user is authenticated, data flows freely. In this session we explore how pairing Identity Protection with Microsoft Purview Data Protection closes this gap — and why a layered approach is the only way to build true resilience in a modern workplace.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 2,
+                    "public_name": "Åsne Holtklimpen"
+                  },
+                  {
+                    "id": 3,
+                    "public_name": "Per Torben Sørensen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "da903037-5fa2-558d-be96-be9282db7522",
+                "id": 11,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-11-earned-intelligence",
+                "title": "Earned Intelligence",
+                "subtitle": "From customer signal to a business that scales",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "en",
+                "abstract": "Optimizing what customers already run turns out to be the fastest, credible path to innovating what they do next. We didn’t guess at demand — we followed the signal, and let vendors and customers co-fund the build.\nClose to 1,000 customers, the first Cloud Performance Lab deliveries and a multi-million-dollar AMD partnership later, the next ambition is bigger: making the data we already hold a business in its own right. A session on how “Optimize to Innovate” actually works in practice.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 10,
+                    "public_name": "Frederik Munthe"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7620d336-e1c2-554c-bf53-1b2335392b5c",
+                "id": 17,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-17-dataplattformarkitektur-hvorfor-trenger-vi-det",
+                "title": "Dataplattformarkitektur - hvorfor trenger vi det?",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvorfor trenger man en arkitektur rundt dataplattform, og hva har vi egentlig i dag? Er dette fortsatt nødvendig i en verden der KI kan generere kode og pipelines? En gjennomgang av grunnprinsipper og praktiske erfaringer.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 17,
+                    "public_name": "Audun Kaul Jenssen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "01c45f23-9b3f-59fe-a8e8-b8cdcf22d9fc",
+                "id": 23,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-23-avd-cloud-native-no-hybrid",
+                "title": "AVD Cloud native - no hybrid",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "no",
+                "abstract": "En praktisk gjennomgang av hvordan vi har bygget et fullverdig service provider-miljø hos Norconsult Digital, hvor GIS-tjenester leveres til norske kommuner via Azure Virtual Desktop – helt uten hybrid AD. Vi viser hvordan vi har realisert en ren cloud native-tilnærming med Windows 11, FSLogix, Entra ID (cloud Kerberos) og multi-tenant oppsett med gjestebrukere. Alt er 100 % automatisert med Terraform – fra infrastruktur til brukerinvitasjon og livssyklus. I tillegg deler vi erfaringer og perspektiver på hvordan AI kan brukes til videre optimalisering av drift og forvaltning.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 24,
+                    "public_name": "Endre Ingesund"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "f3556572-b9da-5560-b803-46e1d8115d12",
+                "id": 30,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-30-agenter-som-applikasjoner",
+                "title": "Agenter som applikasjoner",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "no",
+                "abstract": "AI-agenter er ikke lenger bare prompts og løse API-kall. De planlegger, bruker tools, holder kontekst over tid, tar beslutninger, kaller andre agenter og kjører i flere steg, ofte med mennesker i loopen. Det stiller helt andre krav til arkitektur, observability og evaluering enn en vanlig chatbot.Hos Vercel bruker vi agenter for å effektivisere våre egne workflows, og i denne talken deler jeg hvordan vi tenker rundt det internt. Vi ser på agent-arkitektur som software-arkitektur, og bygger noe sammen med Vercels nye Agent-stack. For alle som lager applikasjoner i dag, ikke bare React-utviklere.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 31,
+                    "public_name": "Aurora Scharff"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2fb867e2-bdcb-5c8d-a00b-f6aa912f9dfb",
+                "id": 36,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-36-skulle-hatt-mer-eierskap-og-prosess",
+                "title": "Skulle hatt mer eierskap og prosess, takk!",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "no",
+                "abstract": "«Hjelp! Vi skal også bli datadrevne, og vi trenger en dataplattform. Hva skal vi kjøpe? Databricks, Fabric eller Snowflake?» Jeg har sittet i mange kundemøter hvor det er for mye fokus på teknologi og for lite på eierskap og leveranseprosesser etc. Teknologien er sjelden problemet.. det vanskeligste å endre er folk og prosesser. Denne sesjonen vil inneholde noen hjertesukk fra en som har vært i \"gamet\" lenge og forslag til en prosess for å skalere med en dataplattform",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 35,
+                    "public_name": "Torgeir Sesseng"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ccc30d68-cb86-5f13-9b1e-291bf167bb0f",
+                "id": 42,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 2 - tons of data",
+                "slug": "fagfest2026-42-du-sa-waf-orno",
+                "title": "Du sa WAF'orno",
+                "subtitle": "",
+                "track": "Spor 2 - tons of data",
+                "type": "session",
+                "language": "no",
+                "abstract": "En gjennomgang av hva en Web Application Firewall er, hvorfor den trengs, og hvordan den skiller seg fra en tradisjonell brannmur. Vi viser hvordan WAF er implementert i Norconsult Digital, og hvordan vi har bygget en AI-støttet løsning i GitHub som analyserer logger, identifiserer false positives og foreslår forbedringer av regelsett.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 24,
+                    "public_name": "Endre Ingesund"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 3 - palmesaas": [
+              {
+                "guid": "891cdbe5-ef88-5634-8d6e-c5722edb53e8",
+                "id": 5,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-5-claude-cowork-din-autonome-ai-kollega",
+                "title": "Claude Cowork - din autonome AI-kollega",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "Claude Cowork er en agentisk AI-assistent som kjøres direkte på skrivebordet ditt. Du dikterer oppgaver — Claude utfører dem: åpner apper, navigerer nettsider, leser dokumenter og skriver svar på dine vegne. Sesjonen viser hvordan du delegerer reell arbeidsflyt til en autonom agent, og hva det faktisk betyr for hverdagen som konsulent.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 4,
+                    "public_name": "Mohammad Yassin"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "834a1eda-1f02-5185-b3ac-53a8615ef52b",
+                "id": 12,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-12-signal-over-noise-deteksjonsengineering-og-incident",
+                "title": "Signal Over Noise: Deteksjonsengineering og Incident Response i Real-World MDR case",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hva skjer når alarmen faktisk utløses — og ingen ser den? Sebastian tar deg inn i hvordan en reell SOC fungerer som kundens dedikerte sikkerhetsavdeling: datainnsamling på tvers av identitet, nettverk og skymiljøer, og hvorfor verktøy som Microsoft Defender aldri er nok alene. Kjernen i sesjonen er et reelt, komplekst cyberangrep — analysert steg for steg, fra første indikasjon til ferdig rapport.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 11,
+                    "public_name": "Sebastian Dommersnes"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0a53d35c-318c-5651-bfde-728302ec2130",
+                "id": 18,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-18-kubernetes-operator-sdk",
+                "title": "Kubernetes Operator SDK",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "En kort kundehistorie, kontekst og hvorfor Kubernetes Operator SDK er platform-ingeniørens hemmelige våpen. Vi går gjennom generelle konsepter, hvordan du bruker SDK-et i praksis, og hva det faktisk løser for deg som jobber medplattform-automatisering.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 18,
+                    "public_name": "Håvard Stavnås Markhus"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e254c9a8-b557-57e2-9843-0a363127c2a9",
+                "id": 24,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-24-data-governance-hot-or-not",
+                "title": "Data governance - hot or not",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "AI, analyse og datadrevne beslutninger lover stadig mer verdi — men forutsetningene tas for gitt. Én av dem er data governance. Dette foredraget utforsker hva data governance egentlig betyr i 2026, hvorfor det fortsatt er vanskelig, og hva som faktisk hjelper.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 25,
+                    "public_name": "David Aas Correia"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a2936fd4-e7c1-5f54-85d8-0a2641ab3bc9",
+                "id": 31,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-31-from-raw-images-to-ai-inspection",
+                "title": "From Raw Images to AI Inspection (Norsk Kylling)",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "en",
+                "abstract": "We built an end-to-end computer vision system for automatic quality control of slaughtered chickens at Norsk Kylling. The talk covers the full project: raw images from multi-camera rigs, labelling pipelines, model training and deployment — and what we learned about building AI inspection systems in a real industrial setting.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 32,
+                    "public_name": "Alessio Cavazzoni"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "468a38f2-3530-5545-a171-e20a303e39f7",
+                "id": 37,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-37-hold-applikasjoner-oppdatert-med-patch-my",
+                "title": "Hold applikasjoner oppdatert med Patch My PC Cloud",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "Tredjeparts applikasjoner er en av de mest tidkrevende oppgavene i endpoint-forvaltning — oppdateringer, pakking, utrulling, om og om igjen. Per Helge viser hvordan MCS bruker Patch My PC Cloud til å automatisere hele løpet i et multi-tenant miljø: fra innpakking til distribusjon, uten manuelt arbeid i mellom. En praktisk gjennomgang av hvordan du frigjør tid til det som faktisk krever menneskelig vurdering.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 36,
+                    "public_name": "Per Helge Soot"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "21b019d9-5dcc-5d7e-8a07-e5110f12ff8d",
+                "id": 43,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 3 - palmesaas",
+                "slug": "fagfest2026-43-vibe-coding-data-pipeline-snowflake-cortex",
+                "title": "Vibe coding data pipeline – Snowflake Cortex Code",
+                "subtitle": "",
+                "track": "Spor 3 - palmesaas",
+                "type": "session",
+                "language": "no",
+                "abstract": "En teknisk, praktisk presentasjon av Snowflake Cortex Code — et relativt nytt copilot-verktøy. Vi viser hvordan du med AI-assistert koding og «Code First»-verktøy kan bygge datapipelines raskere, og hva som faktisk er nyttig versus hype.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 44,
+                    "public_name": "Lars Ritland"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 4 - Ninjarock": [
+              {
+                "guid": "e29bd3df-b1ca-5fb8-a223-9b1121188674",
+                "id": 6,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-6-slik-bruker-du-ki-til-a",
+                "title": "Slik bruker du KI til å produsere sikrere kode",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "Dette foredraget fokuserer på hvordan utviklere kan bruke KI-verktøy som GitHub Copilot og Claude Code til å utvikle mer robuste og sikrere systemer. Du får konkrete eksempler på bruk av KI til å gjøre sikkerhetsvurderinger, kode-analyse og avdekke sårbarheter, samt eksempler på bruk av skills og agenter.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 5,
+                    "public_name": "Per Kristian Juvstad"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e80e8400-91b9-5271-863d-7d174ca8f27b",
+                "id": 13,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-13-data-engineering-zero-etl-ai-og",
+                "title": "Data Engineering: Zero-ETL, AI og de sørgellige restene",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "De siste årene har Zero-ETL, AI-drevet automatisering og utvikling endret hverdagen til data engineers. Vi deler ærlige erfaringer: hva som faktisk fungerer, hva som er hype, og hva som er igjen av den tradisjonelle data engineer rollen i en verden der AI tar mer og mer plass.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 12,
+                    "public_name": "Marius Høgli Aasarød"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "70ac9da9-1d7f-537a-b746-286714d053f5",
+                "id": 19,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-19-nar-alt-ble-xaas-hva-skjedde",
+                "title": "Når alt ble XaaS, hva skjedde egentlig med nettverket?",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "I mange år bygget vi nettverk som om alt viktig lå trygt på innsiden — og så forsvant alt ut i skyen. Eirik forklarer hva som faktisk skjedde med nettverksleveransen da applikasjonene forlot datasenteret: hvorfor den gamle hub-and-spoke-modellen sluttet å gi mening, og hvordan lokal breakout, SD-WAN og SASE tok over. Du får en konkret gjennomgang av hvordan identitet ble dennye perimeteren, og hva det betyr for måten vi leverer og sikrer nettverk på i dag.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 19,
+                    "public_name": "Eirik Nerlie"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "987a0237-51d0-5b6b-941a-f1a11b2d113c",
+                "id": 25,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-25-promt-less-skip-more",
+                "title": "Promt Less, Skip more",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "LLM-verktøy blir bedre, men også dyrere å kjøre. Etter hvert som AI-tjenester går over til bruksbasert fakturering, må utviklere tenke utover prompt-triks. Sesjonen viser konkrete teknikker for å redusere token-forbruk, forbedre svarkvalitet og bygge AI-løsninger som er bærekraftige i produksjon.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 26,
+                    "public_name": "Delvin Duldulao"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0f67c17a-e1cb-50b3-9e71-7b6c677dad7a",
+                "id": 32,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-32-this-time-they-will-finally-realize",
+                "title": "This time, they will finally realize I'm a fraud.",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "en",
+                "abstract": "Imposter Syndrome is one of our industry's most prevalent issues. Regardless of background, education, or experience, most of us have been afflicted by it at one point or another. This session explores what it is, why it happens in tech, and — more importantly — what you can actually do about it.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 13,
+                    "public_name": "Eugene Romero"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "776b7622-6076-5f17-84b3-f8d8e7d8c31a",
+                "id": 38,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-38-20-000-brukere-pa-power-platform",
+                "title": "20.000 brukere på Power Platform: Slik bygde vi Oslos nye sommerskoleportal",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvordan bygger man en løsning som skal håndtere påmelding, kommunikasjon og administrasjon for titusenvis av elever og foresatte, på kort tid? I dette foredraget viser vi hvordan vi bygde Sommerskolen Oslos nye påmeldingsløsning med Power Pages, Dataverse, Dynamics 365 og Customer Insights - Journeys. Vi deler arkitekturvalgene vi tok, hva som fungerte og hva vi ville gjort annerledes, og konkrete læringspunkter du kan ta med deg i alt fra innbyggerportaler til kunde- og medlemsløsninger.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 37,
+                    "public_name": "Torill Svantorp"
+                  },
+                  {
+                    "id": 38,
+                    "public_name": "Sindre Furulund"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ab61568a-eac0-5c4f-91c6-07a74920b637",
+                "id": 44,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 4 - Ninjarock",
+                "slug": "fagfest2026-44-rammeverk-for-dataplattformer-i-fabric",
+                "title": "Rammeverk for dataplattformer i Fabric",
+                "subtitle": "",
+                "track": "Spor 4 - Ninjarock",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvordan sette opp et metadata-drevet rammeverk for dataplattformer i Microsoft Fabric, installere det hos ny kunde og legge til nye features. En praktisk gjennomgang av det vi har lært om å standardisere leveranser på Fabric.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 45,
+                    "public_name": "Daniel Andreassen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 5 - Devopalooza": [
+              {
+                "guid": "ad6e1f1d-5d8d-552a-9e86-b4aef45eb23c",
+                "id": 7,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-7-the-rise-of-governance-data-ai",
+                "title": "The Rise of Governance Data → AI → Beslutninger",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "no",
+                "abstract": "Data startet det. AI satte fart på det. Beslutninger gjorde governance til en C-suite-sak. Når AI får en større rolle i virksomheten, handler governance om mer enn data og kontroll. Det handler om hvordan vi tar strategiske beslutninger – og hvordan vi sikrer at de er gode, trygge og ansvarlige.\nGovernance har blitt strategisk.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 6,
+                    "public_name": "Andrew Skulstad-Watson"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "161052fe-f6b1-55ff-87e6-9c8f7ac2981f",
+                "id": 14,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-14-an-unpopular-opinion-get-rid-of",
+                "title": "An unpopular opinion: Get rid of Pull Requests!",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "no",
+                "abstract": "Pull Requests — love them or hate them, de er en integrert del av hverdagen som utvikler. Men er PRs virkelig gullstandarden for god kode? Ville et PR-fritt miljø heve kvaliteten, eller er det kaos som venter? Eugene tar en upopulær posisjon og utfordrer deg til å tenke nytt om en av bransjens helligste praksiser.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 13,
+                    "public_name": "Eugene Romero"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a0ac6a59-5ae6-5ad5-ab4b-ef5251973a4e",
+                "id": 20,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-20-urgent-access-without-security-compromise",
+                "title": "Urgent access without security compromise!",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "en",
+                "abstract": "Your Lead Architect is abroad on holiday. A critical incident hits a highly sensitive project. Do you lower your security bar to let them in — or keep the door locked and risk the project?You don't have to choose. Åse and Per-Torben show how Microsoft Entra and Purview work together to solve the security-vs-availability paradox.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 2,
+                    "public_name": "Åsne Holtklimpen"
+                  },
+                  {
+                    "id": 3,
+                    "public_name": "Per Torben Sørensen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "57d4f25f-6885-5a73-b7af-2b82aa298c6e",
+                "id": 26,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-26-lopende-ai-kostnader-hvordan-far-vi",
+                "title": "Løpende AI-kostnader - hvordan får vi kontroll?",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "no",
+                "abstract": "FinOps for AI: Hvordan kan vi bistå kunder med å ha kontroll på løpende AI-kostnader? En praktisk gjennomgang av verktøy, mønstre og grep som faktisk hjelper når KI-regningen begynner å vokse.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 27,
+                    "public_name": "Sunniva G. Framnes"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "895cf46a-0373-5c6a-8a4c-3a9d966ee6b0",
+                "id": 33,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-33-minimum-viable-governance",
+                "title": "Minimum viable governance",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "no",
+                "abstract": "Mange virksomheter har etablert en dataplattform som gradvis kobles på flere datakilder og forretningsområder. Plattformen skalerer teknisk, men bruken gjør ikke det. Denne sesjonen handler om minimum viable governance: hva du faktisk trenger for å gjøre dataplattformen nyttig. Vi knytter det mot kundecase med akkurat denne metodikken, og viser hvordan vi flytter dataplattformprosjekt fra IT-prosjekt til virksomhetsprosjekt.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 33,
+                    "public_name": "Thomas Blichfeldt"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "9d1d1785-bd9d-58fc-9309-536b0d9d09ff",
+                "id": 39,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-39-agentic-ai-orchestration-langgraph",
+                "title": "Agentic AI orchestration – LangGraph",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "en",
+                "abstract": "Orchestration has been a core concept in software systems for years, from business processes to cloud-native workflows. In this session, we’ll explore the fundamental principles behind orchestration, how they translate to AI agent systems, and why these concepts matter when building reliable agentic applications. We’ll finish with a practical demonstration of implementing agent orchestration using LangGraph.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 39,
+                    "public_name": "Milos Malic"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "35658acb-38c2-5f16-874a-ed8e9c9e580c",
+                "id": 45,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 5 - Devopalooza",
+                "slug": "fagfest2026-45-why-it-consultants-must-love-science",
+                "title": "Why IT consultants must love science fiction",
+                "subtitle": "",
+                "track": "Spor 5 - Devopalooza",
+                "type": "session",
+                "language": "no",
+                "abstract": "Teknologien vi bygger i dag ble først forestilt i science fiction. Dette foredraget viser hvorfor evnen til å tenke som en sci-fi-forfatter er bra for IT-konsulenter som skal definere morgendagens løsninger. Med eksempler fra litteraturen og fra virkelige prosjekter.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 22,
+                    "public_name": "Frode Bjerved"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Spor 6 - cloudchella": [
+              {
+                "guid": "824f4cd6-2879-55d9-bac7-41a30bd1280c",
+                "id": 8,
+                "date": "2026-08-26T11:10:00+02:00",
+                "start": "11:10",
+                "duration": "00:50",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-8-code-first-power-platform-generativ-ki",
+                "title": "Code First! Power Platform + generativ KI",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "I denne sesjonen får du en introduksjon til hvordan du kan bruke GitHub Copilot, Claude Code og andre AI-verktøy til å lage løsninger for Power Platform. Vi bygger Power Apps Code Apps, Generative Pages og Power Pages og vi lar agenter bygge dem med kode. Sesjonen passer for deg som er lavkode-utvikler eller utvikler, og som ønsker en introduksjon til hvordan benytte KI-verktøy for å bygge løsninger for Power Platform. Dette er en teknisk sesjon.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 7,
+                    "public_name": "Petter Skodvin-Hvammen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "78e3779c-2a62-537c-9d8e-44583840d114",
+                "id": 15,
+                "date": "2026-08-26T12:50:00+02:00",
+                "start": "12:50",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-15-a-vaere-ny-i-it-i",
+                "title": "Å være ny i IT i en tid med AI",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvordan er det å starte en karriere innen IT samtidig som AI endrer måten vi lærer, programmerer og jobber på? Vi kan dele litt av våre erfaringer som lærlinger, og hvordan vi bruker AI som et verktøy for læring, problemløsing og utvikling.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 14,
+                    "public_name": "Kostiantyn Kharchenko"
+                  },
+                  {
+                    "id": 15,
+                    "public_name": "Felix Falldalen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "4b500713-d63e-5ccc-b785-4a172fe5f7ab",
+                "id": 21,
+                "date": "2026-08-26T13:25:00+02:00",
+                "start": "13:25",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-21-fra-den-stygge-andungen-til-den",
+                "title": "Fra Den Stygge Andungen til den hypermoderne Svaneboten",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "Dette foredraget handler om arbeidet for Gjøvik kommune og hvordan vi effektiviserte virksomheten — først med innføring av Teams, etablering av struktur og opplæring, for til slutt introdusere Svaneboten - en agent som kan svare på spørsmål og automatisere oppgaver. En reell case om hva som fungerer når offentlig sektor møter agentisk AI i Microsoft 365.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 20,
+                    "public_name": "Elsa Naumann"
+                  },
+                  {
+                    "id": 21,
+                    "public_name": "Tarjei Ormestøyl"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "d4d22d7d-6c3e-5bf1-b347-67c0a3759ed6",
+                "id": 27,
+                "date": "2026-08-26T14:00:00+02:00",
+                "start": "14:00",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-27-what-is-the-weight-of-gravity",
+                "title": "What is the weight of Gravity?",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "Hvordan kan erfaringer og læring fra ett prosjekt skape verdi i det neste prosjektet?\nVi ser på en arbeidsmåte som gjør det enklere å gjenbruke kunnskap, metoder og løsninger på tvers av prosjekter – slik at mindre tid går til repetitive oppgaver, og mer tid kan brukes på kreativt og prosjektspesifikt arbeid.\nInnholdet er særlig relevant for utviklere og designere, men er lagt opp for å være nyttig og forståelig for alle som jobber med konsulentleveranser.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 28,
+                    "public_name": "Nicklas Båkind-Øverjorde"
+                  },
+                  {
+                    "id": 29,
+                    "public_name": "Kristian Haugsrud"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "84b0c66c-dc2d-5eaa-a928-9d2be22bb467",
+                "id": 34,
+                "date": "2026-08-26T14:45:00+02:00",
+                "start": "14:45",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-34-introduksjon-til-spesifikasjonsdrevet-utvikling",
+                "title": "Introduksjon til spesifikasjonsdrevet utvikling",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "Når KI-agentene tar over utviklingsjobben, blir det viktigere å sette rammene for hva som skal lages og hvordan. Denne sesjonen gir en innføring i spec driven development: hvordan du skriver spesifikasjoner som KI-agenter faktisk kan jobbe med, og hvorfor det er fremtidens viktigste utviklerkompetanse.\nVi diskuterter ulike rammeverk og generell metode, tips-og-triks for å ta steget fra prompt-drevet (vibe-koding) utvikling til spesifikasjonsdrevet utvikling, hvor agentene analyserer behov, utformer kravspesifikasjon, planlegger implementeringen, bygger og tester. Dette er primært en sesjon for utviklere og arkitekter som allerede benytter KI-verktøy i utvikling.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 7,
+                    "public_name": "Petter Skodvin-Hvammen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1940b584-431a-5c3a-bf8c-4ddc42caf863",
+                "id": 40,
+                "date": "2026-08-26T15:20:00+02:00",
+                "start": "15:20",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-40-fra-ressurs-til-radgiver-trygghet-kommunikasjon",
+                "title": "Fra ressurs til rådgiver – trygghet, kommunikasjon og refleksjon i konsulentrollen.",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "I denne talken, ser vi nærmere på hvordan kommunikasjonsstil, trygghet og evnen til å reflektere over mindset former samhandlingen med både team og kunde. Bevissthet og refleksjon rundt adferd.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 40,
+                    "public_name": "Terese Skeide"
+                  },
+                  {
+                    "id": 41,
+                    "public_name": "Jan Vegard Westreng"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "117c68a7-3f2f-5bd8-8c08-469657e6fc69",
+                "id": 46,
+                "date": "2026-08-26T15:55:00+02:00",
+                "start": "15:55",
+                "duration": "00:25",
+                "room": "Spor 6 - cloudchella",
+                "slug": "fagfest2026-46-lag-dine-egne-utviklingsverktoy",
+                "title": "Lag dine egne utviklingsverktøy",
+                "subtitle": "",
+                "track": "Spor 6 - cloudchella",
+                "type": "session",
+                "language": "no",
+                "abstract": "Gjennom årene har vi brukt alle mulige utviklingsverktøy for å gjøre hverdagen enklere. Nå er turen kommet til å bygge dine egne. Sesjonen viser hvordan du lager skreddersydde verktøy med moderne teknologi — fra idé til ferdig CLI eller plugin.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 46,
+                    "public_name": "Viktor Kjartansson"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
