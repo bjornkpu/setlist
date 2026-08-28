@@ -157,5 +157,20 @@ class IdTests(unittest.TestCase):
         self.assertTrue(any(".id" in p for p in paths(report)))
 
 
+class RoomTests(unittest.TestCase):
+    def test_case_variant_room_names_is_error(self):
+        root = base_schedule()
+        rooms = root["schedule"]["conference"]["days"][0]["rooms"]
+        ev = make_event(9, "13:00", "00:50", "sal 1")
+        rooms["sal 1"] = [ev]
+        report = run(root)
+        self.assertTrue(any("case" in m.lower() for lvl, p, m in report.findings if lvl == "ERROR"))
+
+    def test_event_room_mismatching_map_key_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["room"] = "Sal 2"
+        self.assertTrue(any(p.endswith("[0].room") for p in paths(run(root))))
+
+
 if __name__ == "__main__":
     unittest.main()

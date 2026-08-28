@@ -192,6 +192,32 @@ def check_ids(conf, report):
 CHECKS.append(check_ids)
 
 
+def check_rooms(conf, report):
+    spellings = {}  # casefolded name -> set of exact spellings
+    for di, day in enumerate(conf.get("days") or []):
+        rooms = day.get("rooms")
+        if not isinstance(rooms, dict):
+            continue
+        for room_name in rooms:
+            spellings.setdefault(room_name.casefold(), set()).add(room_name)
+    for folded, variants in spellings.items():
+        if len(variants) > 1:
+            report.error(
+                "schedule.conference.days[].rooms",
+                f"room name written with inconsistent case: {sorted(variants)}",
+            )
+    for path, day, room_name, event in iter_events(conf):
+        ev_room = event.get("room")
+        if ev_room not in ("", None) and ev_room != room_name:
+            report.error(
+                f"{path}.room",
+                f'event.room "{ev_room}" differs from containing rooms key "{room_name}"',
+            )
+
+
+CHECKS.append(check_rooms)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)
