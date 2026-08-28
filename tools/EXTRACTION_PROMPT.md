@@ -82,6 +82,7 @@ Replace `<max_id>` with one more than the highest event id, and `<acronym>` with
 - `room` spelling must be identical everywhere it appears (case-sensitive); must match the key in the containing `rooms` dict.
 - `daysCount` must equal the number of entries in `days`, which must cover `conference.start` through `conference.end` exactly (one day per calendar date in the range).
 - `persons` format: `[{"id": <n>, "public_name": "<name>"}]` — assign integer person ids sequentially (1, 2, 3, …), reusing the same id when the same speaker appears in multiple sessions.
+- Each event's `date` must fall within its containing day's `day_start` and `day_end` timestamps.
 - Non-session items (registration, lunch, breaks, keynote, closing, dinner) are ordinary events in room `Fellesareal` with `persons: []`.
 - No fields beyond the template are allowed; remove any extra fields.
 - No overlapping events in the same room.
