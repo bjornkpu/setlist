@@ -16,9 +16,12 @@ export function normalize(root) {
   if (!conf || typeof conf !== "object") {
     throw new Error("Not a frab schedule.json: missing schedule.conference");
   }
+  if (!Array.isArray(conf.days) || conf.days.length === 0) {
+    throw new Error("Not a frab schedule.json: no conference days");
+  }
   const rooms = [];
   const tracks = new Set();
-  const days = (Array.isArray(conf.days) ? conf.days : []).map((day, di) => {
+  const days = conf.days.map((day, di) => {
     const events = [];
     for (const [room, list] of Object.entries(day?.rooms ?? {})) {
       if (!Array.isArray(list)) continue;
@@ -53,7 +56,8 @@ function normalizeEvent(raw, room, dayIndex) {
   const key = String(raw.guid || raw.id || "");
   if (!key) return null;
   const parsed = Date.parse(raw.date ?? "");
-  const start = Number.isNaN(parsed) ? 0 : parsed;
+  if (Number.isNaN(parsed)) return null;
+  const start = parsed;
   const duration = HHMM.test(raw.duration ?? "") ? raw.duration : "00:00";
   const [dh, dm] = duration.split(":").map(Number);
   const startLabel = HHMM.test(raw.start ?? "") ? raw.start : "";
@@ -65,16 +69,16 @@ function normalizeEvent(raw, room, dayIndex) {
     startLabel,
     endLabel: startLabel ? addDuration(startLabel, duration) : "",
     room,
-    title: raw.title ?? "",
-    subtitle: raw.subtitle ?? "",
-    track: raw.track ?? "",
-    type: raw.type ?? "",
-    language: raw.language ?? "",
+    title: String(raw.title ?? ""),
+    subtitle: String(raw.subtitle ?? ""),
+    track: String(raw.track ?? ""),
+    type: String(raw.type ?? ""),
+    language: String(raw.language ?? ""),
     persons: (Array.isArray(raw.persons) ? raw.persons : [])
-      .map((p) => p?.public_name ?? "")
+      .map((p) => String(p?.public_name ?? ""))
       .filter(Boolean),
-    abstract: raw.abstract ?? "",
-    description: raw.description ?? "",
+    abstract: String(raw.abstract ?? ""),
+    description: String(raw.description ?? ""),
     links: Array.isArray(raw.links) ? raw.links : [],
   };
 }

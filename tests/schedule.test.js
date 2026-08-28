@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { normalize, addDuration } from "../app/js/schedule.js";
+import { filterEvents } from "../app/js/filter.js";
 
 test("addDuration adds HH:MM durations", () => {
   assert.equal(addDuration("11:10", "00:50"), "12:00");
@@ -99,6 +100,32 @@ test("normalize treats out-of-range duration as 00:00", () => {
   const m = normalize(f);
   const d = m.days[0].events.find((e) => e.title === "D talk");
   assert.equal(d.end, d.start);
+});
+
+test("normalize drops events with an unparseable date", () => {
+  const f = fixture();
+  f.schedule.conference.days[0].rooms["Sal 1"].push({
+    guid: "g5", id: 5, date: "garbage",
+    start: "14:00", duration: "00:50", room: "Sal 1", title: "E talk",
+  });
+  const m = normalize(f);
+  assert.ok(!m.days[0].events.some((e) => e.title === "E talk"));
+});
+
+test("normalize coerces non-string text fields", () => {
+  const f = fixture();
+  f.schedule.conference.days[0].rooms["Sal 1"].push({
+    guid: "g6", id: 6, date: "2026-08-26T15:00:00+02:00",
+    start: "15:00", duration: "00:50", room: "Sal 1", title: 42,
+  });
+  const m = normalize(f);
+  const e = m.days[0].events.find((ev) => ev.key === "g6");
+  assert.equal(e.title, "42");
+  assert.doesNotThrow(() => filterEvents(m.days[0].events, { q: "4" }));
+});
+
+test("normalize rejects empty or missing conference days", () => {
+  assert.throws(() => normalize({ schedule: { conference: { title: "x" } } }), /days/);
 });
 
 test("normalize handles the real Fagfestival schedule", async () => {
