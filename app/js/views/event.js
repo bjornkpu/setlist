@@ -7,8 +7,14 @@ export function renderEvent(app, state, key) {
   if (!ev) {
     app.innerHTML = `<div class="pad">
       <p class="error">Session not found.</p>
-      <p><a href="#/browse">‹ Program</a></p>
+      <p><a href="#/browse" data-back>‹ Back</a></p>
     </div>`;
+    app.querySelector("[data-back]")?.addEventListener("click", (e) => {
+      if (history.length > 1) {
+        e.preventDefault();
+        history.back(); // return to slot/browse/wherever we came from
+      }
+    });
     return;
   }
   const current = planStateOf(ev.key);
@@ -18,7 +24,7 @@ export function renderEvent(app, state, key) {
     `<button data-state="${value}" class="${current === value ? "active" : ""}">${label}</button>`;
   app.innerHTML = `
     <div class="pad detail">
-      <p><a href="#/browse">‹ Program</a></p>
+      <p><a href="#/browse" data-back>‹ Back</a></p>
       <h1>${esc(ev.title)}</h1>
       ${ev.subtitle ? `<p class="subtitle">${esc(ev.subtitle)}</p>` : ""}
       <p class="meta">
@@ -39,5 +45,11 @@ export function renderEvent(app, state, key) {
     const value = btn.dataset.state;
     const next = planStateOf(ev.key) === value ? "" : value; // tap active state to clear
     applyState(ev.key, next, () => renderEvent(app, state, key)).catch(console.error);
+  });
+  app.querySelector("[data-back]")?.addEventListener("click", (e) => {
+    if (history.length > 1) {
+      e.preventDefault();
+      history.back(); // return to slot/browse/wherever we came from
+    }
   });
 }

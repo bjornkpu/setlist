@@ -2,6 +2,7 @@ import { renderBrowse } from "./views/browse.js";
 import { renderEvent } from "./views/event.js";
 import { renderGlance } from "./views/glance.js";
 import { renderSlot } from "./views/slot.js";
+import { renderLibrary } from "./views/library.js";
 import { esc } from "./html.js";
 import { state, activate, restoreLast } from "./store.js";
 import { loadScheduleFromUrl } from "./actions.js";
@@ -50,6 +51,7 @@ function renderLoadScreen(error = "") {
       <p class="or"><label>…or import a schedule.json file
         <input type="file" id="file-import" accept=".json,application/json">
       </label></p>
+      <p><a href="#/library">Library &amp; providers</a></p>
     </div>`;
   document.getElementById("load-form").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -70,11 +72,15 @@ function renderLoadScreen(error = "") {
 }
 
 function route() {
+  const hash = location.hash || "#/";
+  if (hash.startsWith("#/library")) {
+    renderLibrary(app, state).catch(console.error);
+    return;
+  }
   if (!state.model) {
     renderLoadScreen();
     return;
   }
-  const hash = location.hash || "#/";
   const decode = (s) => {
     try {
       return decodeURIComponent(s);
