@@ -142,5 +142,20 @@ class TimeTests(unittest.TestCase):
         self.assertTrue(any(p.endswith("[1].duration") for p in paths(run(root), "WARN")))
 
 
+class IdTests(unittest.TestCase):
+    def test_duplicate_guid_is_error(self):
+        root = base_schedule()
+        rooms = root["schedule"]["conference"]["days"][0]["rooms"]
+        rooms["Sal 1"][1]["guid"] = rooms["Sal 1"][0]["guid"]
+        self.assertTrue(any(p.endswith("[1].guid") for p in paths(run(root))))
+
+    def test_duplicate_id_is_error(self):
+        root = base_schedule()
+        rooms = root["schedule"]["conference"]["days"][0]["rooms"]
+        rooms["Fellesareal"][0]["id"] = rooms["Sal 1"][0]["id"]
+        report = run(root)
+        self.assertTrue(any(".id" in p for p in paths(report)))
+
+
 if __name__ == "__main__":
     unittest.main()

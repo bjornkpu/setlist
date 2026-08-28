@@ -172,6 +172,26 @@ def check_times(conf, report):
 CHECKS.append(check_times)
 
 
+def check_ids(conf, report):
+    seen = {"guid": {}, "id": {}}
+    for path, day, room, event in iter_events(conf):
+        for field in ("guid", "id"):
+            value = event.get(field)
+            if value in ("", None):
+                continue
+            first = seen[field].get(value)
+            if first:
+                report.error(
+                    f"{path}.{field}",
+                    f'duplicate {field} "{value}" (first used at {first})',
+                )
+            else:
+                seen[field][value] = path
+
+
+CHECKS.append(check_ids)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)
