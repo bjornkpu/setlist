@@ -110,6 +110,28 @@ def check_structure(root, report):
 CHECKS = []  # populated by later tasks: functions (conf, report) -> None
 
 
+def check_durations(conf, report):
+    for path, day, room, event in iter_events(conf):
+        dur = event.get("duration")
+        if dur in ("", None):
+            continue  # structural check already flagged it
+        if isinstance(dur, int) or (isinstance(dur, str) and MINUTES_RE.match(dur)):
+            report.error(
+                f"{path}.duration",
+                f'"{dur}" looks like minutes; expected HH:MM (e.g. "00:50")',
+            )
+            continue
+        delta = parse_hhmm(dur)
+        if delta is None:
+            report.error(f"{path}.duration", f'"{dur}" is not HH:MM')
+            continue
+        if delta > LONG_SESSION and room != ANCHOR_ROOM:
+            report.warn(f"{path}.duration", f'"{dur}" is suspiciously long for a session')
+
+
+CHECKS.append(check_durations)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)

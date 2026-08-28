@@ -85,5 +85,32 @@ class StructureTests(unittest.TestCase):
         self.assertTrue(any(p.endswith("].rooms") for p in paths(run(root))))
 
 
+class DurationTests(unittest.TestCase):
+    def test_minutes_style_duration_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["duration"] = "50"
+        report = run(root)
+        self.assertTrue(any(p.endswith("[0].duration") for p in paths(report)))
+        msg = [m for lvl, p, m in report.findings if p.endswith("[0].duration")][0]
+        self.assertIn("minutes", msg)
+
+    def test_malformed_duration_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["duration"] = "0:75"
+        self.assertTrue(any(p.endswith("[0].duration") for p in paths(run(root))))
+
+    def test_long_duration_is_warning(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][1]
+        ev["duration"] = "05:00"
+        self.assertTrue(any(p.endswith("[1].duration") for p in paths(run(root), "WARN")))
+
+    def test_anchor_long_duration_not_warned(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Fellesareal"][0]
+        ev["duration"] = "05:00"
+        self.assertFalse(any("Fellesareal" in p for p in paths(run(root), "WARN")))
+
+
 if __name__ == "__main__":
     unittest.main()
