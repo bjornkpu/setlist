@@ -21,13 +21,24 @@ function open() {
   });
 }
 
+function getDb() {
+  return (dbPromise ??= open().catch((e) => {
+    dbPromise = undefined;
+    throw e;
+  }));
+}
+
 function tx(store, mode, fn) {
-  return (dbPromise ??= open()).then(
+  return getDb().then(
     (d) =>
       new Promise((resolve, reject) => {
-        const req = fn(d.transaction(store, mode).objectStore(store));
-        req.onsuccess = () => resolve(req.result);
+        const t = d.transaction(store, mode);
+        const req = fn(t.objectStore(store));
+        let result;
+        req.onsuccess = () => { result = req.result; };
         req.onerror = () => reject(req.error);
+        t.oncomplete = () => resolve(result);
+        t.onabort = () => reject(t.error ?? req.error);
       }),
   );
 }

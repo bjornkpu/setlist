@@ -64,11 +64,12 @@ function renderLoadScreen(error = "") {
     if (!file) return;
     try {
       await activate(JSON.parse(await file.text()), { fromFile: true, label: file.name });
-      location.hash = "#/browse"; // phase 4: glance claims #/
-      route();
     } catch (err) {
       renderLoadScreen(`Import failed: ${err.message}`);
+      return;
     }
+    location.hash = "#/browse"; // phase 4: glance claims #/
+    route();
   });
 }
 
@@ -99,5 +100,6 @@ const startUrl = new URLSearchParams(location.search).get("url");
 if (startUrl) {
   loadSchedule(startUrl);
 } else {
-  restoreLast().then(route);
+  app.innerHTML = `<p class="status pad">Loading…</p>`;
+  restoreLast().then(route, () => route());
 }
