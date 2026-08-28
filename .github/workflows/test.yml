@@ -14,7 +14,8 @@ jobs:
         with:
           node-version: 22
       # Guards the service-worker VERSION hash and the app-shell precache list
-      - run: node --test tests/
+      # (explicit glob: directory args to --test need newer node than 22)
+      - run: node --test tests/*.test.js
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
