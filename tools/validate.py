@@ -226,6 +226,7 @@ CHECKS.append(check_ids)
 
 def check_rooms(conf, report):
     spellings = {}  # casefolded name -> set of exact spellings
+    day_room_names = set()
     for di, day in enumerate(conf.get("days") or []):
         if not isinstance(day, dict):
             continue
@@ -234,6 +235,7 @@ def check_rooms(conf, report):
             continue
         for room_name in rooms:
             spellings.setdefault(room_name.casefold(), set()).add(room_name)
+            day_room_names.add(room_name)
     for folded, variants in spellings.items():
         if len(variants) > 1:
             report.error(
@@ -246,6 +248,24 @@ def check_rooms(conf, report):
             report.error(
                 f"{path}.room",
                 f'event.room "{ev_room}" differs from containing rooms key "{room_name}"',
+            )
+    conf_rooms = conf.get("rooms")
+    if isinstance(conf_rooms, list):
+        conf_room_names = set()
+        for entry in conf_rooms:
+            if isinstance(entry, str):
+                conf_room_names.add(entry)
+            elif isinstance(entry, dict) and isinstance(entry.get("name"), str):
+                conf_room_names.add(entry["name"])
+        for name in sorted(conf_room_names - day_room_names):
+            report.error(
+                "schedule.conference.rooms",
+                f'room "{name}" listed in conference.rooms but never used in days[].rooms',
+            )
+        for name in sorted(day_room_names - conf_room_names):
+            report.error(
+                "schedule.conference.rooms",
+                f'room "{name}" used in days[].rooms but missing from conference.rooms',
             )
 
 
@@ -310,12 +330,27 @@ def check_days(conf, report):
 CHECKS.append(check_days)
 
 
+KNOWN_EVENT_FIELDS = {
+    "guid", "id", "date", "start", "duration", "room", "slug", "title",
+    "subtitle", "track", "type", "language", "abstract", "description",
+    "persons", "links", "attachments", "url",
+}
+
+
 def check_warnings(conf, report):
     for path, day, room, event in iter_events(conf):
         if not (event.get("title") or "").strip():
             report.warn(f"{path}.title", "empty title")
         if room != ANCHOR_ROOM and not event.get("persons"):
             report.warn(f"{path}.persons", f'no speakers on a session outside "{ANCHOR_ROOM}"')
+        for key in event:
+            if key not in KNOWN_EVENT_FIELDS:
+                report.warn(f"{path}.{key}", "unknown field, not part of the frab event schema")
+        persons = event.get("persons")
+        if isinstance(persons, list):
+            for pi, person in enumerate(persons):
+                if not (isinstance(person, dict) and isinstance(person.get("public_name"), str)):
+                    report.warn(f"{path}.persons[{pi}]", "not an object with public_name")
 
 
 CHECKS.append(check_warnings)

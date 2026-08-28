@@ -279,5 +279,50 @@ class MalformedInputTests(unittest.TestCase):
         self.assertTrue(any('rooms["Sal 1"]' in p for p in paths(report)))
 
 
+class RoomDriftTests(unittest.TestCase):
+    def test_room_only_in_conference_rooms_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["rooms"].append("Ghost Room")
+        report = run(root)
+        self.assertTrue(any("Ghost Room" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+    def test_room_only_in_days_is_error(self):
+        root = base_schedule()
+        rooms = root["schedule"]["conference"]["days"][0]["rooms"]
+        rooms["Loft"] = [make_event(10, "14:00", "00:30", "Loft")]
+        report = run(root)
+        self.assertTrue(any("Loft" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+    def test_conference_rooms_as_objects_with_name_key_is_fine(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["rooms"] = [{"name": "Sal 1"}, {"name": "Fellesareal"}]
+        self.assertEqual(run(root).errors, [])
+
+
+class ThinConformanceTests(unittest.TestCase):
+    def test_unknown_event_field_is_warning(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["bogus_field"] = "x"
+        report = run(root)
+        self.assertTrue(any(p.endswith(".bogus_field") for p in paths(report, "WARN")))
+        self.assertEqual(report.errors, [])
+
+    def test_known_fields_do_not_warn(self):
+        report = run(base_schedule())
+        self.assertFalse(any("unknown" in m.lower() for lvl, p, m in report.findings if lvl == "WARN"))
+
+    def test_person_without_public_name_is_warning(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["persons"] = [{"id": 1}]
+        report = run(root)
+        self.assertTrue(any("public_name" in m for lvl, p, m in report.findings if lvl == "WARN"))
+
+    def test_person_as_string_is_warning(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["persons"] = ["Kari Nordmann"]
+        report = run(root)
+        self.assertTrue(any("public_name" in m for lvl, p, m in report.findings if lvl == "WARN"))
+
+
 if __name__ == "__main__":
     unittest.main()
