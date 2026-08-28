@@ -212,5 +212,23 @@ class DaysTests(unittest.TestCase):
         self.assertTrue(any("daysCount" in p for p in paths(run(root))))
 
 
+class WarningTests(unittest.TestCase):
+    def test_empty_title_is_warning(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["title"] = ""
+        report = run(root)
+        self.assertTrue(any(p.endswith("[0].title") for p in paths(report, "WARN")))
+        self.assertEqual(report.errors, [])
+
+    def test_missing_speakers_outside_anchor_room_is_warning(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["persons"] = []
+        self.assertTrue(any(p.endswith("[0].persons") for p in paths(run(root), "WARN")))
+
+    def test_anchor_without_speakers_is_fine(self):
+        report = run(base_schedule())  # Fellesareal event has no persons
+        self.assertFalse(any("Fellesareal" in p for p in paths(report, "WARN")))
+
+
 if __name__ == "__main__":
     unittest.main()

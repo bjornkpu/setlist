@@ -276,6 +276,17 @@ def check_days(conf, report):
 CHECKS.append(check_days)
 
 
+def check_warnings(conf, report):
+    for path, day, room, event in iter_events(conf):
+        if not (event.get("title") or "").strip():
+            report.warn(f"{path}.title", "empty title")
+        if room != ANCHOR_ROOM and not event.get("persons"):
+            report.warn(f"{path}.persons", f'no speakers on a session outside "{ANCHOR_ROOM}"')
+
+
+CHECKS.append(check_warnings)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)
