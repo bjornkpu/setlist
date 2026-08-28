@@ -17,7 +17,7 @@ export async function applyState(eventKey, newState, rerender) {
       actionLabel: "Undo",
       onAction: async () => {
         await setPlanState(replacedKey, "pick"); // conflict logic clears the new pick
-        rerender();
+        window.dispatchEvent(new Event("setlist:rerender")); // re-render whatever view is current
       },
     });
   }
@@ -53,7 +53,7 @@ function row(e) {
       ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
     </a>
     <button class="plan-btn" data-key="${esc(e.key)}"
-      aria-label="Plan state: ${st || "none"}">${STATE_ICON[st]}</button>
+      aria-label="Plan state: ${esc(st || "none")}">${STATE_ICON[st] ?? "+"}</button>
   </li>`;
 }
 
@@ -77,7 +77,9 @@ function select(id, label, options, value) {
 
 function wire(app, state) {
   const rerenderList = () => {
-    app.querySelector(".events").innerHTML = list(
+    const ul = app.querySelector(".events");
+    if (!ul) return;
+    ul.innerHTML = list(
       state.model.days[state.browse.dayIndex] ?? state.model.days[0],
       state.browse,
     );

@@ -93,6 +93,7 @@ function route() {
 }
 
 window.addEventListener("hashchange", route);
+window.addEventListener("setlist:rerender", route);
 
 const startUrl = new URLSearchParams(location.search).get("url");
 if (startUrl) {
