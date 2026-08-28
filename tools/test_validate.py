@@ -172,5 +172,28 @@ class RoomTests(unittest.TestCase):
         self.assertTrue(any(p.endswith("[0].room") for p in paths(run(root))))
 
 
+class OverlapTests(unittest.TestCase):
+    def test_overlap_within_room_is_error(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][1]
+        ev["date"] = "2026-08-26T10:30:00+02:00"
+        ev["start"] = "10:30"  # event 1 runs 10:00-10:50
+        self.assertTrue(any("overlap" in m for lvl, p, m in run(root).findings if lvl == "ERROR"))
+
+    def test_parallel_rooms_do_not_overlap(self):
+        root = base_schedule()
+        rooms = root["schedule"]["conference"]["days"][0]["rooms"]
+        rooms["Fellesareal"][0]["date"] = "2026-08-26T10:00:00+02:00"
+        rooms["Fellesareal"][0]["start"] = "10:00"  # same time as Sal 1 event
+        self.assertEqual(run(root).errors, [])
+
+    def test_back_to_back_is_not_overlap(self):
+        root = base_schedule()
+        ev = root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][1]
+        ev["date"] = "2026-08-26T10:50:00+02:00"
+        ev["start"] = "10:50"  # starts exactly when event 1 ends
+        self.assertEqual(run(root).errors, [])
+
+
 if __name__ == "__main__":
     unittest.main()

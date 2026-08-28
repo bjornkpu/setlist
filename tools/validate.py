@@ -218,6 +218,29 @@ def check_rooms(conf, report):
 CHECKS.append(check_rooms)
 
 
+def check_overlap(conf, report):
+    by_room = {}  # (day index, room) -> [(start_dt, end_dt, path, title)]
+    for path, day, room, event in iter_events(conf):
+        dt = parse_iso(event.get("date") or "")
+        dur = parse_hhmm(event.get("duration") or "")
+        if dt is None or dt.tzinfo is None or dur is None:
+            continue  # unparseable events are flagged by other checks
+        key = (day.get("index"), room)
+        by_room.setdefault(key, []).append((dt, dt + dur, path, event.get("title") or "?"))
+    for (_, room), evs in by_room.items():
+        evs.sort(key=lambda e: (e[0], e[1], e[2]))
+        for (s1, e1, p1, t1), (s2, e2, p2, t2) in zip(evs, evs[1:]):
+            if s2 < e1:
+                report.error(
+                    p2,
+                    f'overlaps previous event in room "{room}": '
+                    f'"{t1}" ends {e1:%H:%M}, "{t2}" starts {s2:%H:%M}',
+                )
+
+
+CHECKS.append(check_overlap)
+
+
 def validate(root):
     report = Report()
     conf = check_structure(root, report)
