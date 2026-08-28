@@ -1,6 +1,9 @@
 """Tests for validate.py. Run from repo root:
 uv run python -m unittest discover -s tools -v
 """
+import copy
+import json
+import pathlib
 import unittest
 
 import validate
@@ -236,6 +239,44 @@ class MalformedEventTests(unittest.TestCase):
         root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"].append("not an event")
         report = run(root)  # must not raise
         self.assertTrue(any("not an object" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+
+class MalformedInputTests(unittest.TestCase):
+    def test_naive_day_start_is_error_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["day_start"] = "2026-08-26T08:00:00"  # no offset
+        report = run(root)  # must not raise
+        self.assertTrue(any(p.endswith(".day_start") for p in paths(report)))
+
+    def test_naive_day_end_is_error_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["day_end"] = "2026-08-26T18:00:00"  # no offset
+        report = run(root)  # must not raise
+        self.assertTrue(any(p.endswith(".day_end") for p in paths(report)))
+
+    def test_days_as_string_does_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"] = "not a list"
+        report = run(root)  # must not raise
+        self.assertTrue(any(p.endswith("days") for p in paths(report)))
+
+    def test_non_dict_day_entry_is_error_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"].append("not a day")
+        report = run(root)  # must not raise
+        self.assertTrue(any("day is not an object" in m for lvl, p, m in report.findings if lvl == "ERROR"))
+
+    def test_list_guid_is_error_not_crash(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"][0]["guid"] = ["oops"]
+        report = run(root)  # must not raise
+        self.assertTrue(any(p.endswith("[0].guid") for p in paths(report)))
+
+    def test_non_list_room_value_is_error(self):
+        root = base_schedule()
+        root["schedule"]["conference"]["days"][0]["rooms"]["Sal 1"] = "nope"
+        report = run(root)
+        self.assertTrue(any('rooms["Sal 1"]' in p for p in paths(report)))
 
 
 if __name__ == "__main__":

@@ -59,6 +59,8 @@ def parse_iso(value):
 def iter_events(conf):
     """Yield (json_path, day, room_name, event) for every event."""
     for di, day in enumerate(conf.get("days") or []):
+        if not isinstance(day, dict):
+            continue
         rooms = day.get("rooms")
         if not isinstance(rooms, dict):
             continue
@@ -87,11 +89,22 @@ def check_structure(root, report):
             report.error(f"schedule.conference.{field}", "missing")
     if "days" in conf and not isinstance(conf["days"], list):
         report.error("schedule.conference.days", "not a list")
-        return conf
+        return None
     for di, day in enumerate(conf.get("days") or []):
+        if not isinstance(day, dict):
+            report.error(f"schedule.conference.days[{di}]", "day is not an object")
+            continue
         for field in ("index", "date", "day_start", "day_end", "rooms"):
             if field not in day:
                 report.error(f"schedule.conference.days[{di}].{field}", "missing")
+        for field in ("day_start", "day_end"):
+            if field in day:
+                dt = parse_iso(day.get(field) or "")
+                if dt is None or dt.tzinfo is None:
+                    report.error(
+                        f"schedule.conference.days[{di}].{field}",
+                        f'"{day.get(field)}" is not an ISO 8601 timestamp with offset',
+                    )
         if "rooms" in day and not isinstance(day["rooms"], dict):
             report.error(
                 f"schedule.conference.days[{di}].rooms",
@@ -100,6 +113,10 @@ def check_structure(root, report):
         elif "rooms" in day and isinstance(day["rooms"], dict):
             for room_name, events in day["rooms"].items():
                 if not isinstance(events, list):
+                    report.error(
+                        f'schedule.conference.days[{di}].rooms["{room_name}"]',
+                        "not a list of events",
+                    )
                     continue
                 for ei, event in enumerate(events):
                     if not isinstance(event, dict):
@@ -159,7 +176,12 @@ def check_times(conf, report):
                 )
         day_start = parse_iso(day.get("day_start") or "")
         day_end = parse_iso(day.get("day_end") or "")
-        if day_start is None or day_end is None:
+        if (
+            day_start is None
+            or day_start.tzinfo is None
+            or day_end is None
+            or day_end.tzinfo is None
+        ):
             continue  # day-level problem, flagged elsewhere
         if not (day_start <= dt < day_end):
             report.error(
@@ -186,6 +208,9 @@ def check_ids(conf, report):
             value = event.get(field)
             if value in ("", None):
                 continue
+            if not isinstance(value, (str, int)):
+                report.error(f"{path}.{field}", "must be a string or integer")
+                continue
             first = seen[field].get(value)
             if first:
                 report.error(
@@ -202,6 +227,8 @@ CHECKS.append(check_ids)
 def check_rooms(conf, report):
     spellings = {}  # casefolded name -> set of exact spellings
     for di, day in enumerate(conf.get("days") or []):
+        if not isinstance(day, dict):
+            continue
         rooms = day.get("rooms")
         if not isinstance(rooms, dict):
             continue
