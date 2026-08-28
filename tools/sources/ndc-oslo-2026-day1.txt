@@ -1,0 +1,300 @@
+
+Wednesday 16 September : NDC Oslo
+Room 1
+Room 2
+Room 3
+Room 4
+Room 5
+Room 6
+Room 7
+Workshop room
+Workshop room 2
+09:00
+ - 
+10:00
+Expo
+Keynote: Who are you?
+Nick Chapsas
+Duration
+Talk (60 min)
+10:20
+ - 
+11:20
+Room 1
+INTL: The best browser API you're not using
+Kilian Valkhof
+Duration
+Talk (60 min)
+Room 2
+Use AI to build AI (without losing your mind) with Aspire
+Maddy Montaquila
+Duration
+Talk (60 min)
+Room 3
+Socio-technical API patterns
+Einar Høst
+Duration
+Talk (60 min)
+Room 4
+If You Feel Behind, You’re Probably Paying Attention
+Joep Piscaer
+Duration
+Talk (60 min)
+Room 5
+Build With Intent
+Glenn F. Henriksen
+Duration
+Talk (60 min)
+Room 6
+What's coming next in C#
+Fred Silberberg
+Duration
+Talk (60 min)
+Room 7
+We stopped writing code, but shipped more code & products than ever before
+James Montemagno
+Aurora Scharff
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Web Components 101: No Framework, No Problem
+Burton Smith
+Duration
+Workshop (120 min)
+Workshop room 2
+Part 1/2: From Hallucination to Justification: Hands-On Explainability for LLMs
+Lucía Conde-Moreno
+Tessel Haagen
+Duration
+Workshop (120 min)
+11:40
+ - 
+12:40
+Room 1
+CSS State Machine
+Brecht De Ruyte
+Duration
+Talk (60 min)
+Room 2
+Build Skills, Not Agents
+Aleksander Stensby
+Duration
+Talk (60 min)
+Room 3
+The .NET MAUI Community Toolkits: Three (3) Essential Libraries for Every .NET MAUI Developer
+Brandon Minnick
+Duration
+Talk (60 min)
+Room 4
+What's new in SQL Server 2025 and Azure SQL Databases
+Christian Peeters
+Duration
+Talk (60 min)
+Room 5
+Stars Don’t Pay the Bills: Turning Open Source Into a Business
+David Boyne
+Duration
+Talk (60 min)
+Room 6
+Refactoring an ASP.NET Core WebAPI Controller based API to a minimal API
+Johan Smarius
+Duration
+Talk (60 min)
+Room 7
+Where thinking stops
+Yngve Bakken Nilsen
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Web Components 101: No Framework, No Problem
+Burton Smith
+Duration
+Workshop (120 min)
+Workshop room 2
+Part 2/2: From Hallucination to Justification: Hands-On Explainability for LLMs
+Lucía Conde-Moreno
+Tessel Haagen
+Duration
+Workshop (120 min)
+13:40
+ - 
+14:40
+Room 1
+Let's break some WCAG rules
+Elise Kristiansen
+Duration
+Talk (60 min)
+Room 2
+From Code to Intelligence: The Rise of the Full-Stack AI Engineer
+Adam Stephensen
+Duration
+Talk (60 min)
+Room 3
+Types Are Worth the Typing
+Filip Sodic
+Duration
+Talk (60 min)
+Room 4
+What Claude Code Can Do That You Haven't Tried
+Gui Ferreira
+Duration
+Talk (60 min)
+Room 5
+Non-Blocking Continuous Code Reviews, a Case Study
+Thierry de Pauw
+Duration
+Talk (60 min)
+Room 6
+TBA - Adam Cogan 
+Adam Cogan
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 1
+Ryan Healey
+Aurora Scharff
+Erik Schierboom
+Elin Brusberg
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Context engineering, custom agents, and AI-first dev workflows w/ VS Code & GitHub Copilot
+James Montemagno
+Kayla Cinnamon
+Duration
+Workshop (120 min)
+15:00
+ - 
+16:00
+Room 1
+Rethinking Tooltips with Interest Invokers and Popover API
+Martine Dowden
+Duration
+Talk (60 min)
+Room 2
+How We Built an Autonomous Development Workflow at Nordic Corporate Bank
+Hallstein Brøtan
+Duration
+Talk (60 min)
+Room 3
+What You Need to Know (And Why You Should Care) About AI Governance
+Michelle Frost
+Duration
+Talk (60 min)
+Room 4
+Modern Graph Databases
+David Ostrovsky
+Duration
+Talk (60 min)
+Room 5
+Software Developer Graduates 2031
+Anne M. V. Bosch
+Duration
+Talk (60 min)
+Room 6
+.NET Telemetry in the Real World
+Stephen Cleary
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 2
+Shomaila Kausar
+Anemari Fiser
+Oda Enger Hoem
+Jill Sarandi
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Context engineering, custom agents, and AI-first dev workflows w/ VS Code & GitHub Copilot
+James Montemagno
+Kayla Cinnamon
+Duration
+Workshop (120 min)
+16:20
+ - 
+17:20
+Room 1
+Cobots, Dark Modules and Architecting For AI
+Sam Newman
+Duration
+Talk (60 min)
+Room 2
+Why LLMs Suck (aka the Software Developer's Guide to Keeping Our Jobs)
+Lucía Conde-Moreno
+Duration
+Talk (60 min)
+Room 3
+Humans Are the Most Unreliable Node in Your System
+Joanna Montgomery
+Duration
+Talk (60 min)
+Room 4
+Tracking every ship in Norwegian waters - Building a data platform for The Coastal Administration
+Peter Ryen Bull
+Duration
+Talk (60 min)
+Room 5
+The Day My Farm Burned Down
+Lars Klint
+Duration
+Talk (60 min)
+Room 6
+Using Microsoft Kiota to go from OpenAPI to first-class .NET client SDKs
+Alex Thissen
+Duration
+Talk (60 min)
+Room 7
+Much Ado About Nothing
+Kevlin Henney
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Fun with F# and turtle geometry
+Heidi Mork
+Duration
+Workshop (120 min)
+17:40
+ - 
+18:40
+Room 1
+From Intent to Merge: A Hands-On Talk on SDLC in the Agent Era
+Joseph Katsioloudes
+Duration
+Talk (60 min)
+Room 2
+1 Million Ways to Break Production: IoT Systems at Scale
+Jan-Erik Carlsen
+Eirik Ottesen
+Duration
+Talk (60 min)
+Room 3
+Functional core, imperative shell: An architecture turned inside out
+Magnar Sveen
+Duration
+Talk (60 min)
+Room 4
+The Sound of Privacy – What Your Spotify Data Reveals About You
+Dennis Schulz
+Thomas Hugle
+Duration
+Talk (60 min)
+Room 5
+How Powerlifting Made Me a Better Software Engineer
+Adele Carpenter
+Duration
+Talk (60 min)
+Room 6
+Going Passwordless - A Practical Guide to Passkeys in ASP.NET Core
+Maarten Balliauw
+Duration
+Talk (60 min)
+Room 7
+It’s About Time! Practical examples of time zones in TypeScript
+Michael Dowden
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Fun with F# and turtle geometry
+Heidi Mork
+Duration
+Workshop (120 min)

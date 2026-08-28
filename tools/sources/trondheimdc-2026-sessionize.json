@@ -1,0 +1,2228 @@
+{
+  "sessions": [
+    {
+      "id": "1139249",
+      "title": "After the AI Hype – What’s Real, and What’s Next",
+      "description": "Artificial Intelligence dominates the headlines, driving unprecedented attention and expectations—but much of the conversation is fueled by hype. At the same time, real breakthroughs are transforming industries and reshaping how businesses and developers work. This session explores the current AI surge: what’s real, what’s exaggerated, and where organizations are achieving meaningful results today. It also examines the mechanics of a hype cycle, its inevitable decline, and what the aftermath will mean for the future of AI technologies.",
+      "startsAt": "2026-10-19T09:00:00",
+      "endsAt": "2026-10-19T09:45:00",
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": [
+        "d4d7850a-526e-4959-aab1-36460081fcf5"
+      ],
+      "categoryItems": [
+        428596,
+        428621,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1196347",
+      "title": "Building a real-time collaborative editor",
+      "description": "Have you ever wondered what it takes to develop a solution similar to Google Docs and then build on top of it with extra layers of security and functionality?\r\n\r\nDuring the planning phase of a military operation, there are multiple text documents that need to be updated simultaneously by multiple users. At the same time, there is a requirement to provide security in air-gapped deployments.\r\n\r\nAs such, a solution that follows high standards for security, performance and quality is required.\r\n\r\nWithin my presentation, I will be describing an embedded solution based on advanced operational transformation algorithms which allows real-time secure collaborative editing, as well as several challenges that we have faced during development and how we managed to overcome each of them.",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "30920fde-c51d-4203-bb03-ec37ea56fe48"
+      ],
+      "categoryItems": [
+        428596,
+        428599,
+        428602,
+        428604,
+        428603,
+        428611,
+        428621,
+        428655
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1126399",
+      "title": "Utvikler, utvikler, det er et norsk ord i koden din!",
+      "description": "Spør en gruppe utviklere om hva de synes om bruke norsk i kildekode. Du kommer til å få mange svar, de fleste av dem negative. Men hvorfor er det en stille aksept for at utvikling i Norge skal skje på engelsk, når de fleste norsktalende utviklere forstår og uttrykker seg bedre på norsk? Denne antagelsen, og mange andre språklige «sannheter» som vi utviklere omgir oss med, kommer denne virvelvinden av et foredrag til å røske tak i.\r\n\r\nDette foredraget er for alle som elsker språk, både språkene brukt av oss mennesker og de brukt av datamaskiner. I løpet av foredraget kommer vi til å gjøre landfall over temaer som hvordan naturlige språk og informatikk har påvirket hverandre, på hvilken måte språklige metaforer i programmering og kodeverktøy hjelper utviklere å tenke, bruk av norsk og andre morsmål i kildekode og hvordan programmering på norsk kunne sett ut. På slutten av foredraget, når stormen har lagt seg, så vil du se forholdet mellom språk og programmering på en ny måte.",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "16be91ca-d35c-4e0f-81c2-0ff4c5525f8d"
+      ],
+      "categoryItems": [
+        428597,
+        428614,
+        428606,
+        428610,
+        428621,
+        428664
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1172797",
+      "title": "The Way of the Monad. Writing Cleaner, Safer Code that is Easier to Test",
+      "description": "After decades of coding, functional logic fundamentally changed how I work. What started as porting Scala’s Try to Java became a decade of building robust systems in TypeScript and C#. By using monads, our code became easier to test and more predictable.\r\n\r\nThis hands-on talk skips Haskell theory for practical Java, C#, and TypeScript examples. Learn to eliminate nulls, skip try-catch blocks, and simplify logic.\r\n\r\nYou’ll learn:\r\n\r\n* Monads Demystified: What they are and how to spot them.\r\n* Practical Patterns: Using Try, Option, and Either to replace nested ifs.\r\n* Clean Logic: Why starting methods with return leads to safer code.\r\n* Cross-Platform: Applying these ideas to any stack with live examples.\r\n\r\nStop fighting boilerplate. Learn how functional design simplifies your flow and failure states.",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "659656fd-6810-4653-a9ee-bc6688da6f21"
+      ],
+      "categoryItems": [
+        428596,
+        428607,
+        428601,
+        428621,
+        428664
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1227534",
+      "title": "State of AI UX in 2026",
+      "description": "As teams race to find ways to bring AI into their products, many discover that many AI features have very low retention, low usage and little to none trust in its accuracy and reliability. Many chatbots and assistants are painfully slow, repetitive, verbose and hard to make work — users have to meticulously explain to AI just what exactly they need — over and over and over again.\r\n\r\nSo what exactly do teams do to fix it? How do we design AI experiences that people understand, value and perhaps even fall in love with? How fast is AI actually moving these days? How do we measure the quality of an AI experience? And how do we build confidence and trust in its use? Well, let’s find out!\r\n\r\nIn this session with Vitaly Friedman, senior UX Lead with the European Parliament and also working with small and large clients around the world on embedding AI into their work, we’ll explore where users struggle and get annoyed, and when users succeed and become more effective. From quiet AI to AI-first, from voice UX to agentic experiences, from design patterns for building trust to technical constraints and limitations — and the look into what’s coming up next. ",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c52ce22c-e866-4cea-992a-3c706f05fd81"
+      ],
+      "categoryItems": [
+        428596,
+        428621,
+        428670
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1125820",
+      "title": "Lokalt lavt skydekke - Nasjonal kontroll, skyløsninger og trygge data",
+      "description": "Vi har på ingen måte lenger kontroll på hvem som er våre venner og fiender. De som i går var venner som vi stolte på kan nå gi vekk våre mest betrodde hemmeligheter. Kontroll på hvem som kan lese data og hvor disse sendes blir stadig mer betent, ikke bare for nasjonalstater, men også for bedrifter og organisasjoner. \r\n\r\nDen stadig mer fragmenterte situasjonen der ulike skyløsninger er sammenvevd på komplett uforståelige måter er i ferd med å bli normalen. I selskaper som driver med IT-drift er det blitt et fast sosialt innslag å snakke om sist en eller flere av de større  amerikanske (offentlige) skyleverandørene rev ned et sted mellom 20 og 70 % av all Internett-trafikk gjennom en konfigurasjons-feil.\r\nForedraget utforsker ulike måter å bygge (høytilgjengelige|nasjonale|lokale) tjenester uten å havne i \"avhengighetsfella\" hos de store og sørge for at man har tjenester som lett lar seg kjøre flere steder. \r\nVi ser på behov for nasjonal kontroll, byggesteiner for lokale skyløsninger, regionale skyløsninger og metoder for å drifte tjenester mer selvstendig med velprøvde verktøy.\r\n\r\nDersom det er tid blir det nok et sveip innom godbiter som \"Det er 0 dager siden det var DNS\", \"We made an error to our configuration that impacted SOME (..all) of our users\", \"Select (all) customers are seeing prolonged deployment time frames (we can't serve anyone and we don't know when we're back online)\" og den gode gamle \"503 - the server made an error\".\r\n\r\n_KAN_ kjøres på 20 min, men bør ha 40..",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bfe206cf-e58c-421f-a828-7384357625e5"
+      ],
+      "categoryItems": [
+        428597,
+        428607,
+        428599,
+        428600,
+        428616,
+        428603,
+        428621,
+        428657
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1150349",
+      "title": "Level Up Accessibility Testing with Playwright",
+      "description": "Accessibility is a core part of building inclusive, user-friendly products. However, many teams still struggle to test accessibility effectively. What if it were as easy and automated as your end-to-end tests?\r\n\r\nIn this talk, we'll explore why accessibility matters, how it impacts real users, and what the WCAG guidelines mean for developers. From there, you'll get a quick introduction to Playwright, Microsoft's end-to-end testing framework, and see how it can go beyond functional testing to catch accessibility issues early.",
+      "startsAt": "2026-10-19T10:00:00",
+      "endsAt": "2026-10-19T10:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f5c30de4-cd93-4022-97f6-b0a58c92197c"
+      ],
+      "categoryItems": [
+        428596,
+        428615,
+        428621,
+        428669
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1183894",
+      "title": "Utbrenthet fra toppen – en historie om å falle, lære og reise seg igjen",
+      "description": "Lederskap blir ofte sett på som en rolle preget av styrke og motstandskraft, men hva skjer når presset blir for stort?\r\nI dette foredraget deler jeg min personlige historie om å møte veggen som leder, øyeblikket da jeg innså at jeg ikke lenger kunne fortsette, og den lange veien tilbake til balanse og velvære.\r\n\r\nGjennom denne reisen har jeg lært å gjenkjenne viktige faresignaler for utbrenthet, og jeg ønsker å dele praktiske råd til ledere og konsulenter om hvordan de kan beskytte seg før det er for sent.\r\nMålet mitt er å gi en ærlig refleksjon som andre kan kjenne seg igjen i, kombinert med konkrete tiltak for å forebygge utbrenthet og bevare motstandskraft i krevende roller.\r\n\r\nHovedpunkter:\r\n\r\n- Hvordan oppdage tidlige varselsignaler på utbrenthet.\r\n- Praktiske steg for å komme seg og bygge varig motstandskraft.\r\n- Råd for å bevare balansen.",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "5f3f5d15-82fe-4fca-90e3-ecf3c9bc4294"
+      ],
+      "categoryItems": [
+        428597,
+        428610,
+        428621,
+        428661
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1177888",
+      "title": "Embedded Rust in Production",
+      "description": "Often when new languages like Rust get introduced, it starts with a hobby project and simple proof of concepts. But what does it take to go beyond that and use it in production?\r\n\r\nAkiles is a manufacturer of access control devices and have been using Rust to program our embedded devices for over 4 years. Embedded Rust projects like Embassy started at Akiles, and have since flourished and grown into a widely used open source project.\r\n\r\nThis talk will give an introduction to the Embedded Rust ecosystem, async Rust, and share our experience using Rust in production at Akiles.",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c8a74958-c8ec-4b74-86f5-d0976464f019"
+      ],
+      "categoryItems": [
+        428596,
+        428617,
+        428604,
+        428621,
+        428650
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1125769",
+      "title": "Let's break some WCAG rules",
+      "description": "Let's experience a web that's not made for you!\r\n\r\nThis talk is not a checklist of rules. It’s an interactive wake-up call.\r\n15–25% of the population needs websites to accommodate different types of disabilities. Still, 94.8% of websites contain accessibility issues that make them harder to use.\r\n\r\nIt’s not because we don’t want to develop accessible websites and applications.\r\nBut we often lack knowledge and perspective. We build based on our own experience because that’s what we know. In this talk, you’ll get to experience how our applications work for someone with a screen reader, low vision, or limited motor control, and feel firsthand the challenges they face.\r\n\r\nThe talk combines knowledge, practice, and lived experience to raise your awareness of accessibility on the web and how small changes can make a huge difference.\r\n\r\nYou'll see the most common mistakes in action, who they affect, and how to fix them. So come experience the world through someone else's senses, and learn how to be a more accessible developer.",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "510ab534-a4e2-4df7-904c-3f8b65d8af5e"
+      ],
+      "categoryItems": [
+        428596,
+        428602,
+        428606,
+        428610,
+        428621,
+        428662
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1214346",
+      "title": "Ikke alle angrep er slemme: DDoS innenfra og utenfra",
+      "description": "Det siste året har interessen for NRK.no økt blant utenlandske stormakter. Selv om det er hyggelig å være populær kan det noen ganger bli litt for mye. I denne presentasjonen skal vi gå gjennom hvordan DDoS-angrep oppleves hos NRK.no og hvordan vi prøver å minske konsekvensene når angrepene skjer. Vi skal også se at ikke alle angrep er fiendtlige eller kommer utenifra.",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "8c7086a0-fd3b-4c11-b085-1182faa39e7b",
+        "b80973fc-a967-4f13-931d-489235ceea7a"
+      ],
+      "categoryItems": [
+        428597,
+        428603,
+        428621,
+        428668
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1182366",
+      "title": "Åtte måter å feile med innsikt, og ni måter å lykkes",
+      "description": "Et produkts brukeropplevelse er summen av tusen store og små beslutninger. Svært mange av disse beslutningene tas på usikkert grunnlag, og resultatene blir deretter. \r\n\r\nInnsiktsentusiast Isak Falch er opptatt av at vi må synliggjøre usikkerhet og risiko for å skape læringstørst i virksomhetene vi jobber med. I dette foredraget ser han på hvordan vi kan bruke designverktøy til å evaluere vår egen innsiktspraksis, og hva som skal til for å bli en lærende organisasjon. ",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a6ca463b-6de1-4385-b71c-494caedb8f06"
+      ],
+      "categoryItems": [
+        428597,
+        428621,
+        428670
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1271137",
+      "title": "Sporer alle skip i norske farvann - Hvordan vi bygger dataplattform for Kystverket",
+      "description": "Norge er en nasjon bygget av fiskere, sjømenn og en lang historie på havet. Nå bygger Kystverket en dataplattform som skal bidra til at Norge blir verdens mest effektive kystnasjon. \r\n\r\nHver dag strømmer over 100 millioner rader med AIS-data fra fartøy gjennom plattformen uten problemer. Hør hvordan vi bruker disse dataene til å vurdere om skip er på kollisjonskurs, forbedre effektiviteten for å spare klimautslipp, og hvordan vi knytter dette sammen med mange andre datakilder, ved hjelp av Azure og Databricks. \r\n\r\nI dette foredraget tar Peter oss gjennom bakgrunnen for dataplattformen, hvordan teamet ble bygget opp for å levere effektivt, og hvordan Kystverket levere data og analyser for å løse samfunnsoppdraget sitt.",
+      "startsAt": "2026-10-19T11:00:00",
+      "endsAt": "2026-10-19T11:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "16892c95-912b-4036-923f-539f2a6f83f5"
+      ],
+      "categoryItems": [
+        428597,
+        428600,
+        428616,
+        428608,
+        428621,
+        428655
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1216082",
+      "title": "Architecture is a Conversation, Not a Diagram",
+      "description": "Five things our industry treats as truth about software architecture. None of them hold up. UML was a vendor interop play from 1994, not a communication tool. Architecture is not an artifact. It is an understanding that lives in conversation. Natural language is the only notation everyone in the room already compiles.\r\n\r\nI spent twenty-five years doing architecture. I was a student volunteer at OOPSLA 1998. I published a design pattern at EuroPLoP 1999. I believed the box-and-arrow gospel for two decades.\r\n\r\nThen I went back and read what Christopher Alexander, Peter Naur, Alan Kay, Martin Fowler, and Rich Hickey actually wrote. What I found was uncomfortable: we kept the notation and abandoned the meaning.\r\n\r\nThis talk takes five beliefs most teams treat as architectural truth and pulls them apart. That architecture requires formal notation. That it is a visual discipline. That the architect's job is to produce artifacts. That decisions should be made upfront. That documentation solves the knowledge problem.\r\n\r\nI show what the giants actually said, what I built to test the idea (a small experiment called ConvArch), and what it taught me about feedback loops in architecture. I will also be honest about the limits of my own argument. Conversation without verification is just a nicer way to be wrong together. Five people confidently agreeing in a room is still a confident guess.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2917ef3c-ea4c-41c0-b0bd-5265de5c86c2"
+      ],
+      "categoryItems": [
+        428596,
+        428620,
+        428655
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1182472",
+      "title": "Almost hired: the silent filters of belonging",
+      "description": "What truly shapes us without us even noticing? Sometimes, it’s not the hard stops that define our path, it’s the silent redirections, the invisible “no’s,” and the things no one says out loud. \r\nThis talk reveals the quiet, systemic ways highly skilled immigrants are shaped - not just by the cultures they enter, but by the coded preferences that decide who gets to belong.\r\n\r\nI moved to Norway for a job, but soon my employer went bankrupt just months after I arrived. And so began nine months of searching. Nine months of being “almost chosen.” I reached final interviews again and again. Each time, I was told I was an excellent candidate. But each time, the job went to a Norwegian.\r\nNot because they were better. But because they were familiar.\r\n\r\nThis isn’t a conspiracy - it’s a pattern. A silent comfort with the known. A national culture that values sameness, even when it claims to welcome diversity. And it has a cost: not just to people like me, but to innovation, creativity, and the richness of perspective that companies quietly forfeit.\r\n\r\nThis talk invites audiences to consider the invisible forces: comfort and unconscious bias that shape careers and cultures more than we care to admit. And it offers a vision of what we could gain if we finally let go of our fear of difference.\r\nBecause real inclusion doesn’t happen when we let people in. It happens when we let them stay whole.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c75ae272-20fc-443a-9dc8-5a648f41fecc"
+      ],
+      "categoryItems": [
+        428596,
+        428606,
+        428620,
+        428665
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1225501",
+      "title": "AI is not your UX researcher",
+      "description": "Fifteen years ago, I studied AI. I built neural networks, worked with robots, and was excited by the idea of making systems smarter. But I eventually found myself asking a different question: why make things smarter if we are not making them better? That question led me into UX research.\r\n\r\nToday, AI is at the centre of product development. It helps us write, analyse, ideate, summarise, and move faster. But it is also starting to play a more questionable role: teams are asking AI to validate product ideas, simulate user feedback, create personas, and tell them what users need.\r\n\r\nThis talk is about how to use AI well in UX research and where to draw the line.\r\n\r\nAI can make UX research faster, clearer, and easier to share. Used well, it can support the work around research and help teams think more sharply. But it cannot replace what matters most: contact with real users. It cannot observe real behaviour, understand context, or reveal the messy reality of how people actually use products.\r\n\r\nAI can make your ideas sound convincing. UX research tells you whether they are true.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d2006ba7-2d10-4ac9-9a4f-707837adee6a"
+      ],
+      "categoryItems": [
+        428596,
+        428613,
+        428608,
+        428610,
+        428620,
+        428670
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1190542",
+      "title": "View Transitions: The brand-new browser API that will blow your mind",
+      "description": "Have you ever wondered why a well-made native app often feels way smoother than a similar web page? The answer is that native apps have long wielded the full power of seamless transitions, while on the web we have had to use heavy JavaScript frameworks to accomplish anything remotely similar.\r\n\r\nThat ends now! In this talk we will take a look at the brand new View Transitions API, a browser API that lets you control every aspect of the transition between web pages with just a few lines of CSS. In addition to seeing what the API is capable of we will dive under the hood to see how exactly the API does its magic.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9357cc88-bb27-4b1d-9734-9e6eaa3c747d"
+      ],
+      "categoryItems": [
+        428596,
+        428620,
+        428658
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1224661",
+      "title": "Kunnskap har et byggesteg: Praktisk context-engineering for agenter",
+      "description": "Å holde kontroll på kontekstvinduet til AI-kodeagenter kan være overraskende krevende. De gjetter i stedet for å lese dokumentasjonen, og produserer dårlig kode. Du tvinger de til å lese mer, og så mister de tråden i oppgaven de egentlig skulle løse. Eller de bruker tusenvis av tokens på dokumentasjon, skills og irrelevante filer, bare for å gjøre en liten endring i en template-fil. \r\n\r\nVi bygde et telemetridrevet kunnskapssystem for å styre konteksten agentene faktisk får tilgang til. Ved å analysere våre kodesesjoner i et stort monorepo kunne vi se hvor de gikk seg vill, hva de burde lest først, og hvor dokumentasjonen, strukturen eller arbeidsflyten sviktet. Resultatet er et system som selv kan foreslå hvor det er mangler, og som forbedrer seg selv over tid. \r\n\r\nI dette foredraget viser jeg hvordan du kan unngå “agent compliance theatre”, sette opp praktiske hooks og telemetri, og gjøre context-engineering til en datadrevet øvelse i stedet for magefølelse. Du går ut med konkrete mønstre du kan bruke fra dag én. Enten du sitter på 20 000 linjer kode eller over én million.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f8605a81-265e-4e66-a6bb-074349108842"
+      ],
+      "categoryItems": [
+        428597,
+        428607,
+        428608,
+        428610,
+        428620,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1225939",
+      "title": "Trøbbel i Trøndelag: AtB-appen låser seg!",
+      "description": "Hva gjør du når en feil slår inn for bare 0.02% av brukerne? Det er jo ikke et stort tall, skal du bry deg?\r\n\r\nJo, det bør du! Det skjer nemlig noe interessant når du har mange nok brukere. Tekniske stordriftsulemper slår inn. \r\nFeil som er vanskelig å reprodusere, og skjer prosentvis ganske sjeldent, vil oppstå hele tiden med mange nok brukere.\r\n\r\nEn slik subtil feil klarte jeg å introdusere i AtB-appen når jeg oppgraderte React Native-rammeverket. Dette gjorde at appen frøs fullstendig for hundrevis av brukere hver dag når de skulle vise billetten sin. \u2028\u2028\r\n\r\nI dette foredraget kommer jeg til å fortelle hvordan vi gikk fram for å fikse feilen. Vi kommer innom native kræsj-logger med race conditions i Bugsnag, profilering av ytelse i DevTools, og ulike forsøk på å fikse dette med Skia, React Compiler og native-kode.\r\n\r\nDet du kommer til å sitte igjen med er hvordan en skal feilsøke i grenselandet mellom JavaScript og native-kode. Og hvilke typiske fallgruver en bør unngå når en skal videreutvikle modne React- og React Native-apper.",
+      "startsAt": "2026-10-19T12:40:00",
+      "endsAt": "2026-10-19T13:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2f043629-3a16-4717-a0ed-b737c54fa121"
+      ],
+      "categoryItems": [
+        428597,
+        428610,
+        428601,
+        428619,
+        428620,
+        428658
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1206149",
+      "title": "Did you remember to think? A critical eye on AI",
+      "description": "Are you among those that are tired of the hustle and bustle to \"use AI at any cost\", and that questions the fact that AI is presented like the solution, not the tool? Are you sick of getting stressed about becoming outdated and set aside because you don't want to use AI for everything? A little tired of the hype and want to hear someone talk about the downsides too? Then this is the talk for you!",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "41224c06-1cf2-45be-9b80-4f51b6d35d78"
+      ],
+      "categoryItems": [
+        428596,
+        428606,
+        428608,
+        428611,
+        428620,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1193431",
+      "title": "Passkeys: Enklere enn du tror. Slik implementerer du støtte for det",
+      "description": "Passord er en av de største svakhetene i moderne sikkerhet – de er vanskelige å huske, enkle å kompromittere, og frustrerende å bruke. Passkeys representerer et fundamentalt skifte i hvordan vi tenker på autentisering.\r\n\r\nI dette foredraget får du en praktisk og teknisk innføring i hvordan passkeys fungerer, hva som skjer “under panseret”, og hvorfor de er både sikrere og enklere enn tradisjonelle passord. Vi går gjennom hvordan WebAuthn og FIDO2 muliggjør passordløs pålogging, og hvordan dette faktisk fungerer i nettleseren og på tvers av enheter.\r\n\r\nDu får også se en live demonstrasjon av hvordan man implementerer passkeys i en moderne webapplikasjon – fra registrering til innlogging – med fokus på hvor overraskende lite som skal til for å komme i gang.\r\n\r\nTil slutt ser vi på hvordan utviklere kan bidra til å senke terskelen for trygg autentisering for brukerne sine og hvordan passordmanagere spiller en nøkkelrolle i å gjøre passkeys praktiske i hverdagen.\r\n\r\nMålet med foredraget er at du skal sitte igjen med både forståelsen og selvtilliten til å implementere støtte for passkeys selv.",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "746c4e40-2505-421a-8f78-54b520e95500"
+      ],
+      "categoryItems": [
+        428597,
+        428599,
+        428602,
+        428620,
+        428666
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1184633",
+      "title": "Code reviews for mennesker",
+      "description": "I teknologiteam er vi gode på feedback; i alle fall på kode.\r\n\r\nVi gjør code reviews, diskuterer arkitektur og analyserer feil i produksjon. Men når det gjelder hvordan vi samarbeider, hvordan vi opptrer i møter, hvordan vi påvirker hverandre og hvordan vi kan bli bedre som team. Da blir det ofte stille.\r\n\r\nIkke fordi vi ikke bryr oss, men fordi vi mangler språk og struktur.\r\n\r\nI denne sesjonen viser jeg hvordan utviklingsteam kan gjøre tilbakemeldinger mer konkrete, trygge og nyttige i hverdagen. Med enkle modeller som SBI, IDEA og CEDAR kan feedback bli mindre awkward og mer verdifull både for enkeltpersoner, for teamet og for prosjektet.\r\n\r\nJeg vil gi:\r\n\r\n* enkel modell for å gi konkrete tilbakemeldinger\r\n* verktøy for å skape endring uten å skape motstand\r\n* eksempler fra teknologiteam og prosjektarbeid\r\n\r\nMålet er ikke mer teori, men noe du kan bruke i neste samtale med en kollega.\r\n\r\nFor akkurat som kode blir bedre gjennom review, blir team bedre gjennom tilbakemeldinger.",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "dfddf5be-4e2f-4f41-8a35-1aa28a99e01c"
+      ],
+      "categoryItems": [
+        428597,
+        428608,
+        428620,
+        428661
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1219475",
+      "title": "React Won. So Why Does Everything Feel Broken?",
+      "description": "React launched with a clear goal: to proudly only be the V in MVC. In the world of frameworks, where Angular and Ember ruled, React planted its flag as a UI library with no opinions about routing or state. \r\n\r\nOver 10 years later, we now see they skipped the entire framework step and went on to become a platform. Server Components, the compiler, multiple output modes. These platform decisions reshaping our mental models on how we think about building for the web.\r\n\r\nWhile React was busy becoming infrastructure, the actual web platform kept evolving. The browser is more capable than ever, yet most developers never reach for any of it. React casts such a long shadow that the real platform underneath has become invisible.\r\n\r\nAI is making this worse. AI, as the self-referential technology it is, has been trained to enforce past winners rather than future ones. Ask an AI to build a UI and it will reach for React by default, regardless of whether React is the right tool.\r\n\r\nReact won by pushing the web forward, but now it holds us back.\r\n\r\nIt is time for whatever comes next. I have been building with React for well over ten years. In 2014 a stranger thanked me for helping bring pure function components into React, and I have spent the years since writing, speaking, doing podcast, and building open source tooling around it. Nobody is more surprised than me that I am making this argument, but here we are.",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "672bbe0d-169d-4004-ac20-ec44d15ae216"
+      ],
+      "categoryItems": [
+        428596,
+        428620,
+        428658
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1225081",
+      "title": "Challenges with OpenTelemetry tracing on the client",
+      "description": "Vi i DIPS AS har tatt i bruk distribuert sporing fra klientapplikasjoner for å gjøre det enklere å feilsøke og forstå den faktiske brukeropplevde ytelsen i en klassisk enterprise‑applikasjon. Å bruke OpenTelemetry for distribuert sporing på klientsiden byr imidlertid på en rekke utfordringer. I denne presentasjonen deler vi erfaringene våre og viser noen av de mest interessante problemstillingene vi har støtt på underveis.",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "7f1207f6-c5c3-4258-a946-29988d8b5e86"
+      ],
+      "categoryItems": [
+        428597,
+        428607,
+        428602,
+        428620,
+        428668
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1221888",
+      "title": "Designer, slutt å være så snill!",
+      "description": "Som designere og fagpersoner må vi tørre å gjøre det som er ukomfortabelt. Vi må ta de samtalene vi helst vil unngå, utfordre beslutninger vi er uenige i, og stå i rom der vi føler oss uvelkomne, dersom det er det som skal til for å skape verdi. Verdi for organisasjonen og for brukeren. \r\nDesignere sitter på en unik forståelse av brukere, prosesser og organisasjon. Men den innsikten blir verdiløs hvis vi bare bruker den i trygge omgivelser. Å levere skisser og prototyper er komfortabelt. Å sette seg ved bordet der strategien formes, og si ifra når den mangler virkelighetskontakt, det kan være ukomfortabelt. Men noen ganger er det nettopp det jobben krever.\r\nDette foredraget handler om hva det betyr å gå ut av komfortsonen: å prioritere det som er nødvendig fremfor det som er behagelig, å ta ansvar utover eget fagfelt, og å tåle friksjon for å skape reell endring. Frustrert over dårlige beslutninger ovenfra? Da holder det ikke å sitte stille og designe videre. Tre ut av den trygge boblen og påvirk.",
+      "startsAt": "2026-10-19T13:20:00",
+      "endsAt": "2026-10-19T13:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a0ef1afe-56e6-4ce9-9bf3-ea6f834cbda3"
+      ],
+      "categoryItems": [
+        428597,
+        428618,
+        428606,
+        428610,
+        428611,
+        428620,
+        428663
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1150505",
+      "title": "Did My Deploy Degrade Production? Detecting Bad Deploys with Math",
+      "description": "When you deploy some code, do you know its impact on your production stats, like memory usage, request duration, error rates? If you wanted to know if your code improved or deteriorated the speed of SQL queries, would you know where to get this data?\r\n\r\nWe collect a lot of metrics in production systems, but we usually set alerts only when these metrics cross a hardcoded threshold, which is often somewhat randomly chosen. But most metrics don't go \"unhealthy\" overnight, they are usually slowly pushed towards the threshold for a while before they reach the threshold.\r\n\r\nWouldn't it be great if we could detect these changes soon after a code change is out rather than 2 months later.\r\n\r\nWelcome to the wonderful world of automated health detection, where we teach Python to answer the eternal question: \"Does my code have undesired side effects?\".\r\n\r\nI'm not a data scientist. But a few years ago, I built a Python system that answers this question automatically. It does so by using collecting data points every 2 minutes, analyzing 14 days of past metric data and alerting us when the data trajectory changes.\r\n\r\nI’ll walk through how the algorithm works, how it was built and some of it's tricks.\r\n\r\nThe system has been running in production for years and is actively used to detect regressions and behavioral changes in real-world systems.\r\n\r\nBased on: https://www.ines-panker.com/2026/02/18/impact-of-a-deploy.html",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a56cea70-f4e0-45b9-a2e8-470b71e73412"
+      ],
+      "categoryItems": [
+        428596,
+        428621,
+        428659
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1221484",
+      "title": "Designet ditt er ikke ferdig før det faktisk kjører",
+      "description": "Hvordan kan vi sørge for at design ikke bare forblir en fin skisse på papiret, men faktisk skaper fremdrift? Som designere jobber vi allerede systematisk, med komponenter, strukturer og informasjonsmodeller. Likevel har jeg opplevd mange ganger at deler av denne systemtenkningen går tapt når designet overleveres til utvikling, til tross for hvor tett på man prøver å være. Designet må tolkes og bygges opp på nytt.\r\n\r\nI denne praten ønsker jeg å dele erfaringer fra å bruke frontend-kode som en del av skisseprosessen, støttet av AI-verktøy i Visual Studio Code. Ikke for å gjøre designere til utviklere, men for å vise et nytt verktøy man kan bruke for å kommunisere intensjonen bak designet (ikke bare UI, men systemet) til utviklere. Og ikke minst hvordan man selv kan få testet idéer mye mer skalerbart og i et dynamisk miljø.\r\n\r\nMed talken min så ønsker jeg å:\r\n- vise hvordan skissering i kode kan gi et godt verktøy for å kommunisere design\r\n- vise hvordan vi som designere kan med dette gi mer tydeligere forventning også til backend\r\n- gjøre det mulig å raskt skissere og iterere ved hjelp av AI (og faktisk fremdeles ha kontroll over UI-et)\r\n- bidra til at designets struktur og intensjon i større grad overlever overgangen til kode\r\n- gir muligheter til å samarbeide på tvers på en ny måte",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "cba5d965-121e-4210-a4b6-03f85d7ee69a"
+      ],
+      "categoryItems": [
+        428597,
+        428613,
+        428607,
+        428602,
+        428621,
+        428670
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1306190",
+      "title": "Down to Earth: Receiving Data from Orbiting Observatories",
+      "description": "An introduction to earth observation from satellites in polar orbit, the challenges that must be overcome in acquiring the data from the satellites, and how this is done at \r\nSpace Ground Systems.\r\nIncludes a demonstration showing a live data acquisition.\r\n",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "1ba5cad2-2b14-49ce-aed4-0dcbcf90a7d9"
+      ],
+      "categoryItems": [
+        428596,
+        428599,
+        428621,
+        428665
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1186512",
+      "title": "Meditations on Code As Art",
+      "description": "Code can be beautiful, elegant and performant, but can it deliberately be artistic?\r\n\r\nDespite how important and prolific software and programming have become over the last 50 years the general public still have a very loose understanding of what software actually is.\r\n\r\nThis hasn't been lost of the people that build the software, who often slowly try and capture themselves in the work that they do.\r\n\r\nIn this talk we'll take a look at some examples through history of seeing the humans behind the code they write as they imprint themselves on their work and we'll consider if it's possible to deliberately make art by manipulating the form and design of software itself.\r\n\r\nA talk for everyone wanting to be seen in the work, or understand their own creative urge.",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4e54596f-f5c8-422e-8249-132bde23b52b"
+      ],
+      "categoryItems": [
+        428596,
+        428607,
+        428606,
+        428621,
+        428664
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1213771",
+      "title": "No More Big Bang: Make Your Releases Bulletproof",
+      "description": "Have you ever needed to stop a release of your microservice and had to wait until other parts of the system got released first? Have you ever needed to roll back to the previous version of your service because its API wasn’t compatible with the consumers? Have you ever experienced code freezes?\r\n\r\nChances are, you have experienced many of those, but there is good news: in most situations, you can avoid those issues and obtain truly independent deployments and releases. Many patterns and strategies can help you untangle your dependency on changes in other services (and vice versa) and make your team's life much easier and less stressful. You will hear about API versioning, API Evolution Patterns, Contract Testing, Database Migrations and more.\r\n\r\nDuring this talk, you will learn the fundamentals of introducing changes in APIs and database in a way that is backward and forward compatible, how to prevent broken integrations with other services and frontend applications. I will show the proper mindset of a developer, automatic ways to prevent those issues, and tools that can help you with that.\r\n\r\nI look forward to seeing you at my talk!\r\n",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "94d284f5-a033-4120-8a9d-78754b46863a"
+      ],
+      "categoryItems": [
+        428596,
+        428608,
+        428610,
+        428621,
+        428655
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1197922",
+      "title": "An Opinionated Guide to Bulletproof APIs (with code examples)",
+      "description": "Writing a \"Hello World\" endpoint is easy. But building an API that is secure, observable, and capable of evolving without breaking every client? That’s where the real engineering happens. We often pollute our business logic with validation, security checks, and boilerplate, creating a maintenance nightmare.\r\n\r\nIt’s time to clean up our act. In this session, we’ll move beyond basic CRUD to explore 5 essential patterns for building production-grade APIs. We will combine standard Jakarta EE/MicroProfile features with powerful custom implementations to tackle the cross-cutting concerns that matter most.\r\n\r\nThe examples will be in Java, but the knowledge can be applied to  the framework and language of your choosing.",
+      "startsAt": "2026-10-19T14:00:00",
+      "endsAt": "2026-10-19T14:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ad998165-d26a-4c98-8aac-ee60a16c638a"
+      ],
+      "categoryItems": [
+        428596,
+        428607,
+        428600,
+        428621,
+        428656
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1191455",
+      "title": "Developers in the Dark Forest",
+      "description": "Developers used to have a home on the internet. Stack Overflow was our oracle. Twitter was our town square. Open source repos were our collective workshop. But something has gone wrong. Stack Overflow sits abandoned. Twitter lost its name and its soul. Open source repos are filled with AI-generated code that feels hollow. New \"developer platforms\" promise community but nobody shows up. The internet isn't just dying for everyone. It's dying for the people who built it.\r\n\r\nSo we've gone underground into DMs, Discord servers, private Slacks. We're hiding at the edges of a web that doesn't feel like ours anymore. Two theories explain what happened to us. The \"dark forest theory\" suggests the public internet became hostile: bad actors, bots, trolls, and scrapers turned every public space into a minefield. So we learned to stay quiet, share less, and keep our real conversations private. The \"dead internet theory\" goes further: most of the content we see online is now generated by bots, for bots. We're not just hiding from threats anymore. We're performing for an audience that might not even be human, contributing to repositories that AI will scrape, answering questions that ChatGPT will repackage. \r\n\r\nThis talk explores how these forces changed the developer internet, what it means to build and learn when the web feels broken, and whether we can still find each other.",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b3abd4bf-51e8-4fa3-aee6-0098eaeb6c6e"
+      ],
+      "categoryItems": [
+        428596,
+        428606,
+        428621,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1224778",
+      "title": "Tips til hvordan du gjør løsningen din litt grønnere",
+      "description": "Hver gang vi besøker et nettsted eller bruker en digital tjeneste, går det med energi – både på serverne som leverer dataene, og på enhetene som viser dem. Men hvorfor har nettsider og digitale produkter blitt så tunge? De siste 10 årene har vekten på en gjennomsnittlig nettside faktisk doblet seg. Allerede før KI-bølgen så utgjorde utslippet fra IT-sektoren mer enn flybransjen.\r\n\r\nOmtrent 80 % av de digitale utslippene bestemmes allerede i designfasen, gjennom valg vi tar som utviklere og designere. Uten bevissthet rundt dette ender vi lett opp med unødvendig tunge og energikrevende løsninger.\r\n\r\nI dette foredraget får du tips til hvordan du kan kutte ned på «vekten» i løsningen din, redusere energiforbruket og samtidig gjøre den raskere.",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "4df95934-b5bd-409d-842d-d3e6d5646439"
+      ],
+      "categoryItems": [
+        428597,
+        428621,
+        428670
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1211223",
+      "title": "What’s New in Web? 2026 Edition",
+      "description": "Christian is a member of the World Wide Web’s architecture board, the Technical Architecture Group (TAG) of W3C. As such, he has insights into what’s going on in the web platform. In his session, you'll gain insights into the latest discussions among standards bodies, browser vendors, and web developers. And you have the opportunity to report your wishes back to the Web’s architecture board. Don't miss this opportunity to stay updated on the forefront of web technologies.",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "d7da8026-334b-42d8-aec9-324bf1bb6ec4"
+      ],
+      "categoryItems": [
+        428596,
+        428613,
+        428607,
+        428602,
+        428611,
+        428621,
+        428658
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1225135",
+      "title": "Aspire 13: One AppHost, Many Languages",
+      "description": "Aspire is not just for .NET. With Aspire 13, you can bring Python, Node.js, Go, Java, and C# services into a single AppHost and manage them as one local development experience. In this session, we will build and explore a set of polyglot sample applications using Flask, Django, React, Go, Java, and .NET.\r\n\r\nWe will start with the pain Aspire helps remove: service discovery confusion, scattered configuration, fragile startup order, and READMEs full of manual steps. You will see how AddPythonApp, AddNpmApp, and AddDockerfile bring different runtimes into the Aspire lifecycle, and how service references and environment variables replace hardcoded URLs and duplicated .env files. We will also use Aspire’s dashboard to view traces, logs, and metrics from multiple languages in one place.\r\n\r\nAlong the way, we will cover the patterns teams need when a repo grows beyond one stack: dependency ordering, health checks, connection-string injection, and debugging requests across frontend and backend services. We will close by looking at the Aspire CLI workflow, repo structure, CI and deployment automation, and where Azure fits when you are ready to move beyond local development.",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "2ebd8578-298f-45ae-b71b-dc076037b080"
+      ],
+      "categoryItems": [
+        428596,
+        428607,
+        428600,
+        428605,
+        428602,
+        428621,
+        428664
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1220768",
+      "title": "Jaktet av Pac-Man",
+      "description": "Smart-TV-er selges som passive bokser for å se Netflix, men de er datamaskiner du ikke har admin på, og de snakker med hundrevis av eksterne endepunkter du aldri har samtykket til. I denne sesjonen åpner jeg motorpanseret på en LG WebOS-TV og viser hvordan jeg, gjennom systematisk PCAP-analyse, identifiserte Bright Data SDK pakket inn i en tilsynelatende uskyldig kasualspill-app (Pac-Man by Playworks). Resultatet: TV-en min har deler av tiden vært en residential proxy-node i et kommersielt nettverk.\r\n\r\nJeg deler metodikken (capture-oppsett, isolering av TV-trafikk, sammenligning med en kontrollert EarnApp-endepunkt på en mobiltelefon), de konkrete funnene (domener, trafikkmønstre, IOC-er), og hvordan dette eksponerer en supply chain-risiko få SOC-er overvåker i dag. \r\n\r\nVi vil også gå inn på hva det er Smart-TV produsentene og selskaper som Bright Data faktisk benytter denen kapasiteten til og hva de typisk høster av data om deg og dine seervaner",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "099deef5-1d67-44ce-831b-2af70a70c15b"
+      ],
+      "categoryItems": [
+        428597,
+        428610,
+        428621,
+        428666
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1140331",
+      "title": "How We Test an AI Chatbot in the Biggest Pharmacy Chain of Norway",
+      "description": "In early 2024, I developed an AI-powered RAG-based chatbot for Apotek 1, the largest pharmacy chain in Norway. This assistant helps pharmacists find accurate internal information across more than 450 locations.\r\n\r\nWhile developing the chatbot was a great achievement, testing it turned out to be a challenge. Every time we changed a single prompt, model parameter, or retrieval setting, we had to verify the impact. Waiting for deployments or relying on third-party tools wasn’t good enough.\r\n\r\nI needed something fast, simple, and tailored to our needs, so I built it myself :)\r\n\r\nIn this talk, I’ll share how I designed and implemented our custom chatbot testing tool in just a few days. You’ll see how such tools can give you full control, speed up iteration, and avoid regressions. The session includes code examples, practical tips, and lessons learned.\r\n\r\nBy the end, you'll understand how to implement your own lightweight testing setup, without relying on expensive or complex tools.\r\n\r\nI look forward to seeing you at my talk!",
+      "startsAt": "2026-10-19T15:00:00",
+      "endsAt": "2026-10-19T15:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f8f8e048-a885-4a17-9c2d-96d20ce09c03"
+      ],
+      "categoryItems": [
+        428596,
+        428599,
+        428601,
+        428621,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1222450",
+      "title": "Gammal font, nye kurver",
+      "description": "Digitalisering av gamle fontar har både kulturell og historisk verdi, men det skal mange utfordringar til før det fungerer optimalt på skjerm. Nye bokstavar og diakritiske teikn må til for å dekke det latinske skriftspråket, samtidig som identiteten skal bevares. \r\n\r\nBli med inn i ein prosess fylt av Bézier-kurver, kinkar og kerning, og få eit innblikk i korleis små justeringar og optiske vurderingar kan gi store forbedringar for lesbarheit og digital bruk. \r\n\r\nDenne presentasjonen passar for deg som er nysgjerrig på skriftddesign og produksjon av fontar, og som har lyst til å lære meir om korleis ein font blir til.",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "8240d35f-2228-48ae-9245-81e36b3c507b"
+      ],
+      "categoryItems": [
+        428597,
+        428618,
+        428614,
+        428621,
+        428663
+      ],
+      "questionAnswers": [],
+      "roomId": 77085,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1151071",
+      "title": "Your Testing Strategy is broken - lets fix it!",
+      "description": "Testing is essential for delivering reliable software, but too often, teams fall into the trap of testing everything and testing it poorly. Endless unit tests for trivial code create a false sense of security while ignoring the areas that matter most—like how your system behaves when it really counts. This session takes a hard look at what makes a good testing strategy. Instead of chasing meaningless metrics like 100% coverage, learn how to test behaviors, focus on integration points, and embrace a leaner, smarter approach to quality assurance. Your users don’t care about how many tests you’ve written—they care about software that works. This is your guide to writing fewer tests, but better ones, that actually make a difference.\r\n",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f6040a22-1580-4ca3-b201-5b59f013c242"
+      ],
+      "categoryItems": [
+        428596,
+        428605,
+        428621,
+        428669
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1177297",
+      "title": "Java Sucks (So C# Didn't Have To)",
+      "description": "Using Java as an everyday language can be absolutely infuriating. It's verbose and clunky, with all roads seemingly pointing to null. These are faults that users of other languages (especially of C#) love to point out.\r\n\r\nAt the same time, Java is mature, stable, backwards compatible, and runs just about anywhere. The community is pretty cool too!\r\n\r\nThis talk takes a light-hearted, warts-and-all look at some of the more frustrating aspects of Java, how the language has evolved over time and where it's headed next. A discussion on the consequences of language design decisions that can be enjoyed by programmers of all languages, but especially by C# users.\r\n\r\nExpect to laugh, and yes maybe even cry, as we try to make sense of the beast that puts food on the table for millions of developers worldwide\r\n\r\nWe will cover:\r\n- Pivotal early design decisions such as checked exceptions and generics and how we still pay for those decisions today (that is, why do lambdas suck so bad?)\r\n- How Java has influenced the development of other programming languages, and vice versa\r\n- Most controversial language design decisions of late and the associated fallouts\r\n\r\nJava developers will leave this session feeling validated and with a renewed love for the language that keeps a large chunk of the world running. C# developers will leave this session with a renewed level of smugness.",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "15d594b2-4627-4039-8a66-a724b0f9b14a"
+      ],
+      "categoryItems": [
+        428596,
+        428621,
+        428664
+      ],
+      "questionAnswers": [],
+      "roomId": 77083,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1139456",
+      "title": "The OG Social Network",
+      "description": "Long before Facebook, a social computing network known as Bulletin Board Systems (BBSes) emerged from improvised technology and grassroots labor. Built on homebrew computers, gadgets and phone lines, these systems became refuges for hackers and outcasts.\r\n\r\nThis talk tells the story of how computer hobbyists built a world-spanning social network during the 1970s and 80s, the technological innovations that made it possible, and the people who made it happen.\r\n\r\nThis is the story what impact volunteers operating outside institutional power can have when creating safe online spaces for cultural and political, and above all social interaction.\r\n\r\nMaybe this social network wasn't a precursor to the internet, but a blueprint for what networked life can be when shaped primarily by its participants.",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "3f99d885-0cc8-42d8-9789-81fe4530f029"
+      ],
+      "categoryItems": [
+        428596,
+        428606,
+        428610,
+        428621,
+        428652
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1220830",
+      "title": "Hvem er Nicolai Winther?",
+      "description": "Hvem er Nicolai Winther? Og hvorfor later OpenAIs Whisper som om den er ham?\r\nDet hele startet med en snedig detalj i en bloggpost: et navn som dukket opp på slutten av automatiske transkripsjoner – igjen og igjen. I norske podcaster, i avisartikler, i tekstfiler fra et offentlig mediatek i Madrid, til og med i en akademisk artikkel om transkribering av politiavhør.\r\nHvem er denne mannen, og hvorfor har en av verdens største AI-modeller bestemt seg for å kreditere ham for arbeid han aldri har gjort?\r\nLars tar deg med på en detektivjakt gjennom Whisper, hallusinasjoner og treningsdata – fra et tilfeldig Google-søk til en uventet samtale med personen bak navnet.\r\nFor deg som bygger tjenester på toppen av språkmodeller, jobber med transkribering, eller bare er nysgjerrig på hva som faktisk skjer inne i de svarte boksene vi stoler blindt på.\r\nDu kommer til å google ham etterpå.",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c55fdbe7-f14e-4605-bd0c-a5ce4d1aef07"
+      ],
+      "categoryItems": [
+        428597,
+        428610,
+        428621,
+        428654
+      ],
+      "questionAnswers": [],
+      "roomId": 77088,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1143050",
+      "title": "Engineering for Chaos: Software Architecture for Emergency Response",
+      "description": "Emergency medicine is chaos by default: connectivity disappears, devices fail, crews change mid-mission, and data must follow the patient — not the hardware.\r\n\r\nThis talk tells the real-world story of designing and building software used across ambulances, helicopters, and maritime units, running on Windows, iPad, Android, and the web, with full offline support and reliable synchronization.\r\n\r\nDriven by harsh constraints, the architecture evolved toward an event-first approach where every change became an atomic unit for storage, transfer, and replay. You’ll hear how this enabled offline-first sync, multi-device collaboration, live handovers between teams, and consistent behavior across platforms.\r\n\r\nThis is not a theory talk. It’s a candid, experience-based story about architectural tradeoffs, unexpected challenges, and what actually worked when the software left localhost and entered real emergency environments.",
+      "startsAt": "2026-10-19T16:00:00",
+      "endsAt": "2026-10-19T16:40:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "6b6ac8ae-8cd1-4ff4-b750-d2ed446c543e"
+      ],
+      "categoryItems": [
+        428596,
+        428599,
+        428610,
+        428619,
+        428621,
+        428655
+      ],
+      "questionAnswers": [],
+      "roomId": 77089,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "1282489",
+      "title": "Ubuntu as AI Compass for Healthy Human-AI Relationships",
+      "description": "This keynote will address the issue of what is required of us as humanity to become relational cross-culturally, and therefore become better at relating with machines that flatten all our cultures into a predicted algorithm. The Ubuntu philosophy is the oldest known concept that defines what it means to be human and is captured in the saying, \"I am because of who We are.\" In a time of global crises that touch every life on the planet, we are facing an unprecedented technological advancement happening faster than we can learn, reflect and relate. Ubuntu is the wisdom of relational intelligence. It breaks things down to a set of protocols for relating with chaos, uncertainty and new ways of being human together. Ubuntu philosophy is being applied to technoly at the design stage as a more ethical approach to creating solutions that solve real problems, while helping us maintain human dignity and a sense of belonging to one another. It is, as Desmond Tutu once declared, \"Africa's gift to the world.\" This new version of Ubuntu cuts across cultures and geographies and attempts to bring peace and understanding in the technology space where there is a clash of values and ethics.  ",
+      "startsAt": "2026-10-19T17:00:00",
+      "endsAt": "2026-10-19T18:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bc893f85-cbe7-4e54-a1a9-66bb07c6d7bc"
+      ],
+      "categoryItems": [
+        428596,
+        428618,
+        428606,
+        428621,
+        428665
+      ],
+      "questionAnswers": [],
+      "roomId": 77087,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "1219486",
+      "title": "Kortslutning Live",
+      "description": "Live podcast av Kortslutning med Mikael Brevik og Stian Veum Møllersen.\r\n\r\nKortslutning har siden 2018 tatt opp temaer vi møter på som utviklere i det daglige, alt fra menneskelige utfordringer til tekniske.\r\n\r\nVi gjentar gleden med kveldsunderholdning fra TDC2025 med nye dilemmaer, nye spørsmål og nye kortslutninger.",
+      "startsAt": "2026-10-19T19:00:00",
+      "endsAt": "2026-10-19T20:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": true,
+      "speakers": [
+        "672bbe0d-169d-4004-ac20-ec44d15ae216",
+        "e5f4b27b-fe4f-4066-8534-cf83c9628a44"
+      ],
+      "categoryItems": [
+        428597,
+        428621,
+        428659
+      ],
+      "questionAnswers": [],
+      "roomId": 77084,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    }
+  ],
+  "speakers": [
+    {
+      "id": "15d594b2-4627-4039-8a66-a724b0f9b14a",
+      "firstName": "Adele",
+      "lastName": "Carpenter",
+      "bio": "Adele is a Software Engineer and Consultant at Trifork Amsterdam where she is working on systems for the educational sector. Most of her work day is spent in the JVM/Spring and React ecosystems, although increasingly she plays a pivotal role as trusted advisor to Trifork’s customers.\r\n\r\nAdele is an experienced international speaker, having spoken at multiple editions of NDC, goto, Devoxx and JavaZone. As a speaker, she uses her exposure to real-world customer projects, experiences outside of tech and passion for story-telling to distill complex ideas into their essential parts. All with an air of good humour.\r\n\r\nWhen she’s not at her computer or on stage, you can find her in the gym pumping some serious iron as she pursues the sport of powerlifting.",
+      "tagLine": "Software Engineer at Trifork Amsterdam",
+      "profilePicture": "https://cdn.sessionize.com/image/6867-400o400o1-BtS74DLX6NUMv3g9z9LXEs.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1177297
+      ],
+      "fullName": "Adele Carpenter",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "dfddf5be-4e2f-4f41-8a35-1aa28a99e01c",
+      "firstName": "Anders",
+      "lastName": "Hefre",
+      "bio": "Anders har over 20 års erfaring som utvikler og teamleder, og brenner for smidig utvikling, DevOps og mikrotjenester. Han er like opptatt av personlig utvikling og teamdynamikk som av teknologi, og liker å bygger sterke, autonome team gjennom et tillitsbasert og coachende lederskap.",
+      "tagLine": "Teamleder, men utvikler av hjerte",
+      "profilePicture": "https://cdn.sessionize.com/image/d892-400o400o1-7RbxMkWEPyyJ1SjHg4GyK8.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1184633
+      ],
+      "fullName": "Anders Hefre",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "bfe206cf-e58c-421f-a828-7384357625e5",
+      "firstName": "Anders",
+      "lastName": "Kringstad",
+      "bio": "I have been playing with the Internet and all things digital for more than 30 years since my first IRC session connected via a (very) slow modem in 1993.\r\n\r\nI love to work on Information Security, Network design, communication, service configuration and -administration,\r\nopen source tool-chains such as GNU/Linux (Ubuntu!), the CNCF landscape and container/Kubernetes workloads.\r\nI enjoy help building strong relations between partner organizations sprinkled with some IT advisory, project management and technical challenges, and more.\r\n\r\n- Did I mention that I love BGP? It's the glue that connects the dots.\r\n\r\nIf I'm not online I'm probably out and about in the Trondheim area exploring some foot path or walking the hills while recharging.",
+      "tagLine": "Teknologidirektør, ITsjefen AS",
+      "profilePicture": "https://cdn.sessionize.com/image/becf-400o400o1-3T8KJxmUq859MGRXgUwQ4w.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1125820
+      ],
+      "fullName": "Anders Kringstad",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "3f99d885-0cc8-42d8-9789-81fe4530f029",
+      "firstName": "Anders",
+      "lastName": "Norås",
+      "bio": "Anders Norås started out in arts and design, but for the last 25 years he has been creating magic with code instead of paint. Blending creativity with technical skill, he brings a perspective on technology that is as much about people as it is about software.\r\n\r\nHe has given more than 100 talks at conferences around the world. His presentations are not just lectures, they are experiences. With a sharp delivery and high energy, Anders turns even dry technical material into something lively, memorable and often funny.\r\n\r\nWhether you are into computer science, design, media or anything else, Anders offers insights that will make you think and probably make you laugh. He does not just talk about technology. He brings it to life.",
+      "tagLine": "IT-showman",
+      "profilePicture": "https://cdn.sessionize.com/image/e5fc-400o400o1-RzyLob7uSE6Nmun9e4Vnxn.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1139456
+      ],
+      "fullName": "Anders Norås",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "2ebd8578-298f-45ae-b71b-dc076037b080",
+      "firstName": "Chris",
+      "lastName": "Ayers",
+      "bio": "Chris Ayers is a Principal Software Engineer at Microsoft, where he builds AI-driven tooling to analyze outages and incidents across Azure. His work focuses on improving the way engineers understand failures, uncover risks, and strengthen reliability at cloud scale.\r\n\r\nWith a background spanning DevOps, cloud architecture, and modern application design, Chris brings both engineering depth and practical experience to the challenge of making large systems more resilient. He’s also a frequent international speaker who loves sharing real-world lessons about developer productivity, reliability, containers, and automation.\r\n\r\nOutside of work, Chris is a proud dad, lifelong gamer, avid reader, and unapologetic nerd.",
+      "tagLine": "Principal Software Engineer @ Microsoft",
+      "profilePicture": "https://cdn.sessionize.com/image/6d49-400o400o1-DFFYxH72h9yFP2F9fqwvgG.png",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1225135
+      ],
+      "fullName": "Chris Ayers",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "2f043629-3a16-4717-a0ed-b737c54fa121",
+      "firstName": "Christian",
+      "lastName": "Brevik",
+      "bio": "Christian works as a consultant and  as the CTO of Variant Trondheim. He's been developing with .NET for long over a decade, and also likes to dabble in other technologies. Christian is the founder and organizer of the Rust Trondheim-meetup, and can be heard ranting (from across the room) about why he thinks Microsoft should adopt more ideas from Rust in C# sooner rather than later.",
+      "tagLine": "CTO at Variant Trondheim",
+      "profilePicture": "https://cdn.sessionize.com/image/0fb8-400o400o1-Y3nMyJew4K5MDffHXSgV3X.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1225939
+      ],
+      "fullName": "Christian Brevik",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d7da8026-334b-42d8-aec9-324bf1bb6ec4",
+      "firstName": "Christian",
+      "lastName": "Liebel",
+      "bio": "Christian Liebel is a developer with a passion for modern web technologies. He has been recognized as a Microsoft Most Valuable Professional (MVP) and a Google Developer Expert (GDE) and speaks at user groups and conferences worldwide. As a member of the W3C Technical Architecture Group (TAG), he helps push the boundaries of the web.",
+      "tagLine": "Member of the W3C Technical Architecture Group (TAG)",
+      "profilePicture": "https://cdn.sessionize.com/image/10f2-400o400o1-TQiUi2UGXk4Z3pR3jCuL3m.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1211223
+      ],
+      "fullName": "Christian Liebel",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4e54596f-f5c8-422e-8249-132bde23b52b",
+      "firstName": "David",
+      "lastName": "Whitney",
+      "bio": "David is the Director of Architecture for NewDay, and the founder of Electric Head Software. Focusing on iterative software delivery, developer mentoring and cultural change - mostly working with London-based organisations.\r\n\r\nHe speaks about software design, culture, and ethics in technology - rounded out by an assortment of talks about software that probably doesn't need to exist but makes the world a little more fun. David has previously served as the chief coding technical architect for JustGiving and helped market-leading organisations including JUST-EAT, Trainline and Vodafone improve their technical capabilities.\r\n\r\nDavid is a Microsoft MVP, has been part of the OpenUK Honours list for open-source advocacy, and is a twice bestselling author of children's books about programming.\r\n\r\nYou can find his open-source projects on NuGet, npm and GitHub, follow him on Twitter @david_whitney, or check out his technical blog at http://www.davidwhitney.co.uk/Blog.\r\n\r\nhttp://www.electricheadsoftware.com \r\nhttp://www.davidwhitney.co.uk ",
+      "tagLine": "Converting rum into code",
+      "profilePicture": "https://cdn.sessionize.com/image/68ce-400o400o1-4F379c5UguQ989e8hBHXf9.jpg",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1186512
+      ],
+      "fullName": "David Whitney",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c75ae272-20fc-443a-9dc8-5a648f41fecc",
+      "firstName": "Dora",
+      "lastName": "Makszy",
+      "bio": "You know what’s truly rewarding? Helping someone learn and grow. There’s nothing quite like being part of someone’s journey and knowing you played a role in their progress. As a human being, a mother, a team member, and Head of Design, my mission is to contribute to as many growth stories as possible. Over the past 18+ years, I’ve gained a wealth of experience in design, product, and leadership - and now, it’s time to give back.\r\n",
+      "tagLine": "Design strategist by day, Information architecture & Design systems geek by night",
+      "profilePicture": "https://cdn.sessionize.com/image/d5cb-400o400o1-RDggRbQSiWDcMrVSS6BAgU.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1182472
+      ],
+      "fullName": "Dora Makszy",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "6b6ac8ae-8cd1-4ff4-b750-d2ed446c543e",
+      "firstName": "Einar",
+      "lastName": "Ingebrigtsen",
+      "bio": "Passionate software developer, focused on delivering quality software for the joy of improving end users lives. Had an awakening in 2010 when started working with event sourcing and general event driven architecture. Broad background in everything from games development, telecom, broadcast TV and a bunch of different line of business software. Love to empower other developers with providing the building blocks to create maintainable software.",
+      "tagLine": "Technical Leader, NovaNet",
+      "profilePicture": "https://cdn.sessionize.com/image/15db-400o400o1-SzfxjmfZSPEnKjHmXpC7Kv.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1143050
+      ],
+      "fullName": "Einar Ingebrigtsen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "510ab534-a4e2-4df7-904c-3f8b65d8af5e",
+      "firstName": "Elise",
+      "lastName": "Kristiansen",
+      "bio": "Elise is a frontend developer in Variant and has been involved in a diverse range of projects for nine years. As a consultant, she has worked in and out of various teams, experiencing a wide range of team compositions.\r\n\r\nShe has a special interest and passion for accessibility.\r\n\r\nShe enjoys sharing insights about observations in the industry, and in 2022, she was the \"Voice of the Year\" in kode24, an online newspaper for Norwegian developers.",
+      "tagLine": "Frontend developer in Variant",
+      "profilePicture": "https://cdn.sessionize.com/image/1397-400o400o1-asqTnDuPPrQqZhzTkWHXpr.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1125769
+      ],
+      "fullName": "Elise Kristiansen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f8605a81-265e-4e66-a6bb-074349108842",
+      "firstName": "Herman",
+      "lastName": "Hassel",
+      "bio": "Herman har levd av å lage applikasjoner og webløsninger i over 20 år. De siste syv årene har han jobbet i utviklingsteamet i HENT AS, hvor han lager programvare for byggebransjen, brukt i prosjekter som spenner fra sykehus til flyplasser.",
+      "tagLine": "Principal developer - Front-end i HENT AS",
+      "profilePicture": "https://cdn.sessionize.com/image/fb07-400o400o1-Qgq3Xfk5zVv3Kropm11XDy.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1224661
+      ],
+      "fullName": "Herman Hassel",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "a56cea70-f4e0-45b9-a2e8-470b71e73412",
+      "firstName": "Ines",
+      "lastName": "Panker",
+      "bio": "I’ve been building software for almost 2 decades, writing code, shaping architecture, and leading teams. From Java to PHP to a decade with Python, I love finding elegant, simple solutions in complex systems.\r\n\r\nI see great codebases like well-designed cities: thoughtfully planned, easy to navigate and built to grow. The key is in laying strong foundations while creating solutions.\r\n\r\nBut software is ultimately human. It’s built by people, for people, within teams and shaped by the society that uses it. \r\n\r\nI speak to share technical insights alongside the human side of software, focusing on making complex ideas understandable and relevant.",
+      "tagLine": "Software engineer by trade and an explorer at heart",
+      "profilePicture": "https://cdn.sessionize.com/image/e221-400o400o1-70-f4e0-45b9-a2e8-470b71e73412.33d310d9-3a1b-4cae-b681-0867adc121b2.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1150505
+      ],
+      "fullName": "Ines Panker",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "8c7086a0-fd3b-4c11-b085-1182faa39e7b",
+      "firstName": "Ingrid",
+      "lastName": "Guren",
+      "bio": "Ingrid is tech lead for JavaScript at NRK.no and has performed a disaster recovery of the front page at three in the morning.",
+      "tagLine": "Tech lead NRK.no",
+      "profilePicture": "https://cdn.sessionize.com/image/d4fa-400o400o1-sRRppuE8gfUVtiqvsfNjRP.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1214346
+      ],
+      "fullName": "Ingrid Guren",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "a6ca463b-6de1-4385-b71c-494caedb8f06",
+      "firstName": "Isak Slevigen",
+      "lastName": "Falch",
+      "bio": "Isak er en allsidig designer som drives av alt rundt oss som ikke virker - med andre ord det meste! Målet er å hjelpe virksomheter med å bruke design og læringstørst til å jobbe smartere og mer effektivt - det skylder vi forretning, folk og klode.",
+      "tagLine": "Designstrategi og innsiktsentusiasme",
+      "profilePicture": "https://cdn.sessionize.com/image/48b4-400o400o1-sPdgZWeAgKyJfvZrGYurED.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1182366
+      ],
+      "fullName": "Isak Slevigen Falch",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "9357cc88-bb27-4b1d-9734-9e6eaa3c747d",
+      "firstName": "Jakob",
+      "lastName": "Endrestad Kielland",
+      "bio": "Jakob is a life-long nerd who's interested in most things. He spends his days trying to create the nicest-feeling, least frustrating air travel experience in the world at Norwegian Air Shuttle.\r\n\r\nJakob has a passion for teaching and loves the challenge of communicating complex topics in an entertaining and understandable way, something he aspires to show in his talks! ",
+      "tagLine": "Developer - Norwegian Air Shuttle",
+      "profilePicture": "https://cdn.sessionize.com/image/c99b-400o400o1-XhSBz5mREWxsw5Ebvzy4C2.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1190542
+      ],
+      "fullName": "Jakob Endrestad Kielland",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "cba5d965-121e-4210-a4b6-03f85d7ee69a",
+      "firstName": "Janniche",
+      "lastName": "Aarøen",
+      "bio": "Designer med bakgrunn fra industriell design ved Norges teknisk-naturvitenskapelige universitet, med særlig interesse for å omsette brukerinnsikt til konkrete, gjennomførbare løsninger. Hun jobber som designer i Bekk, hvor hun arbeider med modernisering av IT-systemer i offentlig sektor.\r\n\r\nJanniche jobber analytisk og tett på sluttbrukere, og kombinerer designfaglig forståelse med praktisk utforskning gjennom skisser, både i Figma og direkte i frontend.\r\n\r\nHun trives best i tverrfaglige team der målet er å løse reelle brukerbehov, og er opptatt av tidlig involvering av interessenter og felles eierskap til problemforståelsen.",
+      "tagLine": "Bekk, designer",
+      "profilePicture": "https://cdn.sessionize.com/image/6ea6-400o400o1-9st4CJyDpPAwjVhYBgwtSB.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1221484
+      ],
+      "fullName": "Janniche Aarøen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b80973fc-a967-4f13-931d-489235ceea7a",
+      "firstName": "John Arne S.",
+      "lastName": "Pedersen",
+      "bio": "John Arne is the tech lead for Java at NRK.no, and he was on duty when Eurovision Song Contest Norwegian national final crashed in 2020.",
+      "tagLine": "Tech lead NRK.no",
+      "profilePicture": "https://cdn.sessionize.com/image/2d75-400o400o1-WRe8cUQJ6q9WfbyNFEKTNd.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1214346
+      ],
+      "fullName": "John Arne S. Pedersen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d2006ba7-2d10-4ac9-9a4f-707837adee6a",
+      "firstName": "Kim",
+      "lastName": "Feenstra Kuiper",
+      "bio": "Kim Feenstra Kuiper is a seasoned UX researcher with experience at companies like Spotify, Goodnotes, and King (makers of Candy Crush). Through her consultancy, Expedition UX, she helps product teams go beyond usability testing—using deep, practical research methods to understand real user behavior. Kim is passionate about making UX research accessible for cross-functional teams and embedding it in fast-paced product development to create products people truly want to use.",
+      "tagLine": "insight into impact at Expedition UX",
+      "profilePicture": "https://cdn.sessionize.com/image/d5a9-400o400o1-EuSQ7T9bBtiLFHeJ649GrV.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1225501
+      ],
+      "fullName": "Kim Feenstra Kuiper",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "746c4e40-2505-421a-8f78-54b520e95500",
+      "firstName": "Kristian Lier",
+      "lastName": "Selnæs",
+      "bio": "Kristian Lier Selnæs har lang erfaring innen webutvikling og frontend-arkitektur. Han har jobbet med alt fra sikkerhetssystemer i finanssektoren til å etablere beste praksis for moderne webapplikasjoner som frontend technical lead. Med en bred teknisk bakgrunn har han ledet utviklingsteam og vært arkitekt på en rekke prosjekter for store norske og internasjonale aktører. Kristian brenner for god brukeropplevelse og er opptatt av å finne de riktige tekniske løsningene for hver utfordring.",
+      "tagLine": "Sjefskonsulent i Kantega",
+      "profilePicture": "https://cdn.sessionize.com/image/60df-400o400o1-WFCQGg7HWad37k5dUpuXA3.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1193431
+      ],
+      "fullName": "Kristian Lier Selnæs",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c55fdbe7-f14e-4605-bd0c-a5ce4d1aef07",
+      "firstName": "Lars Erik Haukedal",
+      "lastName": "Andreassen",
+      "bio": "Lars Andreassen er forretningsrådgiver i Bekk Trondheim. Han har gått på NTNUs entreprenørskole og medgrunnlagt en startup. Ex CERN, NRK, Techstars. ",
+      "tagLine": "Forretningsrådgiver, Bekk Consulting",
+      "profilePicture": "https://cdn.sessionize.com/image/1333-400o400o1-QghdUMFuwaSPAug98fynWt.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1220830
+      ],
+      "fullName": "Lars Erik Haukedal Andreassen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "41224c06-1cf2-45be-9b80-4f51b6d35d78",
+      "firstName": "Lene",
+      "lastName": "Ludvigsen",
+      "bio": "Lene is a designer with an extra love for systems and order and the nitty gritty. During her over 20 years as a designer, she has used her craft to create engaging, useful, and memorable digital experiences.\r\n\r\nHer passion lies in designing solutions that enhances people's lives. Lene has always been interested in system thinking in design (and everything else), and have spent the last decade working with design systems. She likes to deep-dive into things, and thinks it's important to ask questions about things we take for granted. Lene has experience both as a consultant and in-house, and now works as design lead in Enova SF.",
+      "tagLine": "Design Lead @Enova",
+      "profilePicture": "https://cdn.sessionize.com/image/f34d-400o400o1-X9mut2NMqk7oRr1tutwwuA.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1206149
+      ],
+      "fullName": "Lene Ludvigsen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f6040a22-1580-4ca3-b201-5b59f013c242",
+      "firstName": "Luise",
+      "lastName": "Freese",
+      "bio": "Luise is an Azure & Power Platform Architect based in Germany. She is an awarded Microsoft Most Valuable Professional (MVP) working with organizations that want to move beyond digital theatre. Her focus is on AI-enabled solutions that are designed to last in real-world environments. She helps teams build accessible apps, robust data models, and automation that respects governance, compliance, and human effort. A recurring theme in her work is making the invisible visible: unmeasured work, emotional load, operational friction, and the real cost of “quick wins”. Her motto \"Changing the world one app at a time\" stems from her extensive work with non-profit organizations.\r\n\r\nAlongside client work, Luise writes and speaks about productivity myths, pseudo-agile practices, AI readiness, and why many digital initiatives fail long before technology becomes the problem. She is known for combining clear technical guidance with a sharp eye for organizational patterns; and for asking the uncomfortable questions others tend to avoid.\r\n\r\nWhen not working and traveling, she is a runner, a mother of (teenage) dragons, a LEGO-builder and a lover of the number 42. Her favorite color is #ff69b4. ",
+      "tagLine": "Changing the world one app at a time",
+      "profilePicture": "https://cdn.sessionize.com/image/8587-400o400o1-BxWXWCwHj1C8mh6uxQ7EdE.jpg",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1151071
+      ],
+      "fullName": "Luise Freese",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "2917ef3c-ea4c-41c0-b0bd-5265de5c86c2",
+      "firstName": "Marco",
+      "lastName": "Nissen",
+      "bio": "AI & Product Architect modernizing products, architecture, and delivery for an AI-native future. 25 years across Germany, Canada, UK, and Norway. Founder of Stash2Go (100k+ users). Author of \"Code Different\" on LinkedIn. MSc Computer Science (Saarland/Max Planck Institute), MBA (Europa-Institut).   ",
+      "tagLine": "AI & Product Architect   ",
+      "profilePicture": "https://cdn.sessionize.com/image/a607-400o400o1-Mhae1XkBssyyWUZxZRYukc.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1216082
+      ],
+      "fullName": "Marco Nissen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "94d284f5-a033-4120-8a9d-78754b46863a",
+      "firstName": "Marek",
+      "lastName": "Dominiak",
+      "bio": "I’m a CTO of Sparkbyte Solutions, co-owner of Trainitek, and an architect and tech lead at Mintra. I have 19 years of experience, mainly in the Java world. I’ve spent a lot of time mentoring developers and leading teams, with a big focus on creating solutions that will actually last for many years. That got me into Software Craftsmanship, Domain-Driven Design, and code quality early on.\r\n\r\nOver my career, I’ve completed many small and large projects that run in production, interviewed developers, handled communication with customers, designed architecture for entire systems and delivered them, and introduced many technologies proven in production. I have 15 years of experience working in the Scandinavian market.\r\n\r\nI’ve trained over 700 people in modern architecture, Domain-Driven Design, EventStorming, and testing, and regularly speak at software development conferences.\r\n",
+      "tagLine": "CTO, Architect, Tech Lead, IT Trainer",
+      "profilePicture": "https://cdn.sessionize.com/image/e880-400o400o1-913KvgLhGnZPZZJmJRJGW5.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1213771
+      ],
+      "fullName": "Marek Dominiak",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "4df95934-b5bd-409d-842d-d3e6d5646439",
+      "firstName": "Mayli",
+      "lastName": "Munkebye",
+      "bio": "UX-designer i Sikt – Kunnskapssektorens tjenesteleverandør – hvor jeg jobber i produktet Nasjonalt vitenarkiv (NVA), et nasjonalt system for publisering av offentlig finansiert forskning.\r\nJeg holder foredrag, fasiliterer workshops og skriver blogginnlegg om digital bærekraft.",
+      "tagLine": "UX designer, Sikt - Kunnskapssektorens tjenesteleverandør",
+      "profilePicture": "https://cdn.sessionize.com/image/6ae5-400o400o1-SmFR3JbS8irWKjU4HSntTy.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1224778
+      ],
+      "fullName": "Mayli Munkebye",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "30920fde-c51d-4203-bb03-ec37ea56fe48",
+      "firstName": "Mihaela",
+      "lastName": "Gheorghe-Roman",
+      "bio": "Mihaela is an Experienced Software Architect at Systematic, Romania, and an Oracle ACE Associate for Java. Ph.D in artificial neural network algorithms, Assistant Professor at the University of Cybernetics and Informatics in Bucharest, she is a dedicated lead developer and architect who enjoys sharing her knowledge. \r\n\r\nIn her professional career, spanning over 14+ years, she worked for telecom and defence domains with a focus on Java, Spring Boot, C, C#, Scala and Angular.\r\n\r\nApart from her passion for programming, she loves parrots, she is enthusiastic about traveling the world and doing a lot of sports, from running at marathons, martial arts and to different aerobic trainings. \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "tagLine": "Experienced Software Architect at Systematic",
+      "profilePicture": "https://cdn.sessionize.com/image/faff-400o400o1-wPMGEiSNfKUjJwFKfPrMxb.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1196347
+      ],
+      "fullName": "Mihaela Gheorghe-Roman",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "672bbe0d-169d-4004-ac20-ec44d15ae216",
+      "firstName": "Mikael",
+      "lastName": "Brevik",
+      "bio": "Enthusiastic developer interested in solving problems, communication, learning and with an everlasting love of the web. Host of Kortslutning Podcast and Public Speaker. Trying to make the industry better as a Chief Technology Officer in Variant.",
+      "tagLine": "CTO Variant",
+      "profilePicture": "https://cdn.sessionize.com/image/2e5b-400o400o1-3MH7haLeCJSAXGA2fcgmTq.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1219475,
+        1219486
+      ],
+      "fullName": "Mikael Brevik",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "16be91ca-d35c-4e0f-81c2-0ff4c5525f8d",
+      "firstName": "Njord",
+      "lastName": "Solberg",
+      "bio": "Njord er en utvikler som elsker programvaredesign, testdrevet design (TDD) og kontinuerlig utrulling og integrasjon (CI/CD). Han er også litt av en språknerd og deler regelmessig sine tanker om språk, programmering og alt annet som befinner seg mellom disse to temaene på kodespråket.no. Før Njord begynte å arbeide som utvikler så arbeidet han med med digitalisering i utdanningssektoren og han har holdt mer enn hundre foredrag og kurs i digitalisering, prototyping og programmerinzg. Han har en mastergrad i kognitiv semiotikk og to bachelorgrader, en i datateknologi og en i kunst- og kulturstudier.",
+      "tagLine": "Developer and languag enerd",
+      "profilePicture": "https://cdn.sessionize.com/image/25f2-400o400o1-713JQaYpvwyG4Hc6XXEx9z.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1126399
+      ],
+      "fullName": "Njord Solberg",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "099deef5-1d67-44ce-831b-2af70a70c15b",
+      "firstName": "Paul Bernhard",
+      "lastName": "Svenning",
+      "bio": "Cybersecurity Consultant | Awareness Advocate | Public Speaker\r\n\r\nTwenty-five years in IT. Fifteen-plus in cybersecurity. Enough war stories to fill a room and keep it awake.\r\nI've worked with organizations like Aker Solutions, Cognizant, SpareBank 1, Nortura, and NorgesGruppen, Aker Securty and I currently serve as a security consultant at Globeteam Norge. My job is to understand how attackers think and then explain it to everyone else in plain language.\r\nMy talks cut through the jargon and make cybersecurity personal, relatable, and real. I cover the threats that are actually catching people off guard right now:\r\n\r\nSocial engineering and phishing\r\nDeepfake video and voice cloning\r\nRomance scams and AI-enabled fraud\r\nFake kidnappings and other emerging tactics\r\nBuilding digital resilience,  for individuals and organizations\r\n\r\nWhether I'm speaking to a handful of employees or a full auditorium, my goal is the same: make people stop, think, and act smarter the next time something feels off.\r\nI bring hands-on technical expertise, clear communication, and,  fair warning, a touch of dark humor.\r\nLet's talk.\r\n",
+      "tagLine": "Cybersecurity professional ",
+      "profilePicture": "https://cdn.sessionize.com/image/3cca-400o400o1-SBdkHrSu7iBfoCqbNe9yVQ.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1220768
+      ],
+      "fullName": "Paul Bernhard Svenning",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "16892c95-912b-4036-923f-539f2a6f83f5",
+      "firstName": "Peter Ryen",
+      "lastName": "Bull",
+      "bio": "Peter er en dyktig utvikler og teknisk leder med erfaring fra flere offentlige og private virksomheter, blant annet Politiet, Equinor og Miljødirektoratet. I dag jobber han med å bygge dataplattform for Kystverket på Azure og Databricks. \r\n\r\nHan elsker å holde foredrag på IT-konferanser, bygge storskala løsninger, og ellers er han i fjellet med ski eller klatretau. \r\n\r\nLinkedIn:\r\nhttps://www.linkedin.com/in/peter-ryen-bull-633a70172/",
+      "tagLine": "Dataplattform-dude som bygger ting i stor skala",
+      "profilePicture": "https://cdn.sessionize.com/image/e001-400o400o1-NYBume5XWMataRKpaL2yGV.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1271137
+      ],
+      "fullName": "Peter Ryen Bull",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d4d7850a-526e-4959-aab1-36460081fcf5",
+      "firstName": "Richard",
+      "lastName": "Campbell",
+      "bio": "Richard Campbell wrote his first line of code in 1977. His career has spanned the computing industry, both on the hardware and software sides, development, and operations. He was a co-founder of Strangeloop Networks, acquired by Radware in 2013, and was on the board of directors of Telerik, which was acquired by Progress Software in 2014. Today, he is a consultant and advisor to several successful technology firms and hosts three podcasts: .NET Rocks! (www.dotnetrocks.com) for .NET developers, RunAs Radio (www.runasradio.com) for IT Professionals, and Windows Weekly (https://twit.tv/shows/windows-weekly).",
+      "tagLine": "Host of .NET Rocks, RunAs Radio and Windows Weekly",
+      "profilePicture": "https://cdn.sessionize.com/image/1124-400o400o1-G9nTZaQqiXSph2iRzukgpj.png",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1139249
+      ],
+      "fullName": "Richard Campbell",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f5c30de4-cd93-4022-97f6-b0a58c92197c",
+      "firstName": "Rowdy",
+      "lastName": "Rabouw",
+      "bio": "Rowdy Rabouw is a Google Developer Expert in Web Technologies with over 25 years of experience in HTML, CSS and JavaScript. Currently, he works as a Front-End-Focused Senior DevOps Engineer on Vue, Node, and NestJS projects, with a focus on usability and accessibility. Rowdy loves his electronic drum kit and dabbles in creating music on his laptop.",
+      "tagLine": "Front-End Focused Senior DevOps Engineer",
+      "profilePicture": "https://cdn.sessionize.com/image/f20e-400o400o1-LqCirkShubcxGkm5Ac1CrN.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1150349
+      ],
+      "fullName": "Rowdy Rabouw",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "ad998165-d26a-4c98-8aac-ee60a16c638a",
+      "firstName": "Rustam",
+      "lastName": "Mehmandarov",
+      "bio": "Experienced Software Engineer | Architect | Keynote & Public Speaker | Java Champion | Google Developer Expert for Cloud | Docker Captain | Oracle ACE Pro | Community Leader | Mentor | Ex-leader of JavaZone and Norwegian JUG – javaBin.",
+      "tagLine": "Passionate computer scientist",
+      "profilePicture": "https://cdn.sessionize.com/image/ee2b-400o400o1-3QQSMKmr3rh4z8RaAUGZJ1.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1197922
+      ],
+      "fullName": "Rustam Mehmandarov",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "659656fd-6810-4653-a9ee-bc6688da6f21",
+      "firstName": "Sander",
+      "lastName": "Hoogendoorn",
+      "bio": "Sander Hoogendoorn is an independent dad, avid traveler, and lifelong software developer. With over 40 years of hands-on coding experience under his belt, he still ships code every day — because once a developer, always a developer.\r\n\r\nCurrently the CTO at iBOOD, Sander has led technology at companies such as ANVA, Quby, and Klaverblad, and was once Capgemini’s global agile thought leader. But don’t expect corporate buzzwords — Sander’s known for cutting through the fluff with a post-agile mindset and a healthy disregard for outdated best practices.\r\n\r\nHe helps teams and organizations break rules that need breaking — replacing heavyweight processes with lightweight thinking, and agile dogma with actual flow. If something’s slowing your team down, chances are he’s already ranted about it in a keynote.\r\n\r\nOnstage, Sander brings code, stories, and sharp insights — whether he’s talking disruption, continuous delivery, microservices, monads (yes, really), software architecture, or the lost art of elegant code. His talks are fast-paced, thought-provoking, and never just theory.\r\n\r\nSander believes in small steps, critical thinking, and building stuff that works. No silver bullets. Just better software, made by better teams.",
+      "tagLine": "Tools do not solve problems. Thinking does.",
+      "profilePicture": "https://cdn.sessionize.com/image/c48e-400o400o1-X5JqRmmttjttV7U4Yn99q8.jpg",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1172797
+      ],
+      "fullName": "Sander Hoogendoorn",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b3abd4bf-51e8-4fa3-aee6-0098eaeb6c6e",
+      "firstName": "Sergès",
+      "lastName": "Goma",
+      "bio": "Sergès Goma is a Paris-based software developer specialized in Java and JavaScript. When she's not fixing codebases, she gives motivational speeches mostly aimed at junior and would-be developers as well as participating in the tech women's empowerment association Motiv'Her.",
+      "tagLine": "Software Developer",
+      "profilePicture": "https://cdn.sessionize.com/image/ee3d-400o400o1-4LcpuMgWhoBQGnWiGEcM4M.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1191455
+      ],
+      "fullName": "Sergès Goma",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e5f4b27b-fe4f-4066-8534-cf83c9628a44",
+      "firstName": "Stian",
+      "lastName": "Veum Møllersen",
+      "bio": "Stian er en utvikler fra Oslo, hvor han jobber som utvikler i Visuelle Historier hos NRK. Der jobber han med datavisualisering, digital historiefortelling, interaktiv webgrafikk, algoritmer og andre snodige greier.\r\n\r\nPå fritiden foretrekker han å fikle med språk, ord og andre former for utrykk og undersøke hvordan de relaterer til programmering, gjerne gjennom mediumet kreativ programmering.",
+      "tagLine": "Utvikler Visuelle Historier, NRK",
+      "profilePicture": "https://cdn.sessionize.com/image/3f84-400o400o1-SQMcpjvP6vyUWHr48ETNpW.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1219486
+      ],
+      "fullName": "Stian Veum Møllersen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "1ba5cad2-2b14-49ce-aed4-0dcbcf90a7d9",
+      "firstName": "Tom",
+      "lastName": "Hindenes",
+      "bio": "Tom has 25 years of experience working with satellite data acquisition and processing systems. Most of those years have been spent programming a wide variety of functions for KONGSBERG Space Ground Systems products, including: tape storage, storage management, network distribution, processing orchestration, and system design. In addition he has worked with customer support, on-site installation, and customer training. Currently he is the product owner for all satellite acquisition systems, as well as team lead for the development team of those systems.",
+      "tagLine": "Product owner and team lead",
+      "profilePicture": "https://cdn.sessionize.com/image/181b-400o400o1-JxZv8J1FGfo4oeAZpTLatP.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1306190
+      ],
+      "fullName": "Tom Hindenes",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "5f3f5d15-82fe-4fca-90e3-ecf3c9bc4294",
+      "firstName": "Tom Erik Rozmara",
+      "lastName": "Frydenlund",
+      "bio": "As the CEO of Novacare AS, I have the overall responsibility for leading and developing the company, with a focus on delivering value to both our customers and employees. My role is about much more than just results—it’s about building relationships, inspiring our team, and ensuring that we are a solid and reliable partner for our clients. I take pride in leading a team of skilled professionals who deliver solutions every day that create real value for our customers.\r\n\r\nBroad experience with 9 years in Norwegian Defence and many different roles as assistent platoon leader, projectmanager, responsible for education of soldiers and officers training school in logistics. \r\n\r\n5 years in Norwegian police working with procurement and as projectmanager.\r\n\r\nWorked in IT consultancy since 1999. I have had a number of different roles such as developer, projectmanager, clientmanager, salesmanager and department manager/leader for several companies Cinet, Avenir, Steria, Webstep and Ensō.\r\n\r\n25 years off leadership experience.\r\n\r\nSpecialties: Managment, Human resources, IT, personnel responsibility, procurement, logistics, business development, recruitment",
+      "tagLine": "Novacare AS, CEO",
+      "profilePicture": "https://cdn.sessionize.com/image/39f2-400o400o1-GejWQJBZe89sZXa87PRbi.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1183894
+      ],
+      "fullName": "Tom Erik Rozmara Frydenlund",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "8240d35f-2228-48ae-9245-81e36b3c507b",
+      "firstName": "Trine G.",
+      "lastName": "Berg",
+      "bio": "Trine er den eine halvdelen av designduoen i Studio Glyf, som består av to tverrfaglige designarar med spisskompetanse på typografi og bokstavkunst. Dei siste åra har ho jobba med design og utvikling av eigne skrifttypar.",
+      "tagLine": "Partner, Studio Glyf",
+      "profilePicture": "https://cdn.sessionize.com/image/603d-400o400o1-KHSENW7VjPfehdLLQjtwMB.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1222450
+      ],
+      "fullName": "Trine G. Berg",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "7f1207f6-c5c3-4258-a946-29988d8b5e86",
+      "firstName": "Trond",
+      "lastName": "Andersen",
+      "bio": "Utvikler med mange års erfaring som de siste 5 årene har jobbet med observability og Kubernetes infrastruktur ved bruk av kommersielle og åpen kildekode verktøy.",
+      "tagLine": "DIPS AS, Senior System Architect",
+      "profilePicture": "https://cdn.sessionize.com/image/a02c-400o400o1-aYLgkY2pkJJpPUWAtQqkyX.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1225081
+      ],
+      "fullName": "Trond Andersen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c8a74958-c8ec-4b74-86f5-d0976464f019",
+      "firstName": "Ulf",
+      "lastName": "Lilleengen",
+      "bio": "Ulf is an engineer interested in systems constrained by size, performance or scale. \r\n\r\nWhen not sitting in front of his computer, he enjoys hiking, playing the guitar or drums, and spending time with his family.\r\n",
+      "tagLine": "Firmware development lead at Akiles",
+      "profilePicture": "https://cdn.sessionize.com/image/2701-400o400o1-3XobtLaHPx6XjjJPo6upaW.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1177888
+      ],
+      "fullName": "Ulf Lilleengen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "f8f8e048-a885-4a17-9c2d-96d20ce09c03",
+      "firstName": "Vadzim",
+      "lastName": "Prudnikau",
+      "bio": "Hands-on Architect, IT Trainer, and Conference Speaker with 20+ years of experience, passionate about building high-quality software, mentoring developers, and sharing knowledge.\r\n\r\nI've trained over 550 professionals in Architecture, EventStorming, and TDD, built and deployed more than 10 production-ready projects, led multiple development teams, and created a successful Java department from scratch. Along the way, I’ve mentored 20+ developers and conducted 100+ technical interviews.\r\n\r\nMy expertise lies in Java, but I also have experience with Kotlin, Groovy, and other programming languages. I believe that strong technical skills, continuous learning, teamwork, and knowledge-sharing are the keys to success in software development.",
+      "tagLine": "Co-Owner @ Trainitek & Hands-on Architect @ Apotek 1",
+      "profilePicture": "https://cdn.sessionize.com/image/dea4-400o400o1-N6tMCpN7PXTTenTwvdMaXw.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1140331
+      ],
+      "fullName": "Vadzim Prudnikau",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "a0ef1afe-56e6-4ce9-9bf3-ea6f834cbda3",
+      "firstName": "Vilde",
+      "lastName": "Bruvik",
+      "bio": "Vilde Bruvik er fagleder for produktutvikling i Bekk Trondheim og har erfaring fra komplekse moderniseringsprosjekter i offentlig sektor. Hun er utdannet UX-designer med sivilingeniørgrad i Industriell design fra NTNU, og har jobbet som prosjektleder, strategisk rådgiver og teamleder. Hun jobber i skjæringspunktet mellom design, strategi og organisasjonsutvikling, og gjør komplekse temaer konkrete og forståelige.",
+      "tagLine": "Designer i Bekk",
+      "profilePicture": "https://cdn.sessionize.com/image/a130-400o400o1-WqKZHwm9ghDN8H6tsHL2Ck.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1221888
+      ],
+      "fullName": "Vilde Bruvik",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "c52ce22c-e866-4cea-992a-3c706f05fd81",
+      "firstName": "Vitaly",
+      "lastName": "Friedman",
+      "bio": "Vitaly loves beautiful content and does not give up easily. Born in Minsk, Belarus, he studied computer science and mathematics in Germany. While writing algebra proofs and preparing for software engineering at nights in the kitchen, at the same time he discovered passion for typography, interface design and writing. After working as a freelance designer and developer for 6 years, he co-founded Smashing Magazine back in 2006, a leading online magazine for designers and developers. His curiosity drove him from interface design to front-end to performance optimization to accessibility and back to user experience over all the years.\r\n\r\nVitaly is the author, co-author and editor of Smashing Books (https://www.smashingmagazine.com/books), and a curator of  Smashing Conferences (https://www.smashingconf.com). He is the UX lead with the European Parliament and Smashing Magazine (www.smashingmagazine.com) and front-end/UX consultant in Europe and abroad, working with large and small companies and organizations like Haufe-Lexware, Axel-Springer and others.\r\n\r\nHe also runs Measure UX (https://measure-ux.com) and Smart Interface Design Patterns (https://smart-interface-design-patterns.com), friendly video courses on UX and design patterns, along with a live UX training for passionate UX and product designers.",
+      "tagLine": "UX Lead with Smashing Magazine and European Parliament",
+      "profilePicture": "https://cdn.sessionize.com/image/9771-400o400o1-sniuArN47Hb1EojZNBxhoH.jpg",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1227534
+      ],
+      "fullName": "Vitaly Friedman",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "bc893f85-cbe7-4e54-a1a9-66bb07c6d7bc",
+      "firstName": "Wakanyi",
+      "lastName": "Hoffman",
+      "bio": "Wakanyi Macharia-Hoffman is an African indigenous scholar born and raised in a forest in Kenya. She is an internationally recognised speaker working at the intersection of Ubuntu ethics to promote African relational intelligence in AI systems. She is the  Director for Responsible AI at the Inclusive AI Lab at Utrecht University, where she interprets Ubuntu wisdom for AI designers. She founded the African Folktales Project, a digital knowledge commons that treats folktales as living archives of Indigenous relational ethics, ecological intelligence, and social knowledge, now serving over 24,000 teachers across the African continent on the Ubuntu Education Hub online platform. Her children’s books—including Sala, Mountain Warrior—extend this work through literature that dignifies African ancestral intelligence and heritage. As a senior fellow at The New Institute, she contributed to research on new conceptions of human flourishing, aimed at reformulating the Sustainable Development Goals. She sits on the advisory board of the IDG Foundation and the Global Citizens Assembly. She is a global nomad and mother of four who has lived in nine countries on four continents. She, her husband and children are currently spread out in the Netherlands, Japan and the US. ",
+      "tagLine": "Ubuntu Ethics Interpreter/ Director of Sustainable AI Ethics",
+      "profilePicture": "https://cdn.sessionize.com/image/f861-400o400o1-Pk6zcfnhvJdsxZ6zicQALa.jpg",
+      "isTopSpeaker": true,
+      "links": [],
+      "sessions": [
+        1282489
+      ],
+      "fullName": "Wakanyi Hoffman",
+      "categoryItems": [],
+      "questionAnswers": []
+    }
+  ],
+  "questions": [],
+  "categories": [
+    {
+      "id": 118572,
+      "title": "Session format",
+      "items": [
+        {
+          "id": 428620,
+          "name": "20 minutes",
+          "sort": 1
+        },
+        {
+          "id": 428621,
+          "name": "40 minutes",
+          "sort": 2
+        }
+      ],
+      "sort": 0,
+      "type": "session"
+    },
+    {
+      "id": 118570,
+      "title": "Language",
+      "items": [
+        {
+          "id": 428597,
+          "name": "Norwegian",
+          "sort": 1
+        },
+        {
+          "id": 428596,
+          "name": "English",
+          "sort": 2
+        }
+      ],
+      "sort": 1,
+      "type": "session"
+    },
+    {
+      "id": 118589,
+      "title": "Main tag",
+      "items": [
+        {
+          "id": 428662,
+          "name": "Accessibility",
+          "sort": 1
+        },
+        {
+          "id": 428654,
+          "name": "AI/ML",
+          "sort": 2
+        },
+        {
+          "id": 428655,
+          "name": "Architecture",
+          "sort": 3
+        },
+        {
+          "id": 428656,
+          "name": "Backend",
+          "sort": 4
+        },
+        {
+          "id": 428657,
+          "name": "Cloud",
+          "sort": 5
+        },
+        {
+          "id": 428667,
+          "name": "Database",
+          "sort": 6
+        },
+        {
+          "id": 428668,
+          "name": "DevOps",
+          "sort": 7
+        },
+        {
+          "id": 428649,
+          "name": "Digital design",
+          "sort": 8
+        },
+        {
+          "id": 428650,
+          "name": "Embedded/hardware",
+          "sort": 9
+        },
+        {
+          "id": 428658,
+          "name": "Frontend",
+          "sort": 10
+        },
+        {
+          "id": 428659,
+          "name": "Fun",
+          "sort": 11
+        },
+        {
+          "id": 428651,
+          "name": "Games",
+          "sort": 12
+        },
+        {
+          "id": 428652,
+          "name": "Hacking",
+          "sort": 13
+        },
+        {
+          "id": 428660,
+          "name": "Low code",
+          "sort": 14
+        },
+        {
+          "id": 428661,
+          "name": "People",
+          "sort": 15
+        },
+        {
+          "id": 428663,
+          "name": "Process",
+          "sort": 16
+        },
+        {
+          "id": 428664,
+          "name": "Programming language",
+          "sort": 17
+        },
+        {
+          "id": 428665,
+          "name": "Real life",
+          "sort": 18
+        },
+        {
+          "id": 428666,
+          "name": "Security",
+          "sort": 19
+        },
+        {
+          "id": 428669,
+          "name": "Test",
+          "sort": 20
+        },
+        {
+          "id": 428670,
+          "name": "UX",
+          "sort": 21
+        },
+        {
+          "id": 428653,
+          "name": "Mobile",
+          "sort": 22
+        },
+        {
+          "id": 428672,
+          "name": "AR/VR",
+          "sort": 23
+        }
+      ],
+      "sort": 2,
+      "type": "session"
+    },
+    {
+      "id": 118571,
+      "title": "Additional tags",
+      "items": [
+        {
+          "id": 428615,
+          "name": "Accessibility",
+          "sort": 1
+        },
+        {
+          "id": 428613,
+          "name": "AI/ML",
+          "sort": 2
+        },
+        {
+          "id": 428607,
+          "name": "Architecture",
+          "sort": 3
+        },
+        {
+          "id": 428599,
+          "name": "Backend",
+          "sort": 4
+        },
+        {
+          "id": 428600,
+          "name": "Cloud",
+          "sort": 5
+        },
+        {
+          "id": 428616,
+          "name": "Database",
+          "sort": 6
+        },
+        {
+          "id": 428605,
+          "name": "DevOps",
+          "sort": 7
+        },
+        {
+          "id": 428618,
+          "name": "Digital design",
+          "sort": 8
+        },
+        {
+          "id": 428617,
+          "name": "Embedded/hardware",
+          "sort": 9
+        },
+        {
+          "id": 428602,
+          "name": "Frontend",
+          "sort": 10
+        },
+        {
+          "id": 428614,
+          "name": "Fun",
+          "sort": 11
+        },
+        {
+          "id": 428598,
+          "name": "Games",
+          "sort": 12
+        },
+        {
+          "id": 428609,
+          "name": "Hacking",
+          "sort": 13
+        },
+        {
+          "id": 428612,
+          "name": "Low code",
+          "sort": 14
+        },
+        {
+          "id": 428606,
+          "name": "People",
+          "sort": 15
+        },
+        {
+          "id": 428608,
+          "name": "Process",
+          "sort": 16
+        },
+        {
+          "id": 428604,
+          "name": "Programming language",
+          "sort": 17
+        },
+        {
+          "id": 428610,
+          "name": "Real life",
+          "sort": 18
+        },
+        {
+          "id": 428603,
+          "name": "Security",
+          "sort": 19
+        },
+        {
+          "id": 428601,
+          "name": "Test",
+          "sort": 20
+        },
+        {
+          "id": 428611,
+          "name": "UX",
+          "sort": 21
+        },
+        {
+          "id": 428619,
+          "name": "Mobile",
+          "sort": 22
+        },
+        {
+          "id": 428673,
+          "name": "AR/VR",
+          "sort": 23
+        }
+      ],
+      "sort": 3,
+      "type": "session"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 77086,
+      "name": "Fellesareal",
+      "sort": 0
+    },
+    {
+      "id": 77085,
+      "name": "Living room",
+      "sort": 1
+    },
+    {
+      "id": 77084,
+      "name": "Andromeda",
+      "sort": 2
+    },
+    {
+      "id": 77083,
+      "name": "Aurora",
+      "sort": 3
+    },
+    {
+      "id": 77087,
+      "name": "Cosmos 1 & 2",
+      "sort": 4
+    },
+    {
+      "id": 77088,
+      "name": "Cosmos 3AB",
+      "sort": 5
+    },
+    {
+      "id": 77089,
+      "name": "Cosmos 3CD",
+      "sort": 6
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+
+Thursday 17 September : NDC Oslo
+Room 1
+Room 2
+Room 3
+Room 4
+Room 5
+Room 6
+Room 7
+Workshop room
+Workshop room 2
+09:00
+ - 
+10:00
+Room 1
+WebNN, Built-in AI, WebMCP: What’s New in Web AI?
+Christian Liebel
+Duration
+Talk (60 min)
+Room 2
+Building Multi-Agent AI Teams That Live in Your Repo
+Tamir Dresher
+Brady Gaster
+Duration
+Talk (60 min)
+Room 3
+The Patterns We Don't Name
+Christian Johansen
+Duration
+Talk (60 min)
+Room 4
+AI Your Way: MCPs vs Skills vs SubAgents 🤖🚀 
+Sam Basu
+Duration
+Talk (60 min)
+Room 5
+The developers worked in two by two. Hurrah! Hurrah!
+Ryan Healey
+Duration
+Talk (60 min)
+Room 6
+Modular Code with Examples in C#
+Ian Cooper
+Duration
+Talk (60 min)
+Room 7
+The 10 Most Common Azure Mistakes (And How To Fix Them)
+Scott Sauber
+Duration
+Talk (60 min)
+10:20
+ - 
+11:20
+Room 1
+Change is inevitable: versioning event-driven systems
+Laila Bougria
+Duration
+Talk (60 min)
+Room 2
+Building Trustworthy Models: Practical Statistics Every Developer Should Know
+Megan Robertson
+Duration
+Talk (60 min)
+Room 3
+Just start (with Value Objects)
+Katharina Damschen
+Duration
+Talk (60 min)
+Room 4
+Demystifying CSP for modern applications
+Philippe De Ryck
+Duration
+Talk (60 min)
+Room 5
+10 tips to level up your ai-assisted coding
+Duration
+Talk (60 min)
+Room 6
+Back to Basics: Efficient Async and Await
+Filip Ekberg
+Duration
+Talk (60 min)
+Room 7
+Azure and Disaster Recovery - The Good, The Bad and The Fugly
+Liam Westley
+Duration
+Talk (60 min)
+Workshop room 2
+Part 1/2: From “I’ll do it” to “You own it”
+Anemari Fiser
+Duration
+Workshop (120 min)
+11:40
+ - 
+12:40
+Room 1
+React Won. So Why Does Everything Feel Broken?
+Mikael Brevik
+Duration
+Talk (60 min)
+Room 2
+AI Agents In-Depth – Function Calling, MCP and Tool Use Under the Hood
+Alan Smith
+Duration
+Talk (60 min)
+Room 3
+From confusion to domain understanding — a practical introduction to Domain Storytelling
+Haimanot Tekie
+Duration
+Talk (60 min)
+Room 4
+ASP.NET Core meets OWASP Top 10 2025
+Anders Abel
+Duration
+Talk (60 min)
+Room 5
+Deep dive into GitHub Copilot CLI
+Kayla Cinnamon
+Duration
+Talk (60 min)
+Room 6
+The road to a faster ReSharper
+Kevin Gosse
+Duration
+Talk (60 min)
+Room 7
+Spaces, squares, and circles - an intro to UI design
+Ash Banaszek
+Duration
+Talk (60 min)
+Workshop room 2
+Part 2/2: From “I’ll do it” to “You own it” 
+Anemari Fiser
+Duration
+Workshop (120 min)
+13:40
+ - 
+14:40
+Room 1
+You probably don't need JavaScript for that (anymore)
+Jo Minney
+Duration
+Talk (60 min)
+Room 2
+AI'll Be Back: Generative AI in Image, Audio and Video Production
+Martin Förtsch
+Thomas Endres
+Duration
+Talk (60 min)
+Room 3
+How to Accidentally Destroy a Codebase (A Step-by-Step Guide)
+Mariami Tsotsolashvili
+Duration
+Talk (60 min)
+Room 4
+Applying the OWASP Top 10 for Agentic Applications to Your AI Agents
+Will Velida
+Duration
+Talk (60 min)
+Room 5
+Indiana Jones and the Temple of Legacy Code
+William Brander
+Duration
+Talk (60 min)
+Room 6
+The 1 Trillion Pixel Maze: My Decade-Long Obsession with C# Optimization
+Davy Davidse
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 3
+Jakob Endrestad Kielland
+Sveinung Sande Dalatun
+Gaute Meek Olsen
+Stian Veum Møllersen
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Architect as a Systems Thinker: Turning Strategy into Action
+Javiera Laso
+Duration
+Workshop (120 min)
+15:00
+ - 
+16:00
+Room 1
+The Shopping Dead: A Zombie's Guide to Web Accessibility
+Daniel Yuschick
+Duration
+Talk (60 min)
+Room 2
+Finally Understand Embeddings - And You Will Never Have to Search for the Right Emoji Again
+Dennis Schulz
+Elias Schecke
+Duration
+Talk (60 min)
+Room 3
+.NET Testing Techniques You Didn’t Know You Needed
+Dante De Ruwe
+Duration
+Talk (60 min)
+Room 4
+How Worms Exposed the Real Attack Surface of Open Source
+Charlie Eriksen
+Duration
+Talk (60 min)
+Room 5
+Watch It! Monitoring Lessons from Two Decades in Computing
+Markus Krüger
+Duration
+Talk (60 min)
+Room 6
+From stateless to stateful: adopting actor model for managing millions of IoT devices
+Mikhail Aksenov
+Maxim Tkachenko
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 4
+Anuradha Shridharan
+Radostina (Ina) Tsvetkova
+Malin Jakobsen
+Kent Inge Fagerland Simonsen
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Architect as a Systems Thinker: Turning Strategy into Action
+Javiera Laso
+Duration
+Workshop (120 min)
+16:20
+ - 
+17:20
+Room 1
+UX audit in practice: from friction to fix
+Kitty Toft
+Duration
+Talk (60 min)
+Room 2
+Build your own self-evolving dev tools and make yourself unique
+Steve Sanderson
+Duration
+Talk (60 min)
+Room 3
+The Algorithm That Nearly Killed Me: When Testing Isn't Enough
+Andrew Paul
+Duration
+Talk (60 min)
+Room 4
+Insecure Vibe Coding: When AI Writes Exploitable Software
+Sana Talwar
+Duration
+Talk (60 min)
+Room 5
+Ada Lovelace and The Very First Computer Program
+Steven Goodwin
+Duration
+Talk (60 min)
+Room 6
+Old API, New Tricks: Add MCP to Existing .NET REST Endpoints
+Jonathan "J." Tower
+Duration
+Talk (60 min)
+Room 7
+Let's deploy on Fridays!
+Luise Freese
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Domain Modeling in Rust: Making Illegal States Unrepresentable
+Jostein Hjortland Tysse
+Duration
+Workshop (120 min)
+17:40
+ - 
+18:40
+Room 1
+Flying a drone with gestures, bananas & Web APIs
+Lucky Nkosi
+Duration
+Talk (60 min)
+Room 2
+Beyond Ink: Where Machines 3D Print the World 
+Troy Hunt
+Elle Hunt
+Duration
+Talk (60 min)
+Room 3
+Meditations on Code As Art
+David Whitney
+Duration
+Talk (60 min)
+Room 4
+Panel: When AI Feels Empathic
+Richard Campbell
+Martine Dowden
+Michelle Frost
+Tessel Haagen
+Duration
+Talk (60 min)
+Room 5
+Do It With Style: Rethinking CSS
+Dylan Beattie
+Duration
+Talk (60 min)
+Room 6
+The 3D Engine Nobody Asked For (But I Had to Make)
+Jarle Adolfsen
+Duration
+Talk (60 min)
+Room 7
+How we slashed costs & emissions 85% for 1 of the UK's biggest charities
+Imran Haider
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Domain Modeling in Rust: Making Illegal States Unrepresentable
+Jostein Hjortland Tysse
+Duration
+Workshop (120 min)

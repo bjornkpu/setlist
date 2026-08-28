@@ -1,0 +1,229 @@
+
+Friday 18 September : NDC Oslo
+Room 1
+Room 2
+Room 3
+Room 4
+Room 5
+Room 6
+Room 7
+Workshop room
+09:00
+ - 
+10:00
+Room 1
+Safe Systems in a Chaotic World
+Bryan Hunter
+Duration
+Talk (60 min)
+Room 2
+From MVP to GitHub.com: An AI Story of Engineering & Product Collaboration.
+Anjuan Simmons
+Duration
+Talk (60 min)
+Room 3
+Does This PR Lower the Energy State?
+Dag Brattli
+Duration
+Talk (60 min)
+Room 4
+Demoscene Coding Kickstart
+Espen Sande-Larsen
+Duration
+Talk (60 min)
+Room 5
+Platform Engineering Beyond the Tools: Lessons Learned Across Industries
+Stefan Daugaard Poulsen
+Duration
+Talk (60 min)
+Room 6
+Aspire Beyond the Introduction
+Chris Klug
+Duration
+Talk (60 min)
+10:20
+ - 
+11:20
+Room 1
+Lambda Calculus - Foundation of Functional Programming
+Mark Volkmann
+Duration
+Talk (60 min)
+Room 2
+If you thought the speed of writing code was your problem, you have bigger problems
+Andrew Murphy
+Duration
+Talk (60 min)
+Room 3
+Functional Programming with the aid of AI
+Venkat Subramaniam
+Duration
+Talk (60 min)
+Room 4
+Copy & Paste the World with Gaussian Splatting
+Scott Leaman
+Duration
+Talk (60 min)
+Room 5
+From 2am Alert to Post-Mortem: Building a Multi-Agent SRE System with CAIPE
+Alfonso Sandoval Rosas
+Duration
+Talk (60 min)
+Room 6
+Building well-documented versioned HTTP APIs in ASP.NET Core
+Dennis Doomen
+Duration
+Talk (60 min)
+Room 7
+Accessibility and Computer Vision: Building A System for the New York Times
+Shafik Quoraishee
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: Practical Domain-Driven Design - A Modeling Exercise
+Mufrid Krilic
+Duration
+Workshop (120 min)
+11:40
+ - 
+12:40
+Room 1
+Writing a compiler from scratch
+Erik Schierboom
+Duration
+Talk (60 min)
+Room 2
+Behind the Algorithms: Power, Gender, and Truth in a World Shaped by AI
+Kaja Vogt
+Duration
+Talk (60 min)
+Room 3
+Code Once, Pin Everywhere: Multiplatform Widgets for Android & iOS
+Andrea Della Porta
+Duration
+Talk (60 min)
+Room 4
+The Undersea Infrastructure
+Richard Campbell
+Duration
+Talk (60 min)
+Room 5
+From Noise to Signal: Building Meaningful SLIs in Azure
+Tom van den Berg
+Duration
+Talk (60 min)
+Room 6
+Secure and Compliant APIs - By Design
+Tobias Ahnoff
+Daniel Sandberg
+Duration
+Talk (60 min)
+Room 7
+How I built my own intelligent Robot Arm from Scratch
+Iulia Feroli
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: Practical Domain-Driven Design - A Modeling Exercise
+Mufrid Krilic
+Duration
+Workshop (120 min)
+13:40
+ - 
+14:40
+Room 1
+Developers in the Dark Forest
+Sergès Goma
+Duration
+Talk (60 min)
+Room 2
+Bobbysocks commit
+Morten Kjelling
+Duration
+Talk (60 min)
+Room 3
+Demand-Driven Context: What 300 Incidents Reveal About Tribal Knowledge
+Raj Navakoti
+Duration
+Talk (60 min)
+Room 4
+Build 2.5D and 3D immersive map experiences in a browser
+Paweł Krzywicki
+Duration
+Talk (60 min)
+Room 5
+Magical client-side logging – the little headers that could
+Marcus Bointon
+Duration
+Talk (60 min)
+Room 6
+TBA - Daisy Hollman
+Daisy Hollman
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 5
+Helén Persson
+Njord Solberg
+Anders Erlandsen
+Gayathri Palani
+Duration
+Talk (60 min)
+Workshop room
+Part 1/2: A Practical TDD Journey with AI
+Javiera Laso
+Duration
+Workshop (120 min)
+15:00
+ - 
+16:00
+Room 1
+Turning microservice chaos into a beautiful concerto
+Marc Duiker
+Duration
+Talk (60 min)
+Room 2
+Unf*ck your mind: How to finally build something great again
+Marin Niehues
+Duration
+Talk (60 min)
+Room 3
+Pwned with Purpose: Where Motives Meet Mayhem
+Troy Hunt
+Duration
+Talk (60 min)
+Room 4
+Bootable applications - next steps
+Michael Odden
+Duration
+Talk (60 min)
+Room 5
+Stop scaling and start tuning
+Matt Burke
+Duration
+Talk (60 min)
+Room 6
+Who to blame? The AI, The Programmer, or The Prompt?
+Makan Sepehrifar
+Duration
+Talk (60 min)
+Room 7
+Lightning Talks 6
+Tomas Hensrud Gulla
+Knut Erik Hollund
+Sean Percival
+Duration
+Talk (60 min)
+Workshop room
+Part 2/2: A Practical TDD Journey with AI
+Javiera Laso
+Duration
+Workshop (120 min)
+16:20
+ - 
+17:20
+Room 1
+Locknote: We're Gonna Build an Agent
+Emmz Rendle
+Duration
+Talk (60 min)
