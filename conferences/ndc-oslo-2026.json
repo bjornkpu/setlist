@@ -1,0 +1,3253 @@
+{
+  "schedule": {
+    "version": "1.0",
+    "conference": {
+      "title": "NDC Oslo 2026",
+      "acronym": "ndcoslo2026",
+      "start": "2026-09-16",
+      "end": "2026-09-18",
+      "daysCount": 3,
+      "timeslot_duration": "00:05",
+      "time_zone_name": "Europe/Oslo",
+      "rooms": [
+        "Room 1",
+        "Room 2",
+        "Room 3",
+        "Room 4",
+        "Room 5",
+        "Room 6",
+        "Room 7",
+        "Expo"
+      ],
+      "days": [
+        {
+          "index": 0,
+          "date": "2026-09-16",
+          "day_start": "2026-09-16T09:00:00+02:00",
+          "day_end": "2026-09-16T18:40:00+02:00",
+          "rooms": {
+            "Expo": [
+              {
+                "guid": "4d9fc460-0aa6-598b-b8a9-523839f6d690",
+                "id": 1,
+                "date": "2026-09-16T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Expo",
+                "slug": "ndcoslo2026-1-keynote-who-are-you",
+                "title": "Keynote: Who are you?",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 1,
+                    "public_name": "Nick Chapsas"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 1": [
+              {
+                "guid": "10478b0d-4c99-5d03-983e-ddedbabc97ba",
+                "id": 2,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-2-intl-the-best-browser-api-you-re-not-using",
+                "title": "INTL: The best browser API you're not using",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 2,
+                    "public_name": "Kilian Valkhof"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b79badf0-6104-5cc3-afbf-9ce15c17ad69",
+                "id": 9,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-9-css-state-machine",
+                "title": "CSS State Machine",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 10,
+                    "public_name": "Brecht De Ruyte"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ac1358f1-dfca-5790-8364-aeb21e2aca53",
+                "id": 16,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-16-let-s-break-some-wcag-rules",
+                "title": "Let's break some WCAG rules",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 17,
+                    "public_name": "Elise Kristiansen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "fd2b0c0f-1a38-59d1-b373-62050790c573",
+                "id": 23,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-23-rethinking-tooltips-with-interest-invokers-and-popover-api",
+                "title": "Rethinking Tooltips with Interest Invokers and Popover API",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 26,
+                    "public_name": "Martine Dowden"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "df3241e5-feb6-51bc-8001-13a7897077bc",
+                "id": 30,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-30-cobots-dark-modules-and-architecting-for-ai",
+                "title": "Cobots, Dark Modules and Architecting For AI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 36,
+                    "public_name": "Sam Newman"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "8a16a2b5-75b5-564a-ae51-586abb6a5963",
+                "id": 37,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-37-from-intent-to-merge-a-hands-on-talk-on-sdlc-in-the-agent-era",
+                "title": "From Intent to Merge: A Hands-On Talk on SDLC in the Agent Era",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 43,
+                    "public_name": "Joseph Katsioloudes"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 2": [
+              {
+                "guid": "0df78801-a3c3-527c-9974-4e0882119cb7",
+                "id": 3,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-3-use-ai-to-build-ai-without-losing-your-mind-with-aspire",
+                "title": "Use AI to build AI (without losing your mind) with Aspire",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 3,
+                    "public_name": "Maddy Montaquila"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "3649b068-4814-5d09-bf49-92438f626840",
+                "id": 10,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-10-build-skills-not-agents",
+                "title": "Build Skills, Not Agents",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 11,
+                    "public_name": "Aleksander Stensby"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "c99b4bca-1d17-52c4-b3c0-040f81e7b060",
+                "id": 17,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-17-from-code-to-intelligence-the-rise-of-the-full-stack-ai-engineer",
+                "title": "From Code to Intelligence: The Rise of the Full-Stack AI Engineer",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 18,
+                    "public_name": "Adam Stephensen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a5a03ebf-f137-5f8a-ab5f-78f469e1bdb1",
+                "id": 24,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-24-how-we-built-an-autonomous-development-workflow-at-nordic-corporate-bank",
+                "title": "How We Built an Autonomous Development Workflow at Nordic Corporate Bank",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 27,
+                    "public_name": "Hallstein Brøtan"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e4d020c3-ec2f-5a1d-92b5-078fe5494bc0",
+                "id": 31,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-31-why-llms-suck-aka-the-software-developer-s-guide-to-keeping-our-jobs",
+                "title": "Why LLMs Suck (aka the Software Developer's Guide to Keeping Our Jobs)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 37,
+                    "public_name": "Lucía Conde-Moreno"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "27960f62-8ac5-54ab-85d7-e2395ca37935",
+                "id": 38,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-38-1-million-ways-to-break-production-iot-systems-at-scale",
+                "title": "1 Million Ways to Break Production: IoT Systems at Scale",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 44,
+                    "public_name": "Jan-Erik Carlsen"
+                  },
+                  {
+                    "id": 45,
+                    "public_name": "Eirik Ottesen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 3": [
+              {
+                "guid": "f5b7361b-ac03-5473-896e-a7a50355d358",
+                "id": 4,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-4-socio-technical-api-patterns",
+                "title": "Socio-technical API patterns",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 4,
+                    "public_name": "Einar Høst"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7bb2d60e-634b-580c-a1c8-61fd5a6cc0e3",
+                "id": 11,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-11-the-net-maui-community-toolkits-three-3-essential-libraries-for-every-net-maui-developer",
+                "title": "The .NET MAUI Community Toolkits: Three (3) Essential Libraries for Every .NET MAUI Developer",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 12,
+                    "public_name": "Brandon Minnick"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7c95e50f-558f-5d2d-b214-e6d62b4e98a8",
+                "id": 18,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-18-types-are-worth-the-typing",
+                "title": "Types Are Worth the Typing",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 19,
+                    "public_name": "Filip Sodic"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "06447081-b76b-5357-b02e-44a4f2014423",
+                "id": 25,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-25-what-you-need-to-know-and-why-you-should-care-about-ai-governance",
+                "title": "What You Need to Know (And Why You Should Care) About AI Governance",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 28,
+                    "public_name": "Michelle Frost"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1304c7bc-b13d-5dd1-9ee3-ec221a1c28ee",
+                "id": 32,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-32-humans-are-the-most-unreliable-node-in-your-system",
+                "title": "Humans Are the Most Unreliable Node in Your System",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 38,
+                    "public_name": "Joanna Montgomery"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7fd0fd75-5c83-522d-9ea0-a4a7262212af",
+                "id": 39,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-39-functional-core-imperative-shell-an-architecture-turned-inside-out",
+                "title": "Functional core, imperative shell: An architecture turned inside out",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 46,
+                    "public_name": "Magnar Sveen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 4": [
+              {
+                "guid": "30b85b15-c466-5d54-9544-72b1ce032fe2",
+                "id": 5,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-5-if-you-feel-behind-you-re-probably-paying-attention",
+                "title": "If You Feel Behind, You’re Probably Paying Attention",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 5,
+                    "public_name": "Joep Piscaer"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "71772e7c-5137-5372-a76b-91afe4d6f3fc",
+                "id": 12,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-12-what-s-new-in-sql-server-2025-and-azure-sql-databases",
+                "title": "What's new in SQL Server 2025 and Azure SQL Databases",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 13,
+                    "public_name": "Christian Peeters"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "45ac4102-557e-5adb-9261-fdaf8ed6c2ca",
+                "id": 19,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-19-what-claude-code-can-do-that-you-haven-t-tried",
+                "title": "What Claude Code Can Do That You Haven't Tried",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 20,
+                    "public_name": "Gui Ferreira"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "26cbc6ba-57db-5c4d-b41c-381bffed0fdc",
+                "id": 26,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-26-modern-graph-databases",
+                "title": "Modern Graph Databases",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 29,
+                    "public_name": "David Ostrovsky"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "d1553ce3-30f3-535b-8176-c0a264741b0b",
+                "id": 33,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-33-tracking-every-ship-in-norwegian-waters-building-a-data-platform-for-the-coastal-administration",
+                "title": "Tracking every ship in Norwegian waters - Building a data platform for The Coastal Administration",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 39,
+                    "public_name": "Peter Ryen Bull"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "922e6cfb-5d78-56ca-bab7-adbc135dfe93",
+                "id": 40,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-40-the-sound-of-privacy-what-your-spotify-data-reveals-about-you",
+                "title": "The Sound of Privacy – What Your Spotify Data Reveals About You",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 47,
+                    "public_name": "Dennis Schulz"
+                  },
+                  {
+                    "id": 48,
+                    "public_name": "Thomas Hugle"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 5": [
+              {
+                "guid": "f348b33f-6647-566e-9aa2-10e0524614f2",
+                "id": 6,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-6-build-with-intent",
+                "title": "Build With Intent",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 6,
+                    "public_name": "Glenn F. Henriksen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "4aff9186-7775-5799-9d87-51200ddbaee2",
+                "id": 13,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-13-stars-don-t-pay-the-bills-turning-open-source-into-a-business",
+                "title": "Stars Don’t Pay the Bills: Turning Open Source Into a Business",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 14,
+                    "public_name": "David Boyne"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e5b22a59-2408-5a0e-adb0-0d44883e098a",
+                "id": 20,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-20-non-blocking-continuous-code-reviews-a-case-study",
+                "title": "Non-Blocking Continuous Code Reviews, a Case Study",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 21,
+                    "public_name": "Thierry de Pauw"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ed81df06-02e4-5c10-b7e5-81399abdf34b",
+                "id": 27,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-27-software-developer-graduates-2031",
+                "title": "Software Developer Graduates 2031",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 30,
+                    "public_name": "Anne M. V. Bosch"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "212ca9bd-a325-5cce-accb-d8ce6bcf0b8f",
+                "id": 34,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-34-the-day-my-farm-burned-down",
+                "title": "The Day My Farm Burned Down",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 40,
+                    "public_name": "Lars Klint"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "eea6b051-9fad-54fb-9ca0-0c65c51b873b",
+                "id": 41,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-41-how-powerlifting-made-me-a-better-software-engineer",
+                "title": "How Powerlifting Made Me a Better Software Engineer",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 49,
+                    "public_name": "Adele Carpenter"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 6": [
+              {
+                "guid": "099327eb-b38d-5a3a-a6ec-db44de6047a8",
+                "id": 7,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-7-what-s-coming-next-in-c",
+                "title": "What's coming next in C#",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 7,
+                    "public_name": "Fred Silberberg"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2e2bbb4a-52f5-5146-9409-c4dadc459a07",
+                "id": 14,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-14-refactoring-an-asp-net-core-webapi-controller-based-api-to-a-minimal-api",
+                "title": "Refactoring an ASP.NET Core WebAPI Controller based API to a minimal API",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 15,
+                    "public_name": "Johan Smarius"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7fb56381-0b97-50c3-9afa-9fa41fc428bc",
+                "id": 21,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-21-tba-adam-cogan",
+                "title": "TBA - Adam Cogan",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 22,
+                    "public_name": "Adam Cogan"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "6b2f202c-a6fb-517e-9f81-00001250b0f5",
+                "id": 28,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-28-net-telemetry-in-the-real-world",
+                "title": ".NET Telemetry in the Real World",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 31,
+                    "public_name": "Stephen Cleary"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "fadc906c-78aa-5e29-ad2e-7a68edf80124",
+                "id": 35,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-35-using-microsoft-kiota-to-go-from-openapi-to-first-class-net-client-sdks",
+                "title": "Using Microsoft Kiota to go from OpenAPI to first-class .NET client SDKs",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 41,
+                    "public_name": "Alex Thissen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "70fb540f-f22a-52c7-8d1a-c6a235473a79",
+                "id": 42,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-42-going-passwordless-a-practical-guide-to-passkeys-in-asp-net-core",
+                "title": "Going Passwordless - A Practical Guide to Passkeys in ASP.NET Core",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 50,
+                    "public_name": "Maarten Balliauw"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 7": [
+              {
+                "guid": "b5d15c2a-8c07-5d2f-9b2e-77c0458b1d63",
+                "id": 8,
+                "date": "2026-09-16T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-8-we-stopped-writing-code-but-shipped-more-code-products-than-ever-before",
+                "title": "We stopped writing code, but shipped more code & products than ever before",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 8,
+                    "public_name": "James Montemagno"
+                  },
+                  {
+                    "id": 9,
+                    "public_name": "Aurora Scharff"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "75f90998-50b8-5276-90c8-6c33151ba647",
+                "id": 15,
+                "date": "2026-09-16T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-15-where-thinking-stops",
+                "title": "Where thinking stops",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 16,
+                    "public_name": "Yngve Bakken Nilsen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "407a1aaa-92c6-56c5-b870-1170fe3faed2",
+                "id": 22,
+                "date": "2026-09-16T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-22-lightning-talks-1",
+                "title": "Lightning Talks 1",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 23,
+                    "public_name": "Ryan Healey"
+                  },
+                  {
+                    "id": 9,
+                    "public_name": "Aurora Scharff"
+                  },
+                  {
+                    "id": 24,
+                    "public_name": "Erik Schierboom"
+                  },
+                  {
+                    "id": 25,
+                    "public_name": "Elin Brusberg"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "40dd3c51-ae8d-5f26-9f9a-6e0754746923",
+                "id": 29,
+                "date": "2026-09-16T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-29-lightning-talks-2",
+                "title": "Lightning Talks 2",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 32,
+                    "public_name": "Shomaila Kausar"
+                  },
+                  {
+                    "id": 33,
+                    "public_name": "Anemari Fiser"
+                  },
+                  {
+                    "id": 34,
+                    "public_name": "Oda Enger Hoem"
+                  },
+                  {
+                    "id": 35,
+                    "public_name": "Jill Sarandi"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "f4aeb554-6c2a-5034-8513-3712144be6f5",
+                "id": 36,
+                "date": "2026-09-16T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-36-much-ado-about-nothing",
+                "title": "Much Ado About Nothing",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 42,
+                    "public_name": "Kevlin Henney"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b52c9f06-fcb4-5909-9d30-e047a16d04ed",
+                "id": 43,
+                "date": "2026-09-16T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-43-it-s-about-time-practical-examples-of-time-zones-in-typescript",
+                "title": "It’s About Time! Practical examples of time zones in TypeScript",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 51,
+                    "public_name": "Michael Dowden"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ]
+          }
+        },
+        {
+          "index": 1,
+          "date": "2026-09-17",
+          "day_start": "2026-09-17T09:00:00+02:00",
+          "day_end": "2026-09-17T18:40:00+02:00",
+          "rooms": {
+            "Room 1": [
+              {
+                "guid": "fb98a62a-dcdb-56c3-8f0d-2ae85cdb37f9",
+                "id": 44,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-44-webnn-built-in-ai-webmcp-what-s-new-in-web-ai",
+                "title": "WebNN, Built-in AI, WebMCP: What’s New in Web AI?",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 52,
+                    "public_name": "Christian Liebel"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "83899cff-5d3e-561b-9b70-e3a8c82691d4",
+                "id": 51,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-51-change-is-inevitable-versioning-event-driven-systems",
+                "title": "Change is inevitable: versioning event-driven systems",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 59,
+                    "public_name": "Laila Bougria"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "4cdeae5d-c80f-5db0-8309-aa077e728013",
+                "id": 58,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-58-react-won-so-why-does-everything-feel-broken",
+                "title": "React Won. So Why Does Everything Feel Broken?",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 65,
+                    "public_name": "Mikael Brevik"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "cce34a6a-fd5c-56e0-be4b-731916c811c7",
+                "id": 65,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-65-you-probably-don-t-need-javascript-for-that-anymore",
+                "title": "You probably don't need JavaScript for that (anymore)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 72,
+                    "public_name": "Jo Minney"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "902e9cf4-62bf-5388-aab5-97dade75cb3e",
+                "id": 72,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-72-the-shopping-dead-a-zombie-s-guide-to-web-accessibility",
+                "title": "The Shopping Dead: A Zombie's Guide to Web Accessibility",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 83,
+                    "public_name": "Daniel Yuschick"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2596d02f-438d-597b-9dfa-33fa7b7df09d",
+                "id": 79,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-79-ux-audit-in-practice-from-friction-to-fix",
+                "title": "UX audit in practice: from friction to fix",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 94,
+                    "public_name": "Kitty Toft"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "df8ff0d4-68ec-5a64-9c2f-7527bed36e66",
+                "id": 86,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-86-flying-a-drone-with-gestures-bananas-web-apis",
+                "title": "Flying a drone with gestures, bananas & Web APIs",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 101,
+                    "public_name": "Lucky Nkosi"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 2": [
+              {
+                "guid": "4664bc08-c233-5705-be37-ce4b3dff8948",
+                "id": 45,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-45-building-multi-agent-ai-teams-that-live-in-your-repo",
+                "title": "Building Multi-Agent AI Teams That Live in Your Repo",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 53,
+                    "public_name": "Tamir Dresher"
+                  },
+                  {
+                    "id": 54,
+                    "public_name": "Brady Gaster"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "8edb46b5-8545-5f23-ada6-7a2c48798c4d",
+                "id": 52,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-52-building-trustworthy-models-practical-statistics-every-developer-should-know",
+                "title": "Building Trustworthy Models: Practical Statistics Every Developer Should Know",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 60,
+                    "public_name": "Megan Robertson"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "42839da8-7335-5719-a8d2-215becc02490",
+                "id": 59,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-59-ai-agents-in-depth-function-calling-mcp-and-tool-use-under-the-hood",
+                "title": "AI Agents In-Depth – Function Calling, MCP and Tool Use Under the Hood",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 66,
+                    "public_name": "Alan Smith"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7c597cd1-b1d9-59fb-9a69-9b832a2d0e8c",
+                "id": 66,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-66-ai-ll-be-back-generative-ai-in-image-audio-and-video-production",
+                "title": "AI'll Be Back: Generative AI in Image, Audio and Video Production",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 73,
+                    "public_name": "Martin Förtsch"
+                  },
+                  {
+                    "id": 74,
+                    "public_name": "Thomas Endres"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "6686ba94-43dc-567d-94d5-b103b0077c0d",
+                "id": 73,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-73-finally-understand-embeddings-and-you-will-never-have-to-search-for-the-right-emoji-again",
+                "title": "Finally Understand Embeddings - And You Will Never Have to Search for the Right Emoji Again",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 47,
+                    "public_name": "Dennis Schulz"
+                  },
+                  {
+                    "id": 84,
+                    "public_name": "Elias Schecke"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "87e6583a-0f72-5260-920a-8ae07af3b878",
+                "id": 80,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-80-build-your-own-self-evolving-dev-tools-and-make-yourself-unique",
+                "title": "Build your own self-evolving dev tools and make yourself unique",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 95,
+                    "public_name": "Steve Sanderson"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a7fe48e6-c9b1-5bcf-9ed7-d9ca2356ee49",
+                "id": 87,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-87-beyond-ink-where-machines-3d-print-the-world",
+                "title": "Beyond Ink: Where Machines 3D Print the World",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 102,
+                    "public_name": "Troy Hunt"
+                  },
+                  {
+                    "id": 103,
+                    "public_name": "Elle Hunt"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 3": [
+              {
+                "guid": "4e1b2d8e-c02e-5e3a-a833-7586f8b76ae2",
+                "id": 46,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-46-the-patterns-we-don-t-name",
+                "title": "The Patterns We Don't Name",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 55,
+                    "public_name": "Christian Johansen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "02e7b8ce-27f0-59e8-90df-a6cf60b00b93",
+                "id": 53,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-53-just-start-with-value-objects",
+                "title": "Just start (with Value Objects)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 61,
+                    "public_name": "Katharina Damschen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "c6196b3f-21b7-501e-9106-db2e60938e72",
+                "id": 60,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-60-from-confusion-to-domain-understanding-a-practical-introduction-to-domain-storytelling",
+                "title": "From confusion to domain understanding — a practical introduction to Domain Storytelling",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 67,
+                    "public_name": "Haimanot Tekie"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "115d634c-a31f-5787-b02b-500d2b53e6ee",
+                "id": 67,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-67-how-to-accidentally-destroy-a-codebase-a-step-by-step-guide",
+                "title": "How to Accidentally Destroy a Codebase (A Step-by-Step Guide)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 75,
+                    "public_name": "Mariami Tsotsolashvili"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "35c15e58-660d-5112-8148-4e95962d5d41",
+                "id": 74,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-74-net-testing-techniques-you-didn-t-know-you-needed",
+                "title": ".NET Testing Techniques You Didn’t Know You Needed",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 85,
+                    "public_name": "Dante De Ruwe"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ec6e94b6-c5cd-5deb-98a5-577d9f2a15c1",
+                "id": 81,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-81-the-algorithm-that-nearly-killed-me-when-testing-isn-t-enough",
+                "title": "The Algorithm That Nearly Killed Me: When Testing Isn't Enough",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 96,
+                    "public_name": "Andrew Paul"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b98c5813-9d08-5ae5-a45e-f476bc19ef5e",
+                "id": 88,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-88-meditations-on-code-as-art",
+                "title": "Meditations on Code As Art",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 104,
+                    "public_name": "David Whitney"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 4": [
+              {
+                "guid": "8bf7ed93-1640-5431-a58d-a7eed8a8d644",
+                "id": 47,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-47-ai-your-way-mcps-vs-skills-vs-subagents",
+                "title": "AI Your Way: MCPs vs Skills vs SubAgents 🤖🚀",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 56,
+                    "public_name": "Sam Basu"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "db658991-8bbf-50b3-8b35-72723abc68ed",
+                "id": 54,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-54-demystifying-csp-for-modern-applications",
+                "title": "Demystifying CSP for modern applications",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 62,
+                    "public_name": "Philippe De Ryck"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "721ebd7a-fc3f-546f-9722-1ec6fac41e22",
+                "id": 61,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-61-asp-net-core-meets-owasp-top-10-2025",
+                "title": "ASP.NET Core meets OWASP Top 10 2025",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 68,
+                    "public_name": "Anders Abel"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0b1cb335-3390-537c-8440-47fffd0e1ca1",
+                "id": 68,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-68-applying-the-owasp-top-10-for-agentic-applications-to-your-ai-agents",
+                "title": "Applying the OWASP Top 10 for Agentic Applications to Your AI Agents",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 76,
+                    "public_name": "Will Velida"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "83776eb4-5f1e-58bd-a57f-a771f77079a6",
+                "id": 75,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-75-how-worms-exposed-the-real-attack-surface-of-open-source",
+                "title": "How Worms Exposed the Real Attack Surface of Open Source",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 86,
+                    "public_name": "Charlie Eriksen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1b1f873c-f265-5ea2-9e5f-637e301dbbde",
+                "id": 82,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-82-insecure-vibe-coding-when-ai-writes-exploitable-software",
+                "title": "Insecure Vibe Coding: When AI Writes Exploitable Software",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 97,
+                    "public_name": "Sana Talwar"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "85f178f3-3fbe-5ef2-8ea7-56202c8b0b86",
+                "id": 89,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-89-panel-when-ai-feels-empathic",
+                "title": "Panel: When AI Feels Empathic",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 105,
+                    "public_name": "Richard Campbell"
+                  },
+                  {
+                    "id": 26,
+                    "public_name": "Martine Dowden"
+                  },
+                  {
+                    "id": 28,
+                    "public_name": "Michelle Frost"
+                  },
+                  {
+                    "id": 106,
+                    "public_name": "Tessel Haagen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 5": [
+              {
+                "guid": "a53b8a4f-8b07-5073-ba63-415c01f944f0",
+                "id": 48,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-48-the-developers-worked-in-two-by-two-hurrah-hurrah",
+                "title": "The developers worked in two by two. Hurrah! Hurrah!",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 23,
+                    "public_name": "Ryan Healey"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a7d3bfcf-7320-54fa-abfd-524f335216f9",
+                "id": 55,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-55-10-tips-to-level-up-your-ai-assisted-coding",
+                "title": "10 tips to level up your ai-assisted coding",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "af5ef9b9-993a-582a-a804-4e23f93be485",
+                "id": 62,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-62-deep-dive-into-github-copilot-cli",
+                "title": "Deep dive into GitHub Copilot CLI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 69,
+                    "public_name": "Kayla Cinnamon"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "de35468f-6088-528c-8224-d3bd1f35ff75",
+                "id": 69,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-69-indiana-jones-and-the-temple-of-legacy-code",
+                "title": "Indiana Jones and the Temple of Legacy Code",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 77,
+                    "public_name": "William Brander"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b5b0e520-718b-569a-896f-275d806665ef",
+                "id": 76,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-76-watch-it-monitoring-lessons-from-two-decades-in-computing",
+                "title": "Watch It! Monitoring Lessons from Two Decades in Computing",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 87,
+                    "public_name": "Markus Krüger"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "5c1675cb-46ca-5065-87c0-17adbecfa1c6",
+                "id": 83,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-83-ada-lovelace-and-the-very-first-computer-program",
+                "title": "Ada Lovelace and The Very First Computer Program",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 98,
+                    "public_name": "Steven Goodwin"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "6ef8bd7b-8350-5b8c-a091-7c61b493d727",
+                "id": 90,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-90-do-it-with-style-rethinking-css",
+                "title": "Do It With Style: Rethinking CSS",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 107,
+                    "public_name": "Dylan Beattie"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 6": [
+              {
+                "guid": "5ffcdb20-a09f-551e-ac91-9b86e80cacea",
+                "id": 49,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-49-modular-code-with-examples-in-c",
+                "title": "Modular Code with Examples in C#",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 57,
+                    "public_name": "Ian Cooper"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "cac4b5f0-de81-5539-9267-52a21b11fd4f",
+                "id": 56,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-56-back-to-basics-efficient-async-and-await",
+                "title": "Back to Basics: Efficient Async and Await",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 63,
+                    "public_name": "Filip Ekberg"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "353a9fee-5ee1-5a0f-bb40-101d214bf8cc",
+                "id": 63,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-63-the-road-to-a-faster-resharper",
+                "title": "The road to a faster ReSharper",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 70,
+                    "public_name": "Kevin Gosse"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "b7267950-74e0-5411-ad23-1651efcd9b40",
+                "id": 70,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-70-the-1-trillion-pixel-maze-my-decade-long-obsession-with-c-optimization",
+                "title": "The 1 Trillion Pixel Maze: My Decade-Long Obsession with C# Optimization",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 78,
+                    "public_name": "Davy Davidse"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2b76444f-df4d-5df7-bd01-e156ac4b5fe6",
+                "id": 77,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-77-from-stateless-to-stateful-adopting-actor-model-for-managing-millions-of-iot-devices",
+                "title": "From stateless to stateful: adopting actor model for managing millions of IoT devices",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 88,
+                    "public_name": "Mikhail Aksenov"
+                  },
+                  {
+                    "id": 89,
+                    "public_name": "Maxim Tkachenko"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e5b3ab82-74e5-5560-9d7e-4ae9d5f1bc8d",
+                "id": 84,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-84-old-api-new-tricks-add-mcp-to-existing-net-rest-endpoints",
+                "title": "Old API, New Tricks: Add MCP to Existing .NET REST Endpoints",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 99,
+                    "public_name": "Jonathan \"J.\" Tower"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "cf0ee0ed-7712-58c2-906b-1deff876074c",
+                "id": 91,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-91-the-3d-engine-nobody-asked-for-but-i-had-to-make",
+                "title": "The 3D Engine Nobody Asked For (But I Had to Make)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 108,
+                    "public_name": "Jarle Adolfsen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 7": [
+              {
+                "guid": "17c4e22b-0146-53d2-b863-516341cda71a",
+                "id": 50,
+                "date": "2026-09-17T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-50-the-10-most-common-azure-mistakes-and-how-to-fix-them",
+                "title": "The 10 Most Common Azure Mistakes (And How To Fix Them)",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 58,
+                    "public_name": "Scott Sauber"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "4dc314ac-7e20-5af1-a0f7-2c4dd2b77008",
+                "id": 57,
+                "date": "2026-09-17T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-57-azure-and-disaster-recovery-the-good-the-bad-and-the-fugly",
+                "title": "Azure and Disaster Recovery - The Good, The Bad and The Fugly",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 64,
+                    "public_name": "Liam Westley"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "18dbc2f8-1d3d-53ed-9414-523231de9cc5",
+                "id": 64,
+                "date": "2026-09-17T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-64-spaces-squares-and-circles-an-intro-to-ui-design",
+                "title": "Spaces, squares, and circles - an intro to UI design",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 71,
+                    "public_name": "Ash Banaszek"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "24af1133-6956-537e-a5fb-cdf211936013",
+                "id": 71,
+                "date": "2026-09-17T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-71-lightning-talks-3",
+                "title": "Lightning Talks 3",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 79,
+                    "public_name": "Jakob Endrestad Kielland"
+                  },
+                  {
+                    "id": 80,
+                    "public_name": "Sveinung Sande Dalatun"
+                  },
+                  {
+                    "id": 81,
+                    "public_name": "Gaute Meek Olsen"
+                  },
+                  {
+                    "id": 82,
+                    "public_name": "Stian Veum Møllersen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ecedad31-2883-5206-a8a6-756c452f22d2",
+                "id": 78,
+                "date": "2026-09-17T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-78-lightning-talks-4",
+                "title": "Lightning Talks 4",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 90,
+                    "public_name": "Anuradha Shridharan"
+                  },
+                  {
+                    "id": 91,
+                    "public_name": "Radostina (Ina) Tsvetkova"
+                  },
+                  {
+                    "id": 92,
+                    "public_name": "Malin Jakobsen"
+                  },
+                  {
+                    "id": 93,
+                    "public_name": "Kent Inge Fagerland Simonsen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "a9dafea6-880e-53d5-9577-c6fca59409a8",
+                "id": 85,
+                "date": "2026-09-17T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-85-let-s-deploy-on-fridays",
+                "title": "Let's deploy on Fridays!",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 100,
+                    "public_name": "Luise Freese"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "f34d5ace-ffc5-5048-9e68-9920db2b73d2",
+                "id": 92,
+                "date": "2026-09-17T17:40:00+02:00",
+                "start": "17:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-92-how-we-slashed-costs-emissions-85-for-1-of-the-uk-s-biggest-charities",
+                "title": "How we slashed costs & emissions 85% for 1 of the UK's biggest charities",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 109,
+                    "public_name": "Imran Haider"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ]
+          }
+        },
+        {
+          "index": 2,
+          "date": "2026-09-18",
+          "day_start": "2026-09-18T09:00:00+02:00",
+          "day_end": "2026-09-18T17:20:00+02:00",
+          "rooms": {
+            "Room 1": [
+              {
+                "guid": "ffced7b8-3e03-5738-9ec3-06f8cfb359e6",
+                "id": 93,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-93-safe-systems-in-a-chaotic-world",
+                "title": "Safe Systems in a Chaotic World",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 110,
+                    "public_name": "Bryan Hunter"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "537085a3-d5b2-5b05-bcf0-827aa1df8c54",
+                "id": 99,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-99-lambda-calculus-foundation-of-functional-programming",
+                "title": "Lambda Calculus - Foundation of Functional Programming",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 116,
+                    "public_name": "Mark Volkmann"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "9064be11-8a88-5c97-8049-ebd84dcc7ddc",
+                "id": 106,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-106-writing-a-compiler-from-scratch",
+                "title": "Writing a compiler from scratch",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 24,
+                    "public_name": "Erik Schierboom"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "45d73495-7e5b-58e4-a83b-d04d820d8231",
+                "id": 113,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-113-developers-in-the-dark-forest",
+                "title": "Developers in the Dark Forest",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 129,
+                    "public_name": "Sergès Goma"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "6a53af01-db3b-5c5f-8028-54cf56d34d5f",
+                "id": 120,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-120-turning-microservice-chaos-into-a-beautiful-concerto",
+                "title": "Turning microservice chaos into a beautiful concerto",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 139,
+                    "public_name": "Marc Duiker"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "6bdebaed-b9ae-522a-bc0f-35ba69061439",
+                "id": 127,
+                "date": "2026-09-18T16:20:00+02:00",
+                "start": "16:20",
+                "duration": "01:00",
+                "room": "Room 1",
+                "slug": "ndcoslo2026-127-locknote-we-re-gonna-build-an-agent",
+                "title": "Locknote: We're Gonna Build an Agent",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 147,
+                    "public_name": "Emmz Rendle"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 2": [
+              {
+                "guid": "5957bc63-f298-5c55-814c-f8a429a48800",
+                "id": 94,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-94-from-mvp-to-github-com-an-ai-story-of-engineering-product-collaboration",
+                "title": "From MVP to GitHub.com: An AI Story of Engineering & Product Collaboration.",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 111,
+                    "public_name": "Anjuan Simmons"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "11c5603e-f0d4-54ce-9f96-4cd950c0b5de",
+                "id": 100,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-100-if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+                "title": "If you thought the speed of writing code was your problem, you have bigger problems",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 117,
+                    "public_name": "Andrew Murphy"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ad1267ce-d952-5b12-ab4a-bfcbec5c69e9",
+                "id": 107,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-107-behind-the-algorithms-power-gender-and-truth-in-a-world-shaped-by-ai",
+                "title": "Behind the Algorithms: Power, Gender, and Truth in a World Shaped by AI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 123,
+                    "public_name": "Kaja Vogt"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "be93161f-a336-5c7e-9fa4-70da3845ac9b",
+                "id": 114,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-114-bobbysocks-commit",
+                "title": "Bobbysocks commit",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 130,
+                    "public_name": "Morten Kjelling"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "04268b1f-e661-55a6-b19c-cffc702cea44",
+                "id": 121,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 2",
+                "slug": "ndcoslo2026-121-unf-ck-your-mind-how-to-finally-build-something-great-again",
+                "title": "Unf*ck your mind: How to finally build something great again",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 140,
+                    "public_name": "Marin Niehues"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 3": [
+              {
+                "guid": "692e0f68-3b16-5b11-8b46-0bbae3ca97d1",
+                "id": 95,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-95-does-this-pr-lower-the-energy-state",
+                "title": "Does This PR Lower the Energy State?",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 112,
+                    "public_name": "Dag Brattli"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "4d7599c3-6d78-5c05-9272-55c19a862a37",
+                "id": 101,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-101-functional-programming-with-the-aid-of-ai",
+                "title": "Functional Programming with the aid of AI",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 118,
+                    "public_name": "Venkat Subramaniam"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "18a36176-6af0-5785-a9f8-64e96e99b9fe",
+                "id": 108,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-108-code-once-pin-everywhere-multiplatform-widgets-for-android-ios",
+                "title": "Code Once, Pin Everywhere: Multiplatform Widgets for Android & iOS",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 124,
+                    "public_name": "Andrea Della Porta"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "198a7543-187a-56b4-9bd8-3b97a0bf2fd5",
+                "id": 115,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-115-demand-driven-context-what-300-incidents-reveal-about-tribal-knowledge",
+                "title": "Demand-Driven Context: What 300 Incidents Reveal About Tribal Knowledge",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 131,
+                    "public_name": "Raj Navakoti"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "2f7bfd52-932c-598a-970e-377ec0b83073",
+                "id": 122,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 3",
+                "slug": "ndcoslo2026-122-pwned-with-purpose-where-motives-meet-mayhem",
+                "title": "Pwned with Purpose: Where Motives Meet Mayhem",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 102,
+                    "public_name": "Troy Hunt"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 4": [
+              {
+                "guid": "eb545d33-a41e-525d-89f0-47198b404213",
+                "id": 96,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-96-demoscene-coding-kickstart",
+                "title": "Demoscene Coding Kickstart",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 113,
+                    "public_name": "Espen Sande-Larsen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "93fcc147-ea9b-5d5a-a389-94606e70e767",
+                "id": 102,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-102-copy-paste-the-world-with-gaussian-splatting",
+                "title": "Copy & Paste the World with Gaussian Splatting",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 119,
+                    "public_name": "Scott Leaman"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "fbb3e57a-1b70-53c8-a404-f16f28c36bd5",
+                "id": 109,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-109-the-undersea-infrastructure",
+                "title": "The Undersea Infrastructure",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 105,
+                    "public_name": "Richard Campbell"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "3e81ba26-30e8-5d65-a734-1adc79cea14f",
+                "id": 116,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-116-build-2-5d-and-3d-immersive-map-experiences-in-a-browser",
+                "title": "Build 2.5D and 3D immersive map experiences in a browser",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 132,
+                    "public_name": "Paweł Krzywicki"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e103b643-0e77-5978-968c-af3cd5335035",
+                "id": 123,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 4",
+                "slug": "ndcoslo2026-123-bootable-applications-next-steps",
+                "title": "Bootable applications - next steps",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 141,
+                    "public_name": "Michael Odden"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 5": [
+              {
+                "guid": "a37d3e69-4f33-5d2e-95a4-8cd53f687363",
+                "id": 97,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-97-platform-engineering-beyond-the-tools-lessons-learned-across-industries",
+                "title": "Platform Engineering Beyond the Tools: Lessons Learned Across Industries",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 114,
+                    "public_name": "Stefan Daugaard Poulsen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "ccc281ed-6714-589f-8b4c-04b4367c31d8",
+                "id": 103,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-103-from-2am-alert-to-post-mortem-building-a-multi-agent-sre-system-with-caipe",
+                "title": "From 2am Alert to Post-Mortem: Building a Multi-Agent SRE System with CAIPE",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 120,
+                    "public_name": "Alfonso Sandoval Rosas"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e5e47348-e654-58ce-bf04-03f6f585c48f",
+                "id": 110,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-110-from-noise-to-signal-building-meaningful-slis-in-azure",
+                "title": "From Noise to Signal: Building Meaningful SLIs in Azure",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 125,
+                    "public_name": "Tom van den Berg"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1558e2c0-a3ba-5e37-b530-a34adfe29a6c",
+                "id": 117,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-117-magical-client-side-logging-the-little-headers-that-could",
+                "title": "Magical client-side logging – the little headers that could",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 133,
+                    "public_name": "Marcus Bointon"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "fee4eaeb-053a-55e2-adfe-46516ec109e7",
+                "id": 124,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 5",
+                "slug": "ndcoslo2026-124-stop-scaling-and-start-tuning",
+                "title": "Stop scaling and start tuning",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 142,
+                    "public_name": "Matt Burke"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 6": [
+              {
+                "guid": "7ce78509-f687-53fc-b995-e3e670b18339",
+                "id": 98,
+                "date": "2026-09-18T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-98-aspire-beyond-the-introduction",
+                "title": "Aspire Beyond the Introduction",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 115,
+                    "public_name": "Chris Klug"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1cb7659b-e19b-5c1f-85dc-06983d10ef13",
+                "id": 104,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-104-building-well-documented-versioned-http-apis-in-asp-net-core",
+                "title": "Building well-documented versioned HTTP APIs in ASP.NET Core",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 121,
+                    "public_name": "Dennis Doomen"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "081ad951-e523-5a72-8a6c-95df44faeba8",
+                "id": 111,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-111-secure-and-compliant-apis-by-design",
+                "title": "Secure and Compliant APIs - By Design",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 126,
+                    "public_name": "Tobias Ahnoff"
+                  },
+                  {
+                    "id": 127,
+                    "public_name": "Daniel Sandberg"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "7e155199-e938-52b3-81d1-f43792ac4652",
+                "id": 118,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-118-tba-daisy-hollman",
+                "title": "TBA - Daisy Hollman",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 134,
+                    "public_name": "Daisy Hollman"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "d48fc32a-b90f-5ac5-9b34-4e066eb00f39",
+                "id": 125,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 6",
+                "slug": "ndcoslo2026-125-who-to-blame-the-ai-the-programmer-or-the-prompt",
+                "title": "Who to blame? The AI, The Programmer, or The Prompt?",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 143,
+                    "public_name": "Makan Sepehrifar"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ],
+            "Room 7": [
+              {
+                "guid": "36bca0f8-a32b-5d06-a7c0-3e64ce7bfb4b",
+                "id": 105,
+                "date": "2026-09-18T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-105-accessibility-and-computer-vision-building-a-system-for-the-new-york-times",
+                "title": "Accessibility and Computer Vision: Building A System for the New York Times",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 122,
+                    "public_name": "Shafik Quoraishee"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "3883a9f3-fc84-58b7-95bc-b02ffedf896e",
+                "id": 112,
+                "date": "2026-09-18T11:40:00+02:00",
+                "start": "11:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-112-how-i-built-my-own-intelligent-robot-arm-from-scratch",
+                "title": "How I built my own intelligent Robot Arm from Scratch",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 128,
+                    "public_name": "Iulia Feroli"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "5334e625-bad3-590d-bb11-6565fbe0c321",
+                "id": 119,
+                "date": "2026-09-18T13:40:00+02:00",
+                "start": "13:40",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-119-lightning-talks-5",
+                "title": "Lightning Talks 5",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 135,
+                    "public_name": "Helén Persson"
+                  },
+                  {
+                    "id": 136,
+                    "public_name": "Njord Solberg"
+                  },
+                  {
+                    "id": 137,
+                    "public_name": "Anders Erlandsen"
+                  },
+                  {
+                    "id": 138,
+                    "public_name": "Gayathri Palani"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "3ff530f3-de15-53fd-a9c7-4748821e5dbf",
+                "id": 126,
+                "date": "2026-09-18T15:00:00+02:00",
+                "start": "15:00",
+                "duration": "01:00",
+                "room": "Room 7",
+                "slug": "ndcoslo2026-126-lightning-talks-6",
+                "title": "Lightning Talks 6",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "en",
+                "abstract": "",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 144,
+                    "public_name": "Tomas Hensrud Gulla"
+                  },
+                  {
+                    "id": 145,
+                    "public_name": "Knut Erik Hollund"
+                  },
+                  {
+                    "id": 146,
+                    "public_name": "Sean Percival"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

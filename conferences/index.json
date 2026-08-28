@@ -10,6 +10,13 @@
       "url": "fagfestival-2026.json"
     },
     {
+      "id": "ndc-oslo-2026",
+      "title": "NDC Oslo 2026",
+      "start": "2026-09-16",
+      "end": "2026-09-18",
+      "url": "ndc-oslo-2026.json"
+    },
+    {
       "id": "trondheimdc-2026",
       "title": "Trondheim Developer Conference 2026",
       "start": "2026-10-19",
