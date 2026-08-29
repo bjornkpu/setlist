@@ -260,11 +260,32 @@ body {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 3rem 1rem 1rem; /* room for the corner menu */
   position: relative;
   overflow: hidden;
+  touch-action: pan-y; /* horizontal swipe switches day */
+}
+.glance .days { padding: 0; }
+.days button.today::after { content: "•"; color: var(--accent); margin-left: 0.3rem; }
+.glance .agenda-h {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0.5rem 0 0;
+}
+.glance .agenda { margin: 0 -1rem; } /* rows stretch edge to edge like browse */
+.agenda a { grid-template-columns: 3.4rem 1fr auto; }
+.agenda .badge {
+  align-self: center;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--maybe);
+  border-radius: 999px;
+  color: var(--maybe);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 .glance .corner {
   position: absolute;

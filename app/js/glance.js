@@ -61,6 +61,43 @@ export function slotFor(events, plan, ref) {
   return buckets;
 }
 
+// Chronological agenda for one day's events: an entry per pick and per
+// non-avoided solo event (each with a count of overlapping maybes), plus one
+// entry per cluster of maybes that overlap no pick/solo — a contested slot
+// with nothing picked yet.
+export function dayAgenda(events, plan) {
+  const sorted = [...events]
+    .filter((e) => e.end > e.start)
+    .sort((a, b) => a.start - b.start || a.room.localeCompare(b.room));
+  const entries = [];
+  const claimed = new Set();
+  for (const e of sorted) {
+    const st = stateOf(plan, e.key);
+    const anchor = st === "pick" || (st !== "avoid" && isSolo(e, events));
+    if (!anchor) continue;
+    const maybes = sorted.filter(
+      (m) => m.key !== e.key && stateOf(plan, m.key) === "maybe" && overlaps(m, e),
+    );
+    for (const m of maybes) claimed.add(m.key);
+    claimed.add(e.key);
+    entries.push({ kind: st === "pick" ? "pick" : "solo", event: e, maybeCount: maybes.length });
+  }
+  let cluster = null;
+  for (const m of sorted) {
+    if (stateOf(plan, m.key) !== "maybe" || claimed.has(m.key)) continue;
+    if (cluster && m.start < cluster.end) {
+      cluster.events.push(m);
+      cluster.end = Math.max(cluster.end, m.end);
+    } else {
+      cluster = { kind: "maybes", events: [m], end: m.end };
+      entries.push(cluster);
+    }
+  }
+  return entries.sort(
+    (a, b) => (a.event?.start ?? a.events[0].start) - (b.event?.start ?? b.events[0].start),
+  );
+}
+
 export function fmtUntil(ms) {
   const min = Math.round(ms / 60000);
   if (min < 1) return "now";

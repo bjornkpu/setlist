@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { resolveGlance, slotEvents, slotFor, fmtUntil } from "../app/js/glance.js";
+import { resolveGlance, slotEvents, slotFor, fmtUntil, dayAgenda } from "../app/js/glance.js";
 
 const MIN = 60000;
 const ev = (key, start, end, room = "R" + key) => ({
@@ -102,4 +102,31 @@ test("fmtUntil", () => {
   assert.equal(fmtUntil(12 * MIN), "in 12 min");
   assert.equal(fmtUntil(95 * MIN), "in 1 h 35 min");
   assert.equal(fmtUntil(-5000), "now");
+});
+
+test("dayAgenda: picks and solos become entries with maybe counts", () => {
+  const plan = { a1: "pick", b1: "maybe", b2: "maybe" };
+  const entries = dayAgenda(EVENTS, plan);
+  // reg (solo), a1 (pick, 1 maybe), lunch (solo), b2 (loose maybe cluster)
+  assert.deepEqual(
+    entries.map((e) => e.kind),
+    ["solo", "pick", "solo", "maybes"],
+  );
+  const a1Entry = entries[1];
+  assert.equal(a1Entry.event.key, "a1");
+  assert.equal(a1Entry.maybeCount, 1);
+  assert.deepEqual(entries[3].events.map((e) => e.key), ["b2"]);
+});
+
+test("dayAgenda: overlapping loose maybes cluster into one entry", () => {
+  const plan = { a1: "maybe", b1: "maybe" };
+  const entries = dayAgenda([a1, b1], plan);
+  assert.equal(entries.length, 1);
+  assert.equal(entries[0].kind, "maybes");
+  assert.deepEqual(entries[0].events.map((e) => e.key).sort(), ["a1", "b1"]);
+});
+
+test("dayAgenda: avoided solo excluded, empty plan keeps only solos", () => {
+  assert.deepEqual(dayAgenda(EVENTS, {}).map((e) => e.event.key), ["reg", "lunch"]);
+  assert.deepEqual(dayAgenda(EVENTS, { lunch: "avoid" }).map((e) => e.event.key), ["reg"]);
 });
