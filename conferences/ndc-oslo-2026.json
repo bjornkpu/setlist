@@ -50,7 +50,16 @@
                     "public_name": "Nick Chapsas"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/keynote-who-are-you",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/nick-chapsas",
+                    "title": "Speaker: Nick Chapsas"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -76,7 +85,16 @@
                     "public_name": "Kilian Valkhof"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/intl-the-best-browser-api-youre-not-using",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kilian-valkhof",
+                    "title": "Speaker: Kilian Valkhof"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -100,7 +118,16 @@
                     "public_name": "Brecht De Ruyte"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/css-state-machine",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/brecht-de-ruyte",
+                    "title": "Speaker: Brecht De Ruyte"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -124,7 +151,16 @@
                     "public_name": "Elise Kristiansen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lets-break-some-wcag-rules",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/elise-kristiansen",
+                    "title": "Speaker: Elise Kristiansen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -148,7 +184,16 @@
                     "public_name": "Martine Dowden"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/rethinking-tooltips-with-interest-invokers-and-popover-api",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/martine-dowden",
+                    "title": "Speaker: Martine Dowden"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -172,7 +217,16 @@
                     "public_name": "Sam Newman"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/cobots-dark-modules-and-architecting-for-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/sam-newman",
+                    "title": "Speaker: Sam Newman"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -196,7 +250,16 @@
                     "public_name": "Joseph Katsioloudes"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-intent-to-merge-a-hands-on-talk-on-sdlc-in-the-agent-era",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/joseph-katsioloudes",
+                    "title": "Speaker: Joseph Katsioloudes"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -222,7 +285,16 @@
                     "public_name": "Maddy Montaquila"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/use-ai-to-build-ai-without-losing-your-mind-with-aspire",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/maddy-montaquila",
+                    "title": "Speaker: Maddy Montaquila"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -246,7 +318,16 @@
                     "public_name": "Aleksander Stensby"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/build-skills-not-agents",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/aleksander-stensby",
+                    "title": "Speaker: Aleksander Stensby"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -270,7 +351,16 @@
                     "public_name": "Adam Stephensen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-code-to-intelligence-the-rise-of-the-full-stack-ai-engineer",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/adam-stephensen",
+                    "title": "Speaker: Adam Stephensen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -294,7 +384,16 @@
                     "public_name": "Hallstein Brøtan"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-we-built-an-autonomous-development-workflow-at-nordic-corporate-bank",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/hallstein-brotan",
+                    "title": "Speaker: Hallstein Brøtan"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -318,7 +417,16 @@
                     "public_name": "Lucía Conde-Moreno"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/why-llms-suck-aka-the-software-developers-guide-to-keeping-our-jobs",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/lucia-conde-moreno",
+                    "title": "Speaker: Lucía Conde-Moreno"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -346,7 +454,20 @@
                     "public_name": "Eirik Ottesen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/1-million-ways-to-break-production-iot-systems-at-scale",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jan-erik-carlsen",
+                    "title": "Speaker: Jan-Erik Carlsen"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/eirik-ottesen",
+                    "title": "Speaker: Eirik Ottesen"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -372,7 +493,16 @@
                     "public_name": "Einar Høst"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/socio-technical-api-patterns",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/einar-host",
+                    "title": "Speaker: Einar Høst"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -396,7 +526,16 @@
                     "public_name": "Brandon Minnick"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-dotnet-maui-community-toolkits-three-3-essential-libraries-for-every-dotnet-maui-developer",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/brandon-minnick",
+                    "title": "Speaker: Brandon Minnick"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -420,7 +559,16 @@
                     "public_name": "Filip Sodic"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/types-are-worth-the-typing",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/filip-sodic",
+                    "title": "Speaker: Filip Sodic"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -444,7 +592,16 @@
                     "public_name": "Michelle Frost"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/what-you-need-to-know-and-why-you-should-care-about-ai-governance",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/michelle-frost",
+                    "title": "Speaker: Michelle Frost"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -468,7 +625,16 @@
                     "public_name": "Joanna Montgomery"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/humans-are-the-most-unreliable-node-in-your-system",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/joanna-montgomery",
+                    "title": "Speaker: Joanna Montgomery"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -492,7 +658,16 @@
                     "public_name": "Magnar Sveen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/functional-core-imperative-shell-an-architecture-turned-inside-out",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/magnar-sveen",
+                    "title": "Speaker: Magnar Sveen"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -518,7 +693,16 @@
                     "public_name": "Joep Piscaer"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/if-you-feel-behind-youre-probably-paying-attention",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/joep-piscaer",
+                    "title": "Speaker: Joep Piscaer"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -542,7 +726,16 @@
                     "public_name": "Christian Peeters"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/whats-new-in-sql-server-2025-and-azure-sql-databases",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/christian-peeters",
+                    "title": "Speaker: Christian Peeters"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -566,7 +759,16 @@
                     "public_name": "Gui Ferreira"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/what-claude-code-can-do-that-you-havent-tried",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/gui-ferreira",
+                    "title": "Speaker: Gui Ferreira"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -590,7 +792,16 @@
                     "public_name": "David Ostrovsky"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/modern-graph-databases",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/david-ostrovsky",
+                    "title": "Speaker: David Ostrovsky"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -614,7 +825,16 @@
                     "public_name": "Peter Ryen Bull"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/tracking-every-ship-in-norwegian-waters-building-a-data-platform-for-the-coastal-administration",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/peter-ryen-bull",
+                    "title": "Speaker: Peter Ryen Bull"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -642,7 +862,20 @@
                     "public_name": "Thomas Hugle"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-sound-of-privacy-what-your-spotify-data-reveals-about-you",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dennis-schulz",
+                    "title": "Speaker: Dennis Schulz"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/thomas-hugle",
+                    "title": "Speaker: Thomas Hugle"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -668,7 +901,16 @@
                     "public_name": "Glenn F. Henriksen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/build-with-intent",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/glenn-f-henriksen",
+                    "title": "Speaker: Glenn F. Henriksen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -692,7 +934,16 @@
                     "public_name": "David Boyne"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/stars-dont-pay-the-bills-turning-open-source-into-a-business",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/david-boyne",
+                    "title": "Speaker: David Boyne"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -716,7 +967,16 @@
                     "public_name": "Thierry de Pauw"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/non-blocking-continuous-code-reviews-a-case-study",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/thierry-de-pauw",
+                    "title": "Speaker: Thierry de Pauw"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -740,7 +1000,16 @@
                     "public_name": "Anne M. V. Bosch"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/software-developer-graduates-2031",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anne-m-v-bosch",
+                    "title": "Speaker: Anne M. V. Bosch"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -764,7 +1033,16 @@
                     "public_name": "Lars Klint"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-day-my-farm-burned-down",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/lars-klint",
+                    "title": "Speaker: Lars Klint"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -788,7 +1066,16 @@
                     "public_name": "Adele Carpenter"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-powerlifting-made-me-a-better-software-engineer",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/adele-carpenter",
+                    "title": "Speaker: Adele Carpenter"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -814,7 +1101,16 @@
                     "public_name": "Fred Silberberg"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/whats-coming-next-in-csharp",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/fred-silberberg",
+                    "title": "Speaker: Fred Silberberg"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -838,7 +1134,16 @@
                     "public_name": "Johan Smarius"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/refactoring-an-aspnet-core-webapi-controller-based-api-to-a-minimal-api",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/johan-smarius",
+                    "title": "Speaker: Johan Smarius"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -862,7 +1167,16 @@
                     "public_name": "Adam Cogan"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/tba-adam-cogan",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/adam-cogan",
+                    "title": "Speaker: Adam Cogan"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -886,7 +1200,16 @@
                     "public_name": "Stephen Cleary"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/dotnet-telemetry-in-the-real-world",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/stephen-cleary",
+                    "title": "Speaker: Stephen Cleary"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -910,7 +1233,16 @@
                     "public_name": "Alex Thissen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/using-microsoft-kiota-to-go-from-openapi-to-first-class-dotnet-client-sdks",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/alex-thissen",
+                    "title": "Speaker: Alex Thissen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -934,7 +1266,16 @@
                     "public_name": "Maarten Balliauw"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/going-passwordless-a-practical-guide-to-passkeys-in-aspnet-core",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/maarten-balliauw",
+                    "title": "Speaker: Maarten Balliauw"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -964,7 +1305,20 @@
                     "public_name": "Aurora Scharff"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/we-stopped-writing-code-but-shipped-more-code-and-products-than-ever-before",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/james-montemagno",
+                    "title": "Speaker: James Montemagno"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/aurora-scharff",
+                    "title": "Speaker: Aurora Scharff"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -988,7 +1342,16 @@
                     "public_name": "Yngve Bakken Nilsen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/where-thinking-stops",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/yngve-bakken-nilsen",
+                    "title": "Speaker: Yngve Bakken Nilsen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1024,7 +1387,28 @@
                     "public_name": "Elin Brusberg"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-1",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/ryan-healey",
+                    "title": "Speaker: Ryan Healey"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/aurora-scharff",
+                    "title": "Speaker: Aurora Scharff"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/erik-schierboom",
+                    "title": "Speaker: Erik Schierboom"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/elin-brusberg",
+                    "title": "Speaker: Elin Brusberg"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1060,7 +1444,28 @@
                     "public_name": "Jill Sarandi"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-2",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/shomaila-kausar",
+                    "title": "Speaker: Shomaila Kausar"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anemari-fiser",
+                    "title": "Speaker: Anemari Fiser"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/oda-enger-hoem",
+                    "title": "Speaker: Oda Enger Hoem"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jill-sarandi",
+                    "title": "Speaker: Jill Sarandi"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1084,7 +1489,16 @@
                     "public_name": "Kevlin Henney"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/much-ado-about-nothing",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kevlin-henney",
+                    "title": "Speaker: Kevlin Henney"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1108,7 +1522,16 @@
                     "public_name": "Michael Dowden"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/its-about-time-practical-examples-of-time-zones-in-typescript",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/michael-dowden",
+                    "title": "Speaker: Michael Dowden"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -1134,7 +1557,16 @@
                     "public_name": "Burton Smith"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-web-components-101-no-framework-no-problem",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/burton-smith",
+                    "title": "Speaker: Burton Smith"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1158,7 +1590,16 @@
                     "public_name": "Burton Smith"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-web-components-101-no-framework-no-problem",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/burton-smith",
+                    "title": "Speaker: Burton Smith"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1186,7 +1627,20 @@
                     "public_name": "Kayla Cinnamon"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-context-engineering-custom-agents-and-ai-first-dev-workflows-w-vs-code-and-github-copilot",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/james-montemagno",
+                    "title": "Speaker: James Montemagno"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kayla-cinnamon",
+                    "title": "Speaker: Kayla Cinnamon"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1214,7 +1668,20 @@
                     "public_name": "Kayla Cinnamon"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-context-engineering-custom-agents-and-ai-first-dev-workflows-w-vs-code-and-github-copilot",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/james-montemagno",
+                    "title": "Speaker: James Montemagno"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kayla-cinnamon",
+                    "title": "Speaker: Kayla Cinnamon"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1238,7 +1705,16 @@
                     "public_name": "Heidi Mork"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-fun-with-fsharp-and-turtle-geometry",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/heidi-mork",
+                    "title": "Speaker: Heidi Mork"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1262,7 +1738,16 @@
                     "public_name": "Heidi Mork"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-fun-with-fsharp-and-turtle-geometry",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/heidi-mork",
+                    "title": "Speaker: Heidi Mork"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -1292,7 +1777,20 @@
                     "public_name": "Tessel Haagen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-from-hallucination-to-justification-hands-on-explainability-for-llms",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/lucia-conde-moreno",
+                    "title": "Speaker: Lucía Conde-Moreno"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tessel-haagen",
+                    "title": "Speaker: Tessel Haagen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1320,7 +1818,20 @@
                     "public_name": "Tessel Haagen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-from-hallucination-to-justification-hands-on-explainability-for-llms",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/lucia-conde-moreno",
+                    "title": "Speaker: Lucía Conde-Moreno"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tessel-haagen",
+                    "title": "Speaker: Tessel Haagen"
+                  }
+                ],
                 "attachments": []
               }
             ]
@@ -1354,7 +1865,16 @@
                     "public_name": "Christian Liebel"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/webnn-built-in-ai-webmcp-whats-new-in-web-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/christian-liebel",
+                    "title": "Speaker: Christian Liebel"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1378,7 +1898,16 @@
                     "public_name": "Laila Bougria"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/change-is-inevitable-versioning-event-driven-systems",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/laila-bougria",
+                    "title": "Speaker: Laila Bougria"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1402,7 +1931,16 @@
                     "public_name": "Mikael Brevik"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/react-won-so-why-does-everything-feel-broken",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mikael-brevik",
+                    "title": "Speaker: Mikael Brevik"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1426,7 +1964,16 @@
                     "public_name": "Jo Minney"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/you-probably-dont-need-javascript-for-that-anymore",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jo-minney",
+                    "title": "Speaker: Jo Minney"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1450,7 +1997,16 @@
                     "public_name": "Daniel Yuschick"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-shopping-dead-a-zombies-guide-to-web-accessibility",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/daniel-yuschick",
+                    "title": "Speaker: Daniel Yuschick"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1474,7 +2030,16 @@
                     "public_name": "Kitty Toft"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/ux-audit-in-practice-from-friction-to-fix",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kitty-toft",
+                    "title": "Speaker: Kitty Toft"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1498,7 +2063,16 @@
                     "public_name": "Lucky Nkosi"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/flying-a-drone-with-gestures-bananas-and-web-apis",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/lucky-nkosi",
+                    "title": "Speaker: Lucky Nkosi"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -1528,7 +2102,20 @@
                     "public_name": "Brady Gaster"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/building-multi-agent-ai-teams-that-live-in-your-repo",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tamir-dresher",
+                    "title": "Speaker: Tamir Dresher"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/brady-gaster",
+                    "title": "Speaker: Brady Gaster"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1552,7 +2139,16 @@
                     "public_name": "Megan Robertson"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/building-trustworthy-models-practical-statistics-every-developer-should-know",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/megan-robertson",
+                    "title": "Speaker: Megan Robertson"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1576,7 +2172,16 @@
                     "public_name": "Alan Smith"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/ai-agents-in-depth-function-calling-mcp-and-tool-use-under-the-hood",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/alan-smith",
+                    "title": "Speaker: Alan Smith"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1604,7 +2209,20 @@
                     "public_name": "Thomas Endres"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/aill-be-back-generative-ai-in-image-audio-and-video-production",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/martin-fortsch",
+                    "title": "Speaker: Martin Förtsch"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/thomas-endres",
+                    "title": "Speaker: Thomas Endres"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1632,7 +2250,20 @@
                     "public_name": "Elias Schecke"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/finally-understand-embeddings-and-you-will-never-have-to-search-for-the-right-emoji-again",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dennis-schulz",
+                    "title": "Speaker: Dennis Schulz"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/elias-schecke",
+                    "title": "Speaker: Elias Schecke"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1656,7 +2287,16 @@
                     "public_name": "Steve Sanderson"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/build-your-own-self-evolving-dev-tools-and-make-yourself-unique",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/steve-sanderson",
+                    "title": "Speaker: Steve Sanderson"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1684,7 +2324,20 @@
                     "public_name": "Elle Hunt"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/beyond-ink-where-machines-3d-print-the-world",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/troy-hunt",
+                    "title": "Speaker: Troy Hunt"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/elle-hunt",
+                    "title": "Speaker: Elle Hunt"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -1710,7 +2363,16 @@
                     "public_name": "Christian Johansen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-patterns-we-dont-name",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/christian-johansen",
+                    "title": "Speaker: Christian Johansen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1734,7 +2396,16 @@
                     "public_name": "Katharina Damschen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/just-start-with-value-objects",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/katharina-damschen",
+                    "title": "Speaker: Katharina Damschen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1758,7 +2429,16 @@
                     "public_name": "Haimanot Tekie"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-confusion-to-domain-understanding-a-practical-introduction-to-domain-storytelling",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/haimanot-tekie",
+                    "title": "Speaker: Haimanot Tekie"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1782,7 +2462,16 @@
                     "public_name": "Mariami Tsotsolashvili"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-to-accidentally-destroy-a-codebase-a-step-by-step-guide",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mariami-tsotsolashvili",
+                    "title": "Speaker: Mariami Tsotsolashvili"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1806,7 +2495,16 @@
                     "public_name": "Dante De Ruwe"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/dotnet-testing-techniques-you-didnt-know-you-needed",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dante-de-ruwe",
+                    "title": "Speaker: Dante De Ruwe"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1830,7 +2528,16 @@
                     "public_name": "Andrew Paul"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-algorithm-that-nearly-killed-me-when-testing-isnt-enough",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/andrew-paul",
+                    "title": "Speaker: Andrew Paul"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1854,7 +2561,16 @@
                     "public_name": "David Whitney"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/meditations-on-code-as-art",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/david-whitney",
+                    "title": "Speaker: David Whitney"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -1880,7 +2596,16 @@
                     "public_name": "Sam Basu"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/ai-your-way-mcps-vs-skills-vs-subagents",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/sam-basu",
+                    "title": "Speaker: Sam Basu"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1904,7 +2629,16 @@
                     "public_name": "Philippe De Ryck"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/demystifying-csp-for-modern-applications",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/philippe-de-ryck",
+                    "title": "Speaker: Philippe De Ryck"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1928,7 +2662,16 @@
                     "public_name": "Anders Abel"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/aspnet-core-meets-owasp-top-10-2025",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anders-abel",
+                    "title": "Speaker: Anders Abel"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1952,7 +2695,16 @@
                     "public_name": "Will Velida"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/applying-the-owasp-top-10-for-agentic-applications-to-your-ai-agents",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/will-velida",
+                    "title": "Speaker: Will Velida"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -1976,7 +2728,16 @@
                     "public_name": "Charlie Eriksen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-worms-exposed-the-real-attack-surface-of-open-source",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/charlie-eriksen",
+                    "title": "Speaker: Charlie Eriksen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2000,7 +2761,16 @@
                     "public_name": "Sana Talwar"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/insecure-vibe-coding-when-ai-writes-exploitable-software",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/sana-talwar",
+                    "title": "Speaker: Sana Talwar"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2036,7 +2806,28 @@
                     "public_name": "Tessel Haagen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/panel-when-ai-feels-empathic",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/richard-campbell",
+                    "title": "Speaker: Richard Campbell"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/martine-dowden",
+                    "title": "Speaker: Martine Dowden"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/michelle-frost",
+                    "title": "Speaker: Michelle Frost"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tessel-haagen",
+                    "title": "Speaker: Tessel Haagen"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2062,7 +2853,16 @@
                     "public_name": "Ryan Healey"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-developers-worked-in-two-by-two-hurrah-hurrah",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/ryan-healey",
+                    "title": "Speaker: Ryan Healey"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2081,7 +2881,12 @@
                 "abstract": "AI coding assistants are rapidly reshaping how developers write, debug, and ship software. Tools like Cursor and Claude Code can supercharge productivity — but only if you know how to use them effectively.\n\nIn this session, we’ll cut through the hype and focus on practical, developer-tested strategies for getting the most out of AI in your workflow.\n\nYou’ll learn how to master prompting and context engineering, make the most of long context windows, streamline debugging and testing, and integrate AI into your daily development practices without sacrificing code quality or security. We’ll also explore how emerging standards like Model Context Protocol (MCP) unlock new workflows by connecting your AI assistant directly to tools such as GitHub, Slack, Playwright or Figma — turning it from a code generator into a true development teammate.\n\nWhether you’re new to AI-assisted coding or already experimenting with it daily, you’ll leave this talk with concrete ideas and techniques you can apply immediately to level up your development process.",
                 "description": "",
                 "persons": [],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/10-tips-to-level-up-your-ai-assisted-coding",
+                    "title": "Talk page (ndcoslo.com)"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2105,7 +2910,16 @@
                     "public_name": "Kayla Cinnamon"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/deep-dive-into-github-copilot-cli",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kayla-cinnamon",
+                    "title": "Speaker: Kayla Cinnamon"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2129,7 +2943,16 @@
                     "public_name": "William Brander"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/indiana-jones-and-the-temple-of-legacy-code",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/william-brander",
+                    "title": "Speaker: William Brander"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2153,7 +2976,16 @@
                     "public_name": "Markus Krüger"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/watch-it-monitoring-lessons-from-two-decades-in-computing",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/markus-kruger",
+                    "title": "Speaker: Markus Krüger"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2177,7 +3009,16 @@
                     "public_name": "Steven Goodwin"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/ada-lovelace-and-the-very-first-computer-program",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/steven-goodwin",
+                    "title": "Speaker: Steven Goodwin"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2201,7 +3042,16 @@
                     "public_name": "Dylan Beattie"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/do-it-with-style-rethinking-css",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dylan-beattie",
+                    "title": "Speaker: Dylan Beattie"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2227,7 +3077,16 @@
                     "public_name": "Ian Cooper"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/modular-code-with-examples-in-csharp",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/ian-cooper",
+                    "title": "Speaker: Ian Cooper"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2251,7 +3110,16 @@
                     "public_name": "Filip Ekberg"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/back-to-basics-efficient-async-and-await",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/filip-ekberg",
+                    "title": "Speaker: Filip Ekberg"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2275,7 +3143,16 @@
                     "public_name": "Kevin Gosse"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-road-to-a-faster-resharper",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kevin-gosse",
+                    "title": "Speaker: Kevin Gosse"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2299,7 +3176,16 @@
                     "public_name": "Davy Davidse"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-1-trillion-pixel-maze-my-decade-long-obsession-with-csharp-optimization",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/davy-davidse",
+                    "title": "Speaker: Davy Davidse"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2327,7 +3213,20 @@
                     "public_name": "Maxim Tkachenko"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-stateless-to-stateful-adopting-actor-model-for-managing-millions-of-iot-devices",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mikhail-aksenov",
+                    "title": "Speaker: Mikhail Aksenov"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/maxim-tkachenko",
+                    "title": "Speaker: Maxim Tkachenko"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2351,7 +3250,16 @@
                     "public_name": "Jonathan \"J.\" Tower"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/old-api-new-tricks-add-mcp-to-existing-dotnet-rest-endpoints",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jonathan-j-tower",
+                    "title": "Speaker: Jonathan \"J.\" Tower"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2375,7 +3283,16 @@
                     "public_name": "Jarle Adolfsen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-3d-engine-nobody-asked-for-but-i-had-to-make",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jarle-adolfsen",
+                    "title": "Speaker: Jarle Adolfsen"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2401,7 +3318,16 @@
                     "public_name": "Scott Sauber"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-10-most-common-azure-mistakes-and-how-to-fix-them",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/scott-sauber",
+                    "title": "Speaker: Scott Sauber"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2425,7 +3351,16 @@
                     "public_name": "Liam Westley"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/azure-and-disaster-recovery-the-good-the-bad-and-the-fugly",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/liam-westley",
+                    "title": "Speaker: Liam Westley"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2449,7 +3384,16 @@
                     "public_name": "Ash Banaszek"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/spaces-squares-and-circles-an-intro-to-ui-design",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/ash-banaszek",
+                    "title": "Speaker: Ash Banaszek"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2485,7 +3429,28 @@
                     "public_name": "Stian Veum Møllersen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-3",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jakob-endrestad-kielland",
+                    "title": "Speaker: Jakob Endrestad Kielland"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/sveinung-sande-dalatun",
+                    "title": "Speaker: Sveinung Sande Dalatun"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/gaute-meek-olsen",
+                    "title": "Speaker: Gaute Meek Olsen"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/stian-veum-mollersen",
+                    "title": "Speaker: Stian Veum Møllersen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2521,7 +3486,28 @@
                     "public_name": "Kent Inge Fagerland Simonsen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-4",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anuradha-shridharan",
+                    "title": "Speaker: Anuradha Shridharan"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/radostina-ina-tsvetkova",
+                    "title": "Speaker: Radostina (Ina) Tsvetkova"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/malin-jakobsen",
+                    "title": "Speaker: Malin Jakobsen"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kent-inge-fagerland-simonsen",
+                    "title": "Speaker: Kent Inge Fagerland Simonsen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2545,7 +3531,16 @@
                     "public_name": "Luise Freese"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lets-deploy-on-fridays",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/luise-freese",
+                    "title": "Speaker: Luise Freese"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2569,7 +3564,16 @@
                     "public_name": "Imran Haider"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-we-slashed-costs-and-emissions-85-percent-for-1-of-the-uks-biggest-charities",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/imran-haider",
+                    "title": "Speaker: Imran Haider"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2595,7 +3599,16 @@
                     "public_name": "Anemari Fiser"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-from-ill-do-it-to-you-own-it",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anemari-fiser",
+                    "title": "Speaker: Anemari Fiser"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2619,7 +3632,16 @@
                     "public_name": "Anemari Fiser"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-from-ill-do-it-to-you-own-it",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anemari-fiser",
+                    "title": "Speaker: Anemari Fiser"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2645,7 +3667,16 @@
                     "public_name": "Javiera Laso"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-architect-as-a-systems-thinker-turning-strategy-into-action",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/javiera-laso",
+                    "title": "Speaker: Javiera Laso"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2669,7 +3700,16 @@
                     "public_name": "Javiera Laso"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-architect-as-a-systems-thinker-turning-strategy-into-action",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/javiera-laso",
+                    "title": "Speaker: Javiera Laso"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2693,7 +3733,16 @@
                     "public_name": "Jostein Hjortland Tysse"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-domain-modeling-in-rust-making-illegal-states-unrepresentable",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jostein-hjortland-tysse",
+                    "title": "Speaker: Jostein Hjortland Tysse"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2717,7 +3766,16 @@
                     "public_name": "Jostein Hjortland Tysse"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-domain-modeling-in-rust-making-illegal-states-unrepresentable",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/jostein-hjortland-tysse",
+                    "title": "Speaker: Jostein Hjortland Tysse"
+                  }
+                ],
                 "attachments": []
               }
             ]
@@ -2751,7 +3809,16 @@
                     "public_name": "Bryan Hunter"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/safe-systems-in-a-chaotic-world",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/bryan-hunter",
+                    "title": "Speaker: Bryan Hunter"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2775,7 +3842,16 @@
                     "public_name": "Mark Volkmann"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lambda-calculus-foundation-of-functional-programming",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mark-volkmann",
+                    "title": "Speaker: Mark Volkmann"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2799,7 +3875,16 @@
                     "public_name": "Erik Schierboom"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/writing-a-compiler-from-scratch",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/erik-schierboom",
+                    "title": "Speaker: Erik Schierboom"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2823,7 +3908,16 @@
                     "public_name": "Sergès Goma"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/developers-in-the-dark-forest",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/serges-goma",
+                    "title": "Speaker: Sergès Goma"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2847,7 +3941,16 @@
                     "public_name": "Marc Duiker"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/turning-microservice-chaos-into-a-beautiful-concerto",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/marc-duiker",
+                    "title": "Speaker: Marc Duiker"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2871,7 +3974,16 @@
                     "public_name": "Emmz Rendle"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/locknote-were-gonna-build-an-agent",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/emmz-rendle",
+                    "title": "Speaker: Emmz Rendle"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -2897,7 +4009,16 @@
                     "public_name": "Anjuan Simmons"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-mvp-to-github-com-an-ai-story-of-engineering-and-product-collaboration",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anjuan-simmons",
+                    "title": "Speaker: Anjuan Simmons"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2921,7 +4042,16 @@
                     "public_name": "Andrew Murphy"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/if-you-thought-the-speed-of-writing-code-was-your-problem-you-have-bigger-problems",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/andrew-murphy",
+                    "title": "Speaker: Andrew Murphy"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2945,7 +4075,16 @@
                     "public_name": "Kaja Vogt"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/behind-the-algorithms-power-gender-and-truth-in-a-world-shaped-by-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/kaja-vogt",
+                    "title": "Speaker: Kaja Vogt"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2969,7 +4108,16 @@
                     "public_name": "Morten Kjelling"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/bobbysocks-commit",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/morten-kjelling",
+                    "title": "Speaker: Morten Kjelling"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -2993,7 +4141,16 @@
                     "public_name": "Marin Niehues"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/unf-ck-your-mind-how-to-finally-build-something-great-again",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/marin-niehues",
+                    "title": "Speaker: Marin Niehues"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3019,7 +4176,16 @@
                     "public_name": "Dag Brattli"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/does-this-pr-lower-the-energy-state",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dag-brattli",
+                    "title": "Speaker: Dag Brattli"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3043,7 +4209,16 @@
                     "public_name": "Venkat Subramaniam"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/functional-programming-with-the-aid-of-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/venkat-subramaniam",
+                    "title": "Speaker: Venkat Subramaniam"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3067,7 +4242,16 @@
                     "public_name": "Andrea Della Porta"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/code-once-pin-everywhere-multiplatform-widgets-for-android-and-ios",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/andrea-della-porta",
+                    "title": "Speaker: Andrea Della Porta"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3091,7 +4275,16 @@
                     "public_name": "Raj Navakoti"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/demand-driven-context-what-300-incidents-reveal-about-tribal-knowledge",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/raj-navakoti",
+                    "title": "Speaker: Raj Navakoti"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3115,7 +4308,16 @@
                     "public_name": "Troy Hunt"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/pwned-with-purpose-where-motives-meet-mayhem",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/troy-hunt",
+                    "title": "Speaker: Troy Hunt"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3141,7 +4343,16 @@
                     "public_name": "Espen Sande-Larsen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/demoscene-coding-kickstart",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/espen-sande-larsen",
+                    "title": "Speaker: Espen Sande-Larsen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3165,7 +4376,16 @@
                     "public_name": "Scott Leaman"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/copy-and-paste-the-world-with-gaussian-splatting",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/scott-leaman",
+                    "title": "Speaker: Scott Leaman"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3189,7 +4409,16 @@
                     "public_name": "Richard Campbell"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/the-undersea-infrastructure",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/richard-campbell",
+                    "title": "Speaker: Richard Campbell"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3213,7 +4442,16 @@
                     "public_name": "Paweł Krzywicki"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/build-2-5d-and-3d-immersive-map-experiences-in-a-browser",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/pawel-krzywicki",
+                    "title": "Speaker: Paweł Krzywicki"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3237,7 +4475,16 @@
                     "public_name": "Michael Odden"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/bootable-applications-next-steps",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/michael-odden",
+                    "title": "Speaker: Michael Odden"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3263,7 +4510,16 @@
                     "public_name": "Stefan Daugaard Poulsen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/platform-engineering-beyond-the-tools-lessons-learned-across-industries",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/stefan-daugaard-poulsen",
+                    "title": "Speaker: Stefan Daugaard Poulsen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3287,7 +4543,16 @@
                     "public_name": "Alfonso Sandoval Rosas"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-2am-alert-to-post-mortem-building-a-multi-agent-sre-system-with-caipe",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/alfonso-sandoval-rosas",
+                    "title": "Speaker: Alfonso Sandoval Rosas"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3311,7 +4576,16 @@
                     "public_name": "Tom van den Berg"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/from-noise-to-signal-building-meaningful-slis-in-azure",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tom-van-den-berg",
+                    "title": "Speaker: Tom van den Berg"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3335,7 +4609,16 @@
                     "public_name": "Marcus Bointon"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/magical-client-side-logging-the-little-headers-that-could",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/marcus-bointon",
+                    "title": "Speaker: Marcus Bointon"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3359,7 +4642,16 @@
                     "public_name": "Matt Burke"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/stop-scaling-and-start-tuning",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/matt-burke",
+                    "title": "Speaker: Matt Burke"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3385,7 +4677,16 @@
                     "public_name": "Chris Klug"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/aspire-beyond-the-introduction",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/chris-klug",
+                    "title": "Speaker: Chris Klug"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3409,7 +4710,16 @@
                     "public_name": "Dennis Doomen"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/building-well-documented-versioned-http-apis-in-aspnet-core",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/dennis-doomen",
+                    "title": "Speaker: Dennis Doomen"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3437,7 +4747,20 @@
                     "public_name": "Daniel Sandberg"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/secure-and-compliant-apis-by-design",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tobias-ahnoff",
+                    "title": "Speaker: Tobias Ahnoff"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/daniel-sandberg",
+                    "title": "Speaker: Daniel Sandberg"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3461,7 +4784,16 @@
                     "public_name": "Daisy Hollman"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/tba-daisy-hollman",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/daisy-hollman",
+                    "title": "Speaker: Daisy Hollman"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3485,7 +4817,16 @@
                     "public_name": "Makan Sepehrifar"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/who-to-blame-the-ai-the-programmer-or-the-prompt",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/makan-sepehrifar",
+                    "title": "Speaker: Makan Sepehrifar"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3511,7 +4852,16 @@
                     "public_name": "Shafik Quoraishee"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/accessibility-and-computer-vision-building-a-system-for-the-new-york-times",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/shafik-quoraishee",
+                    "title": "Speaker: Shafik Quoraishee"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3535,7 +4885,16 @@
                     "public_name": "Iulia Feroli"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/how-i-built-my-own-intelligent-robot-arm-from-scratch",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/iulia-feroli",
+                    "title": "Speaker: Iulia Feroli"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3571,7 +4930,28 @@
                     "public_name": "Gayathri Palani"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-5",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/helen-persson",
+                    "title": "Speaker: Helén Persson"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/njord-solberg",
+                    "title": "Speaker: Njord Solberg"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/anders-erlandsen",
+                    "title": "Speaker: Anders Erlandsen"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/gayathri-palani",
+                    "title": "Speaker: Gayathri Palani"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3603,7 +4983,24 @@
                     "public_name": "Sean Percival"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/lightning-talks-6",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/tomas-hensrud-gulla",
+                    "title": "Speaker: Tomas Hensrud Gulla"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/knut-erik-hollund",
+                    "title": "Speaker: Knut Erik Hollund"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/sean-percival",
+                    "title": "Speaker: Sean Percival"
+                  }
+                ],
                 "attachments": []
               }
             ],
@@ -3629,7 +5026,16 @@
                     "public_name": "Mufrid Krilic"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-practical-domain-driven-design-a-modeling-exercise",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mufrid-krilic",
+                    "title": "Speaker: Mufrid Krilic"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3653,7 +5059,16 @@
                     "public_name": "Mufrid Krilic"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-practical-domain-driven-design-a-modeling-exercise",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/mufrid-krilic",
+                    "title": "Speaker: Mufrid Krilic"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3677,7 +5092,16 @@
                     "public_name": "Javiera Laso"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-1-2-a-practical-tdd-journey-with-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/javiera-laso",
+                    "title": "Speaker: Javiera Laso"
+                  }
+                ],
                 "attachments": []
               },
               {
@@ -3701,7 +5125,16 @@
                     "public_name": "Javiera Laso"
                   }
                 ],
-                "links": [],
+                "links": [
+                  {
+                    "url": "https://ndcoslo.com/agenda/part-2-2-a-practical-tdd-journey-with-ai",
+                    "title": "Talk page (ndcoslo.com)"
+                  },
+                  {
+                    "url": "https://ndcoslo.com/speakers/javiera-laso",
+                    "title": "Speaker: Javiera Laso"
+                  }
+                ],
                 "attachments": []
               }
             ]

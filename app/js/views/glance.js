@@ -56,11 +56,20 @@ export function renderGlance(app, state) {
   }
 }
 
+// "2026-09-16" -> "Wed 16 Sep" (UTC: the string is a plain calendar date)
+function fmtDay(iso) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  const wd = d.toLocaleDateString("en", { weekday: "short", timeZone: "UTC" });
+  const mo = d.toLocaleDateString("en", { month: "short", timeZone: "UTC" });
+  return `${wd} ${d.getUTCDate()} ${mo}`;
+}
+
 function dayTabs(days, dayIndex, todayIndex) {
   return `<nav class="days">${days
     .map(
       (d, i) =>
-        `<button data-day="${i}" class="${i === dayIndex ? "active" : ""} ${i === todayIndex ? "today" : ""}">${esc(d.date)}</button>`,
+        `<button data-day="${i}" class="${i === dayIndex ? "active" : ""} ${i === todayIndex ? "today" : ""}">${esc(fmtDay(d.date))}</button>`,
     )
     .join("")}</nav>`;
 }

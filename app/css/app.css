@@ -267,6 +267,7 @@ body {
   touch-action: pan-y; /* horizontal swipe switches day */
 }
 .glance .days { padding: 0; }
+.days button { white-space: nowrap; }
 .days button.today::after { content: "•"; color: var(--accent); margin-left: 0.3rem; }
 .glance .agenda-h {
   font-size: 0.85rem;
