@@ -32,7 +32,8 @@ export function normalize(root) {
       }
     }
     events.sort((a, b) => a.start - b.start || a.room.localeCompare(b.room));
-    for (const ev of events) if (ev.track) tracks.add(ev.track);
+    // track may hold several comma-joined topics (e.g. "AI, Cloud")
+    for (const ev of events) for (const t of splitTrack(ev.track)) tracks.add(t);
     return {
       index: day?.index ?? di,
       date: day?.date ?? "",
@@ -49,6 +50,10 @@ export function normalize(root) {
     rooms,
     tracks: [...tracks].sort((a, b) => a.localeCompare(b)),
   };
+}
+
+export function splitTrack(track) {
+  return track.split(", ").filter(Boolean);
 }
 
 function normalizeEvent(raw, room, dayIndex) {
