@@ -17,6 +17,8 @@ export function renderBrowse(app, state) {
     ${dayTabs(model.days, browse.dayIndex, defaultDayIndex(model, now()))}
     <div class="filters">
       ${select("room", "All rooms", model.rooms, browse.room)}
+      <button id="undecided" class="${browse.undecided ? "active" : ""}"
+        aria-pressed="${browse.undecided}">Undecided</button>
       <input type="search" id="q" placeholder="Search" value="${esc(browse.q)}">
     </div>
     ${trackChips(model, browse)}
@@ -24,9 +26,15 @@ export function renderBrowse(app, state) {
   wire(app, state);
 }
 
+// The filtered browse list doubles as the detail view's audit queue.
+export function browseList(day, browse) {
+  let events = filterEvents(day?.events ?? [], browse);
+  if (browse.undecided) events = events.filter((e) => !planStateOf(e.key));
+  return events;
+}
+
 function list(day, browse) {
-  const events = filterEvents(day?.events ?? [], browse);
-  return events.map(row).join("") || `<li class="status">No sessions match.</li>`;
+  return browseList(day, browse).map(row).join("") || `<li class="status">No sessions match.</li>`;
 }
 
 function row(e) {
@@ -108,6 +116,10 @@ function wire(app, state) {
   });
   app.querySelector("#room")?.addEventListener("change", (e) => {
     state.browse.room = e.target.value;
+    renderBrowse(app, state);
+  });
+  app.querySelector("#undecided").addEventListener("click", () => {
+    state.browse.undecided = !state.browse.undecided;
     renderBrowse(app, state);
   });
   app.querySelector(".track-chips")?.addEventListener("click", (e) => {

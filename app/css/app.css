@@ -57,13 +57,15 @@ body {
   border-bottom: 1px solid var(--line);
   flex-wrap: wrap;
 }
-.filters select, .filters input {
+.filters select, .filters input, .filters button {
   font: inherit;
   padding: 0.4rem;
   border: 1px solid var(--line);
   border-radius: 6px;
   min-height: 40px;
 }
+.filters button { background: none; color: var(--muted); }
+.filters button.active { border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .filters input[type="search"] { flex: 1; min-width: 8rem; }
 
 .events { list-style: none; margin: 0; padding: 0; }
@@ -135,6 +137,12 @@ body {
   touch-action: pan-y; /* horizontal gestures go to swipe.js (prev/next) */
   min-height: 100dvh; /* the whole page down to the action bar is a swipe surface */
 }
+/* prev/next entry: new session slides in from the swiped direction */
+.detail.enter-next { animation: enter-next 0.22s ease-out; }
+.detail.enter-prev { animation: enter-prev 0.22s ease-out; }
+@keyframes enter-next { from { transform: translateX(45%); opacity: 0.2; } }
+@keyframes enter-prev { from { transform: translateX(-45%); opacity: 0.2; } }
+
 .detail-nav { display: flex; align-items: center; justify-content: space-between; }
 .detail-nav .pos { display: flex; align-items: center; gap: 0.25rem; color: var(--muted); }
 .detail-nav .pos button {

@@ -14,7 +14,7 @@ export const state = {
   scheduleKey: "",  // IndexedDB key for schedules + plans records
   sourceUrl: "",    // display label: URL, or file name for imports
   plan: {},         // eventKey -> "pick" | "maybe" | "avoid"
-  browse: { dayIndex: 0, room: "", tracks: [], q: "", dayPinned: false },
+  browse: { dayIndex: 0, room: "", tracks: [], q: "", undecided: false, dayPinned: false },
 };
 
 export function scheduleKeyFor(json, url, fromFile) {
@@ -42,7 +42,7 @@ export async function activate(json, { url = "", fromFile = false, label = "" } 
   state.model = model;
   state.scheduleKey = key;
   state.sourceUrl = url || label;
-  state.browse = { dayIndex: defaultDayIndex(model, now()), room: "", tracks: [], q: "", dayPinned: false };
+  state.browse = { dayIndex: defaultDayIndex(model, now()), room: "", tracks: [], q: "", undecided: false, dayPinned: false };
   state.plan = {};
   try {
     // read the plan BEFORE writing the schedule: if the read fails we stay
