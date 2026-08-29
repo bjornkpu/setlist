@@ -3,6 +3,7 @@ import { slotFor } from "../glance.js";
 import { cycle } from "../plan.js";
 import { planStateOf, allEvents } from "../store.js";
 import { applyState } from "../actions.js";
+import { header } from "./header.js";
 
 const ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
 
@@ -19,11 +20,9 @@ export function renderSlot(app, state, key) {
       ? `<h2>${label}</h2><ul class="events">${list.map(row).join("")}</ul>`
       : "";
   app.innerHTML = `
+    ${header(state.model.title, "now")}
     <div class="slot">
-      <header class="bar">
-        <a href="#/">‹ Now</a>
-        <h1>${esc(ref.startLabel)}–${esc(ref.endLabel)}</h1>
-      </header>
+      <h1 class="slot-time">${esc(ref.startLabel)}–${esc(ref.endLabel)}</h1>
       ${section("Picked", b.picks)}
       ${section("Maybe", b.maybes)}
       ${section("Everything else", b.rest)}

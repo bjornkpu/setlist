@@ -14,6 +14,7 @@ import { fetchIndex, splitByDate } from "../providers.js";
 import { loadScheduleFromUrl } from "../actions.js";
 import { showToast } from "../toast.js";
 import { now } from "../clock.js";
+import { header } from "./header.js";
 
 export async function renderLibrary(app) {
   app.innerHTML = `<p class="status pad">Loading library…</p>`;
@@ -28,7 +29,7 @@ export async function renderLibrary(app) {
   if (!location.hash.startsWith("#/library")) return; // user navigated away mid-await
   app.innerHTML = `
     <div class="library">
-      <header class="bar"><a href="#/">‹ Now</a><h1>Library</h1></header>
+      ${header("Library", "library")}
       <h2>Schedules</h2>
       <ul class="cards">
         ${schedules.map(scheduleRow).join("") || `<li class="status">No schedules loaded yet.</li>`}

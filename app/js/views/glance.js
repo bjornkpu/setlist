@@ -3,6 +3,7 @@ import { resolveGlance, slotFor, fmtUntil, dayAgenda } from "../glance.js";
 import { now } from "../clock.js";
 import { allEvents, defaultDayIndex } from "../store.js";
 import { attachSwipe } from "../swipe.js";
+import { header, dayTabs } from "./header.js";
 
 export function renderGlance(app, state) {
   const events = allEvents();
@@ -32,9 +33,9 @@ export function renderGlance(app, state) {
       ${!g.current && !g.next ? `<p class="status">Nothing upcoming.</p>` : ""}`;
   }
   app.innerHTML = `
+    ${header(state.model.title, "now")}
     <div class="glance">
-      <a class="corner" href="#/browse" aria-label="Program">☰</a>
-      ${days.length > 1 ? dayTabs(days, dayIndex, todayIndex) : ""}
+      ${dayTabs(days, dayIndex, todayIndex)}
       ${top}
       ${g.phase === "empty" ? "" : `<h2 class="agenda-h">Your day</h2>${agendaList(days[dayIndex]?.events ?? [], state.plan)}`}
     </div>`;
@@ -54,24 +55,6 @@ export function renderGlance(app, state) {
       onRight: () => showDay(dayIndex - 1),
     });
   }
-}
-
-// "2026-09-16" -> "Wed 16 Sep" (UTC: the string is a plain calendar date)
-function fmtDay(iso) {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return iso;
-  const wd = d.toLocaleDateString("en", { weekday: "short", timeZone: "UTC" });
-  const mo = d.toLocaleDateString("en", { month: "short", timeZone: "UTC" });
-  return `${wd} ${d.getUTCDate()} ${mo}`;
-}
-
-function dayTabs(days, dayIndex, todayIndex) {
-  return `<nav class="days">${days
-    .map(
-      (d, i) =>
-        `<button data-day="${i}" class="${i === dayIndex ? "active" : ""} ${i === todayIndex ? "today" : ""}">${esc(fmtDay(d.date))}</button>`,
-    )
-    .join("")}</nav>`;
 }
 
 function agendaList(dayEvents, plan) {

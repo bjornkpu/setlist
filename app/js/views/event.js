@@ -2,6 +2,7 @@ import { esc, eventTags } from "../html.js";
 import { planStateOf } from "../store.js";
 import { applyState } from "../actions.js";
 import { attachSwipe } from "../swipe.js";
+import { header } from "./header.js";
 
 export function renderEvent(app, state, key) {
   const seq = state.model.days.flatMap((d) => d.events);
@@ -28,6 +29,7 @@ export function renderEvent(app, state, key) {
     `<button data-state="${value}" class="b-${value} ${current === value ? "active" : ""}">${label}</button>`;
   const date = state.model.days[ev.dayIndex]?.date ?? "";
   app.innerHTML = `
+    ${header(state.model.title, "")}
     <div class="pad detail">
       <p class="detail-nav">
         <a href="#/browse">‹ Back</a>

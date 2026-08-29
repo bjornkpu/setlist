@@ -3,7 +3,7 @@
 // to the network — IndexedDB is their offline store, never the HTTP cache.
 // Bump VERSION whenever any file in SHELL changes; tests/sw.test.js keeps the
 // list itself honest against the files on disk.
-const VERSION = "setlist-e31003b2";
+const VERSION = "setlist-ab1cbc46";
 const SHELL = [
   // "./" pairs with the entries.includes("") assertion in tests/sw.test.js — remove both together
   "./",
@@ -28,6 +28,7 @@ const SHELL = [
   "./js/views/browse.js",
   "./js/views/event.js",
   "./js/views/glance.js",
+  "./js/views/header.js",
   "./js/views/library.js",
   "./js/views/slot.js",
 ];

@@ -1,8 +1,10 @@
 import { esc, eventTags } from "../html.js";
 import { filterEvents } from "../filter.js";
-import { planStateOf } from "../store.js";
+import { planStateOf, defaultDayIndex } from "../store.js";
 import { applyState } from "../actions.js";
 import { attachSwipe } from "../swipe.js";
+import { now } from "../clock.js";
+import { header, dayTabs } from "./header.js";
 
 const STATE_ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
 const STATE_LABEL = { pick: "✓ Pick", maybe: "? Maybe", avoid: "✕ Avoid" };
@@ -11,8 +13,8 @@ export function renderBrowse(app, state) {
   const { model, browse } = state;
   const day = model.days[browse.dayIndex] ?? model.days[0];
   app.innerHTML = `
-    <header class="bar"><h1>${esc(model.title)}</h1><span class="bar-links"><a href="#/library">Library</a> <a class="now-link" href="#/">Now</a></span></header>
-    ${model.days.length > 1 ? daySelector(model, browse) : ""}
+    ${header(model.title, "browse")}
+    ${dayTabs(model.days, browse.dayIndex, defaultDayIndex(model, now()))}
     <div class="filters">
       ${select("room", "All rooms", model.rooms, browse.room)}
       <input type="search" id="q" placeholder="Search" value="${esc(browse.q)}">
@@ -42,15 +44,6 @@ function row(e) {
     <button class="plan-btn" data-key="${esc(e.key)}"
       aria-label="Plan state: ${esc(st || "none")}">${STATE_ICON[st] ?? "+"}</button>
   </li>`;
-}
-
-function daySelector(model, browse) {
-  return `<nav class="days">${model.days
-    .map(
-      (d, i) =>
-        `<button data-day="${i}" class="${i === browse.dayIndex ? "active" : ""}">${esc(d.date)}</button>`,
-    )
-    .join("")}</nav>`;
 }
 
 // Toggleable topic chips: selecting several shows sessions matching ANY of them.

@@ -30,15 +30,25 @@ body {
 }
 .bar h1 { margin: 0; font-size: 1.1rem; }
 
-.days { display: flex; gap: 0.5rem; padding: 0.5rem 1rem; overflow-x: auto; }
+.days { display: flex; gap: 0.5rem; padding: 0.5rem 1rem; }
 .days button {
-  padding: 0.5rem 0.75rem;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.35rem 0.25rem;
   border: 1px solid var(--line);
   background: var(--bg);
   border-radius: 6px;
   font: inherit;
+  color: inherit;
 }
 .days button.active { border-color: var(--accent); color: var(--accent); }
+.days .wd { font-weight: 600; }
+.days .dt { font-size: 0.75rem; color: var(--muted); }
+.days button.today .wd::after { content: "•"; color: var(--accent); margin-left: 0.25rem; }
 
 .filters {
   display: flex;
@@ -257,18 +267,16 @@ body {
 
 /* glance */
 .glance {
-  min-height: 100dvh;
+  min-height: 85dvh; /* leave a swipe surface below a short agenda */
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding: 3rem 1rem 1rem; /* room for the corner menu */
+  padding: 1rem;
   position: relative;
   overflow: hidden;
   touch-action: pan-y; /* horizontal swipe switches day */
 }
 .glance .days { padding: 0; }
-.days button { white-space: nowrap; }
-.days button.today::after { content: "•"; color: var(--accent); margin-left: 0.3rem; }
 .glance .agenda-h {
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -287,18 +295,6 @@ body {
   font-size: 0.85rem;
   font-weight: 600;
   white-space: nowrap;
-}
-.glance .corner {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  font-size: 1.4rem;
-  text-decoration: none;
-  color: var(--muted);
-  padding: 0.5rem;
-  min-width: 44px;
-  min-height: 44px;
-  text-align: center;
 }
 .glance .card {
   display: flex;
@@ -332,7 +328,8 @@ body {
 .glance .closing, .glance .big { text-align: center; }
 .glance .big { font-size: 1.6rem; }
 
-/* slot + browse header link */
+/* slot */
+.slot .slot-time { font-size: 1.3rem; margin: 0.75rem 1rem 0; }
 .slot h2 {
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -343,8 +340,11 @@ body {
 .slot .events .room { font-size: 1.15rem; }
 .slot .events a { grid-template-columns: minmax(6.5rem, max-content) 1fr; }
 .slot .events .title, .slot .events .who { grid-column: 2; } /* slot rows have no .main wrapper */
-.bar { display: flex; align-items: baseline; justify-content: space-between; }
-.bar .now-link, .bar a { color: var(--accent); text-decoration: none; min-height: 40px; }
+.bar { display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem; }
+.bar h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar a { color: var(--accent); text-decoration: none; min-height: 40px; }
+.bar-links { white-space: nowrap; }
+.bar-links a.active { font-weight: 700; text-decoration: underline; text-underline-offset: 0.25em; }
 
 /* library */
 .library h2 {
