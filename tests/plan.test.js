@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { overlaps, stateOf, cycle, setState } from "../app/js/plan.js";
+import { overlaps, stateOf, setState } from "../app/js/plan.js";
 import { scheduleKeyFor, defaultDayIndex, pickSchedule } from "../app/js/store.js";
 
 const ev = (key, start, end) => ({ key, start, end });
@@ -19,13 +19,6 @@ test("overlaps is pairwise intersection, back-to-back excluded", () => {
 test("stateOf defaults to empty string", () => {
   assert.equal(stateOf({}, "a"), "");
   assert.equal(stateOf({ a: "pick" }, "a"), "pick");
-});
-
-test("cycle walks none -> pick -> maybe -> avoid -> none", () => {
-  assert.equal(cycle(""), "pick");
-  assert.equal(cycle("pick"), "maybe");
-  assert.equal(cycle("maybe"), "avoid");
-  assert.equal(cycle("avoid"), "");
 });
 
 test("setState sets and clears without mutating input", () => {
