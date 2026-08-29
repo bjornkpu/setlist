@@ -1,10 +1,11 @@
-import { esc } from "../html.js";
+import { esc, eventTags } from "../html.js";
 import { filterEvents } from "../filter.js";
-import { cycle } from "../plan.js";
 import { planStateOf } from "../store.js";
 import { applyState } from "../actions.js";
+import { attachSwipe } from "../swipe.js";
 
 const STATE_ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
+const STATE_LABEL = { pick: "✓ Pick", maybe: "? Maybe", avoid: "✕ Avoid" };
 
 export function renderBrowse(app, state) {
   const { model, browse } = state;
@@ -28,12 +29,15 @@ function list(day, browse) {
 
 function row(e) {
   const st = planStateOf(e.key);
-  return `<li class="state-${st || "none"}">
+  return `<li class="state-${st || "none"}" data-key="${esc(e.key)}">
     <a href="#/event/${encodeURIComponent(e.key)}">
-      <span class="time">${esc(e.startLabel)}–${esc(e.endLabel)}</span>
-      <span class="room">${esc(e.room)}</span>
-      <span class="title">${esc(e.title)}</span>
-      ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
+      <span class="time">${esc(e.startLabel)}<span class="end">${esc(e.endLabel)}</span></span>
+      <span class="main">
+        <span class="room">${esc(e.room)}</span>
+        <span class="title">${esc(e.title)}</span>
+        ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
+        ${eventTags(e)}
+      </span>
     </a>
     <button class="plan-btn" data-key="${esc(e.key)}"
       aria-label="Plan state: ${esc(st || "none")}">${STATE_ICON[st] ?? "+"}</button>
@@ -58,6 +62,24 @@ function select(id, label, options, value) {
   </select>`;
 }
 
+// Tap the state button -> an inline chooser with the three states, so no
+// cycling. Chooser markup is transient: any list re-render drops it.
+function openChooser(li) {
+  const open = li.querySelector(".choose");
+  for (const c of li.closest("ul").querySelectorAll(".choose")) c.remove();
+  if (open) return; // second tap on the same row: just close
+  const st = planStateOf(li.dataset.key);
+  const div = document.createElement("div");
+  div.className = "choose";
+  div.innerHTML = ["pick", "maybe", "avoid"]
+    .map(
+      (v) =>
+        `<button data-state="${v}" class="c-${v} ${st === v ? "active" : ""}">${STATE_LABEL[v]}</button>`,
+    )
+    .join("");
+  li.appendChild(div);
+}
+
 function wire(app, state) {
   const rerenderList = () => {
     const ul = app.querySelector(".events");
@@ -66,6 +88,11 @@ function wire(app, state) {
       state.model.days[state.browse.dayIndex] ?? state.model.days[0],
       state.browse,
     );
+  };
+  // set state, tapping the row's current state clears it
+  const toggleState = (key, value) => {
+    const next = planStateOf(key) === value ? "" : value;
+    applyState(key, next, rerenderList).catch(console.error);
   };
   app.querySelector(".days")?.addEventListener("click", (e) => {
     const b = e.target.closest("button[data-day]");
@@ -85,9 +112,18 @@ function wire(app, state) {
     state.browse.q = q.value;
     rerenderList(); // list only, so the search input keeps focus
   });
-  app.querySelector(".events").addEventListener("click", (e) => {
+  const ul = app.querySelector(".events");
+  ul.addEventListener("click", (e) => {
     const btn = e.target.closest(".plan-btn");
-    if (!btn) return;
-    applyState(btn.dataset.key, cycle(planStateOf(btn.dataset.key)), rerenderList).catch(console.error);
+    if (btn) {
+      openChooser(btn.closest("li"));
+      return;
+    }
+    const choice = e.target.closest(".choose button");
+    if (choice) toggleState(choice.closest("li").dataset.key, choice.dataset.state);
+  });
+  attachSwipe(ul, "li[data-key]", {
+    onRight: (li) => toggleState(li.dataset.key, "pick"),
+    onLeft: (li) => toggleState(li.dataset.key, "avoid"),
   });
 }

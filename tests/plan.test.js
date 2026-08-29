@@ -37,10 +37,10 @@ test("setState sets and clears without mutating input", () => {
   assert.deepEqual(setState(entries, A, "", all).entries, {});
 });
 
-test("second pick in overlapping range replaces the first", () => {
+test("second pick in overlapping range demotes the first to maybe", () => {
   const one = setState({}, A, "pick", all).entries;
   const { entries, replacedKeys } = setState(one, B, "pick", all);
-  assert.deepEqual(entries, { b: "pick" });
+  assert.deepEqual(entries, { a: "maybe", b: "pick" });
   assert.deepEqual(replacedKeys, ["a"]);
 });
 
@@ -67,13 +67,13 @@ test("re-picking the same event is a no-op replace", () => {
   assert.deepEqual(replacedKeys, []);
 });
 
-test("a pick spanning two picks reports both", () => {
+test("a pick spanning two picks demotes and reports both", () => {
   const A = ev("a", 0, 100), B = ev("b", 100, 200), C = ev("c", 50, 150);
   const all2 = [A, B, C];
   let entries = setState({}, A, "pick", all2).entries;
   entries = setState(entries, B, "pick", all2).entries;
   const r = setState(entries, C, "pick", all2);
-  assert.deepEqual(r.entries, { c: "pick" });
+  assert.deepEqual(r.entries, { a: "maybe", b: "maybe", c: "pick" });
   assert.deepEqual(r.replacedKeys.sort(), ["a", "b"]);
 });
 

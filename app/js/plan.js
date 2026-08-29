@@ -15,8 +15,8 @@ export function cycle(current) {
 }
 
 // Pure: returns a new entries object; the input is never mutated.
-// A pick clears every existing pick on an overlapping event (spec: at most
-// one pick per overlapping range) and reports them as replacedKeys.
+// A pick demotes every existing pick on an overlapping event to maybe (spec:
+// at most one pick per overlapping range) and reports them as replacedKeys.
 export function setState(entries, event, newState, allEvents) {
   const next = { ...entries };
   const replacedKeys = [];
@@ -24,7 +24,7 @@ export function setState(entries, event, newState, allEvents) {
     for (const other of allEvents) {
       if (other.key !== event.key && next[other.key] === "pick" && overlaps(event, other)) {
         replacedKeys.push(other.key);
-        delete next[other.key];
+        next[other.key] = "maybe";
       }
     }
   }
