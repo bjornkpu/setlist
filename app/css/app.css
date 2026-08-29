@@ -79,6 +79,31 @@ body {
 .events .room { color: var(--accent); font-weight: 600; font-size: 0.85rem; }
 .events .who { color: var(--muted); font-size: 0.9rem; }
 
+/* track filter chips: one scrollable row, tap to toggle */
+.track-chips {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--line);
+}
+.track-chips button {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.7rem;
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.track-chips button.active {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
 /* category chips */
 .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.15rem; }
 .tag {

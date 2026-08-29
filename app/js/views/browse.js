@@ -15,9 +15,9 @@ export function renderBrowse(app, state) {
     ${model.days.length > 1 ? daySelector(model, browse) : ""}
     <div class="filters">
       ${select("room", "All rooms", model.rooms, browse.room)}
-      ${model.tracks.length ? select("track", "All tracks", model.tracks, browse.track) : ""}
       <input type="search" id="q" placeholder="Search" value="${esc(browse.q)}">
     </div>
+    ${trackChips(model, browse)}
     <ul class="events">${list(day, browse)}</ul>`;
   wire(app, state);
 }
@@ -51,6 +51,18 @@ function daySelector(model, browse) {
         `<button data-day="${i}" class="${i === browse.dayIndex ? "active" : ""}">${esc(d.date)}</button>`,
     )
     .join("")}</nav>`;
+}
+
+// Toggleable topic chips: selecting several shows sessions matching ANY of them.
+function trackChips(model, browse) {
+  if (!model.tracks.length) return "";
+  return `<div class="track-chips">${model.tracks
+    .map(
+      (t) =>
+        `<button data-track="${esc(t)}" class="${browse.tracks.includes(t) ? "active" : ""}"
+          aria-pressed="${browse.tracks.includes(t)}">${esc(t)}</button>`,
+    )
+    .join("")}</div>`;
 }
 
 function select(id, label, options, value) {
@@ -101,12 +113,22 @@ function wire(app, state) {
     state.browse.dayPinned = true; // user chose a day: glance stops following
     renderBrowse(app, state);
   });
-  for (const id of ["room", "track"]) {
-    app.querySelector(`#${id}`)?.addEventListener("change", (e) => {
-      state.browse[id] = e.target.value;
-      renderBrowse(app, state);
-    });
-  }
+  app.querySelector("#room")?.addEventListener("change", (e) => {
+    state.browse.room = e.target.value;
+    renderBrowse(app, state);
+  });
+  app.querySelector(".track-chips")?.addEventListener("click", (e) => {
+    const chip = e.target.closest("button[data-track]");
+    if (!chip) return;
+    const t = chip.dataset.track;
+    const on = state.browse.tracks.includes(t);
+    state.browse.tracks = on
+      ? state.browse.tracks.filter((x) => x !== t)
+      : [...state.browse.tracks, t];
+    chip.classList.toggle("active", !on); // in place: keep the chip row's scroll position
+    chip.setAttribute("aria-pressed", String(!on));
+    rerenderList();
+  });
   const q = app.querySelector("#q");
   q.addEventListener("input", () => {
     state.browse.q = q.value;

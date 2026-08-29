@@ -17,8 +17,16 @@ test("room filter", () => {
   assert.deepEqual(filterEvents(evs, { room: "Sal 2" }).map((e) => e.title), ["Sikker kode"]);
 });
 
-test("track filter", () => {
-  assert.deepEqual(filterEvents(evs, { track: "Spor 1" }).map((e) => e.title), ["Copilot i praksis"]);
+test("track filter is a union over selected topics", () => {
+  assert.deepEqual(filterEvents(evs, { tracks: ["Spor 1"] }).map((e) => e.title), ["Copilot i praksis"]);
+  assert.equal(filterEvents(evs, { tracks: ["Spor 1", "Spor 2"] }).length, 2);
+  assert.equal(filterEvents(evs, { tracks: [] }).length, 3);
+});
+
+test("track filter matches any topic of a comma-joined track", () => {
+  const multi = [{ room: "R", track: "AI, Cloud", title: "x", persons: [], abstract: "" }];
+  assert.equal(filterEvents(multi, { tracks: ["Cloud"] }).length, 1);
+  assert.equal(filterEvents(multi, { tracks: ["Web"] }).length, 0);
 });
 
 test("search matches title, speaker, abstract, case-insensitively", () => {
