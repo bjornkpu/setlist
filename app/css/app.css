@@ -98,7 +98,7 @@ body {
 .detail {
   padding-bottom: 6rem; /* keep content clear of the fixed action bar */
   touch-action: pan-y; /* horizontal gestures go to swipe.js (prev/next) */
-  min-height: 60dvh; /* short sessions still leave a swipe surface */
+  min-height: 100dvh; /* the whole page down to the action bar is a swipe surface */
 }
 .detail-nav { display: flex; align-items: center; justify-content: space-between; }
 .detail-nav .pos { display: flex; align-items: center; gap: 0.25rem; color: var(--muted); }

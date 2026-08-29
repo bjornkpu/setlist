@@ -42,7 +42,7 @@
                 "track": "",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "More info coming.",
                 "description": "",
                 "persons": [
                   {
@@ -68,7 +68,7 @@
                 "track": "Web, Architecture, JavaScript",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Browsers are shipping a massive API: INTL, which is chock-full of features most developer still do an NPM install for. The INTL API will save you time, effort and frustration.\n\nLearn about all the wonderful built-in ways to deal with date formatting, lists, currencies, items and sentences in any language you can throw at the browser, without shipping literal megabytes of packages to your user.",
                 "description": "",
                 "persons": [
                   {
@@ -92,7 +92,7 @@
                 "track": "Web, UI, UX, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "For years, managing UI state on the web usually meant reaching for JavaScript. But in 2026, CSS has quietly become a state machine of its own. Pseudo-classes track interaction. Media queries read the environment and user preferences. :has() observes the DOM tree. Container queries respond to size, style, scroll position, and even anchor placement. Scroll-driven and scroll-triggered animations react to where the user is on the page. And with sibling state, CSS can now respond to what's happening next door.\n\nIn this atypical overview talk, you'll get a practical tour of the CSS features that let you keep and respond to state — from things you can ship today to the cutting-edge stuff landing in browsers right now. Welcome CSS, to the state machine.",
                 "description": "",
                 "persons": [
                   {
@@ -116,7 +116,7 @@
                 "track": "Accessibility, UX, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Let's experience a web that's not made for you!\n\nThis talk is not a checklist of rules. It’s an interactive wake-up call.\n15–25% of the population needs websites to accommodate different types of disabilities. Still, 94.8% of websites contain accessibility issues that make them harder to use.\n\nIt’s not because we don’t want to develop accessible websites and applications.\nBut we often lack knowledge and perspective. We build based on our own experience because that’s what we know. In this talk, you’ll get to experience how our applications work for someone with a screen reader, low vision, or limited motor control, and feel firsthand the challenges they face.\n\nThe talk combines knowledge, practice, and lived experience to raise your awareness of accessibility on the web and how small changes can make a huge difference.\n\nYou'll see the most common mistakes in action, who they affect, and how to fix them. So come experience the world through someone else's senses, and learn how to be a more accessible developer.",
                 "description": "",
                 "persons": [
                   {
@@ -140,7 +140,7 @@
                 "track": "UI, UX, Web, Accessibility",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Tooltips are often used on the web to convey extra information about our content, such as displaying the meaning of an icon or to display keyboard shortcuts associated with an action. Historically we have used a combination of CSS and JavaScript to handle behavior, placement, and accessibility needs. \nToday with the newly supported  functionality provided by Interest Invokers used in combination with the Popover API, we can radically simplify our implementations. This talk will cover what interest invokers are, how to implement them, position and style them, and and reasons to use them over the historical JavaScript techniques.",
                 "description": "",
                 "persons": [
                   {
@@ -164,7 +164,7 @@
                 "track": "Architecture, AI, DevOps, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The use of AI as part of software delivery has been transformative. Or, more to the point, we are in the middle of the transformation. It is throwing up a number of challenges to the way we work, but some aspects appear to have been overlooked - including architecture.\n\nIn this talk I will explore how concepts from robotics and industrial automation more generally can point towards architecting with AI-assisted software delivery in mind. Bringing in ideas from outside our industry, together with idea both old and new, I show how architecture can be key to navigating the uncertainty of AI, whilst also making sure you are well positioned to take advantage of it.",
                 "description": "",
                 "persons": [
                   {
@@ -188,7 +188,7 @@
                 "track": "AI, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The agent touched 47 files, invented three abstractions, briefly considered rewriting everything in Rust, passed the tests and disappeared into the night.\n\nGit knows what changed. Your tracker knows what you asked for. Everyone else is doing prompt archaeology and hoping the answer is not “the vibes were immaculate.”\n\nThis session is about capturing that missing middle and the final review: the context, decisions, dead ends and evaluations behind agent-written code, connected all the way from intent to production. Because when the code ships, “LGTM” should not be the only surviving witness.",
                 "description": "",
                 "persons": [
                   {
@@ -214,7 +214,7 @@
                 "track": "GenAI, .NET, AI, Cloud, JavaScript, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Agentic AI dev has taken our industry by storm, from coding agents and AI code reviews to fully AI-powered product experiences. Every week brings a new framework, tool, or platform to learn, and while everyone is speculating about the future of software development, most of us still have to ship real software today. Building apps is both easier AND more complicated than ever.\n\nIn this talk, Maddy Montaquila, lead PM for Aspire, shares her grounded perspective from the front lines, drawing on her work making Aspire the best platform for building agentic applications - and making Aspire itself agent-enabled.\n\nIt's possible to build AI-driven applications with coding agents, without giving up control, clarity, or your sanity. Join Maddy to learn about how using the right abstractions, strong defaults, and guardrails can let AI accelerate development instead of derailing it.",
                 "description": "",
                 "persons": [
                   {
@@ -238,7 +238,7 @@
                 "track": "AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "For two years, every team building with LLMs has been reinventing the same wheel: the agent loop. Custom harnesses, custom orchestrators, custom retry logic, custom tool routers. Meanwhile, Claude Code, the Claude Agent SDK, OpenAI's Agents SDK, and a handful of mature open frameworks have quietly converged on the same pattern. The agent harness is, for most practical purposes, solved.\n\nSo if the harness is solved, what's left to build? Enter Agent Skills.\nWhat differentiates my agent from yours is not the loop — it is the skills and tools we equip it with. A generic agent plus the right skills becomes a legal analyst. The same agent plus a different set of skills becomes a deployment engineer, a financial controller, or a research assistant. Skills are how you go from a tool-calling chatbot to an agent that actually does the job.\n\nIn this talk, we will use the Claude Agent SDK as our harness — solved, off-the-shelf, no reinvention required — and focus all our energy on the layer that actually matters. You will get a clear mental model of the skill + tool stack, live demos of building skills two ways (with the skill creator pattern, and by capturing real workflows as reusable capabilities), and a practical playbook for composing skills with MCP servers and CLI tools to build the \"everything agent\" your team actually needs.\n\nStop building harnesses. Start building skills.",
                 "description": "",
                 "persons": [
                   {
@@ -262,7 +262,7 @@
                 "track": "AI, Architecture, Cloud, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Most AI projects don’t fail because the model isn’t good enough—they fail because everything around the model isn’t built.\n\nIn this session, we’ll break down what it actually takes to deliver enterprise AI systems that make it to production and create real value. Drawing on real-world implementations across government, finance, and education, we’ll show why AI success is an ecosystem problem—not a model, prompt, or framework problem.\n\nYou’ll see how modern enterprise AI systems are built and explore how the Microsoft AI ecosystem (Foundry, Fabric, Copilot, and emerging “IQ” layers) is converging into a unified intelligence platform—and what that means for how developers design systems today.\n\nAlong the way, we’ll unpack the most common failure patterns and more importantly, we’ll show what actually works: - how to move from pilots to platforms\nhow to build an enterprise intelligence capability iteratively, and\nhow to deliver measurable value early while laying the foundations for agent-driven systems.\n\nFor developers, this talk introduces a fundamental shift in the role itself. You’re no longer just writing code - you’re orchestrating intelligence across low-code and pro-code agents, data platforms, copilots, and governed systems.\n\nThis is the rise of the Full-Stack AI Engineer.\n\nIf you want to move beyond demos and build AI systems that scale, ship, and survive real enterprise constraints—this session is for you.",
                 "description": "",
                 "persons": [
                   {
@@ -286,7 +286,7 @@
                 "track": "AI, .NET, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "My team hasn't written code since November 2025, yet we created 243 pull requests in a single week in March 2026, up from 19 the same week a year earlier. We are only two developers.\n\nBy now most of you have set up your own coding agent, maybe with sub-agents, custom instructions, and skills. But how do you go from a useful assistant to a system that runs autonomously, overnight, unsupervised, in production?\n\nI'll walk through how we built a fully autonomous development workflow at Nordic Corporate Bank where an AI agent picks up a task, implements the solution, runs tests, creates a pull request, and reviews its own code, all before a human ever gets involved.\n\nWhen developers open their laptops in the morning, finished pull requests are waiting for review. Build failures and production exceptions are automatically routed to the agent, which fixes them right away. Developers spend their time on architecture, design, and the problems that actually require a human, plus building the system that builds the system.\nThis is not a proof of concept or a keynote demo. This is code deployed to production every day. In a bank.",
                 "description": "",
                 "persons": [
                   {
@@ -310,7 +310,7 @@
                 "track": "GenAI, AI, Ethics, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "GenAI, agentic AI, vibe coding, Copilot, Claude Code, OpenClaw. We all know the hype and the buzzwords. Even your distant cousin who sends you videos of dancing cats knows. But more dangerously, your manager knows.\n\nAnd so the mass layoffs begin, even before the leftover employees have been trained to use these tools. You try explaining that the benefits in productivity and costs have not yet been reliably tested, but it is too late. Management only sees thousands of lines of code being generated in seconds, and that is what they care about.\n\nSo what do you do? Easy: you come to this session, and share all the takeaways with them!\n\nJoin us to learn about all the things that LLMs (and hence agents and any derived tools) are horrible at: from risks and challenges that are inherent to their architecture, critical issues that are not solved yet, to all the tasks where they perform pretty badly and we humans will (most probably) always be needed. All accompanied by personal learnings and experiences, but also major publicly known failures that costed companies millions. Millions that your company will save if they keep YOU in their workforce.\n\nSoftware developers: this is your quick-start guide on how to keep your jobs secure. No technical terms that managers will not understand, nor fluff that will make them miss the point. Simple, bold, direct facts that will open their eyes (backed with real business use cases and Excel-friendly numbers whenever a little extra scare is needed).",
                 "description": "",
                 "persons": [
                   {
@@ -334,7 +334,7 @@
                 "track": "IoT, .NET, Architecture, Big Data, Cloud, DevOps",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "When we work with Cloud systems, we are used to controlling the environment. We have fast and reliable networks, continuous deployment, and end-to-end observability. We can trace, monitor and debug services in real time, and roll back any broken deployments. \n \nIoT systems at scale are different. The production environment is constrained by real world physics, where devices are deployed into parking cellars with poor cellular connectivity, or outdoor garages with flaky Wi-Fi. At this scale, hardware issues show up, cables degrade and human errors happens.\n \nWhen we have 1 million connected devices, different classes of problems show up. Even if one device operates correctly on an individual level does not imply that the system operates correctly for 1M devices. Synchronized behavior, like devices checking for updates at midnight, quickly turns into a thundering herd that violates your service quotas and connection pools. \n \nWe will talk about how our rapid growth outgrew the initial system design and caused production to go down for several days. Retry logic and home automation systems became self-inflicted DDoS attacks. Non-essential services became global bottlenecks.\n\nThis talk is an experience report about the incidents and learnings from running Easee’s IoT Platform through a period where Easee scaled from 0 to 1 million chargers, in a journey of growth, near-collapse, and the way back.",
                 "description": "",
                 "persons": [
                   {
@@ -364,7 +364,7 @@
                 "track": "Architecture, DDD, People, Soft Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "When we connect software systems through APIs, we also connect the people who work on those systems and their contexts. It is a social process that is more important for the fate of the API than the technologies involved in building it. In this talk I will lay out the socio-technical landscape for APIs by discussing factors that influence the relationship between API providers and consumers, such as the alignment (or misalignment) of goals, the mode of communication, the design process, typical points of contention, etc. With this background, I will discuss a number of recurring patterns I have encountered in my career, including the Millstone, the Mountain (or the Volcano), the Rapids (with or without Beaver Dams), and the Sock Puppet. Identifying such patterns is important to better understand and address common challenges, so that we can achieve better outcomes for our APIs.",
                 "description": "",
                 "persons": [
                   {
@@ -388,7 +388,7 @@
                 "track": "Mobile, .NET, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Three (3) Community Toolkits have revolutionized the way we create our .NET MAUI apps. They allow us to write more-concise, more-readable code, more quickly. \n\nThe MVVM Community Toolkit allows includes Source Generators that write all of the boilerplate MVVM code for you. The .NET MAUI Community Toolkit includes Converters, Behaviors, Custom Views like DrawingView + Popup + MediaElement; all of the essentials you need for your mobile apps. And the .NET MAUI Markup toolkit allows you to quickly + easily write your .NET MAUI UIs in C# (no XAML!).\n\nAs the creator of the .NET MAUI Community Toolkit, I am a bit biased, but I promise that you will use these libraries in all of your .NET MAUI apps going forward if you aren't already!\n\nJoin me in this session as we dive deep in the Community Toolkits to learn best practices and shine a spotlight on some of its best features!",
                 "description": "",
                 "persons": [
                   {
@@ -412,7 +412,7 @@
                 "track": "Programming Languages, DDD, Functional Programming",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "=== Abstract ===\n\nTypes are fantastic!\n\nThis is hardly a hot take - many programmers prefer working in typed languages. But the best part? Types can do much more than most of us realize - catching bugs at compile-time is just the tip of the iceberg.\n\nI didn't realize how powerful types truly were until I spent some time in Haskell. When I got back into TypeScript, it turned out I could keep using almost everything I'd learned.\n\nFunctional languages offer unique ways of working with types, and most modern languages let you tap into these powers without forcing you into obscure patterns.\n\nYou will learn how to:\n- Think of types as sets of values.\n- Model business domains with surgical precision\n- Make incorrect code impossible, eliminate unit tests, and reduce the need for documentation.\n- Apply practical type-driven design patterns (ADTs, branded primitives, smart constructors...).\n\nThis talk presents a fresh perspective on type systems through a familiar language. The examples are in TypeScript, but the advice is general.\n\n=== Note for the organizer ===\n\nI can do this talk in either TypeScript, Haskell, or Rust. But we'll have to adapt the abstract to fit the language, the current one assumes TypeScript :)\n\nThis talk got accepted at NDC Toronto 2026. I ultimately couldn't fit such a short-but-distant trip it in my schedule, so \nHenriette suggested I apply to NDC Oslo instead. Well, here I am, I hope you like the proposal!",
                 "description": "",
                 "persons": [
                   {
@@ -436,7 +436,7 @@
                 "track": "AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "AI governance is no longer just for your legal team, but is becoming a daily reality for\ndevelopers, designers, and product managers. AI agents taking real-world actions introduces an\nentirely new risk profile for product teams as well.\nBut what does \"governance\" actually look like when you’re debugging an agent's reasoning loop\nor trying to hit a sprint deadline without getting blocked?\nThis session skips legal theory to focus on what product teams actually need to know. We’ll look\nat how to translate high-level guidelines like NIST’s AI Risk Management Framework and the\nEU AI Act into practical engineering decisions. We will use a beginner friendly governance\nframework as a lens on how to balance innovation with accountability, helping your team\nnavigate: what we need to do for the product, what we should do ethically, what we must do\nlegally, and what we can do technically.\nWhether you’re writing code or managing the roadmap, you’ll leave with practical strategies to\nbuild systems that are resilient, compliant, and ready for global deployment.",
                 "description": "",
                 "persons": [
                   {
@@ -460,7 +460,7 @@
                 "track": "IoT, Architecture, DevOps",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Modern software systems are built to handle unreliable networks, partial failure and distributed state. But there’s one non-deterministic component most architectures fail to model properly: the human.\n\nUsers retry actions mid-flight. They interrupt firmware updates. They unplug devices under load. They optimise for speed over safety. And when software interacts with physical systems, those behaviours become architectural risks.\n\nIn this session, we'll dissect real-world failures from connected products and explores how unpredictable human behaviour cascades into state corruption, retry storms, inconsistent device-cloud views and recoverability problems.\n\nYou’ll learn how to:\n- Model human behaviour as hostile or non-deterministic input\n- Design state machines that tolerate interruption and repetition\n- Make critical flows idempotent across device and cloud\n- Build systems that degrade safely when users don’t behave as expected\n\nIf your software leaves the browser or the data centre, this talk reframes reliability as a human systems problem, not just a technical one.",
                 "description": "",
                 "persons": [
                   {
@@ -484,7 +484,7 @@
                 "track": "Architecture, Functional Programming",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Most of us have worked with the classic three-layer cake architecture. What happens when you rip the database out and write your business logic in a purely functional style? Some very cool things, that's what. I've worked on systems with the Functional core / Imperative shell architecture the last 9 years, and will share what I've learned.",
                 "description": "",
                 "persons": [
                   {
@@ -510,7 +510,7 @@
                 "track": "People, Architecture, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Impostor syndrome is often framed as a personal failing: a lack of confidence; a mindset problem. But what if the problem isn't you?\n\nYou’re not inexperienced. You’re not lazy. You're not bad at your job. The issue is that no one’s real experience matches the cloud-native stories told in public.\n\nWe are surrounded by a narrative of effortless success: platforms that scale cleanly, teams that “just adopt Kubernetes,” architectures that assume infinite time, talent, and budget. Conference talks are polished. Case studies are sanitized. Failure is implied to be a personal shortcoming.\n\nPrivately, most practitioners are struggling. Technology is complex and brittle. Upgrades are painful. On-call is exhausting.\n\nThis talk argues that what we’re experiencing isn’t just impostor syndrome — it’s pluralistic ignorance amplified by burnout. Everyone is struggling, but no one admits it, because admitting feels like failure. So we stay quiet, internalize the gap, blame ourselves, and push past our limits.\n\nIn this talk, I want to say the quiet part out loud and break that silence together.\n\nThis talk is for everyone who's tired of pretending and who wants honesty instead of hype. We’ll explore how hype fuels self-doubt, why feeling “behind” is often realism, and why collective honesty—not more expertise—is what the cloud-native ecosystem is missing.\n\nIf you’ve ever thought “everyone else seems to have this figured out” — this talk is for you.",
                 "description": "",
                 "persons": [
                   {
@@ -534,7 +534,7 @@
                 "track": "Database, AI, Cloud",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "SQL Server 2025 and Azure SQL Databases introduce a major shift in how databases participate in modern, AI-driven architectures. With native support for vector data, embeddings, REST integration, and powerful new T-SQL capabilities, the database is no longer just a storage engine but becomes an active component in intelligent applications.\n\nIn this session, we focus on two key innovation areas: AI & intelligent data workloads and developer productivity. \nWe explore how new features such as the vector data type, vector search functions, and direct calls to embedding models enable semantic search and Retrieval-Augmented Generation (RAG) scenarios directly from SQL Server and Azure SQL.\n\nWe then dive into the expanding T-SQL feature set that significantly improves developer efficiency, including:\n* Calling REST endpoints from within the database\n* Using regular expressions for advanced pattern matching\n* Fuzzy string matching for data quality and deduplication\n* Enhanced JSON processing for semi-structured data\n\nThe session will be practical demos only and helps you understand not just what is new, but how and when to use these features effectively in real-world SQL Server and Azure SQL solutions.",
                 "description": "",
                 "persons": [
                   {
@@ -558,7 +558,7 @@
                 "track": "",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "You've installed Claude Code. You've asked it to write some code. You may have even let it refactor a file or two. But there's a good chance you're only scratching the surface.\n\nIn this session, I'll share what I've learned from using Claude Code daily and teaching it to developers in workshops. We'll go into the features that change how you work. Things like shaping Claude's behaviour through CLAUDE.md, building your own commands and skills, automating feedback loops, and understanding the small configuration details that most people overlook.\n\nWe'll also look at use cases beyond software development. We'll use Claude Code as an actual AI-assistant, not only a code-assistant.\n\nThis isn't a getting-started guide. It's a tour of the parts of Claude Code that only become visible once you stop treating it like an autocomplete tool.\n\nIf you use Claude Code but feel you're not getting the most out of it, this session will help you see what it can really do.",
                 "description": "",
                 "persons": [
                   {
@@ -582,7 +582,7 @@
                 "track": "Database, Big Data, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The last decade has seen major changes in the way we work with highly interconnected data sets. Dozens of technologies came and went, replaced by completely new tools. Now, in the age of recommendation systems and AI, storing and querying data as a graph efficiently is more important than ever. Semantic graphs and clustering algorithms power the latest generation of agentic AI tools.\n\nThe industry has come up with completely new ways of working with graph data, which we’re going to take for a test drive in this talk! We’ll check out what changed in Neo4j, the only major graph database that is still with us after 10 years. Then we’ll discuss in-process analytical graph databases, which is an idea that didn’t even exist until just a few years ago. In particular, we’ll test KuzuDB and Memgraph with some demos and discuss when to use them. We’ll look at graph processing engines, like PuppyGraph, and see what makes them different from databases. Finally, to understand why graph databases have become more important than ever in the age of LLMs, we’ll build an AI agent augmented by a knowledge graph served from FalkorDB.",
                 "description": "",
                 "persons": [
                   {
@@ -606,7 +606,7 @@
                 "track": "Big Data, Architecture, Database, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Norway is a nation built by fishermen, seafarers, and a long history at sea. Today, the Norwegian Coastal Administration is building a data platform that will help Norway become the world’s most efficient coastal nation.\n\nEvery day, more than 100 million rows of AIS data from ships flow through the platform without issues. Hear Peter talk about how we use this data to assess whether ships are on a collision course, improve efficiency to reduce climate emissions, and to join it with other data to enable further analysis.\n\nIn this talk, Peter takes us through the background of the data platform on Azure Databricks, how the team was built to deliver effectively, and how the Norwegian Coastal Administration delivers data and analytics to fulfil its societal mission.",
                 "description": "",
                 "persons": [
                   {
@@ -630,7 +630,7 @@
                 "track": "Fun, People",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "It's just a music app – but how much can one actually learn about a person when granted access to their Spotify data? In this talk, we present what we learned about our colleagues through their Spotify user data.\n\nBy leveraging the GDPR, we looked into various questions: How often do people lose or damage their phones? Where did they travel? And how regular are their sleep patterns? Alongside detailed insights into Spotify data, we provide a brief overview of the legal framework and examine how strictly other companies comply with the GDPR. While everyone in theory understands that data can hold immense power, this talk presents concrete examples – particularly given that we're dealing with what seems like just a music app.",
                 "description": "",
                 "persons": [
                   {
@@ -660,7 +660,7 @@
                 "track": "People, Agile, AI, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "We inherit habits. From courses, from examples, from colleagues, from \"best practices\" no one remembers the origin of. \n\nWe build layer upon layer of abstractions because that's how it's always been done, not because the problem demands it. The same happens in the kitchen, at the gym, and many other places in our life: we do things because we've always done them that way. We forget to ask \"why?\" \n\nWe talk a lot about building software fast, but do we remember to ask why we're building this particular thing? In an age where AI can generate code faster than we can think, the ability to ask \"but should this code exist?\" becomes more important than ever. \n\nIn this talk, we'll explore how to stop, ask the right questions, and make intentional choices, with a simple framework you can use right away. In your code, your architecture, the way you work and in your life.",
                 "description": "",
                 "persons": [
                   {
@@ -684,7 +684,7 @@
                 "track": "Soft Skills, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "GitHub stars look good on your profile — but they don’t pay the bills. If you’ve ever thought about turning your open source project into something more — maybe even a business — this talk is for you. I don’t have all the answers, but I’ve learned a lot by turning my side project into a sustainable, bootstrapped open source business doing over £10K MRR — and eventually, I took the leap to leave my full-time job to focus on it completely.\n\nIn this talk, I’ll share lessons I’ve learned so far:\n\n- Growing and engaging a community around your project\n- What actually works (and doesn’t) when pricing open source\n- The realities of open core models and building in public\n- Why plugin-based systems and extensibility create long-term value\n- How to talk to users without getting misled (using the Mom Test)\n- Why focusing on what really matters beats chasing every request\n- Taking the leap to go full-time — and how to know when the timing is right\n- The trade-offs and hard truths no one tells you about monetizing OSS\n\nYou’ll walk away with a candid, practical playbook for making open source sustainable — whether your goal is side income, a self-funded business, or simply building a project that lasts.",
                 "description": "",
                 "persons": [
                   {
@@ -708,7 +708,7 @@
                 "track": "Work Skills, Agile, People",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The problem with the current most commonly accepted way of running code reviews using Pull Requests is that they have the nasty habit of blocking the flow of delivery. They introduce a cost of delay. Any delay reduces feedback. Consequently, it drives down quality.\n\nThe usual way to achieve fast, efficient and effective Continuous Code Reviews without disrupting the flow of delivery is through Pair Programming or Team Programming. However, for various valid reasons, these can be a cultural stretch for many teams and organisations.\n\nIn 2012, a novice team practising trunk-based development set in place a fairly uncommon but efficient alternative to implementing continuous code reviews on mainline without ever blocking the flow of delivery.\n\nThis team went from a bunch of rag-tags to becoming a reference team within the organisation, with auditors falling to the floor due to the high quality the team delivered.",
                 "description": "",
                 "persons": [
                   {
@@ -732,7 +732,7 @@
                 "track": "People, Soft Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The computer science students starting their five-year degree in the fall of 2026, submit their master thesis in the spring of 2031. At universities around the country, there are enthusiastic and heated debates every week on what we should teach our students, as we’re gazing into the crystal ball. Student applicant numbers are plummeting, more or less LLM-generated solutions are increasingly submitted in coursework projects, and graduates are struggling to find an entry level job. This is the hard reality of computer science education in 2026. So where do we go from here? \n\nIn academia, the discourse is centered around two core questions. Firstly, what are the skills and competencies we should teach the students that enroll in computer science studies this fall? And secondly, how do we get them there, to that desirable set of skills and competencies? There is a tradeoff between building a solid foundation along the lines of traditions in the field, versus bringing in agentic workflows, or other technological specs that can be found directly in job listings. This tradeoff is not entirely new, but the educational and technological landscape of today permeated by GenAI is forcing the issue. \n\nThis talk attempts to give a peek into how the computer science education branch of academia is reacting in these times of uncertainty. How can we bring back the euphoria and passion that strikes when you finally figure that thing out after a week of debugging?",
                 "description": "",
                 "persons": [
                   {
@@ -756,7 +756,7 @@
                 "track": "People, Soft Skills, Tools, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In January 2026, my farm burned.\n\nNot metaphorically. Not “startup failed” burned. Actually gone. Buildings, tools, infrastructure, memories… years of work reduced to ash in a matter of hours. This talk isn’t about cloud architectures or the latest framework. It’s about what happens when life completely resets your environment without asking for permission.\n\nBecause here’s the unexpected part: the same mindset we use in tech, problem solving, iteration, systems thinking, resilience, turns out to be incredibly useful when you’re rebuilding your life from scratch.\n\nI’ll share what it’s like to navigate loss at scale, how to deal with the mental load of starting over, and how staying positive isn’t about pretending everything is fine, but about choosing what to build next. Along the way, we’ll look at how technology became both a tool and a lifeline. From rebuilding infrastructure on the farm, to creating content that connected me with a global community, to using automation and systems thinking to regain control in chaos.\n\nThis is a story about failure you didn’t choose, recovery you have to design, and how the skills we use every day as developers can help us, and others, get back up again. If you’ve ever faced setbacks, big or small, this talk will give you a different way to think about resilience… and maybe a few ideas for how to rebuild stronger than before.",
                 "description": "",
                 "persons": [
                   {
@@ -780,7 +780,7 @@
                 "track": "Work Skills, Soft Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This talk outlines the key things I’ve learnt over the last few years as a competitive powerlifter, and how these insights have spilled over into my everyday life and ultimately my day job as a software engineer.\n\nLike many developers, I embodied the classic stereotype: Developers don’t do sports. I’ve been nerdy and, let’s face it, a little bit overweight my entire life. My first memories of sport participation involve being picked last for the team and ridiculed for trying.\n\nSports were just not for me.\n\nBut when I discovered the strength sport of powerlifting that all changed. What started as a casual pursuit of a niche sport quickly became a large and important part of my life.\n\nIn this talk, I’ll share with you\n- Why individual pursuits still require teamwork\n- Why enjoying the process is half the battle in reaching the desired outcome (and some strategies to achieve that)\n- Why facing your fears often and in small doses leads to unmatched levels of badassery that will have you confronting challenges head on\n\nAttendees will leave this talk not only with concrete actions they can bring to their life and work, but also inspired to try something new.",
                 "description": "",
                 "persons": [
                   {
@@ -806,7 +806,7 @@
                 "track": ".NET, Programming Languages",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "C# 15 is coming in just a couple of months. In this session, Fred Silberberg, a member of the C# compiler and language design team, will dive into the new features that come with the new language version.",
                 "description": "",
                 "persons": [
                   {
@@ -830,7 +830,7 @@
                 "track": ".NET, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "We all use and build Web APIs. If you are a C# developer, these are most likely based on ASP.NET Core controllers. Perhaps you have heard of the minimal API approach, but thought these were only relevant for Node.js developers coming to C#. However, this approach does offer benefits for C# developers as well.  But how to get started with this new approach if all you have is a controller-based Web API?  \n\nIn this talk, we will migrate an existing ASP.NET Core controller-based API to a minimal API approach together. During the migration, you will learn what the minimal API approach is all about and what the benefits of this approach are for you as a C# developer.  Of course, we will discuss how to keep a good separation of concerns in the migrated code as well, because that is a major benefit of using controllers. \n\nDo not expect a lot of slides in this talk. Most of the talk will be spent in code. \n\nSo come to this talk and leave with enough knowledge to be able to start migrating your existing Web API into this new minimal API approach and be ready for the future.",
                 "description": "",
                 "persons": [
                   {
@@ -854,7 +854,7 @@
                 "track": "",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "More info coming",
                 "description": "",
                 "persons": [
                   {
@@ -878,7 +878,7 @@
                 "track": ".NET, DevOps, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "On-call alerts and user bug reports can be annoying, but they don't have to be! Imagine if your application was already instrumented with all the logging and tracing you need to easily track down issues... This talk has the capability of granting you Hero Status within your organization!\n\nWe'll cover the forms of modern telemetry for .NET applications. Starting with centralized semantic logging, we'll emphasize the secret sauce that will make your coworkers love you: semantic logging scopes! Once you see them in action, you'll never want to be without them!\n\nOther forms of telemetry are also included. Leaning into the Open Telemetry standard, we'll cover how to add metric measurements and timings into your application with extremely low overhead.\n\nWe'll also cover techniques for distributed tracing, including the standard span-based approach as well as linking techniques for disassociated backend processors. Throughout this talk, we'll cover common visualization tools that are compatible with your newly-instrumented applications.\n\nBy the end of this talk, you'll have concrete ideas to take back to your day job, earning you the respect and heartfelt thanks of anyone who has to track down issues in your website or client application!",
                 "description": "",
                 "persons": [
                   {
@@ -902,7 +902,7 @@
                 "track": ".NET, Architecture, Cloud, Cross-Platform, DevOps, Testing, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The REST APIs you want to integrate in your solution have an OpenAPI description and you are ready to start calling endpoints. But, how can you create the code that makes the correct web requests and handles the responses under realistic circumstances.\nKiota generates this client logic and request handlers to call REST APIs in multiple languages for you. In this session we are going to focus on .NET and dive into the specifics and details to make it a first-class citizen in a modern distributed application landscapes.\nWe will look at how Kiota helps you create a production-ready client library that can be shared alongside your API. These client SDKs allow easy consumption and offer a robust and resilient integrations to APIs. You are also going to learn how to properly test these libraries in various scenarios.\nAlso, we will dive into Kiota generated code including the RESTful object model, DTO mappings and also as a tool, how to use it in your CI/CD pipeline and some advanced scenarios such as telemetry and resilience strategies.\nAfter this session you will be eager to start using Microsoft Kiota and begin building smart API clients and libraries.",
                 "description": "",
                 "persons": [
                   {
@@ -926,7 +926,7 @@
                 "track": ".NET, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Passkeys, using the WebAuthn protocol, replace passwords with stronger, simpler, and phishing-resistant authentication using your device's built-in security or a dedicated hardware key.\n\nThis session provides a practical introduction to passkey authentication and its implementation in ASP.NET Core applications. We'll explore the fundamentals of passkeys and the underlying public key cryptography.  Then, we'll demonstrate how to integrate passkey authentication into your projects, supporting OS management, password managers (like 1Password), and hardware security keys (like a Yubikey). \n\nJoin this talk if you want to get a thorough understanding of passkeys and the skills to integrate them into your applications.",
                 "description": "",
                 "persons": [
                   {
@@ -952,7 +952,7 @@
                 "track": "AI, Soft Skills, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "James and Aurora — working from opposite sides of the world — used agentic developer tools like VS Code, GitHub Copilot, Codex, Vercel AI Gateway, and Code Review Agents to turn ideas into features and prototypes through fast, conversational iteration. \n\nThis session shows how an AI‑driven, always‑on toolchain became their shared workspace and reasoning engine, reshaping collaboration and redefining what building software feels like.",
                 "description": "",
                 "persons": [
                   {
@@ -980,7 +980,7 @@
                 "track": "Architecture, AI, DDD, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "I decided to rebuild a retrospective tool from scratch. This was an internal tool we'd been using for years. AI would write the code, and I'd make the architectural decisions. Or at least that's what I thought.\n\nAlthough things worked, something felt off. Implementations were technically correct but oddly inconsistent.\n\nI realized that AI didn't make any mistakes, but that I hadn't made the decisions. AI couldn't cross any boundaries, because I never drew them. Speed made it impossible to ignore implicit thinking.\n\nThis is not a talk about prompting, frameworks, tooling or models. It's about recognizing where decisions were missing all along. AI makes it uncomfortably fast to see where boundaries are missing.",
                 "description": "",
                 "persons": [
                   {
@@ -1004,7 +1004,7 @@
                 "track": "Work Skills, People, Security, Soft Skills, Tools, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\nTalk 1: What's your favourite number of threads? - Ryan Healey\nNow you're presumably thinking, \"What a stupid question?\". Surely, there's no one answer to this. It depends on several factors; what you're doing, where the code is running, and how many you need. However, I had never really thought about it in-depth before until someone asked me: \"What is your favourite number of threads?\".\nIn this short (and hopefully fun) talk, I will take you through nearly all possible answers to this question and why they are both right and wrong on a technical and human level. Finally, I will give what I believe is the ultimate and final answer to the question: \"What is the best number of threads?\".\nThere is no barrier to entry here. If you know what a thread is, then you're qualified enough to come along and have fun.\n\nTalk 2: Designing the In-Between States with Async React - Aurora Scharff\nA surprising amount of user experience happens in the in-between moments: loading screens, errors, and pending states. These gaps between user action and final render are easy to overlook, yet they strongly influence how polished a React application feels and its perceived performance.\n\nThis session takes a practical engineering view on architecting these moments with Async React and modern Next.js 16: what's feasible, where designer-engineer collaboration matters, and how the ecosystem tools help. It covers reusable patterns for skeletons, error boundaries, view transitions, and design-layer components that own their loading states, and shows how small architectural decisions shape a smoother, more intentional product experience.\n\n\nTalk 3: Reinventing the wheel considered useful - Erik Schierboom\nProgrammers are taught not to reinvent the wheel. This \"wisdom\" is rarely questioned, but there are very good reasons to go against this advice!\n\nIn this lightning talk, you'll learn why reinventing the wheel can actually make your software more secure. You'll also see how reinventing the wheel is a great way to improve your skills, which is becoming even more important with the advent of AI-assisted code generation.\n\n\nTalk 4: Good enough - A love letter to failure - Elin Brusberg\nThis society is tough, getting tougher.\nYou may feel that more is required of you every day, and you are probably not wrong. I would argue though that the path to excellence lies not in perfection but in failure, and if you truly want to be better in life and work you need to switch focus and lean into the unpredictability of life.\n\nTogether we will reflect on tech failures and learn from them. What mistakes can you not come back from? When can a failure be a stepping stone to achieve your goal? What can you do to get less of the first and more of the second?\n\nMaybe you will disagree with me and maybe you will see that failure not only is an option - it's a good one.",
                 "description": "",
                 "persons": [
                   {
@@ -1040,7 +1040,7 @@
                 "track": "Soft Skills, Agile, Architecture, JavaScript, Mobile, People, Tools, UI, Web, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\n\nTalk 1: Power Games – From Fear to Freedom - Shomaila Kausar\nPower dynamics (called Hersketeknikker) aren't a relic from 1981, they're alive and well in today's workplaces, in meeting rooms, on Slack, and in code reviews.\nIn this talk, we take theese manipulation tactics out of the textbooks and into reality. You'll learn to recognize them when they happen — directed at you, around you, or perhaps without even realizing you're using them yourself. And most importantly: what you can actually do about it.\nFor those who experience it.\nFor those who witness it.\nFor everyone who wants to contribute to a healthier workplace.\nBecause the tech industry deserves psychological safety — not just technical excellence.\n\nTalk 2: 400 tech leads, same problems - none of them technical - Anemari Fiser\nAfter training and coaching more than 400 tech leads across different companies, industries, and levels of experience, one pattern keeps repeating: when tech leads struggle, it’s rarely a technical gap.\nIn this talk, Anemari Fiser shares the most common challenges tech leads bring into coaching sessions and why “getting better technically” almost never fixes them. Instead, the real blockers show up as overload, unclear expectations, ownership confusion, and assumed alignment. These patterns consistently lead to slow decisions, delivery friction, and burned-out tech leads, even in teams with strong engineers and modern tooling.\nDrawing from real coaching sessions, training group discussions, and concrete case studies, this talk explores where tech leads consistently get stuck. For each pattern, it looks at what the tech lead thought the problem was, what it turned out to be, and the small but meaningful shifts that helped them move forward: from rethinking 1-on-1s, to making expectations explicit, to letting go without losing trust.\nThis isn’t a talk about abstract “soft skills.” It’s about the invisible leadership work tech leads are expected to do without ever being taught how.\nAttendees will leave with concrete ways to spot people problems early, make expectations explicit, and reduce the load they carry as tech leads.\nIf you’ve ever thought, “I didn’t expect the role to be this hard,” this talk is for you.\n\nTalk 3: Conway's law in real life - Oda Hoem\nA journey through the challenges and frustrations of being a developer in a product team within a non-product-oriented organization. What happens when you are thrown into a project where a ready-made solution is purchased to replace a critical subsystem—without completing the job of understanding existing processes or integrations? This talk dives into the concrete problems that arose, how we handled them, and the lessons learned after working with a product that was supposed to solve everything, but instead created more chaos\n\nTalk 4: China's App Independence vs Europe's US Dependence - Jill Sarandi\nFrom WeChat to Alipay, China’s digital landscape is dominated by homegrown platforms that shape daily life. In this talk, we’ll explore the contrast between the apps powering China and those popular in Europe, and why this matters more than ever. But the conversation doesn’t stop at comparison. I’ll argue that Europe’s future hinges on its ability to build and embrace its own digital platforms - platforms that reflect European values, protect user data, and foster innovation on home soil.",
                 "description": "",
                 "persons": [
                   {
@@ -1076,7 +1076,7 @@
                 "track": "Fun, .NET, Architecture, JavaScript, Programming Languages, UX",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Ever since zero became something for nothing, you'd think we'd solved nothing. Whether we're talking NaN, string.Empty, nullables or database nulls, it turns out that nothing is more surprising than nothing.\n\nThere is a distinction between a number that is zero — and the many ways we have of representing that number — and the absence of a thing, as well as a distinction between absence and emptiness. These distinctions have both practical and conceptual consequences that lead to surprises in code, in UX, in .NET and beyond.\n\nThere are a non-zero number of things to learn in this talk about nothing.",
                 "description": "",
                 "persons": [
                   {
@@ -1100,7 +1100,7 @@
                 "track": "JavaScript, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "From planning international travel to ordering a pizza, time zones affect us all. If your software displays dates and times to users, at some point in time you’ll need to deal with time zones. Your server, the user, and their location of interest can all be in different time zones making this tricky, especially if your data isn’t normalized.\n\nThis talk will use working code examples in TypeScript to show ways to represent time and handle time zones, uses of the JavaScript Date object and Luxon date time library. We’ll also introduce Temporal, the upcoming ECMAScript standard.\n\nThe examples will be based upon my experience building applications in parking, scheduling, and logistics with complex requirements for date and time representation, and I look forward to sharing some of the lessons I’ve learned along the way.",
                 "description": "",
                 "persons": [
                   {
@@ -1126,7 +1126,7 @@
                 "track": "Web, JavaScript, UI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Web components have been around for a long time (since HTML 5 became a thing), but there hasn’t been a lot of attention given to them until recently. Now, tech organizations worldwide are adopting them and finding tremendous efficiency in creating framework-agnostic reusable components to build their Design System component libraries and applications.\n\nIn this workshop, we will learn about the important concepts around authoring web components as well as the technologies used to create, test, and distribute web component libraries for others to enjoy.",
                 "description": "",
                 "persons": [
                   {
@@ -1150,7 +1150,7 @@
                 "track": "Web, JavaScript, UI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Web components have been around for a long time (since HTML 5 became a thing), but there hasn’t been a lot of attention given to them until recently. Now, tech organizations worldwide are adopting them and finding tremendous efficiency in creating framework-agnostic reusable components to build their Design System component libraries and applications.\n\nIn this workshop, we will learn about the important concepts around authoring web components as well as the technologies used to create, test, and distribute web component libraries for others to enjoy.",
                 "description": "",
                 "persons": [
                   {
@@ -1174,7 +1174,7 @@
                 "track": "AI, .NET, JavaScript, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This hands‑on workshop introduces developers to a modern, agent‑driven approach to building applications with the help of AI. You’ll work through the creation of an interactive sample app while learning how to collaborate effectively with AI agents, structure context so they understand your project, and adopt development patterns that dramatically speed up iteration.\n\nAcross a guided, multi‑part lab, you’ll practice context engineering, design‑first UI exploration, test‑driven workflows, and multi‑agent orchestration using both local and cloud‑based agents. You’ll learn how to shape agent behavior, create specialized agents that support different phases of development, and integrate them into your everyday workflow.\n\nBy the end, you’ll have a practical understanding of how agentic development transforms the way software is built — enabling faster feature delivery, higher quality, and a more collaborative relationship between developers and AI.",
                 "description": "",
                 "persons": [
                   {
@@ -1202,7 +1202,7 @@
                 "track": "AI, .NET, JavaScript, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This hands‑on workshop introduces developers to a modern, agent‑driven approach to building applications with the help of AI. You’ll work through the creation of an interactive sample app while learning how to collaborate effectively with AI agents, structure context so they understand your project, and adopt development patterns that dramatically speed up iteration.\n\nAcross a guided, multi‑part lab, you’ll practice context engineering, design‑first UI exploration, test‑driven workflows, and multi‑agent orchestration using both local and cloud‑based agents. You’ll learn how to shape agent behavior, create specialized agents that support different phases of development, and integrate them into your everyday workflow.\n\nBy the end, you’ll have a practical understanding of how agentic development transforms the way software is built — enabling faster feature delivery, higher quality, and a more collaborative relationship between developers and AI.",
                 "description": "",
                 "persons": [
                   {
@@ -1230,7 +1230,7 @@
                 "track": "Functional Programming, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Turtle geometry is made from the viewpoint of a small turtle walking on an infinitely sized sheet of paper, leaving a trace where it walks. The turtle's movements can be controlled by a small set of commands, like \"move forward\" and \"turn right\".\n\nIn this workshop you will learn basic functional programming with F#, while creating geometry. We will explore algebraic data types, lists, functions and recursion, all to make the turtle move. We will make polygons, fractals and space filling curves, and look into some mathematical properties of these geometric shapes. You can choose to concentrate on the F# tasks at hand, or you can allow yourself to be distracted by the beautiful geometry, and continue to explore different variants of the shapes.\n\nThe geometry in the workshop is based on the first chapters of the classical book \"Turtle geometry\" by Abelson and diSessa.\n\nBring your laptop, and if you want to come prepared, check out the “Getting started” section at https://github.com/heidisu/turtle-geometry. \n\nNo previous experience with turtles or F# is required.",
                 "description": "",
                 "persons": [
                   {
@@ -1254,7 +1254,7 @@
                 "track": "Functional Programming, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Turtle geometry is made from the viewpoint of a small turtle walking on an infinitely sized sheet of paper, leaving a trace where it walks. The turtle's movements can be controlled by a small set of commands, like \"move forward\" and \"turn right\".\n\nIn this workshop you will learn basic functional programming with F#, while creating geometry. We will explore algebraic data types, lists, functions and recursion, all to make the turtle move. We will make polygons, fractals and space filling curves, and look into some mathematical properties of these geometric shapes. You can choose to concentrate on the F# tasks at hand, or you can allow yourself to be distracted by the beautiful geometry, and continue to explore different variants of the shapes.\n\nThe geometry in the workshop is based on the first chapters of the classical book \"Turtle geometry\" by Abelson and diSessa.\n\nBring your laptop, and if you want to come prepared, check out the “Getting started” section at https://github.com/heidisu/turtle-geometry. \n\nNo previous experience with turtles or F# is required.",
                 "description": "",
                 "persons": [
                   {
@@ -1280,7 +1280,7 @@
                 "track": "AI, Ethics, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Human beings are biased and often wrong. AI learns from human-created data. Therefore, AI is biased and often wrong. This has been a critical problem across machine learning applications in the last years. To break open the black box of AI models, and understand how they make decisions, the concept of explainability was introduced.\n\nThen, LLMs entered the chat. They answer our questions confidently and with a beautiful prose, even when they are making up data. Explainability then becomes essential to trust -or not- their output. But when the existing explainable AI methods cannot be directly applied to these models, what do we do?\n\nIn this workshop, we will delve into explainability and its importance in the current context of LLMs and agents. Starting from traditional ML to then focus on LLMs, we will cover the different methods that can be implemented, from well-known ones to novel proposals stemming from our internal research. We will also introduce research-proven prompting strategies, tips, and tricks to integrate explanations on third-party LLM services that are not natively explainable.\n\nThrough guided exercises, you will get to peek under the hood of AI models, LLMs' behavior, and agents reasoning, by trying out these different techniques, and seeing their benefits and limitations first-hand. You will experience the risks and challenges that generative AI and agentic AI bring when implementing explainability, and learn practical ways to tackle them.",
                 "description": "",
                 "persons": [
                   {
@@ -1308,7 +1308,7 @@
                 "track": "AI, Ethics, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Human beings are biased and often wrong. AI learns from human-created data. Therefore, AI is biased and often wrong. This has been a critical problem across machine learning applications in the last years. To break open the black box of AI models, and understand how they make decisions, the concept of explainability was introduced.\n\nThen, LLMs entered the chat. They answer our questions confidently and with a beautiful prose, even when they are making up data. Explainability then becomes essential to trust -or not- their output. But when the existing explainable AI methods cannot be directly applied to these models, what do we do?\n\nIn this workshop, we will delve into explainability and its importance in the current context of LLMs and agents. Starting from traditional ML to then focus on LLMs, we will cover the different methods that can be implemented, from well-known ones to novel proposals stemming from our internal research. We will also introduce research-proven prompting strategies, tips, and tricks to integrate explanations on third-party LLM services that are not natively explainable.\n\nThrough guided exercises, you will get to peek under the hood of AI models, LLMs' behavior, and agents reasoning, by trying out these different techniques, and seeing their benefits and limitations first-hand. You will experience the risks and challenges that generative AI and agentic AI bring when implementing explainability, and learn practical ways to tackle them.",
                 "description": "",
                 "persons": [
                   {
@@ -1346,7 +1346,7 @@
                 "track": "Web, AI, JavaScript, UX, Web, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Generative AI is becoming a key part of modern software architecture, and its presence in web apps is growing. As demand increases, vendors and specification authors are working to make AI capabilities more accessible and integrated into the web platform. In this session, Christian Liebel—member of the W3C TAG and WebML Working Group—will share what's cooking behind the scenes in Web AI. You'll get an update on the latest advancements in the WebNN API, Chromium's Built-in AI APIs, WebMCP, emerging developer tools, usage statistics, and the real-world challenges that browser vendors and standards authors are navigating to bring AI to the web.",
                 "description": "",
                 "persons": [
                   {
@@ -1370,7 +1370,7 @@
                 "track": "Architecture, .NET, Cloud, Microservices",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Building an event-driven system is anything but trivial. However, once you make it past the sea of pub-sub vs. command-response debates and the service boundaries conundrum, you'll soon face the inevitable: change. The conversations that follow sound all too familiar... \"Who's subscribed to this message?\" \"Do other services depend on this field in the payload?\" \"Why on earth is that thing in the payload?\" \"That service should never rely on this data!\" And, of course, the obvious \"Can't we -just- remove this?\"\n\nBut are those the right questions to ask? As software developers, we aim to be agents of change, not chaos. To achieve this, we need to understand the impact of tweaking a message contract without breaking half of the system or forcing other teams beyond their deadlines. We should prioritize techniques that ensure compatibility while also considering how long that compatibility needs to be sustained. Oh, and let’s not forget that we’re supposed to solve this problem with zero downtime, as our users are spread across every time zone. In this session, we’ll discuss practical techniques and tooling that can enable the evolution of your event-driven system so that, next time a stakeholder approaches with a change request, your heart doesn't sink to the floor.",
                 "description": "",
                 "persons": [
                   {
@@ -1394,7 +1394,7 @@
                 "track": "Web, JavaScript",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "React launched with a clear goal: to proudly be the V in MVC. Where Angular and Ember ruled, React planted its flag as a UI library with no opinions about routing, no opinions about state.\n\nThen it skipped the framework phase entirely and went straight for being a platform. After over ten years, it has largely succeeded. Server Components, the compiler, the App Router. These are not framework features. They are platform decisions, and they are reshaping and trapping our mental models on how we think about building for the web.\n\nBut while React was busy becoming infrastructure, the actual web platform kept evolving. The browser is more capable than ever, yet most developers never reach for any of it. React casts such a long shadow that the real platform underneath has become invisible.\n\nAI is making this worse. AI as the self-referential technology it is, has been trained to enforce past winners rather than future ones. Ask an AI to build a UI and it will reach for React by default, every time, regardless of whether React is the right tool. \n\nReact won by pushing the web forward. Now it holds it back.\n\nIt is time for whatever comes next. I have been building with React for well over ten years. In 2014 a stranger thanked me for helping bring pure function components into React, and I have spent the years since writing, speaking, doing podcast, and building open source tooling around it. Nobody is more surprised than me that I am making this argument, but here we are.",
                 "description": "",
                 "persons": [
                   {
@@ -1418,7 +1418,7 @@
                 "track": "UI, JavaScript, UI, Web, Accessibility",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "CSS is often overlooked by full-stack developers as 'not real code', but it's a critical part of crafting a beautiful, functional digital product. Also, you're probably doing it wrong.\n\nThe last few years have introduced some major improvements to CSS that allow for us to do more than ever using *only* HTML and CSS - improving front-end performance, accessibility and code maintainability.\n\nLet's look at some code examples of new CSS features that will let savvy developers ditch the bloated JavaScript, for everything from select fields to dynamic popups, automatic light/dark mode adaptation, accordions, and of course - better animations than ever before!",
                 "description": "",
                 "persons": [
                   {
@@ -1442,7 +1442,7 @@
                 "track": "Accessibility, UI, UX, Web, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Imagine this. You wake up as a zombie and need to integrate back into everyday life. But it’s a tough adjustment to make, being undead, as you need to order groceries and stock up on a fresh supply of brains. However, the web is more dynamic than you remember and visual notifications that are now used to communicate updates, errors, and content changes are difficult to understand. If not impossible.\n\nWe’ll explore ARIA Live Regions through the eyes of a zombie trying to navigate the modern day web. From creating an account, ordering your favorite snacks, to sending an email, we’ll experience how screen readers understand, or sometimes don’t understand, dynamic content and live region updates. We’ll explore the rules and recommended methods for incorporating live regions to create more inclusive notifications, and ultimately, we’ll find ways to replace live regions all together with more persistent and robust patterns.",
                 "description": "",
                 "persons": [
                   {
@@ -1466,7 +1466,7 @@
                 "track": "UX, Agile, Soft Skills, Testing, UI, Web, Accessibility",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "If you cannot see the problem, you cannot prioritize it. \n\nMany teams sense that something is not working, but struggle to identify where friction truly lives or what should be fixed first. This practical session shows how to approach a UX audit in a structured and effective way, helping teams uncover hidden usability issues, reduce costly rework, and improve overall product quality.\n\nThrough real examples, common UX issues are visualized and analyzed to show why they matter and how they can be improved. You will see how to systematically review a digital solution, avoid blind spots, document findings clearly, and communicate improvements in a way that supports developers and product teams.\n\nWithout structure, UX reviews become guesswork. The session provides a clear framework, concrete techniques, and practical tools for turning friction into focused, actionable improvements. You will leave equipped to run your own UX audits with confidence and use them to drive real product impact.",
                 "description": "",
                 "persons": [
                   {
@@ -1490,7 +1490,7 @@
                 "track": "Web, IoT, JavaScript, Web, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The web is fast becoming the main means through which people interact with all sorts of technologies. With every new invention, users ask, \"But can it work with a browser?\"  With Web APIs, the answer is almost always yes, even to the question \"Can you fly a drone with a banana?\"\n\nIn this talk, I show the audience the power of APIs and discuss a few cool experimental APIs. I do this by taking them on a journey through my experience of trying to hack a drone and fly it with a banana. \n\nIf you're interested in all things web, custom controllers, Bluetooth technology, or accelerometer-based controls, or if you just like fruit and seeing silly applications of technology, this talk is for you.",
                 "description": "",
                 "persons": [
                   {
@@ -1516,7 +1516,7 @@
                 "track": "AI, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "What if your AI coding assistant wasn't a single agent — but a team? In this session, you'll see how to orchestrate multiple specialized AI agents that collaborate on real software engineering tasks: a lead that triages work, a developer that writes code, a tester that writes tests, and a reviewer that gates quality — all coordinated through a single prompt.\n\nWe'll cover the architecture patterns that make this work: persistent memory across sessions, conflict-free parallel execution using a drop-box pattern, reviewer lockout semantics that prevent self-approval, and how the entire team state lives in your git repo alongside your code.\n\nLive demo included — you'll see agents spawned in real-time, making decisions, writing code, and reviewing each other's work. No slides-only theory — this is a working system you can install today.\n\nKey takeaways:\n- How to decompose AI agent work into specialized roles with clear boundaries\n- Patterns for parallel agent execution without file conflicts\n- Why persistent memory (decisions, history, skills) changes everything\n- The security and quality gates that make multi-agent output trustworthy",
                 "description": "",
                 "persons": [
                   {
@@ -1544,7 +1544,7 @@
                 "track": "Machine Learning, AI, Big Data",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Are you looking to transition into a machine learning engineer role, or are you currently building systems to support machine learning models but don’t understand how they work? This talk covers the practical statistics that can get you a long way in machine learning. It covers core concepts around model evaluation such as distributions, bias and variance, overfitting, evaluation metrics and more. \n\nAudience members can expect to learn statistical thinking through intuitive explanations and real-world examples that will empower them to avoid common mistakes, diagnose model issues and build machine learning systems you can trust. They will walk away with a basic tool kit to understand and improve the models your stakeholders rely on.",
                 "description": "",
                 "persons": [
                   {
@@ -1568,7 +1568,7 @@
                 "track": "AI, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Agentic AI enables large language models to use tools to interact beyond system boundaries. From no-code implementations in Copilot Studio to developing sophisticated solutions using LangChain and Semantic Kernel, developers of all levels can leverage tools to create agentic solutions.\n\nBut how does agentic AI work under the hood?\nHow are models able to understand when to use a tool and how to use it?\n\nIn this demo intensive session Alan will explain the concepts of agentic AI in detail. Starting with the basics of function calling in the Open AI models, he will cover the techniques used to provide tools to models, and how the models are able to understand and use the tools. The use of prompting to guide models and improve tool call behavior will be covered, along with guidelines for adding tools to your solution. Alan will also cover the protocols used by Open AI models as well as how the model context protocol is used to provide compatibility between services and LLM solutions.\n\nJoin this session if you want to understand what goes on under the hood of function calling, MCP and agentic AI.",
                 "description": "",
                 "persons": [
                   {
@@ -1592,7 +1592,7 @@
                 "track": "GenAI, AI, Ethics, Machine Learning, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This talk introduces you to the world of generative AI with a focus on Text-to-Image, Text-to-Audio and Text-to-Video for creating images, music and short videos. We explain how neural networks can generate various output formats from short text inputs using diffusion models and so-called Transformer architectures.\n\nWe focus on advanced technologies such as Sora or Midjourney. The techniques used, such as Latent Diffusion Models, allow us to generate and edit images and videos by combining text understanding through attention mechanisms and transformers with denoising processes.\n\nA detailed examination of the video generation process with Sora shows how it compresses visual data, breaks it into patches, and then reconstructs it into the final video. In addition to Sora, we also discuss alternative methods and tools like RunwayML or SunoAI, to present a broad spectrum of tools for image, audio and video generation.\n\nBy the end of this talk, you will have a basic understanding of diffusion models, an overview of tools for image, audio and video generation, and a deeper understanding of the functionality. Practical examples and demos round off the presentation.",
                 "description": "",
                 "persons": [
                   {
@@ -1620,7 +1620,7 @@
                 "track": "AI, Fun, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Embeddings are the foundation of how Large Language Models understand the world. Yet, when you try to read about them, you are bombarded with scary words like tensors, matrices and multi-head attention.\n\nNo need! Let's try and actually get a grip on how Embeddings work. Join us to understand how powerful they can be as a tool for Natural Language Processing. Of course, we will bring our own demo application that adds a correct, fitting and tasteful emoji to whatever chat message you feed it with - so your parents will finally be able to pick the correct emoji when writing to you.\n\nWe will explain why we translate language into high-dimensional vectors. Then, we will build our sample application for emoji search, explaining semantic search, finetuning and multi-modal embeddings along the way. We will also give an overview over benchmarks and how to scale your semantic search application.",
                 "description": "",
                 "persons": [
                   {
@@ -1648,7 +1648,7 @@
                 "track": "",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In Star Wars lore, young Jedi don't just receive standard lightsabers - they must each build their own, and it evolves with them over time. As software developers using AI, we can now efficiently build unique tooling tuned to our own personal workflows and preferences, giving ourselves distinct and growing capabilities that nobody else has.\n\nBut how do you actually do that in practice, and what's the payoff?\n\nSteve Sanderson is an engineer on the GitHub Copilot team. In this talk he'll show you what a coding agent harness really is on the inside, and the difference between one you throw together in 5 minutes and a state-of-the-art, benchmark-leading system. With this in mind, you'll see how you can wield this technology to extreme degrees of customization, building entirely novel agentic coding and work management tools that are custom to yourself. We'll see through demos what it feels like when your custom tools expand and reconfigure themselves on the fly at your command. You might start to feel that using stock IDEs and CLI tools is a thing of the past.\n\nWe'll push this idea to its breaking point, seeing the difference between genuinely useful innovation and typical traps, anti-patterns, and absurd results.",
                 "description": "",
                 "persons": [
                   {
@@ -1672,7 +1672,7 @@
                 "track": "Fun, 3D Modelling",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "At NDC Oslo 2024, we showed how a spool of filament, a 3D printer and a little imagination could turn an idea into a real object. Now, we’re going beyond the basics and exploring how 3D printing is evolving from a fascinating machine on a desk into a creative platform that connects ideas, software, communities, AI and increasingly capable hardware.\n\nIn this talk, Elle and Troy will return to the magical world of 3D printing with a fresh look at how the technology has grown up. We’ll still explain the fundamentals: how printers work, what filament is, why objects appear one layer at a time and how digital models become physical things. But we’ll also look at what has changed: faster and smarter printers, easier ways to discover and print models, more creative materials and workflows, and the growing role of AI in helping people imagine, design and experiment.\n\nWith a new generation 3D printer on stage, we’ll demonstrate how accessible the process has become, from finding inspiration online to sending a model to print with far less friction than ever before. Along the way, we’ll explore how modern 3D printing is opening the door to creativity for kids, makers, educators, engineers and anyone who has ever looked at something and thought, “I wish I could make that.”\nThis isn’t just a talk about machines that melt plastic. It’s about the changing relationship between imagination and manufacturing, where ideas can move from a thought, to a screen, to the print bed, and finally into your hands. Welcome to a world beyond ink, where the printer doesn’t just put words on a page; it helps bring the world we imagine into reality.",
                 "description": "",
                 "persons": [
                   {
@@ -1702,7 +1702,7 @@
                 "track": "Architecture, DDD",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "As codebases grow, they generate more and more repetitive work. For each new feature, we end up on a whirlwind tour through the codebase: routing here, access control there, rendering in the frontend. Details that belong together are scattered across the entire system.\n\nWe keep implementing the same patterns over and over again. What if we named them and made them first-class concepts?\n\nIn this talk, I’ll show how we can capture these patterns and make them concrete: explicit, data-driven definitions that bring everything that belongs together into one place.\n\nThe result is more uniform code that is easier to build on, and an architecture that becomes tighter over time instead of  accumulating ever more technical debt.",
                 "description": "",
                 "persons": [
                   {
@@ -1726,7 +1726,7 @@
                 "track": "DDD, Architecture, People, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "My journey with Domain-Driven Design began with confusion and skepticism. Inherited codebases built on DDD's layered architecture made me question the value of the domain layer, when all I saw were models being used to pass data between persistence and application services. After digging deeper into DDD, I realized how replacing primitive types with domain-specific classes reshaped my understanding of the problem space. What looked like a small coding choice unlocked deeper conversations with domain experts.  \n\nThis talk explores how seemingly simple Value Objects became my unexpected entry point into domain modeling. Through stories from real projects, I'll demonstrate how Value Objects can be leveraged to build a richer domain model from the bottom up, incrementally introducing Domain-Driven design thinking without overwhelming teams.\n\nBy providing practical guidance and examples this presentation helps you to move past analysis paralysis and begin asking the right questions instead of waiting for a time when you have all the answers.\n\nThis talk is aimed at software developers at any stage of their DDD journey who want to see how starting small can lead to significant shifts in both code quality, domain understanding and collaboration. You will leave with lots of tips of pitfalls to look out for and improvement possibilities to explore.",
                 "description": "",
                 "persons": [
                   {
@@ -1750,7 +1750,7 @@
                 "track": "DDD, Agile",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "You are sitting in a cross-functional team meeting. Domain experts are discussing solutions, the product manager is nodding, the designer is asking great questions — and you, as a developer, are completely lost.\n\nNot because you are not trying, but because you do not understand the domain.\n\nIn complex systems, the biggest challenge is often not technical complexity, but domain complexity. Developers are expected to build solutions for workflows they only partially understand, surrounded by terminology, business rules, and processes that are difficult to piece together from documentation alone.\n\nIn this session, I share a real-world case from NAV, where we were modernizing legacy payment reporting systems while phasing out Altinn 2.\n\nThe turning point came when we used Domain Storytelling — a lightweight visual modelling technique that helps teams build shared understanding by modelling real workflows one sentence at a time.\n\nIn this 60-minute session, we will go beyond the story and dive into the method itself: how it works, how to facilitate workshops with domain experts, what to model (and what not to), and a step-by-step walkthrough of a real-world example from NAV.\n\nParticipants will leave with a practical framework they can use immediately to ask better questions, improve collaboration, and build software with a stronger understanding of the problems they are solving.",
                 "description": "",
                 "persons": [
                   {
@@ -1774,7 +1774,7 @@
                 "track": "Web, Ethics, JavaScript, Programming Languages, People, Web, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In 30–40 minutes, I’ll “destroy” a small Angular app step by step — not with one dramatic mistake, but with the same well-intentioned decisions teams make every day: adding “quick fixes,” introducing abstraction too early, optimizing without evidence, creating hidden coupling, and copy-pasting best practices without context.\n\nEach step will feel reasonable in the moment. That’s the point.\n\nThe audience will watch the codebase gradually become harder to change, slower to understand, and easier to break — even though everything still compiles and looks “clean” from the outside. Then we’ll rewind: for each destructive step, I’ll show the smallest alternative that keeps momentum without creating long-term damage.\n\nThis session is funny, slightly uncomfortable, and very practical — because the real lesson isn’t “don’t make mistakes.” It’s learning to recognize the exact moment when a team crosses the line from productive speed to future pain.\n\nYou’ll leave with a mental checklist to spot codebase decay early, choose healthier defaults, and build software that stays easy to evolve under real deadlines.",
                 "description": "",
                 "persons": [
                   {
@@ -1798,7 +1798,7 @@
                 "track": "Testing, .NET, TDD",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Testing is hard. Testing the right things in the right way is even harder. In this talk, I’ll show techniques that will help you write better, more productive tests.\n\nWe’ll explore mutation testing, which checks whether your tests actually catch bugs instead of just always passing. Property-based testing lets your code generate hundreds of input variations automatically, exposing edge cases you wouldn’t have thought of. And for complex data structures or legacy code, snapshot testing can capture outputs and catches unexpected changes over time.\n\nAlong the way, I’ll hint at other practical approaches that can level up your testing. You’ll leave with concrete ideas to write fewer, but far more effective tests.",
                 "description": "",
                 "persons": [
                   {
@@ -1822,7 +1822,7 @@
                 "track": "Testing, Ethics, Machine Learning, UX",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "When my new insulin pump’s algorithm confidently delivered what it claimed were hefty doses while my blood sugar soared toward dangerous levels, I faced a terrifying reality: the software was learning, but learning the wrong things. And it was utterly convinced it was doing a great job.\n\nThis isn’t just a medical device story - it’s a wake-up call for our entire industry. As ML and AI become critical infrastructure, they’re exposing fundamental flaws in how we approach quality. We test implementation rather than behaviour, write tests that validate our assumptions rather than challenge them and mistake comprehensive coverage for genuine safety.\n\nDrawing from 15+ years as a software engineering trainer and consultant across multiple industries, I’ll explore how traditional testing blind spots become genuinely dangerous when systems learn and adapt. We’ll examine why teams confuse feeling safe with being safe, how AI amplifies our existing quality gaps and what it really means to test systems that make decisions affecting real lives.\n\nYou’ll leave with practical approaches to testing that focuses on impact over metrics, strategies for validating both deterministic and learning systems, and the essential questions every team should ask when software moves beyond just processing data to making decisions that matter.\n\nBecause whether it’s a payment system, a recommendation algorithm or life-critical medical software, our users are trusting us to get it right.",
                 "description": "",
                 "persons": [
                   {
@@ -1846,7 +1846,7 @@
                 "track": "Architecture, Ethics, People",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Code can be beautiful, elegant and performant, but can it deliberately be artistic?\n\nDespite how important and prolific software and programming have become over the last 50 years the general public still have a very loose understanding of what software actually is.\n\nThis hasn't been lost of the people that build the software, who often slowly try and capture themselves in the work that they do.\n\nIn this talk we'll take a look at some examples through history of seeing the humans behind the code they write as they imprint themselves on their work and we'll consider if it's possible to deliberately make art by manipulating the form and design of software itself.\n\nA talk for everyone wanting to be seen in the work, or understand their own creative urge.",
                 "description": "",
                 "persons": [
                   {
@@ -1872,7 +1872,7 @@
                 "track": "AI, .NET",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Code is cheap, but software is expensive. Modern AI is a big opportunity to streamline and automate developer workflows for better productivity. There are some challenges though – context is everything and you can bring it.\n\nModel Context Protocol (MCP) aims to provide a standardized way to connect AI Agents to different data sources, tools and non-public information - the point is to provide deeply contextual information/expertise to AI. Skills are higher-level behaviors and instructional guardrails, that define how and when AI Agents should leverage tools to accomplish something meaningful. Subagents in AI are specialized, task-focused agents designed to handle specific, well-defined tasks within a larger AI system. And Skills provide the modular reusable prescriptive guidance, so AI Agents fall into a pit of success.\n \nHere’s a simile from the food industry:\nAI Agent = Chef 👨‍🍳👩‍🍳\nMCP Tools = Raw Ingredients 🥔 🥩\nSkills = Recipe Cards 📝 📇\nSubAgents = Sous Chef 🔪 🍳\nLoops = Door Watcher 💂👀\nDeveloper = Restaurant Owner 👑. You run the show.\n \nSo, what should developers use to bring context and guardrails to make AI work their way? Well, it depends and sometimes, the answer might be whatever combination makes developers most productive. With official SDKs and well-thought-out guidance, it is a breeze to work with MCPs, Skills or SubAgents. Developers could bring their own data, APIs, services, coding patterns and structured guidance to make AI Agents work their way. And AI Agentic workflows work the same way in IDEs or Terminals, paving the way autonomous ways of getting work done with AI. With contextual expertise to light up unique coding workflows, AI Agents can make developers ultra productive – upwards and onwards.",
                 "description": "",
                 "persons": [
                   {
@@ -1896,7 +1896,7 @@
                 "track": "Security, JavaScript, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Content Security Policy, or CSP in short, has been around for more than a decade. We're all familiar with CSP in one way or another. Maybe you suffered implementing it, or were scolded for not having it by a pentest report, or you spent hours figuring out whether 'unsafe-inline' is actually unsafe or not. In a nutshell, CSP is messy and complicated. But it doesn't have to be. \n\nThis session will be instrumental in helping you unravel the mysteries behind CSP. Concretely, you will learn why most CSP policies are highly ineffective and likely insecure. You will learn how to configure CSP the right way and how to build a backwards compatible policy. You will also learn about three ways of deploying CSP in single page applications. At the end of this session, you will know how to deal with CSP and you will have actionable guidelines to leverage CSP for security.",
                 "description": "",
                 "persons": [
                   {
@@ -1920,7 +1920,7 @@
                 "track": "Security, .NET, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "OWASP released a new version in 2025 of their Top 10 list of the most critical security risks for web applications. As .NET developers we get a lot for free thanks to the built in protection in the framework. But we still need to know about the risks and what security measures to apply.\n\nJoin me in this talk where we walk through the new OWASP Top 10 and looks into how each of the threats can be mitigated in an ASP.NET application.",
                 "description": "",
                 "persons": [
                   {
@@ -1944,7 +1944,7 @@
                 "track": "Security, .NET, AI, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The OWASP Top 10 for Agentic Applications (2026) identifies the most critical security risks facing AI agents, from goal hijacking and tool misuse to identity abuse, memory poisoning, and cascading failures. But the guidance stops at \"what,\" not \"how.\"\n\nAI agents make autonomous decisions: which tools to call, what parameters to use, how to interpret results. That autonomy is both the value proposition and the attack surface.\n\nThis talk bridges the gap between framework and implementation. Using my personal health agent as an example, I'll walk through every applicable OWASP Agentic risk and show the exact code, infrastructure, and architecture decisions that mitigate each one.\n\nYou'll see how input validation on tool parameters stops prompt injection before it reaches the LLM, how Entra Agent ID gives agents their own least-privilege identity separate from the host application, how circuit breakers and structured error responses turn a $2,000 cascading retry loop into a $0.01 graceful degradation, and why your system prompt belongs in Azure App Configuration, not your source code.\n\nWhether you're building agents, securing them, or deciding whether to deploy them, you'll leave with a practical, layered security model you can apply to your own agentic systems, and a healthy skepticism of any agent that doesn't treat LLM output as untrusted input.",
                 "description": "",
                 "persons": [
                   {
@@ -1968,7 +1968,7 @@
                 "track": "Security, AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Over the last few years, supply-chain attacks have stopped feeling like isolated incidents and have become something else entirely. Early cases were easy to dismiss as crude, noisy, or niche. Then, smaller attacks repeated the same mechanics. Then came campaigns that propagated automatically, blended into normal development workflows, and iterated over time. At some point, it stopped making sense to talk about individual attacks.\n\nThis talk is about how we got there and why worms became possible without exploiting anything that was technically broken. It traces the evolution of supply-chain attacks from early warning signs to self-propagating campaigns, and shows how changes in speed, automation, and reuse quietly changed the security properties of the open-source ecosystem. Code now goes from publication to execution almost instantly. Trust is inherited transitively through dependency graphs and tooling. Responsibility, meanwhile, remains local and slow.\n\nThe talk closes by arguing that many supply-chain problems no longer fit a prevention-first mindset. At the ecosystem scale, security stops being just a tooling problem and becomes a design problem. Worms didn’t change open source. They showed us how it already works.",
                 "description": "",
                 "persons": [
                   {
@@ -1992,7 +1992,7 @@
                 "track": "Security, AI, Functional Programming, Programming Languages",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Developers use Copilot, ChatGPT, and Claude to write code fast. Accept what compiles, ship what works, that's vibe coding and it's everywhere. And it produces the same categories of vulnerable code, over and over, because AI tools optimize for \"runs without errors,\" not \"resists attack.\"\nThis talk is three live demos and a workflow. We look at real AI-generated code that looks fine, then pull on the thread. Auth logic with a subtle JWT flaw. Input validation that checks format but misses encoding tricks, leaving the SQL query injectable. Password hashing with real libraries — wrong algorithm, wrong config. Each demo ends with an exploit and a fix.\nThe patterns aren't random. They're predictable: training data includes all the bad code that's ever been written, models don't know that 2012 crypto advice is outdated, and \"compiles and runs\" is not the same bar as \"secure.\" Once you know what to look for, you can spot it fast and so can attackers.\nYou'll leave with a checklist for reviewing AI-generated code (auth edge cases, parameterization vs. validation, crypto choices, secret storage), updated mental models for where AI output needs extra scrutiny, and a workflow that lets your team keep the speed benefits without dropping the security bar.",
                 "description": "",
                 "persons": [
                   {
@@ -2016,7 +2016,7 @@
                 "track": "AI, Ethics, People",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Panel moderator: Richard Campbell\nPanellists: Michelle Frost, Martine Dowden, Tessel Haagen\n\nThere’s a word for what a person feels when someone truly listens to them, then understands and shares their experience and perspective. There isn’t one for what happens when a language model does it.\n\nWe’ve been borrowing terms from psychology that don’t quite fit, and then defaulting to technical terms that don’t reach far enough. In the space between, we’re shipping systems that produce and evoke something real in people: attachment, relief, dependency, maybe genuine help. And we’re doing it without the language to describe what that actually is, or any shared understanding of what it should require from the developers and technologists making those\ndecisions.\n\nThis gap is showing up in the lives of people who are already vulnerable, as well as in real moments of benefit we would be wrong to dismiss. As an industry, we don’t have this figured out. Neither does anyone on this panel. We have different backgrounds, different experiences and instincts, things we will genuinely agree or disagree on, and we think this conversation belongs here, with the people who are actually shipping our future.",
                 "description": "",
                 "persons": [
                   {
@@ -2054,7 +2054,7 @@
                 "track": "People, Soft Skills, Testing",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Pair programming is not dead! \n\nWith the rise of AI tools and code assistants, or a more remote and distributed workforce, it’s easy to think that pair programming is becoming a redundant process. It has always been a somewhat controversial practice. To managers, on the surface it looks like 2 people doing 1 person's job. To developers, the thought of typing with another developer watching your every keystroke sounds uncomfortable at best. I am here to convince you that it still worthwhile, how to make it work, and the results it will bring you. \n\nPair programming has long been an agile process and a core part of the extreme programming methodology. As a practicer of extreme programming myself, I can advocate for benefits it has provided me, my team and our project.  From increased speed to delivery, higher quality products and reducing knowledge silos; that’s just to name a few. However, the way we work, and the technology we use, is not static and pair programming is far from being a new hot topic. So where does it fit in a modern software development team. \n\nFinally, AI code assistants are becoming better and a lot bigger part of the software developer's toolbox. Does this make pair programming less effective? Does it make it more effective? Most of all, is a human developer using an AI code assistant pair programming? Do we still see the benefits?",
                 "description": "",
                 "persons": [
                   {
@@ -2078,7 +2078,7 @@
                 "track": "AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "AI coding assistants are rapidly reshaping how developers write, debug, and ship software. Tools like Cursor and Claude Code can supercharge productivity — but only if you know how to use them effectively.\n\nIn this session, we’ll cut through the hype and focus on practical, developer-tested strategies for getting the most out of AI in your workflow.\n\nYou’ll learn how to master prompting and context engineering, make the most of long context windows, streamline debugging and testing, and integrate AI into your daily development practices without sacrificing code quality or security. We’ll also explore how emerging standards like Model Context Protocol (MCP) unlock new workflows by connecting your AI assistant directly to tools such as GitHub, Slack, Playwright or Figma — turning it from a code generator into a true development teammate.\n\nWhether you’re new to AI-assisted coding or already experimenting with it daily, you’ll leave this talk with concrete ideas and techniques you can apply immediately to level up your development process.",
                 "description": "",
                 "persons": [],
                 "links": [],
@@ -2097,7 +2097,7 @@
                 "track": "AI, .NET, JavaScript, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Everything in this session is live. We'll look at real use cases for the GitHub Copilot CLI that you can take straight\nback to your workflow: generating code, spinning up and running Copilot agents, and a bunch of CLI features that genuinely change how you work day-to-day. If you've been curious about what the CLI actually does in practice, this is the session for you.",
                 "description": "",
                 "persons": [
                   {
@@ -2121,7 +2121,7 @@
                 "track": "Tools, Architecture, DevOps, Testing, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Legacy systems are like ancient temples: full of mystery, danger, and long-forgotten knowledge. One wrong move and the whole thing might collapse. But somewhere deep inside lie years of embedded business logic, customer trust, and operational quirks that no rewrite can replace.\n\nIn this talk, we'll don the fedora and take up the whip as we explore techniques for exploring legacy codebases without triggering the traps. We'll dig into Source control archaeology, safe refactoring strategies, introducing tests in a hostile environment, and recognizing \"cursed\" files with high churn or hidden dependencies.\n\nWhether you're maintaining a dusty monolith or inheriting a mystery repo, this session will equip you with tools and tactics to escape with the real treasure: Knowledge of how to extract business value and gradually modernize.",
                 "description": "",
                 "persons": [
                   {
@@ -2145,7 +2145,7 @@
                 "track": "DevOps, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Do you know how your application is doing right now? Is it happily churning away, struggling to keep up, or has it been failing for hours or days?\n\nIn this presentation, I will draw on a broad experience from more than two decades of having applications fall over in production and sometimes even noticing. I will go through metrics, logs, and traces, ways of instrumenting your infrastructure and application to produce those signals, and how to convert them into meaningful and useful dashboards and alerts. I will discuss what to monitor, including the four golden signals, and how to manage your signal-to-noise ratio. We'll go briefly into concepts like Application Performance Management (APM), status pages, synthetic testing, anomaly detection, OpenTelemetry, Real User Monitoring (RUM), and popular tools like Prometheus, Grafana, and the ELK stack (Elasticsearch, Kibana, Logstash), as well as some of the nuances of monitoring services running in the cloud. We will cover techniques for setting up on-call and ensuring someone will do something useful when the alarm sounds. We will also go into recent developments in using AI to help monitor and diagnose your systems.\n\nAfter attending this presentation, you should have some new ideas for how to watch over your production environments, and how to detect and fix issues before your end users notice or even before they happen at all.",
                 "description": "",
                 "persons": [
                   {
@@ -2169,7 +2169,7 @@
                 "track": "People, Programming Languages, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "We all know that Ada Lovelace is credited as the first computer programmer. But what did she write? What did it do? And how does it work?\n\nIn this inspirational talk, developer, geek, and digital archaeologist, Steven Goodwin, breaks down the very first program ever written to explain what it does and how it works. He goes on to simulate it within a JavaScript version of Babbage's analytical engine, rewriting it piece-by-piece until it looks like modern code, and thereby demonstrate what features of current languages we now all take for granted.\n\nHe finishes up with a discussion on the controversy surrounding her involvement in computing, aiming to answer the question once and for all - \"Was she really the first programmer?\"",
                 "description": "",
                 "persons": [
                   {
@@ -2193,7 +2193,7 @@
                 "track": "Web, UI, UX, Accessibility",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Cascading Style Sheets. CSS. The language everybody loves to hate. Everything's global, there's no control flow, there's no error messages... in fact, some people say it isn't even a real programming language.\n\nBut CSS isn't just about making websites look pretty. It's one of the fundamental building blocks of the open web, and it's continuously evolving. Modern CSS has variables, grids, flexboxes, animations, view transitions... when it comes to layout, accessibility, interaction and validation, CSS can do all kinds of things you thought you could only do with JavaScript.\n\nDylan Beattie's been building web applications since before CSS was invented - yes, really - and in this session, he'll take you on a whirlwind tour of some of the weird and wonderful things you can do in 2026 using semantic HTML, a generous sprinkling of CSS, and absolutely no JavaScript.\n\nOK, maybe a tiny bit of JavaScript. But absolutely no React.",
                 "description": "",
                 "persons": [
                   {
@@ -2219,7 +2219,7 @@
                 "track": ".NET, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "\"95% of the words [about software architecture] are spent extolling the benefits of 'modularity' and ... little, if anything, is said about how to achieve it.\" Glenford J. Myers (1978)\n\nIn 1978, Myers noted that while the benefits of modularity were widely agreed upon, there was little discussion about how to write modular code. Almost fifty years later, many engineers continue to struggle with using modules in their code. And yet the pressure to write modular code, to support augmented coding, InnerSource, and testing rises.\n\nIn this talk, we look at how to write modular code. \n- We will start by defining modules. We will provide some examples in C# of modules (assemblies) and examine language features that control visibility.\n- Next, we will look at how modules can help us in software development. We will discuss information hiding and examine coupling. \n- Then we will look at how we slice our software estate into modules. We will discuss how David Parnas's observations can benefit us. We will provide some examples of how we slice up an estate.\n- We will step into test-driven development, so we can understand the idea that the module boundary is where we should write our tests.\n- Finally, we will look at how we use modules with some architectural styles: CQRS, ports & adapters, vertical slice architecture, and flow-based programming. Again, we will provide examples in C#",
                 "description": "",
                 "persons": [
                   {
@@ -2243,7 +2243,7 @@
                 "track": ".NET, Programming Languages",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "We've all experienced deadlocks, and we all hate them, but how do we prevent (and potentially fix) them? \n\nThat's right, no one likes applications crashing or giving users an unexpected behavior. \n\nIntroducing asynchronous patterns is so much more than just applying async and await to your methods; you really, I mean really, need to understand what's going on. \n\nIn this session, we'll make sure you know how to avoid crashing your applications, and how to adhere to best practices when applying asynchronous patterns in our .NET applications.",
                 "description": "",
                 "persons": [
                   {
@@ -2267,7 +2267,7 @@
                 "track": ".NET, .NET",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "ReSharper is one of the most powerful tools in the .NET ecosystem. For years, developers have loved it for its accurate code analysis, extensive refactoring support, intelligent navigation, and deep integration with the .NET language stack. But ReSharper also earned a less enviable reputation of being slow and resource-hungry, especially on large solutions.\n\nOne year ago, I joined JetBrains to help with the ongoing effort to fix ReSharper. In this talk, we will explore what it means to optimize a 20 years old codebase with millions of lines of code. The approach we took, the priorities and compromises, the custom tooling we developed to support the effort. We will see what made ReSharper so slow, the solutions we implemented, and where we stand today. We will look at concrete examples, from simple inefficiencies that would be found in most codebases, to deep technical issues that arise from running inside Visual Studio.",
                 "description": "",
                 "persons": [
                   {
@@ -2291,7 +2291,7 @@
                 "track": ".NET, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "For the past 13 years I've been working on what started as a small maze generator, initially planning to give a presentation on it about a decade ago.\n\nWell... here we are... But as they say, better late than never.\n\nJoin me on my \"way over the top\" adventure to be able to create a 1,000,000,000,000 pixel maze. I had to rethink maze generation algorithms, tackle memory optimizations, and relentlessly pursue the most obscure micro-optimizations.\n\nYou will learn:\n* How mazes can be generated\n* How very large mazes can be generated\n* How mazes can be generated quickly\n* Probably at least one obscure C# feature :)",
                 "description": "",
                 "persons": [
                   {
@@ -2315,7 +2315,7 @@
                 "track": ".NET, Architecture, Database, IoT",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This talk will cover Zaptec's architectural shift from a stateless system on top of SQL Server to a new Microsoft Orleans-based application with ScyllaDB as a low-latency storage. The ultimate goal is to have persistence with sub-millisecond latency and being able to scale to 150k writes per second on the steady state mode.",
                 "description": "",
                 "persons": [
                   {
@@ -2343,7 +2343,7 @@
                 "track": ".NET, AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Your existing .NET Web APIs have served you well—but what if they could do more with them in the era of AI? In this session, we’ll explore how to breathe new life into your existing ASP.NET Web API endpoints built with ASP.NET CORE by adding Model Creation Protocol (MCP) capabilities to them. \n\nWe'll look at how the MCP C# SDK makes it simple to annotate your existing controllers, instantly transforming your REST endpoints into AI-powered services that can empower LLMs and agents. We’ll also compare this approach to a no-code approaches using Azure API Management. \n\nFinally we'll look at where both of these approaches fall short and are only a starting point for a good long-term MCP design. You can use then to jump start the process and then follow the path we outline together to evolve your APIs from technical plumbing to intelligent, task-focused tools that solve real problems using AI—all without starting from scratch.",
                 "description": "",
                 "persons": [
                   {
@@ -2367,7 +2367,7 @@
                 "track": ".NET, Gaming, 3D Modelling",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Nobody really needed another 3D engine.\nThere are powerful engines, mature frameworks, and battle-tested physics systems.\n\nSo why build one from scratch?\n\nIn this talk, I share the story behind The Omega Strain — a retro-inspired game powered by a fully custom .NET 3D engine called Retro Mesh. What started as curiosity turned into a deep dive into rendering pipelines, collision detection, procedural terrain generation, particle systems, and real-time physics.\n\nI walk through the architectural decisions, the performance challenges, and the mistakes — including the infamous offset problem that seriously challenged my mental stability — and what building everything myself taught me about state, timing, logic, and system design.\n\nThis is not a “how to beat Unity” talk.\n\nIt’s a story about engineering curiosity, constraints, and the joy of understanding every pixel on the screen. It’s also a story about gaining deep respect for the immense work behind modern 3D engines.\n\nEven if you spend your days building APIs or backend systems, real-time engines expose architectural truths about state, timing, and performance that apply to any complex software.\n\nIf you’ve ever built something unnecessarily difficult just to truly understand how it works, this talk is for you.",
                 "description": "",
                 "persons": [
                   {
@@ -2393,7 +2393,7 @@
                 "track": "Cloud, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "After working with dozens of companies in Azure, I’ve seen the same mistakes pop up again and again — from mismanaged subscriptions to sketchy security setups and overlooked cost controls. In this session, we’ll walk through the 10 most common Azure missteps I've encountered in the real world, including gotchas in account organization, governance, compliance, performance, and how developers are misusing DefaultAzureCredential to authenticate to Azure.\n\nWhether you’re deep into your cloud journey or just getting started, odds are your team is making at least one of these mistakes. By the end, you'll leave with practical, actionable advice to spot these issues early and fix them fast — before they turn into bigger problems.",
                 "description": "",
                 "persons": [
                   {
@@ -2417,7 +2417,7 @@
                 "track": "Cloud, Architecture, DevOps, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Cloud services may appear to have disaster recovery baked in - Availability Zones and redundancy options are easy to configure on most PaaS services.\n\nWhen you look beyond the defaults, however, to protect against regional failures and regional updates life definitely becomes more interesting.  What difference does regional pairing make and what are some of the limitations that we are now seeing in scale out of specific regions?  \n\nWe will focus on some top Azure PaaS services - Azure SQL Database, Service Bus and Cosmos DB and look at the trade offs between costs, resiliency and architectural impacts.  \n\nOnce you have services configured, how do you test your systems and how you can automate chaos testing as a whole with application layers such as Kubernetes.\n\nAlso, when designing resiliency, how do you prepare for adjacent outages such as deployment pipelines and global services such as Azure Front Door?\n\nIf you haven't started on a operational resiliency journey yet, this should provide you signposts on what to consider.\n\nIf you already have operational resiliency you may find the story has changed in the past few years as the options have been enhanced considerably.",
                 "description": "",
                 "persons": [
                   {
@@ -2441,7 +2441,7 @@
                 "track": "UI, UX, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Are you a techie that has found yourself in charge of laying out and designing screens?  Do you find yourself staring at screens that just don't \"feel right\" but it is hard to pinpoint why.  Maybe a few design basics can get you back in the game.  In this talk, Ash (an experienced UX researcher and designer) will take you through the basics of UI design to help your screens look clean, professional, and pleasing to the eye.",
                 "description": "",
                 "persons": [
                   {
@@ -2465,7 +2465,7 @@
                 "track": "Web, AI, Ethics, JavaScript, Programming Languages, UX, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\nTalk 1: View Transitions: The brand-new browser API that will blow your mind - \nJakob Endrestad Kielland\nHave you ever wondered why a well-made native app often feels way smoother than a similar web page? The answer is that native apps have long wielded the full power of seamless transitions, while on the web we have had to use heavy JavaScript frameworks to accomplish anything remotely similar.\n\nThat ends now! In this lightning talk we will take a look at the brand new View Transitions API, a browser API that lets you control every aspect of the transition between web pages with just a few lines of CSS. In addition to seeing what the API is capable of we will dive under the hood to see how exactly the API does its magic.\n\nTalk 2: Cognitive load is misunderstood - Sveinung Sande Dalatun\nIs experiencing high cognitive load always bad? Does it make sense to talk about cognitive load on the team level? Are we better able to think about the big problems if we offload the small ones?\nCognitive Load Theory has become popular the last years, and its jargon is used everywhere. But with popularity comes misunderstandings. How can we move beyond the oversimplifications towards a vocabulary that is both more precise and more useful?\n\n\nTalk 3: What's new in JavaScript - ES2026 - Gaute Meek Olsen\nEvery year new features are added to the language JavaScript. Let me walk you through what has been added this year in 2026.\n\nTalk 4: Visualizing sound - Stian Veum Møllersen\nVisualizing sound, or more specifically music, can really enhance the experience. You are using an additional sense after all!\n\nTailored visualizations have been around for a long time and have been a staple of live concerts and other forms of live music for a long time. Computer driven visualizers have also been around a while. Who can forget good old WinAmp?\n\nBut how do you extract features from sound so that you can visualize it? This short talk will take you through some of the most approachable audio features, what they represent in a piece of audio, and how we can use them in a visualizer.",
                 "description": "",
                 "persons": [
                   {
@@ -2501,7 +2501,7 @@
                 "track": "Accessibility, AI, Ethics, Programming Languages, People, Security, Testing, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\nTalk 1: The Pipeline starts from the primary school - Anuradha Shridharan\nIn 15 minutes, you will hear:\n→ Why the developer talent window closes at age 12 — not 22\n→ Why gender initiatives alone miss the bigger problem: engaging all children\n→ How programming & robotics competition ignites lasting motivation\n→ How the human skills learnt make them adaptable for technological uncertainty\n→ What we as a community can do today\n\nTalk 2: Fast, Confident, and Wrong: When AI Fails at Accessibility - \nRadostina (Ina) Tsvetkova\nYou ask your AI assistant to fix an accessibility issue. It gives you code that looks perfect, runs without errors, and even cites WCAG success criteria. And you trust it. Why wouldn't you? It sounds so certain. You ship it. Then your QA team reports that keyboard users are now trapped in your navigation menu.\n\nThis lightning talk exposes the three most dangerous ways AI fails at accessibility work and shows developers how to build verification workflows that catch these failures before they reach production.\n\nAttendees will learn why AI confidently invents WCAG success criteria that don't exist, how seemingly correct fixes can break assistive technology, and why verification is not optional when AI touches accessibility code.\n\nAI is a productivity multiplier for developers who already understand accessibility fundamentals, it is not a replacement for learning them.\nAI will help you move fast, but only verification keeps you from breaking accessibility. Trust, but verify!\nAnd know exactly what to verify.\n\nTalk 3: Designing Transparent Tech for Kids: Why Explainability Matters  - Malin Jakobsen\nChildren today use apps that collect health data, monitor behavior, and adapt learning – often without understanding how or why. In this lightning talk, we explore the critical need for explainability in school technology. Why must tech be transparent not just for engineers, but also for students, teachers, and parents? What does it mean to design for understanding – and what are the risks when we don’t?\n\nTalk 4: Externalized Costs of Spec Driven Development - Kent Inge Fagerland Simonsen\nSpec driven development (SDD) is a promising way to have agents organize work when doing agentic software development. The idea is to split the work into recognizable parts such as specification, planning, task creation and implementation. Then there are agents with specialized instructions performing each of these functions in sequence and building upon the work of the previous agent. The specific parts available depend on the specific implementation of SDD.\n\nFollowing this sort of process seems to generate fairly reasonable outcomes fairly reliably. However, this process also generates quite a bit of documentation and plans that, strictly speaking, are not required for the code to function in addition to generating the code itself and performing tasks such as testing and debugging. This begs the question of the costs associated with the generation of all these artifacts.\n\nIn this talk I will present a way to estimate the energy, water and carbon costs of agentic development and present the results of estimating the costs of an example project developed using agents and SSD.",
                 "description": "",
                 "persons": [
                   {
@@ -2537,7 +2537,7 @@
                 "track": "DevOps, Testing, TDD",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Your team sticks to the Friday-freeze-policy? This is super common, but also it gives a certain smell. A smell of low delivery confidence and of low trust in your processes around Testing, QA and rollback. This session won't make you suddenly trust your bubblegum-and-duct-taped delivery pipeline but aims at stripping away the superstition and look at what’s really broken when teams are too scared to ship. \n\nWe’ll dig into the real indicators of healthy delivery, like deployment frequency, lead time, change failure rate, recovery time, and why they matter more than any velocity chart ever will. You’ll not only learn how to read them, but how to improve them, and stop using \"we'll refactor later\" as a survival strategy. We'll talk culture, pipelines, and the small (and big) lies teams tell themselves to feel safe instead of getting better. And then we'll fix them.\n\nSo what you get is a playbook for deploying any day of the week; not because you’re reckless, but because you finally built a system that deserves that confidence.",
                 "description": "",
                 "persons": [
                   {
@@ -2561,7 +2561,7 @@
                 "track": "Ethics, .NET, Cloud, Microservices, Serverless",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This talk explores how we helped one of the UK’s largest charities, Prostate Cancer UK, rebuild their public-facing website using modern cloud-native tools and practices.\n\nWe used the rebuild as a chance to rethink their hosting architecture, moving from traditional web app hosting to a container-based setup using Azure Container Apps. This allowed us to align their infrastructure with their goals around performance, cost efficiency and sustainability.\n\nBy adopting scale-to-zero containers, we delivered:\n\nAn average 85% reduction in hosting costs and carbon emissions\n\nFaster, cleaner deployments using GitHub Actions with zero downtime\n\nA platform that is cheaper, greener and ready for the future, without compromising on developer experience\n\nThis is a practical, behind-the-scenes look at the decisions, trade-offs and real-world impact of using scalable, container-native infrastructure to power a major public website.\n\nWhether you're modernising legacy systems, exploring containerisation or looking to make your web estate faster, leaner and more sustainable, this session shows what is possible when you bring smart engineering and real-world constraints together.",
                 "description": "",
                 "persons": [
                   {
@@ -2587,7 +2587,7 @@
                 "track": "Soft Skills, People, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Delegation is one of the most difficult transitions for senior developers stepping into tech lead roles. It often feels faster to just do the work yourself. You worry about quality. You don’t want to micromanage. And yet without delegation, your team can’t grow, and neither can you.\nThis interactive workshop reframes delegation as a practical scaling skill. We’ll uncover the real blockers that hold experienced developers back and clarify the structural benefits of sharing responsibility.\nYou will then work through a clear, step-by-step delegation process using a real example from your own work. What exactly should you delegate? To whom? Which delegation strategy fits the situation? How do you set explicit expectations while remaining accountable? And how do you follow up without creating friction?\nBy the end of the session, you will leave with a concrete delegation plan you can implement immediately with common risks anticipated and addressed upfront.",
                 "description": "",
                 "persons": [
                   {
@@ -2611,7 +2611,7 @@
                 "track": "Soft Skills, People, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Delegation is one of the most difficult transitions for senior developers stepping into tech lead roles. It often feels faster to just do the work yourself. You worry about quality. You don’t want to micromanage. And yet without delegation, your team can’t grow, and neither can you.\nThis interactive workshop reframes delegation as a practical scaling skill. We’ll uncover the real blockers that hold experienced developers back and clarify the structural benefits of sharing responsibility.\nYou will then work through a clear, step-by-step delegation process using a real example from your own work. What exactly should you delegate? To whom? Which delegation strategy fits the situation? How do you set explicit expectations while remaining accountable? And how do you follow up without creating friction?\nBy the end of the session, you will leave with a concrete delegation plan you can implement immediately with common risks anticipated and addressed upfront.",
                 "description": "",
                 "persons": [
                   {
@@ -2637,7 +2637,7 @@
                 "track": "Architecture, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In this hands-on session, participants will learn how to bridge the gap between technical strategy and execution using systems thinking principles.\nThrough some exercises, software architects will practice mapping business goals, constraints, and feedback loops, then translate them into a clear and adaptable technical roadmap.\nThe workshop focuses on helping architects/engineers to move from abstract vision to actionable outcomes, aligning architecture with value, sequencing initiatives, and communicating trade-offs effectively to stakeholders.\n\nBy the end of this workshop, participants will be able to:\n\n- Understand how systems thinking reveals dependencies and leverage points within technical ecosystems\n- Identify how business outcomes can be mapped to technical capabilities\n- Practice creating an adaptive roadmap using “Now / Next / Later” framing\n- Learn to communicate trade-offs and priorities in a way that aligns with business goals\n- Leave with a reusable framework and template for turning architectural strategy into delivery steps",
                 "description": "",
                 "persons": [
                   {
@@ -2661,7 +2661,7 @@
                 "track": "Architecture, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In this hands-on session, participants will learn how to bridge the gap between technical strategy and execution using systems thinking principles.\nThrough some exercises, software architects will practice mapping business goals, constraints, and feedback loops, then translate them into a clear and adaptable technical roadmap.\nThe workshop focuses on helping architects/engineers to move from abstract vision to actionable outcomes, aligning architecture with value, sequencing initiatives, and communicating trade-offs effectively to stakeholders.\n\nBy the end of this workshop, participants will be able to:\n\n- Understand how systems thinking reveals dependencies and leverage points within technical ecosystems\n- Identify how business outcomes can be mapped to technical capabilities\n- Practice creating an adaptive roadmap using “Now / Next / Later” framing\n- Learn to communicate trade-offs and priorities in a way that aligns with business goals\n- Leave with a reusable framework and template for turning architectural strategy into delivery steps",
                 "description": "",
                 "persons": [
                   {
@@ -2685,7 +2685,7 @@
                 "track": "Programming Languages, Architecture, DDD, Functional Programming",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Rust’s enums and pattern matching are powerful tools for modeling real-world problems in code. Instead of relying on flags, optional fields, and conventions that allow invalid combinations of data, we can use Rust’s type system to represent only the states that are actually valid.\n\nIn this beginner-friendly, hands-on workshop, we’ll explore how enums and structs can be composed to model workflows, business rules, and state transitions in a way that is both expressive and safe. Starting from naive designs, we’ll gradually refactor them into Rust models that make illegal states impossible to represent. Along the way, we’ll see how pattern matching makes these models practical and ergonomic to work with in everyday code through realistic examples and guided exercises.\n\nThis workshop is aimed at developers who are comfortable in another programming language but are new to Rust. No prior Rust experience is required, but basic programming experience is assumed.",
                 "description": "",
                 "persons": [
                   {
@@ -2709,7 +2709,7 @@
                 "track": "Programming Languages, Architecture, DDD, Functional Programming",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Rust’s enums and pattern matching are powerful tools for modeling real-world problems in code. Instead of relying on flags, optional fields, and conventions that allow invalid combinations of data, we can use Rust’s type system to represent only the states that are actually valid.\n\nIn this beginner-friendly, hands-on workshop, we’ll explore how enums and structs can be composed to model workflows, business rules, and state transitions in a way that is both expressive and safe. Starting from naive designs, we’ll gradually refactor them into Rust models that make illegal states impossible to represent. Along the way, we’ll see how pattern matching makes these models practical and ergonomic to work with in everyday code through realistic examples and guided exercises.\n\nThis workshop is aimed at developers who are comfortable in another programming language but are new to Rust. No prior Rust experience is required, but basic programming experience is assumed.",
                 "description": "",
                 "persons": [
                   {
@@ -2743,7 +2743,7 @@
                 "track": "Functional Programming, AI, Architecture, Ethics, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "System failures of all flavors, zero-days, mass layoffs, the climate crisis, AI slop, war, crumbling infrastructure and institutions. Incompetence is so ambient that the term \"competency porn\" was coined to describe the escapist pleasure of watching someone simply do a thing well.\n\nYou cannot control the world, but you can decide what you and your systems will refuse to do. Invariants and the constraints that make them hold are the only way to survive chaos. There is a method for finding them, a discipline for proving they hold, and a runtime built by people who sensed the chaos early.\n\nI'm the CTO of a multinational healthcare software company. I'm in the code with my teams daily. When we think of the term \"loss\" we're thinking about lives. So we borrow from people who worked the \"safety critical\" problem before us: systems safety engineering (STAMP and STPA), mistake-proofing from the Toyota Production System, lightweight formal specification, and a virtual machine designed by people who assumed the environments surrounding our code would fail.\n\nYou'll leave able to:\n- apply safety engineering to shrink the blast radius of LLMs and other threat actors, including ones acting in bad faith\n- run continuously available systems on commodity, three-nines cloud junk\n- move faster by not breaking things\n- find the invariants worth defending, and enforce them where they can't be forgotten under deadline pressure\n\nI've survived thirty-two years in the trenches through several boom-bubble-pop cycles. We're in the most hostile environment I've experienced. These lessons are all I have to offer, and I'm optimistic they will be enough.",
                 "description": "",
                 "persons": [
                   {
@@ -2767,7 +2767,7 @@
                 "track": "Functional Programming, JavaScript, Programming Languages, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "You have likely heard the term \"Lambda Calculus\" several times\nthroughout your career, but never took the time to learn about it. That was me until recently. Now that I have gone down the rabbit hole, I can assure you that it is a mind-bending experience that is incredibly beautiful!\n\nLambda Calculus was invented by Elonzo Church in 1936, well before the first computers existed. His goal was to study the nature of functions and how they can interact.\n\nThis talk describes the concepts behind Lambda Calculus. It shows how in a system that only provides the ability to refer to variables, define functions, and apply functions, we can perform many operations that we take for granted in programming languages. These include Boolean logic and many forms of arithmetic.\n\nYou owe it to yourself to be exposed the amazing capabilities of functions!",
                 "description": "",
                 "persons": [
                   {
@@ -2791,7 +2791,7 @@
                 "track": "Programming Languages, .NET",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Have you ever wondered how a compiler works? In this 100% live coding session we'll demystify compilers by building one from scratch!\n\nOur compiler will support a simple, dynamic language with basic math and variables. You'll learn about the different phases of a compiler (lexing/parsing/compiling) and how they build on each other. Finally, we'll bring our language to life by building a runtime that executes our compiled bytecode.\n\nAfter this session, you'll have a clear understanding how compilers are structured and how to start writing your own!",
                 "description": "",
                 "persons": [
                   {
@@ -2815,7 +2815,7 @@
                 "track": "Ethics, AI, People, Web",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Developers used to have a home on the internet. Stack Overflow was our oracle. Twitter was our town square. Open source repos were our collective workshop. But something has gone wrong. Stack Overflow sits abandoned. Twitter lost its name and its soul. Open source repos are filled with AI-generated code that feels hollow. New \"developer platforms\" promise community but nobody shows up. The internet isn't just dying for everyone. It's dying for the people who built it.\n\nSo we've gone underground into DMs, Discord servers, private Slacks. We're hiding at the edges of a web that doesn't feel like ours anymore. Two theories explain what happened to us. The \"dark forest theory\" suggests the public internet became hostile: bad actors, bots, trolls, and scrapers turned every public space into a minefield. So we learned to stay quiet, share less, and keep our real conversations private. The \"dead internet theory\" goes further: most of the content we see online is now generated by bots, for bots. We're not just hiding from threats anymore. We're performing for an audience that might not even be human, contributing to repositories that AI will scrape, answering questions that ChatGPT will repackage. \n\nThis talk explores how these forces changed the developer internet, what it means to build and learn when the web feels broken, and whether we can still find each other.",
                 "description": "",
                 "persons": [
                   {
@@ -2839,7 +2839,7 @@
                 "track": "Microservices, .NET, Architecture, Web, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "TL;DR: The demo uses various Dapr workflows, written in C#, to play music with a hardware synthesizer.\n\nBuilding reliable distributed applications can feel like conducting a sloppy orchestra, where musicians play too loud or can't keep the tempo. As the conductor, you need to set the pace and give instructions to deliver a beautiful performance. When you build microservices and need to coordinate multistep processes, you have to think about the order of execution, time-outs, cascading failures, inconsistent state, and you have very little control to manage the process once it's started.\n\nDapr Workflow provides a solution through durable execution, a programming model that treats distributed processes like a musical score. Just as a conductor coordinates multiple musicians to play a symphony, Dapr Workflow orchestrates microservices with built-in state persistence, workflow patterns to control the processes in great detail, and workflow management APIs to operate workflows reliably. \n\nIn this session, you'll experience microservice orchestration in a completely new way. I'll run several Dapr workflows, written in .NET, that conduct a musical performance, where each workflow step sends events to a front-end that uses Web MIDI to play virtual and physical instruments in real-time. Watch and hear as distributed services play together! I can't guarantee this performance will be the next Top 40 hit, but it will be fun!",
                 "description": "",
                 "persons": [
                   {
@@ -2863,7 +2863,7 @@
                 "track": "AI, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "\"We wanna use one but don't wanna choose one,\nDidn't like the others so we'll write another…\" ~ Dylan Beattie\n\n\"Here we go again.\" ~ David Guetta.\n\nRight. Fine. Okay then. Let's talk about the great Agentic AI gold rush of 2025–26: the framework explosion, the definitional chaos (is a while loop an agent? discuss), the protocols nobody asked for, and our industry's infuriating habit of solving every new problem by inventing 400 incompatible solutions to it and then arguing on the internet. It is also, in the interests of full disclosure, a talk by someone who is currently building her own agentic coding harness, because of course she is, and who would like to explain, with diagrams, anecdotes and possibly interpretive dance, exactly why that is both completely ridiculous and the only sensible thing to do right now.\n\nBring your laptop. Don't open it.",
                 "description": "",
                 "persons": [
                   {
@@ -2889,7 +2889,7 @@
                 "track": "AI, People, Soft Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Journey through the evolution of GitHub's AI-powered productivity dashboard module from proof-of-concept to a core feature of GitHub's homepage. This session reveals how cross-functional collaboration between engineering, product, and design teams shaped an MVP using Copilot-generated insights into a powerful productivity tool. Learn how the team tackled technical constraints, scaled the solution, and navigated the interplay of engineering and product management. Discover practical strategies for implementing AI features that enhance developer productivity while building trust with users.",
                 "description": "",
                 "persons": [
                   {
@@ -2913,7 +2913,7 @@
                 "track": "AI, Soft Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "AI can write code faster than you. Congratulations to the robots. But if speed of code production is the thing holding your team back, I've got some uncomfortable news: you have much bigger problems and nobody is willing to talk about them.\n\nI've spent over 25 years building software and the bottleneck was almost never the typing. It was the three-week argument about what to build. The requirements that changed after you shipped. The stakeholder who couldn't articulate what they actually needed. The architectural decision nobody wanted to own.\n\nKent Beck said something that stuck with me: 90% of his skills dropped to zero value, but the remaining 10% got a 1000x multiplier. He's right. And the engineers doing well right now (actually well, not performing wellness for LinkedIn) are the ones who figured out which 10% is theirs. They stopped identifying primarily as \"people who write code\" and started identifying as people who solve problems. Code just happens to be one of the tools.\n\nIf your AI strategy is \"write code faster,\" you're optimising the wrong thing.\n\nLet's talk about what to optimise instead.",
                 "description": "",
                 "persons": [
                   {
@@ -2937,7 +2937,7 @@
                 "track": "Ethics, AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "For the first time in history, humans speak to computers the way we speak to each other. We ask questions, seek advice, and expect meaningful answers. Large Language Models do more than process commands, they perform conversation and create the illusion of an all-knowing presence.\n\nBut who are we really talking to?\n\nBased on ethnographic fieldwork in Silicon Valley and San Francisco, this talk explores the human cultures behind AI. Through interviews and observation among developers, founders, and tech communities, I examine how values, incentives, and worldviews become embedded in systems now used by millions.\n\nLLMs are often presented as neutral tools. Yet they do not simply provide information, they shape what counts as knowledge. Their answers can feel authoritative and true, even when they are partial, biased, or false. This raises urgent ethical questions about truth, accountability, and who gets to define reality through technology.\n\nAt a time when “AI ethics” often becomes a vague buzzword, this session offers a sharper map of the terrain: bias matters, but so do power, truth, authority, labor, accountability, and the politics of knowledge production. \n\nUsing gender, especially representations of “the woman,” as a case study, the talk shows how AI systems can reinforce stereotypes while appearing objective.\n\nThis session is for developers, leaders, policymakers, and anyone trying to navigate the ethical landscape of AI.",
                 "description": "",
                 "persons": [
                   {
@@ -2961,7 +2961,7 @@
                 "track": "People, DevOps, Soft Skills, Testing, Web, Work Skills",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Why do we dare to push code during the last performance of MGP, 5 minutes before the voting starts?\n\nTime is 20:34, 15th of february 2025, I am sitting in a dark room behind the stage in Oslo Spektrum, cheers sounding from the crowd. On my Mac, I can see hundreds of complaints from users who can't get into our webapp. In 26 minutes, when the voting intro with a QR code to our page runs live on TV, I know there will some hundred thousand new users arriving. What do I do?\nMy team delivers audience interaction for big live-events in NRK TV. It involves hard deadlines, large spikes in traffic in really short timeframes which are mostly outside our workhours.\nWhat do we do to make sure our systems perform when they need to? What securitymeasures do we have in our deployment pipelines? How do we know that the users actually get our new code?\nLets talk about socio-technical safety.",
                 "description": "",
                 "persons": [
                   {
@@ -2985,7 +2985,7 @@
                 "track": "Soft Skills, People",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Let’s be honest: your mind is f*cked. Overloaded, overstimulated and drowning in an endless to-do list. Everything needed to be done yesterday, you’re pulled in a hundred directions, and somewhere along the way, you forgot what actually matters.\n\nWe’re bombarded with notifications, meetings, and meaningless busywork. AI is making it worse spitting out endless streams of generic, forgettable content. We move faster and produce more, but are we actually creating anything worth remembering?\n\nThe result? Mediocre, half-assed outcomes. Not just in your work, but everywhere in your company, with your customers, in your career. We’re all stuck in this cycle, rushing to meet deadlines we didn’t set, for work that isn’t great, while convincing ourselves that speed equals value.\n\nThis session is about breaking that cycle. It’s about unf*cking your mind so you can focus on what actually matters and finally build something you’re proud of.\n\nAfter this session, you will:\n\n-> Know how to unf*ck your brain and work like a person, not a machine.\n-> Know how to spot the fake urgency that’s keeping you from real progress\n-> Build the best product or service you’ve ever created\n-> Tell the difference between what’s actually important and what only seems important",
                 "description": "",
                 "persons": [
                   {
@@ -3011,7 +3011,7 @@
                 "track": "Architecture, Programming Languages, Testing",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "What if software architecture isn't just best practices, but follows the laws of physics? This talk introduces the Energy State Principle, a new way of thinking that applies thermodynamic laws to software development decisions.\n\nJust as physical systems naturally evolve toward low-energy states, software systems have natural configurations that minimize cognitive energy. We'll explore how entropy accumulation explains why codebases decay into \"big balls of mud,\" why static typing reduces system energy, and why premature abstraction violates the laws of nature.\n\nThrough concrete examples - from Python's Any type (maximum entropy) to perfect domain boundaries (minimum energy states), you'll learn to evaluate architectural decision by asking: \"Does this bring the system to a lower energy state?\"\n\nWalk away with a new way of thinking about code reviews, refactoring decisions, and architectural planning that works with natural forces instead of fighting them.",
                 "description": "",
                 "persons": [
                   {
@@ -3035,7 +3035,7 @@
                 "track": "Functional Programming",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Functional programming is a great alternative to imperative style of programming due to reduced complexity and ease of maintenance. However, most programmers have spent more time learning and practicing imperative style and often find it hard to program in the functional style. Hey, why not use AI to create functional style code? Great thought but we can't simply put AI on autopilot on this one. In this presentation, we will take an example driven approach to understand the power and perils of using AI to create functional style code.",
                 "description": "",
                 "persons": [
                   {
@@ -3059,7 +3059,7 @@
                 "track": "Mobile, Cross-Platform, UI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Widgets are back in style — and now, they live on both Android and iOS home screens.\nBut maintaining two separate implementations, two data flows, and two update mechanisms? That’s a headache.\nIn this session, we’ll explore how Kotlin Multiplatform (KMP) can unify your widget logic across platforms, letting you share state, data, and update code while keeping native UIs through Glance (Android) and WidgetKit (iOS).\nYou’ll learn how to architect a shared KMP core that powers both widgets and apps, manage reactive updates via Flows, and handle background refresh with minimal duplication.\nA live demo will show a single shared Kotlin module driving widgets on Android and iOS — proving that even the smallest UI can benefit from shared logic.",
                 "description": "",
                 "persons": [
                   {
@@ -3083,7 +3083,7 @@
                 "track": "GenAI, AI, Architecture, TDD",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "RAG can't retrieve what was never documented. Fine-tuning can't learn what only exists as institutional habit. And yet that's exactly where enterprise knowledge lives — in chat threads, runbooks nobody reads, and the heads of experienced staff.\n\nWe gave an AI agent 300 real production incidents from a retail e-commerce platform and asked it to resolve them. It failed — repeatedly, predictably, and in ways that told us exactly what knowledge was missing. It didn't know that the nightly batch job retries three times before escalating to the on-call team. That \"fulfilment window expired\" means something different in the Nordic region than in Central Europe. That the inventory service was migrated eighteen months ago but three teams still call it by the old name.\n\nWe developed Demand-Driven Context (DDC), a methodology inspired by Test-Driven Development: instead of documenting everything upfront and hoping it's useful, we let the agent fail on real problems, identify exactly what knowledge is missing, and curate only the minimum context needed to succeed. Failure is the signal for what to document.\n\nAfter nine DDC cycles, the agent produced a reusable knowledge base of 46 entities — and we observed convergence: each new incident required fewer new entities because previous cycles had already captured overlapping knowledge.\n\nThis talk walks through the methodology, the convergence data, and a scaling architecture for running DDC across domains.",
                 "description": "",
                 "persons": [
                   {
@@ -3107,7 +3107,7 @@
                 "track": "Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Every data breach tells a story — not just of compromised information, but of human motive. Drawing on a dozen years of experience running Have I Been Pwned, this talk explores why hackers exfiltrate and share data, what those motives reveal about the evolving threat landscape, and how understanding them helps us respond more effectively in partnership with website operators.",
                 "description": "",
                 "persons": [
                   {
@@ -3133,7 +3133,7 @@
                 "track": "Programming Languages, Gaming, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Ever heard of the demoscene? It is this amazing community of recreational and competitive programmers. The point is to use code to create the most amazing graphical creations and impress everyone with artistic algorithmic brilliance.\n\nThe demoscene taught me so much about being a good programmer, and I thought I'd give you all the opportunity to join in on the fun and learn how to create some great demos! \n\nI will guide you through the following:\n- Old school demo effect concepts\n- Modern-day demo effect concepts\n- Entry to shadercoding on Directx12\n- Tools of the trade\n- How to be creative with mathematics\n- Bringing it all together to a demo-concept\n\nSo bring out your graphic calculators, and let's get those techno beats going and learn how to paint and create worlds with maths!",
                 "description": "",
                 "persons": [
                   {
@@ -3157,7 +3157,7 @@
                 "track": "3D Modelling, VR, Web, Fun, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Recent advances in Gaussian Splatting have made the generation of 3D scenes from video and photos faster, better, and more accessible. You can now use your smartphone, or a drone, or any other camera to generate a realistic 3D scene that can be rendered in the web browser, or immersively in VR.  \n\nIn this talk I will show how these 3D scenes can be generated, edited and displayed. At the end of the talk you will be able to generate your own Gaussian Splats of the real world, and know how they can be shared with others.",
                 "description": "",
                 "persons": [
                   {
@@ -3181,7 +3181,7 @@
                 "track": "Cloud, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Beneath the world’s oceans lies a vast and largely unseen network of critical infrastructure that powers modern civilization. Join Richard Campbell as he explores these undersea connections, how they are built, maintained, repaired, and continue to evolve. Modern events show that this infrastructure can be part of warfare, which has significant consequences for the world. Together, these intertwined data, electrical, and petrochemical networks form the hidden circulatory system of the planet—vital, complex, and increasingly essential to global stability and progress.",
                 "description": "",
                 "persons": [
                   {
@@ -3205,7 +3205,7 @@
                 "track": "UI, UX, Web, 3D Modelling",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "The world of web-based mapping has evolved far beyond simple pin drops on a flat surface. Modern browsers can now render incredibly rich, immersive geographical visualizations that make users feel like they're flying through real world. Whether it is your morning bike ride, a historical journey record or a log of pizza deliveries, you can put all such data on a web page and animate it smoothly. Join me on the journey into modern mapping technologies to find the best approach for your use case!\n\nWe'll explore the full spectrum of possibilities - from traditional 2D maps to photorealistic 3D city skylines. We'll start with the fundamentals of efficient tile-based mapping systems and satellite imagery integration, then progressively add complexity, depth and... fun(!) to our visualizations. On the way, we will check what is this 2.5D all about and how it uses file formats dating back to... fax machines! We will also combine the experience from gaming to add a thrill to the camera movement.\n\nThrough live examples and code snippets, you'll learn how to implement these techniques using popular front-end frameworks and mapping libraries. By the end of the session, you'll have practical knowledge of both the implementation details and UX considerations that make these visualizations truly immersive.",
                 "description": "",
                 "persons": [
                   {
@@ -3229,7 +3229,7 @@
                 "track": "Embedded, Fun",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This is a follow up to my previous session \"Bootable applications - an introduction\". It is not required as we will briefly summarize the key takeaways allowing us to move further.\n\nIn this session we will investigate how to build complete interactive programs such as games and UI-driven applications, still without ever booting into your regular operating system. Learn what is possible as we throw away some tens of millions lines of code we have learned to depend and rely on every day!\n\nWe will utilize UEFI-complient systems, allowing us to boot it on any compliant PC system / emulator (e.g. qemu). We'll use the system level languages Zig and C for the examples.",
                 "description": "",
                 "persons": [
                   {
@@ -3255,7 +3255,7 @@
                 "track": "DevOps, People, Security",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Platform Engineering promises to accelerate development, simplify operations, and enhance productivity across software organizations. But what separates thriving platform teams from those that struggle to deliver on these promises?\nIn this talk, we’ll explore lessons from real-world experiences across diverse sectors—media, online marketplaces, surveillance, and banking. From successes and failures, we’ll highlight common pitfalls, practical strategies, and the crucial importance of adopting a product-oriented mindset. We’ll delve into why platform engineering must move beyond mere tool adoption to embrace company culture, engineering practices, team capabilities, and internal advocacy.\nYou’ll walk away with a practical framework to evaluate your own platform engineering maturity. Join this session to understand how your approach measures up and what steps you can take to evolve your platform engineering journey effectively.",
                 "description": "",
                 "persons": [
                   {
@@ -3279,7 +3279,7 @@
                 "track": "DevOps, AI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "It's 2am. PagerDuty fires. You're jumping between Kubernetes dashboards, log aggregators, Slack threads, and runbooks. The context-switching under pressure piles up while the clock runs. This is the environment we designed CAIPE for.\n\nCAIPE (Community AI Platform Engineering) is an open-source multi-agent system built under CNOE (Cloud Native Operational Excellence) that coordinates specialized AI agents across the full platform engineering lifecycle: incident detection, triage, remediation, deployment management, and post-mortem generation. But this isn't a project demo: it's an engineering story about what it actually takes to make multi-agent systems work under operational constraints.\n\nWe'll walk through the architectural decisions that actually matter: why a supervisor-agent model outperformed a flat agent mesh for incident workflows, where MCP and A2A protocols solved real coordination problems (and where they didn't), and how this environment has kept on growing with the collaboration of the open-source community - based on personal experiences as a repository mantainer and user for data network operations. You'll see the system handle a live incident scenario end-to-end: not a happy path, but a realistic one with noise, ambiguity, and competing signals.\n\nYou'll leave with a clear model for designing multi-agent systems based on CAIPE, as well as guidance on how to collaborate to this open-source project.\n\nAll demo repositories will be made available.",
                 "description": "",
                 "persons": [
                   {
@@ -3303,7 +3303,7 @@
                 "track": "DevOps, .NET, Architecture, Microservices, UX",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Most systems today are over-instrumented and under-observed.\nDiscover how to build meaningful Service Level Indicators (SLIs) that reflect real user experience—not just system metrics. This session shows how to instrument SLIs with OpenTelemetry, connect them to Azure’s Health Model, and turn raw telemetry into actionable reliability signals that drive SLOs, error budgets, and deployment gates.\n\nDesigned for developers who want to own reliability from day one and move beyond noisy dashboards to observability that truly matters.",
                 "description": "",
                 "persons": [
                   {
@@ -3327,7 +3327,7 @@
                 "track": "DevOps, Cloud, Security, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "In a server-side app, it's fairly easy to find out what went wrong from logs. But what about the client side, where you don't have the luxury of consistency or reliable controls in an often hostile environment? The W3C's Reporting API and associated HTTP headers can let you know about all kinds of client-side issues that you'd otherwise never see. Reveal problems related to content security policy, network error logging, CSP hashes (give your SBOMs a workout!), permissions policy, and even browser crashes.\n\nThe standards covering these useful features are in a state of flux, and suffer from inconsistent implementation across browsers, so I'll guide you through what works, what doesn't, how to make them all work everywhere, and how to use aggregation services to make sense of all the new data you're getting. \n\nWe'll put it all together, and solve all the issues that only your customers have been seeing!",
                 "description": "",
                 "persons": [
                   {
@@ -3351,7 +3351,7 @@
                 "track": "Database, DevOps",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "When a database is slow, you have two options: burn more money with your cloud provider, or roll up your sleeves and fix it. Many teams click the scale up button first - more RAM and CPU takes 60 seconds and buys them time. But it inevitably comes back worse than before.\n\nMy team recently faced the same situation. Scaling up resources had deferred the problem for awhile, but it was time to figure out what was going on. Our system was overwhelming the database in multiple ways: missing indexes, N+1 queries, ORM malfeasance, even a dodgy connection pool.\n\nThis talk will walk you through the process we used to fix them: how to decipher telemetry, review query plans, and tune indexes or data access patterns. The issues we uncovered are common in many database applications and you’ll come away with a practical blueprint for resolving them.",
                 "description": "",
                 "persons": [
                   {
@@ -3377,7 +3377,7 @@
                 "track": ".NET, Microservices",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "You have probably already seen a bunch of introductions to Aspire. Maybe to the point where it is getting a bit boring, even if it is cool!\n\nIn this talk, we will take it a step further and look into some more advanced topics around Aspire. The things that takes it from a cool demo, to a really helpful tool for you development.\n\nThe focus of the talk, is to cover what is really happening when you use it. Knowledge that lets you know how to tweak it to your need, when you needs aren't covered out of the box. \n\nIt will also cover how you can build your own extensions to Aspire, to allow you to use it for your custom applications, or projects that aren't already supported by the community. Things like creating your own Aspire resources and custom commands.",
                 "description": "",
                 "persons": [
                   {
@@ -3401,7 +3401,7 @@
                 "track": ".NET, Architecture, DevOps, Programming Languages, Testing, Tools",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Anybody that has built HTTP or REST APIs, has had to deal with things like OpenAPI or Swagger. Those are reasonably trivial to implement using ASP.NET Core, and you even get a nice Swagger UI website out of the box. \n\nJust like any interface or programmatic contract, there are plenty of aspects that need careful analysis. Think of comprehensive online documentation for your APIs, using HTTP error codes appropriately, and providing clarity on what fields in the JSON are required and which are optional or can be empty. And don't forget versioning. Allowing a developer to view and switch between the supported versions and make it clear what APIs are deprecated isn't as trivial as you may think. \n\nIn this talk, I'll show you everything that you might need to know about building nicely documented, properly versioned HTTP APIs that make your consumers happy.",
                 "description": "",
                 "persons": [
                   {
@@ -3425,7 +3425,7 @@
                 "track": "Security, AI, DDD, TDD",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "If you ask 10 developers for a code review, they will identify different issues, and many will miss security concerns like broken access control and lack of input validation. \n \nHow can a DevOps team in their daily work assert that new features do not introduce vulnerabilities,  that security bugs get caught before deploy to production? What are the key questions to ask in a code review? And how can we show that the application code also aligns with requirements from compliance, well-known best practices and internal security policies?\n \nThis presentation will demonstrate how to build APIs that are both secure and compliant by design; using OWASP ASVS and support from an application security tuned coding agent. \n \nDemos will be for an API in .NET with Copilot custom agents.",
                 "description": "",
                 "persons": [
                   {
@@ -3453,7 +3453,7 @@
                 "track": "",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "More info coming",
                 "description": "",
                 "persons": [
                   {
@@ -3477,7 +3477,7 @@
                 "track": "Security, AI, Architecture, DevOps, Ethics, Security, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This interactive session transforms AI security education into an engaging courtroom style debate. We'll present five critical vulnerabilities affecting modern AI development tools, and after each case study, the audience becomes the jury—voting on who's responsible: the careless user, the negligent developer, or the inadequate service provider.\n\nWe'll dissect real CVEs including GitHub Camo Leak (CVE-2025-59145), Ollama RCE (CVE-2024-37032), AWS MCP Server Shell Injection (CVE-2025-5277), Anthropic MCP Inspector DNS Rebinding (CVE-2025-49596 ) and Microsoft Copilot's zero-click data exfiltration (CVE-2025-32711). Each case reveals technical root causes through collaborative analysis.\n\nThe conclusion challenges the \"blame game\" itself: these vulnerabilities expose fundamental architectural weaknesses in agentic AI systems where traditional security models fail. We'll establish that securing AI tools demands a shared responsibility framework developers must code defensively, providers must architect securely, and users must understand AI-specific risks.",
                 "description": "",
                 "persons": [
                   {
@@ -3503,7 +3503,7 @@
                 "track": "Accessibility, AI, Big Data, Cloud, Mobile",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "This session introduces an accessibility feature built into the New York Times News Reader app. Designed for people with vision impairments, the tool acts as an in-app AI lens that interprets complex visual content—like infographics, data visualizations, and interactive elements—using natural language voice descriptions.\n\nThe goal is to improve accessibility across the app’s interactive experiences by providing real-time, AI-powered narration that describes not just what’s on the screen, but what it means. Whether it's a chart explaining election results or an interactive timeline of climate data, the system helps users understand the structure, intent, and insight behind the visuals.\n\nKey topics in this talk:\n\nDesigning an accessible layer that integrates with the existing rendering stack in a production news app\n\nUsing computer vision to segment and classify app components like graphs, images, and interactives\n\nThis prototype was developed during MakerWeek 2024 as part of ongoing accessibility research at The New York Times. It reflects a practical, thoughtful application of AI to improve how people with low vision can experience and understand news content on mobile.\n\nKeywords: accessibility, Android development, computer vision, assistive technology, AI narration, data visualization, on-device inference, voice interface.\n\nMakerweek 2024 Talk: https://youtu.be/5V5Puneu9l4",
                 "description": "",
                 "persons": [
                   {
@@ -3527,7 +3527,7 @@
                 "track": "Embedded, 3D Modelling, Fun, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Are you tired of the same old AI, LLM, buzzword sessions and wondering if there is still anything new and cool out there we can do with AI? Do you crave an exciting, slightly ridiculous project that's just a lot of fun - while also learning about a whole new field with lots of promise? Don't miss this session!\nPhysical AI is about bringing together all the amazing breakthroughs (yes, like large language models) into the fields of robotics and embedded systems. We can make autonomous robots and systems that can generate their own movement instructions and evolve, without having to painstakingly define all the complex code or even tiny physics-engine implementations to get going.\nBut first - we need to build actual robots! As someone coming from the data science field - this may sound like a bit of a leap.\nHowever, with a \"I'm sure it can't be that hard\" attitude, a bunch of electronics components, and an uncontainable enthusiasm - I set out to do just that.\nI will share the story of building my own Robot Arm from 0 to an incrementally more complex prototype, and how I started giving it some \"AI superpowers\", and what's next in this exciting field!",
                 "description": "",
                 "persons": [
                   {
@@ -3551,7 +3551,7 @@
                 "track": "Programming Languages, AI, Architecture, People, Tools, Work Skills, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\nTalk 1: When the code is not working for you - Helén Persson\nCode can be running fine, but still not work great for us as humans. Maybe you have inherited a piece of legacy code? Maybe you are drowning in Dependabot alerts? Lets talk about how you can leave the code base better than when you found it.\n\n\nTalk 2: Knitting is programming - Njord Solberg\nDid you know that knitting can be considered one of the origins of computer science? No? Neither did a group of teachers I once taught block programming. But they were fascinated to learn the story of how knitting has influenced modern computer programing. Hopefully, you will be as fascinated by the story as they were.\n\nTalk 3: AI Moved the Bottleneck. It Didn't Remove It - Anders Erlandsen\nIn March 2026, I launched Spillmakker — a matchmaking app for people who want to play padel, tennis, or climb but don't know who with. Three weeks later: 293 users, 106 matches, 255 messages. Built solo, evenings only, zero budget. Every line of code was written by an AI agent.\nThis isn't a talk about how AI will change software. It's a field report from already having done it.\nI'll show you the actual architecture — Next.js, Supabase, RLS, production-grade tests — and more importantly, the seven markdown files I use to steer Claude Code autonomously. Not prompts. Role documents. Principles encoded as text.\nThe surprising finding, coming from seven years of product leadership in regulated industries: when the AI can build anything, the real work moves up the stack. Technical feasibility is no longer the hard part. Judgment is. Prioritization is. Knowing what not to build is.\nYou'll leave with a concrete method for principle-driven AI development, honest numbers on what works and what doesn't, and one uncomfortable observation about where developer skill is heading.\n\nTalk 4: Pixels to Intelligence: A Computer Vision Pipeline for Overhead Satellite Imagery - Gayathri Palani\nSatellite imagery is just pixels until you build the pipeline. Whether you're counting cars in a retail parking lot or monitoring turbine conditions at a wind farm, the underlying engineering challenge is the same: turn raw overhead imagery into a reliable, time-series signal you'd actually trust.\nIn this lightning talk, I'll walk through the core architecture of a production-grade overhead object detection pipeline — one pattern, two real-world applications. We'll cover the decisions that actually matter: sourcing and preprocessing imagery across satellite resolution tiers (30cm vs 50cm vs 3m and what you lose at each step), model selection for top-down detection tasks (YOLO variants, fine-tuned vision models, and where large vision LLMs genuinely fall short), handling the label scarcity problem specific to overhead imagery datasets, and aggregating detection outputs into time-series signals with meaningful confidence bounds.\nWe'll be honest about the hard parts — shadow artefacts, temporal cadence constraints, false positives in dense scenes, and the gap between a compelling notebook demo and a system that runs reliably in production.\nYou'll leave with a concrete pipeline blueprint for overhead CV tasks, a clear model selection framework, and a realistic map of where satellite AI is mature versus where the friction is still real.",
                 "description": "",
                 "persons": [
                   {
@@ -3587,7 +3587,7 @@
                 "track": "Programming Languages, AI, DevOps, Machine Learning, Security, Fun, GenAI",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Lightning talks (approx 10-15 minutes each)\n\nTalk 1: When AI writes the code, what do we do? - Tomas Hensrud Gulla\nWe live in a time where we can write code without understanding it. AI makes us faster, more productive, and less tired.\nBut what if programming isn’t just about efficiency?\nWhat if it’s also about resistance?\nMaybe the developer of the future doesn’t need to write more code. Maybe we need to play with it more.\nI’ll show you examples of code written in some very different languages.\nOne language probably belongs on a wall. One you can’t even see. One should be performed at full volume. And the last one you absolutely cannot sit still while writing it.\nThis is part performance, part talk. Part humour, part serious.\n\n\nTalk 2: How hunting for an attack surface, led me to the front-doors of wind turbines - Knut Erik Hollund\nAs a relatively new in the field of cybersecurity, with a primary focus on Application Security (AppSec), I have been intrigued by the methods attackers use to identify their attack surfaces. In preparation for an internal presentation at our company, I embarked on a project to explore potential attack surfaces using various tools. My objective was to identify a wind turbine farm located in Europe. This endeavor was aimed at illustrating the Secure Design principle - \"defense in depth.\"\nDuring my presentation, I will guide the audience through my journey, starting from the initial question to the point where I reached the front door of the wind turbine farm. It involves tools as AI and Shodan.io.\n\nTalk 3: Breaking the Corporate Firewall: How to get a little AI into your very large company - Sean Percival\nYour company is falling behind on AI. You know it. Your competitors know it. And somewhere deep in a conference room, a committee is meeting about it — which means nothing is going to happen for another eighteen months.\n\nThis talk is not about waiting for permission.\n\nIt's about how individuals — not executives, not transformation teams, not consultants — are the ones who actually change how large organizations work. One quiet experiment at a time. One small win that can't be ignored. One person who decided to stop waiting and start doing.\n\n\"In Norway, the fastest way to do something big is to start embarrassingly small.\"\n\nThe corporate firewall is real. Legal will say no. IT will say no. Procurement will say nothing for six weeks and then say no. But there is a way through — and it starts with you, a low-stakes test, and a result nobody can argue with.\n\nWhy large companies stall on AI — Death by committee. The approval loop. Why \"we need a strategy\" means nothing is happening.\nStart embarrassingly small — One team. One tool. Four weeks. One metric. Why tiny experiments are the only things that actually get approved.\nIsolate the blast radius — How to ring-fence risk so legal, IT, and compliance can say yes. The sandbox framing that unlocks everything.\nShow results first, ask for permission later — Why data is the only currency that moves Norwegian organizations — and how to document obsessively so the numbers do the lobbying.",
                 "description": "",
                 "persons": [
                   {
@@ -3621,7 +3621,7 @@
                 "track": "DDD, Architecture, People, Soft Skills, Testing",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "If you are involved in almost any role related to software product development then you are, by definition, doing modeling. There is always a distinction between the real world and a software product, and the difference is in the model by which the software product chooses to describe the reality.\n\nIn this workshop you will practice modeling in order to become better at designing, organizing and building software products. \n\nYou will be guided to think from different perspectives and to produce multiple models for the same domain problem. We will cover four different modeling approaches, each bringing more nuance and detail in the understanding of the domain:\n* Functional decomposition\n* Role-based decomposition\n* Time- and role-based decomposition\n* Decomposition by business capabilities\n\nThe real-world problem from the domain of healthcare will be a foundation for the exercise.\n\nSince product development is a cross-functional approach, this exercise will benefit from cross-functional mixture of participants. You are hereby encouraged to join the workshop, regardless of your role in software product development.",
                 "description": "",
                 "persons": [
                   {
@@ -3645,7 +3645,7 @@
                 "track": "DDD, Architecture, People, Soft Skills, Testing",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "If you are involved in almost any role related to software product development then you are, by definition, doing modeling. There is always a distinction between the real world and a software product, and the difference is in the model by which the software product chooses to describe the reality.\n\nIn this workshop you will practice modeling in order to become better at designing, organizing and building software products. \n\nYou will be guided to think from different perspectives and to produce multiple models for the same domain problem. We will cover four different modeling approaches, each bringing more nuance and detail in the understanding of the domain:\n* Functional decomposition\n* Role-based decomposition\n* Time- and role-based decomposition\n* Decomposition by business capabilities\n\nThe real-world problem from the domain of healthcare will be a foundation for the exercise.\n\nSince product development is a cross-functional approach, this exercise will benefit from cross-functional mixture of participants. You are hereby encouraged to join the workshop, regardless of your role in software product development.",
                 "description": "",
                 "persons": [
                   {
@@ -3669,7 +3669,7 @@
                 "track": "TDD, Agile, AI, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Designing Quality from the First Test\n\nIn this hands-on session, participants will learn how to apply the principles of Test-Driven Development (TDD) while pairing with AI-powered tools to accelerate test creation and improve code quality.\nThrough guided coding challenges, developers will start from the red-green-refactor loop and explore how AI can assist in writing meaningful tests, suggesting implementations, and reinforcing strong design habits.\nThe workshop focuses on helping participants gain confidence using AI as a collaborator and enhancing, not replacing, human judgment; to produce well-designed, maintainable code.\n\nBy the end of this workshop, participants will be able to:\n\n- Understand the TDD workflow and apply it to build a small REST API from scratch\n- Use AI tools to generate initial test scaffolding and refine test cases through context and feedback\n- Practice the red-green-refactor loop to validate both test quality and implementation correctness\n- Identify design and testing smells introduced by AI-generated code\n- Reflect on responsible and ethical use of AI in software development",
                 "description": "",
                 "persons": [
                   {
@@ -3693,7 +3693,7 @@
                 "track": "TDD, Agile, AI, Architecture",
                 "type": "session",
                 "language": "",
-                "abstract": "",
+                "abstract": "Designing Quality from the First Test\n\nIn this hands-on session, participants will learn how to apply the principles of Test-Driven Development (TDD) while pairing with AI-powered tools to accelerate test creation and improve code quality.\nThrough guided coding challenges, developers will start from the red-green-refactor loop and explore how AI can assist in writing meaningful tests, suggesting implementations, and reinforcing strong design habits.\nThe workshop focuses on helping participants gain confidence using AI as a collaborator and enhancing, not replacing, human judgment; to produce well-designed, maintainable code.\n\nBy the end of this workshop, participants will be able to:\n\n- Understand the TDD workflow and apply it to build a small REST API from scratch\n- Use AI tools to generate initial test scaffolding and refine test cases through context and feedback\n- Practice the red-green-refactor loop to validate both test quality and implementation correctness\n- Identify design and testing smells introduced by AI-generated code\n- Reflect on responsible and ethical use of AI in software development",
                 "description": "",
                 "persons": [
                   {

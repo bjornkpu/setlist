@@ -10,15 +10,16 @@ export function renderEvent(app, state, key) {
   if (!ev) {
     app.innerHTML = `<div class="pad">
       <p class="error">Session not found.</p>
-      <p><a href="#/browse" data-back>‹ Back</a></p>
+      <p><a href="#/browse">‹ Back</a></p>
     </div>`;
-    wireBack(app);
     return;
   }
   const prev = seq[i - 1];
   const next = seq[i + 1];
+  // replace, not push: prev/next audit steps stay off the history stack, so
+  // Back (button or system) always returns to the list
   const go = (target) => {
-    if (target) location.hash = `#/event/${encodeURIComponent(target.key)}`;
+    if (target) location.replace(`#/event/${encodeURIComponent(target.key)}`);
   };
   const current = planStateOf(ev.key);
   const para = (text, cls) =>
@@ -29,7 +30,7 @@ export function renderEvent(app, state, key) {
   app.innerHTML = `
     <div class="pad detail">
       <p class="detail-nav">
-        <a href="#/browse" data-back>‹ Back</a>
+        <a href="#/browse">‹ Back</a>
         <span class="pos">
           <button class="nav-prev" ${prev ? "" : "disabled"} aria-label="Previous session">‹</button>
           <span>${i + 1} / ${seq.length}</span>
@@ -50,7 +51,7 @@ export function renderEvent(app, state, key) {
       ${linkList(ev.links)}
     </div>
     <div class="actionbar" role="group" aria-label="Plan state">
-      ${stateBtn("pick", "Pick")}${stateBtn("maybe", "Maybe")}${stateBtn("avoid", "Avoid")}
+      ${stateBtn("avoid", "Avoid")}${stateBtn("maybe", "Maybe")}${stateBtn("pick", "Pick")}
     </div>`;
   app.querySelector(".actionbar").addEventListener("click", (e) => {
     const btn = e.target.closest("button[data-state]");
@@ -65,7 +66,6 @@ export function renderEvent(app, state, key) {
     onLeft: () => go(next),
     onRight: () => go(prev),
   });
-  wireBack(app);
 }
 
 // frab links are [{url, title}] or plain strings; schedule-sourced, so escape.
@@ -80,13 +80,4 @@ function linkList(links) {
         `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title || l.url)}</a></li>`,
     )
     .join("")}</ul>`;
-}
-
-function wireBack(app) {
-  app.querySelector("[data-back]")?.addEventListener("click", (e) => {
-    if (history.length > 1) {
-      e.preventDefault();
-      history.back(); // return to slot/browse/wherever we came from
-    }
-  });
 }
