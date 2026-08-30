@@ -1,0 +1,158 @@
+{
+  "schedule": {
+    "version": "1.0",
+    "conference": {
+      "title": "Felles utviklingsplattform (SoftwareOne)",
+      "acronym": "sw1plattform2026",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "daysCount": 1,
+      "timeslot_duration": "00:05",
+      "time_zone_name": "Europe/Oslo",
+      "rooms": [
+        "Fellesareal"
+      ],
+      "days": [
+        {
+          "index": 0,
+          "date": "2026-09-09",
+          "day_start": "2026-09-09T08:30:00+02:00",
+          "day_end": "2026-09-09T11:00:00+02:00",
+          "rooms": {
+            "Fellesareal": [
+              {
+                "guid": "4dc05787-5198-5afe-a4de-61d90d2b4afc",
+                "id": 1,
+                "date": "2026-09-09T08:30:00+02:00",
+                "start": "08:30",
+                "duration": "00:30",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-1-registrering-og-frokost",
+                "title": "Registrering og frokost",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "203db3f2-b234-5abb-97c0-98c8fffe2a83",
+                "id": 2,
+                "date": "2026-09-09T09:00:00+02:00",
+                "start": "09:00",
+                "duration": "00:40",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-2-hvorfor-platform-engineering",
+                "title": "Hvorfor Platform Engineering",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "Platform Engineering handler om å la utviklere komme raskere i gang med arbeidet uten å bruke tid på oppsett av miljøer, tilganger, infrastruktur, tickets og uten å være Kubernetes-eksperter. Vi ser nærmere på problemet, hva en slik plattform egentlig er, og hvorfor det er relevant nå.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 1,
+                    "public_name": "Bjørn Kristian Punsvik"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "0f817870-31ac-5484-84e4-a83979c1a237",
+                "id": 3,
+                "date": "2026-09-09T09:40:00+02:00",
+                "start": "09:40",
+                "duration": "00:10",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-3-pause",
+                "title": "Pause",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "eabd5298-bf3b-5a37-8f5b-8690696c17d6",
+                "id": 4,
+                "date": "2026-09-09T09:50:00+02:00",
+                "start": "09:50",
+                "duration": "00:30",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-4-k8s-operatorer",
+                "title": "K8s Operatorer",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "Kubernetes er kjernen i en moderne intern utviklingsplattform, men for mange føles det fortsatt som en høy terskel. Vi går gjennom hva Kubernetes er, hvordan GitOps passer inn og hva operator-mønsteret gjør.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 2,
+                    "public_name": "Håvard Stavnås Markhus"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "e584781f-ef68-5712-ac62-56501e743974",
+                "id": 5,
+                "date": "2026-09-09T10:20:00+02:00",
+                "start": "10:20",
+                "duration": "00:30",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-5-canopy-demo",
+                "title": "Canopy Demo",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "Se plattformen i bruk, fra onboarding av en ny utvikler til en app i produksjon.",
+                "description": "",
+                "persons": [
+                  {
+                    "id": 3,
+                    "public_name": "Marius Nygård"
+                  }
+                ],
+                "links": [],
+                "attachments": []
+              },
+              {
+                "guid": "1d9b35b3-9f57-5558-9d99-6532481ed470",
+                "id": 6,
+                "date": "2026-09-09T10:50:00+02:00",
+                "start": "10:50",
+                "duration": "00:10",
+                "room": "Fellesareal",
+                "slug": "sw1plattform2026-6-avslutning-og-mingling",
+                "title": "Avslutning & Mingling",
+                "subtitle": "",
+                "track": "",
+                "type": "session",
+                "language": "no",
+                "abstract": "",
+                "description": "",
+                "persons": [],
+                "links": [],
+                "attachments": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

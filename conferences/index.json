@@ -17,6 +17,13 @@
       "url": "ndc-oslo-2026.json"
     },
     {
+      "id": "sw1-plattform-2026",
+      "title": "Felles utviklingsplattform (SoftwareOne)",
+      "start": "2026-09-09",
+      "end": "2026-09-09",
+      "url": "sw1-plattform-2026.json"
+    },
+    {
       "id": "trondheimdc-2026",
       "title": "Trondheim Developer Conference 2026",
       "start": "2026-10-19",
