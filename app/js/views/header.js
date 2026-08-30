@@ -7,7 +7,7 @@ export function header(title, active) {
   const link = (href, label, key, icon) =>
     `<a href="${href}" class="${active === key ? "active" : ""}">${icon} ${label}</a>`;
   return `<header class="bar"><h1>${esc(title)}</h1><nav class="bar-links">
-    ${link("#/", "Now", "now", ICON.now)}${link("#/browse", "Browse", "browse", ICON.schedule)}${link("#/library", "Library", "library", ICON.offline)}
+    ${link("#/", "Now", "now", ICON.now)}${link("#/browse", "Browse", "browse", ICON.schedule)}${link("#/library", "Library", "library", ICON.download)}
   </nav></header>`;
 }
 

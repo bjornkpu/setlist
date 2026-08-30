@@ -1,5 +1,9 @@
 # setlist — icon drawing rules
 
+> The app renders these inline from `app/js/icons.js` (needed for
+> currentColor). `tests/icons.test.js` fails if the two drift — after editing
+> an svg here, paste the same body into `icons.js`.
+
 Read this before creating or editing any file in `assets/icons/`.
 These are hard constraints, not suggestions. If a shape cannot be built
 within them, the concept is wrong — pick a simpler metaphor instead of
