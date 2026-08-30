@@ -1,4 +1,5 @@
-// Seed a realistic NDC Oslo day-1 plan into IndexedDB for README screenshots.
+// Seed BK's real NDC Oslo day-1 plan into IndexedDB for README screenshots
+// (picks match his phone; maybe counts match the +N badges he showed).
 // Run in the app's page via tools/screenshot.mjs --init after the schedule
 // has loaded; the tool re-navigates afterwards so the app picks the plan up.
 (async () => {
@@ -12,27 +13,37 @@
   const STATES = {
     pick: [
       "Keynote: Who are you?",
-      "Use AI to build AI (without losing your mind) with Aspire",
-      "Build Skills, Not Agents",
-      "What Claude Code Can Do That You Haven't Tried",
-      "Using Microsoft Kiota to go from OpenAPI to first-class .NET client SDKs",
-      "Going Passwordless - A Practical Guide to Passkeys in ASP.NET Core",
-    ],
-    maybe: [
-      "INTL: The best browser API you're not using",
-      "What's coming next in C#",
-      "What's new in SQL Server 2025 and Azure SQL Databases",
-      "From Code to Intelligence: The Rise of the Full-Stack AI Engineer",
-      // 15:00 has maybes but no pick: a contested, undecided slot
+      "Socio-technical API patterns",
+      "CSS State Machine",
+      "Non-Blocking Continuous Code Reviews, a Case Study",
       "How We Built an Autonomous Development Workflow at Nordic Corporate Bank",
-      ".NET Telemetry in the Real World",
       "Tracking every ship in Norwegian waters - Building a data platform for The Coastal Administration",
       "Functional core, imperative shell: An architecture turned inside out",
     ],
-    avoid: [
-      "Socio-technical API patterns",
+    maybe: [
+      // 10:20 (+4)
+      "Use AI to build AI (without losing your mind) with Aspire",
+      "INTL: The best browser API you're not using",
+      "What's coming next in C#",
       "If You Feel Behind, You’re Probably Paying Attention",
-      "The .NET MAUI Community Toolkits: Three (3) Essential Libraries for Every .NET MAUI Developer",
+      // 13:40 (+4)
+      "What Claude Code Can Do That You Haven't Tried",
+      "From Code to Intelligence: The Rise of the Full-Stack AI Engineer",
+      "Types Are Worth the Typing",
+      "Let's break some WCAG rules",
+      // 15:00 (+4)
+      ".NET Telemetry in the Real World",
+      "What You Need to Know (And Why You Should Care) About AI Governance",
+      "Modern Graph Databases",
+      "Rethinking Tooltips with Interest Invokers and Popover API",
+      // 16:20 (+1)
+      "Using Microsoft Kiota to go from OpenAPI to first-class .NET client SDKs",
+      // 17:40 (+2)
+      "Going Passwordless - A Practical Guide to Passkeys in ASP.NET Core",
+      "It’s About Time! Practical examples of time zones in TypeScript",
+    ],
+    avoid: [
+      "TBA - Adam Cogan",
       "Why LLMs Suck (aka the Software Developer's Guide to Keeping Our Jobs)",
     ],
   };

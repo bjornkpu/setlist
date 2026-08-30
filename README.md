@@ -1,16 +1,11 @@
 # setlist
 
-A conference companion PWA optimised for one question: **where do I go
-next?** — **[try it now](https://bjornkpu.github.io/setlist/app/)**, pick a
-conference from the Library, and add it to your home screen.
-
-Deep-link any schedule with `…/app/?url=<schedule.json url>` (keep the
-trailing slash after `app` — links without it break offline).
+A conference companion PWA optimised for one question: **where do I go next?**
+**[Try it now](https://bjornkpu.github.io/setlist/app/)**, pick a conference from the Library, and add it to your home screen.
 
 <p>
-  <img src="docs/screenshots/glance-dark.png" width="270" alt="Glance view: the room you need in huge type, what's next, and your whole day below">
-  <img src="docs/screenshots/slot-dark.png" width="270" alt="Slot view: every session in one time range, grouped by your plan">
-  <img src="docs/screenshots/event-dark.png" width="270" alt="Session details with abstract, topics, links, and Avoid/Maybe/Pick buttons">
+  <img src="docs/screenshots/glance-dark.png" width="320" alt="Glance view in dark theme: the room you need in huge type, what's next, and your whole day below">
+  <img src="docs/screenshots/glance-light.png" width="320" alt="The same glance view in light theme">
 </p>
 
 ## What it does
@@ -39,7 +34,11 @@ offline.
 - Installable PWA, works offline, dark and light theme, no accounts, no
   tracking, no build step — plain HTML/CSS/JS.
 
-<img src="docs/screenshots/browse-dark.png" width="270" alt="Browse view with topic chips and plan states"> <img src="docs/screenshots/glance-light.png" width="270" alt="The glance view in light theme">
+<p>
+  <img src="docs/screenshots/slot-dark.png" width="270" alt="Slot view: every session in one time range, grouped Picked / Maybe / Everything else / Avoided">
+  <img src="docs/screenshots/event-dark.png" width="270" alt="Session details with abstract, topics, links, and Avoid/Maybe/Pick buttons">
+  <img src="docs/screenshots/browse-dark.png" width="270" alt="Browse view with day tabs, topic chips, and plan states">
+</p>
 
 ## Bring your own conference
 
@@ -77,7 +76,11 @@ regenerates every guid and silently destroys everyone's plan.
 A **provider** is just a directory with the schedules plus a generated
 `index.json`; the app's Library lists a provider's conferences, split into
 upcoming and past. This repo's `conferences/` directory, served by GitHub
-Pages, is the default provider. To host your own:
+Pages, is the default provider.
+
+<img src="docs/screenshots/library-dark.png" width="270" alt="Library view: loaded schedules, providers, and load-by-URL">
+
+To host your own:
 
 1. Put your `schedule.json` files in a directory.
 2. Generate the index:
