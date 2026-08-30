@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --fg: #1a1a1a;
   --bg: #ffffff;
   --muted: #666;
@@ -7,6 +8,22 @@
   --pick: #0a7a44;
   --maybe: #b07d00;
   --avoid: #b00020;
+  --error: #b00020;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fg: #e6e6e6;
+    --bg: #121212;
+    --muted: #9b9b9b;
+    --line: #2c2c2c;
+    --accent: #3ecf8e;
+    --pick: #3ecf8e;
+    --maybe: #ffc94a;
+    --avoid: #ff7b72;
+    --error: #ff7b72;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -21,7 +38,7 @@ body {
 }
 
 .pad { padding: 1rem; }
-.error { color: #b00020; }
+.error { color: var(--error); }
 .status { color: var(--muted); }
 
 .bar {
@@ -165,7 +182,7 @@ body {
   border: 1px solid var(--line);
   border-radius: 6px;
 }
-#load-form button { background: var(--accent); color: #fff; border-color: var(--accent); }
+#load-form button { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 .or { color: var(--muted); }
 .days button { min-height: 40px; }
 .events a > span, .detail p { overflow-wrap: anywhere; }
@@ -223,9 +240,9 @@ svg[aria-hidden] { width: 1.15em; height: 1.15em; vertical-align: -0.22em; }
 .actionbar .b-pick { color: var(--pick); border-color: var(--pick); }
 .actionbar .b-maybe { color: var(--maybe); border-color: var(--maybe); }
 .actionbar .b-avoid { color: var(--avoid); border-color: var(--avoid); }
-.actionbar .b-pick.active { background: var(--pick); color: #fff; }
-.actionbar .b-maybe.active { background: var(--maybe); color: #fff; }
-.actionbar .b-avoid.active { background: var(--avoid); color: #fff; }
+.actionbar .b-pick.active { background: var(--pick); color: var(--bg); }
+.actionbar .b-maybe.active { background: var(--maybe); color: var(--bg); }
+.actionbar .b-avoid.active { background: var(--avoid); color: var(--bg); }
 
 .toast {
   position: fixed;
