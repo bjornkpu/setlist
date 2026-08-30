@@ -1,10 +1,11 @@
 # setlist
 
-A conference companion PWA optimised for one question: **where do I go next?**
+A conference companion PWA optimised for one question: **where do I go
+next?** — **[try it now](https://bjornkpu.github.io/setlist/app/)**, pick a
+conference from the Library, and add it to your home screen.
 
-**➡ Open the app: <https://bjornkpu.github.io/setlist/app/>** (keep the
-trailing slash — links without it break offline). Load any schedule with
-`…/app/?url=<schedule.json url>`.
+Deep-link any schedule with `…/app/?url=<schedule.json url>` (keep the
+trailing slash after `app` — links without it break offline).
 
 <p>
   <img src="docs/screenshots/glance-dark.png" width="270" alt="Glance view: the room you need in huge type, what's next, and your whole day below">
