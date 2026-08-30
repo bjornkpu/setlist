@@ -1,12 +1,13 @@
 // Shared chrome: every view renders the same top bar (title + Now/Browse/
 // Library, current view highlighted) and the same day-tab strip.
 import { esc } from "../html.js";
+import { ICON } from "../icons.js";
 
 export function header(title, active) {
-  const link = (href, label, key) =>
-    `<a href="${href}" class="${active === key ? "active" : ""}">${label}</a>`;
+  const link = (href, label, key, icon) =>
+    `<a href="${href}" class="${active === key ? "active" : ""}">${icon} ${label}</a>`;
   return `<header class="bar"><h1>${esc(title)}</h1><nav class="bar-links">
-    ${link("#/", "Now", "now")}${link("#/browse", "Browse", "browse")}${link("#/library", "Library", "library")}
+    ${link("#/", "Now", "now", ICON.now)}${link("#/browse", "Browse", "browse", ICON.schedule)}${link("#/library", "Library", "library", ICON.offline)}
   </nav></header>`;
 }
 

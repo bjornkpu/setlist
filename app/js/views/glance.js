@@ -4,6 +4,7 @@ import { now } from "../clock.js";
 import { allEvents, defaultDayIndex } from "../store.js";
 import { attachSwipe } from "../swipe.js";
 import { header, dayTabs } from "./header.js";
+import { ICON } from "../icons.js";
 
 export function renderGlance(app, state) {
   const events = allEvents();
@@ -96,11 +97,12 @@ function card(label, group, events, plan, t) {
       ? `ends ${esc(group.ref.endLabel)}`
       : `${esc(group.ref.startLabel)} · ${esc(fmtUntil(group.ref.start - t))}`;
   const b = slotFor(events, plan, group.ref);
+  const labelIcon = label === "Now" ? ICON.now : ICON.next;
   if (group.dest) {
     const e = group.dest;
     const alts = b.maybes.filter((m) => m.key !== e.key).length;
     return `<a class="card ${label === "Now" ? "primary" : "secondary"}" href="${href}">
-      <span class="label">${label}</span>
+      <span class="label">${labelIcon} ${label}</span>
       <span class="room">${esc(e.room)}</span>
       <span class="title">${esc(e.title)}</span>
       <span class="until">${untilLine}${alts ? ` · ${alts} maybe${alts > 1 ? "s" : ""} in this slot` : ""}</span>
@@ -111,7 +113,7 @@ function card(label, group, events, plan, t) {
   const options = all.slice(0, 3);
   const heading = options.length && options.every((e) => b.maybes.includes(e)) ? "your maybes" : "options";
   return `<a class="card ${label === "Now" ? "primary" : "secondary"} none" href="${href}">
-    <span class="label">${label}</span>
+    <span class="label">${labelIcon} ${label}</span>
     <span class="title">Nothing picked — ${heading}:</span>
     ${options
       .map(

@@ -5,9 +5,7 @@ import { applyState } from "../actions.js";
 import { attachSwipe } from "../swipe.js";
 import { now } from "../clock.js";
 import { header, dayTabs } from "./header.js";
-
-const STATE_ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
-const STATE_LABEL = { pick: "✓ Pick", maybe: "? Maybe", avoid: "✕ Avoid" };
+import { ICON } from "../icons.js";
 
 export function renderBrowse(app, state) {
   const { model, browse } = state;
@@ -50,7 +48,7 @@ function row(e) {
       </span>
     </a>
     <button class="plan-btn" data-key="${esc(e.key)}"
-      aria-label="Plan state: ${esc(st || "none")}">${STATE_ICON[st] ?? "+"}</button>
+      aria-label="Toggle maybe (now: ${esc(st || "none")})">${ICON[st] ?? ICON.maybe}</button>
   </li>`;
 }
 
@@ -73,24 +71,6 @@ function select(id, label, options, value) {
       .map((o) => `<option ${o === value ? "selected" : ""} value="${esc(o)}">${esc(o)}</option>`)
       .join("")}
   </select>`;
-}
-
-// Tap the state button -> an inline chooser with the three states, so no
-// cycling. Chooser markup is transient: any list re-render drops it.
-function openChooser(li) {
-  const open = li.querySelector(".choose");
-  for (const c of li.closest("ul").querySelectorAll(".choose")) c.remove();
-  if (open) return; // second tap on the same row: just close
-  const st = planStateOf(li.dataset.key);
-  const div = document.createElement("div");
-  div.className = "choose";
-  div.innerHTML = ["pick", "maybe", "avoid"]
-    .map(
-      (v) =>
-        `<button data-state="${v}" class="c-${v} ${st === v ? "active" : ""}">${STATE_LABEL[v]}</button>`,
-    )
-    .join("");
-  li.appendChild(div);
 }
 
 function wire(app, state) {
@@ -140,14 +120,10 @@ function wire(app, state) {
     rerenderList(); // list only, so the search input keeps focus
   });
   const ul = app.querySelector(".events");
+  // same gestures as slot: swipe right = pick, left = avoid, button = maybe
   ul.addEventListener("click", (e) => {
     const btn = e.target.closest(".plan-btn");
-    if (btn) {
-      openChooser(btn.closest("li"));
-      return;
-    }
-    const choice = e.target.closest(".choose button");
-    if (choice) toggleState(choice.closest("li").dataset.key, choice.dataset.state);
+    if (btn) toggleState(btn.dataset.key, "maybe");
   });
   attachSwipe(ul, "li[data-key]", {
     onRight: (li) => toggleState(li.dataset.key, "pick"),

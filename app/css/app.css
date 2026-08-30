@@ -195,30 +195,9 @@ body {
 .state-maybe .plan-btn { color: var(--maybe); }
 .state-avoid .plan-btn { color: var(--avoid); }
 
-/* inline chooser: covers the row until a state is tapped */
-.choose {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  gap: 0.4rem;
-  padding: 0.4rem 0.75rem;
-  background: var(--bg);
-  align-items: stretch;
-}
-.choose button {
-  flex: 1;
-  font: inherit;
-  font-weight: 600;
-  border: 1.5px solid var(--line);
-  border-radius: 8px;
-  background: none;
-}
-.choose .c-pick { color: var(--pick); border-color: var(--pick); }
-.choose .c-maybe { color: var(--maybe); border-color: var(--maybe); }
-.choose .c-avoid { color: var(--avoid); border-color: var(--avoid); }
-.choose .c-pick.active { background: var(--pick); color: #fff; }
-.choose .c-maybe.active { background: var(--maybe); color: #fff; }
-.choose .c-avoid.active { background: var(--avoid); color: #fff; }
+/* inline svg icons scale with the text around them */
+svg[aria-hidden] { width: 1.15em; height: 1.15em; vertical-align: -0.22em; }
+.plan-btn svg { width: 1.35em; height: 1.35em; }
 
 /* detail action bar: fixed at the bottom, one colored button per state */
 .actionbar {

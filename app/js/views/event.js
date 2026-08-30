@@ -4,6 +4,7 @@ import { applyState } from "../actions.js";
 import { attachSwipe } from "../swipe.js";
 import { header } from "./header.js";
 import { browseList } from "./browse.js";
+import { ICON } from "../icons.js";
 
 // Direction of the pending prev/next step: go() sets it, the re-render
 // triggered by the hash change consumes it as the entry animation.
@@ -44,7 +45,7 @@ export function renderEvent(app, state, key) {
   const para = (text, cls) =>
     text ? `<p class="${cls}">${esc(text).replaceAll("\n", "<br>")}</p>` : "";
   const stateBtn = (value, label) =>
-    `<button data-state="${value}" class="b-${value} ${current === value ? "active" : ""}">${label}</button>`;
+    `<button data-state="${value}" class="b-${value} ${current === value ? "active" : ""}">${ICON[value]} ${label}</button>`;
   const date = state.model.days[ev.dayIndex]?.date ?? "";
   app.innerHTML = `
     ${header(state.model.title, "")}
@@ -61,7 +62,7 @@ export function renderEvent(app, state, key) {
       ${ev.subtitle ? `<p class="subtitle">${esc(ev.subtitle)}</p>` : ""}
       <p class="meta">
         ${esc(ev.startLabel)}–${esc(ev.endLabel)}
-        · <span class="room">${esc(ev.room)}</span>
+        · <span class="room">${ICON.room} ${esc(ev.room)}</span>
         ${date ? `· ${esc(date)}` : ""}
       </p>
       ${eventTags(ev)}

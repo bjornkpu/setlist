@@ -4,8 +4,7 @@ import { planStateOf, allEvents } from "../store.js";
 import { applyState } from "../actions.js";
 import { attachSwipe } from "../swipe.js";
 import { header } from "./header.js";
-
-const ICON = { pick: "✓", maybe: "?", avoid: "✕", "": "+" };
+import { ICON } from "../icons.js";
 
 export function renderSlot(app, state, key) {
   const events = allEvents();
@@ -55,6 +54,6 @@ function row(e) {
       ${e.persons.length ? `<span class="who">${esc(e.persons.join(", "))}</span>` : ""}
     </a>
     <button class="plan-btn" data-key="${esc(e.key)}"
-      aria-label="Toggle maybe (now: ${esc(st || "none")})">${ICON[st] ?? "+"}</button>
+      aria-label="Toggle maybe (now: ${esc(st || "none")})">${ICON[st] ?? ICON.maybe}</button>
   </li>`;
 }
