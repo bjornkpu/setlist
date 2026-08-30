@@ -2,6 +2,10 @@
 
 A conference companion PWA optimised for one question: **where do I go next?**
 
+**➡ Open the app: <https://bjornkpu.github.io/setlist/app/>** (keep the
+trailing slash — links without it break offline). Load any schedule with
+`…/app/?url=<schedule.json url>`.
+
 <p>
   <img src="docs/screenshots/glance-dark.png" width="270" alt="Glance view: the room you need in huge type, what's next, and your whole day below">
   <img src="docs/screenshots/slot-dark.png" width="270" alt="Slot view: every session in one time range, grouped by your plan">
@@ -33,9 +37,6 @@ offline.
   conflicting pick to maybe, with an Undo toast.
 - Installable PWA, works offline, dark and light theme, no accounts, no
   tracking, no build step — plain HTML/CSS/JS.
-
-**App:** <https://bjornkpu.github.io/setlist/app/> (keep the trailing slash —
-links without it break offline).
 
 <img src="docs/screenshots/browse-dark.png" width="270" alt="Browse view with topic chips and plan states"> <img src="docs/screenshots/glance-light.png" width="270" alt="The glance view in light theme">
 

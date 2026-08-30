@@ -95,11 +95,11 @@ await send("Runtime.enable");
 await send("Emulation.setDeviceMetricsOverride", {
   width: w, height: h, deviceScaleFactor: 2, mobile: true,
 });
-if (opt.dark) {
-  await send("Emulation.setEmulatedMedia", {
-    features: [{ name: "prefers-color-scheme", value: "dark" }],
-  });
-}
+// always emulate explicitly: headless Edge inherits the OS scheme, so
+// omitting this does NOT mean light
+await send("Emulation.setEmulatedMedia", {
+  features: [{ name: "prefers-color-scheme", value: opt.dark ? "dark" : "light" }],
+});
 await send("Page.navigate", { url });
 await sleep(Number(opt.wait)); // let the app render (and store what ?url= loads)
 if (opt.init) await evaluate(await readFile(opt.init, "utf8"));
